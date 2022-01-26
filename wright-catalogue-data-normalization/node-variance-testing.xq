@@ -1,8 +1,16 @@
-xquery version "3.0";
+xquery version "3.1";
 
 import module namespace functx="http://www.functx.com";
 
 declare default element namespace "http://www.tei-c.org/ns/1.0";
+
+declare variable $local:input-collection-paths :=
+  (: edit, remove, or add paths as needed. These will be collated to create a single sequence of documents :)
+  ("C:\Users\anoni\Documents\GitHub\srophe\srophe-app-data\data\manuscripts\tei\");
+  
+declare variable $local:input-collections :=
+  for $path in $local:input-collection-paths
+  return collection($path);
 
 (:~ 
 : Given a node, $node, returns a skeleton outline of that node with attributes
@@ -43,16 +51,23 @@ declare function local:extract-node-structure($node as node())
   :)
 };
 
-let $inColl := collection("C:\Users\anoni\Documents\GitHub\srophe\srophe-app-data\data\manuscripts\tei\")
+(: let $inColl := collection("C:\Users\anoni\Documents\GitHub\srophe\srophe-app-data\data\manuscripts\tei\") :)
 
 let $allInstances := 
-  for $doc in $inColl
+  for $doc in $local:input-collections
   return $doc//msContents/msItem//author
 let $allStructures := 
   for $instance in $allInstances
   return local:extract-node-structure($instance)
 return functx:distinct-deep($allStructures)
 
+(:
+next layer of development:
+
+- enumerate these structures
+- check against the full list to see how many times they occur (and maybe calculate the percentage?)
+- generated a list of URIs and xml:id context (or an absolute xpath?) for a given structure that can be dumped out as a list
+:)
 
 (: for testing :)
 (: let $in := 
