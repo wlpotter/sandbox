@@ -1,0 +1,46 @@
+hits	structure	hit-percentage	structure-id
+1804	<author ref='VALUE'>CDATA</author>	44.9539	structure-1
+509	<author >CDATA</author>	12.683778	structure-2
+4	<author ><persName xml:lang='VALUE'>CDATA</persName><persName xml:lang='VALUE'>CDATA</persName></author>	0.0996761	structure-3
+1	<author ><persName xml:lang='VALUE'>CDATA</persName><persName xml:lang='VALUE'>CDATA</persName>CDATA</author>	0.024919	structure-4
+710	<author ></author>	17.6925	structure-5
+774	<author ref='VALUE'></author>	19.287317	structure-6
+3	<author ><persName ref='VALUE'>CDATA</persName></author>	0.074757	structure-7
+1	<author >CDATA<persName ref='VALUE'>CDATA</persName></author>	0.024919	structure-8
+52	<author key='VALUE'></author>	1.2957886	structure-9
+1	<author >CDATA<orgName >CDATA</orgName>CDATA<origDate notBefore='VALUE' notAfter='VALUE' calendar='VALUE'>CDATA</origDate></author>	0.024919	structure-10
+1	<author ><choice ><reg >CDATA</reg><reg >CDATA</reg></choice>CDATA<persName >CDATA</persName></author>	0.024919	structure-11
+1	<author >CDATA<persName >CDATA</persName></author>	0.024919	structure-12
+1	<author ><choice ><reg >CDATA</reg><reg >CDATA</reg></choice>CDATA</author>	0.024919	structure-13
+1	<author >CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<placeName ref='VALUE'>CDATA</placeName></author>	0.024919	structure-14
+2	<author ><persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></author>	0.049838	structure-15
+14	<author ref='VALUE'><persName >CDATA</persName></author>	0.3488662	structure-16
+1	<author ref='VALUE'><persName >CDATA<placeName >CDATA</placeName></persName></author>	0.024919	structure-17
+26	<author ><persName >CDATA</persName></author>	0.6478943	structure-18
+1	<author >CDATA<persName >CDATA<placeName ref='VALUE'>CDATA</placeName></persName></author>	0.024919	structure-19
+25	<author ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></author>	0.6229753	structure-20
+2	<author ref='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></author>	0.049838	structure-21
+1	<author >CDATA<placeName ref='VALUE'>CDATA</placeName></author>	0.024919	structure-22
+21	<author ref='VALUE'><persName xml:lang='VALUE' type='VALUE'>CDATA</persName></author>	0.5232993	structure-23
+1	<author ><persName xml:lang='VALUE' type='VALUE'>CDATA</persName><persName xml:lang='VALUE' type='VALUE'>CDATA</persName></author>	0.024919	structure-24
+16	<author ref='VALUE'><persName xml:lang='VALUE' type='VALUE'>CDATA</persName><persName xml:lang='VALUE' type='VALUE'>CDATA</persName></author>	0.3987042	structure-25
+7	<author ><persName xml:lang='VALUE' type='VALUE'>CDATA</persName></author>	0.1744331	structure-26
+1	<author ref='VALUE'><choice ><orig >CDATA</orig><orig >CDATA</orig></choice></author>	0.024919	structure-27
+6	<author ><persName >CDATA</persName>CDATA<persName >CDATA</persName></author>	0.1495141	structure-28
+1	<author ><foreign xml:lang='VALUE'>CDATA</foreign></author>	0.024919	structure-29
+1	<author ref='VALUE' type='VALUE'>CDATA</author>	0.024919	structure-30
+1	<author ref='VALUE'><choice ><reg resp='VALUE'>CDATA</reg><orig xml:lang='VALUE'>CDATA</orig></choice></author>	0.024919	structure-31
+1	<author ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<placeName ref='VALUE'>CDATA</placeName></author>	0.024919	structure-32
+6	<author >CDATA<placeName >CDATA</placeName></author>	0.1495141	structure-33
+1	<author ><persName ><choice ><reg >CDATA</reg><orig xml:lang='VALUE'>CDATA</orig></choice></persName></author>	0.024919	structure-34
+1	<author ><persName >CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName></persName></author>	0.024919	structure-35
+1	<author >CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName></author>	0.024919	structure-36
+1	<author ><persName ref='VALUE'>CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName></author>	0.024919	structure-37
+1	<author xml:lang='VALUE' type='VALUE'><persName >CDATA</persName></author>	0.024919	structure-38
+1	<author >CDATA<foreign xml:lang='VALUE'>CDATA</foreign></author>	0.024919	structure-39
+1	<author ><persName xml:lang='VALUE' type='VALUE'>CDATA<placeName >COMMENT<foreign >CDATA</foreign></placeName></persName></author>	0.024919	structure-40
+1	<author ref='VALUE'><persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA</author>	0.024919	structure-41
+1	<author ref='VALUE'><persName ref='VALUE'>CDATA</persName></author>	0.024919	structure-42
+5	<author ref='VALUE'><persName xml:lang='VALUE' type='VALUE' ref='VALUE'>CDATA</persName></author>	0.1245951	structure-43
+1	<author xml:lang='VALUE'>CDATA</author>	0.024919	structure-44
+1	<author >CDATA<persName xml:lang='VALUE'>CDATA</persName></author>	0.024919	structure-45
