@@ -1,0 +1,71 @@
+hits	structure	hit-percentage	structure-id
+29	<persName >CDATA<persName >CDATA</persName></persName>	0.5205529	structure-1
+3011	<persName >CDATA</persName>	54.047745	structure-2
+1683	<persName ref='VALUE'>CDATA</persName>	30.210014	structure-3
+170	<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>	3.0515168	structure-4
+57	<persName >CDATA<placeName ref='VALUE'>CDATA</placeName></persName>	1.0231557	structure-5
+191	<persName >CDATA<placeName >CDATA</placeName></persName>	3.428469	structure-6
+11	<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA</persName>	0.1974511	structure-7
+2	<persName ref='VALUE'><foreign xml:lang='VALUE'>CDATA</foreign></persName>	0.0359002	structure-8
+30	<persName ><foreign xml:lang='VALUE'>CDATA</foreign></persName>	0.5385029	structure-9
+34	<persName xml:lang='VALUE'>CDATA</persName>	0.6103033	structure-10
+7	<persName ref='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName></persName>	0.1256507	structure-11
+74	<persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName>	1.3283073	structure-12
+3	<persName ref='VALUE'>CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName></persName>	0.0538503	structure-13
+1	<persName ><choice ><reg >CDATA</reg><reg >CDATA</reg></choice></persName>	0.0179501	structure-14
+1	<persName ><choice ><reg >CDATA</reg><reg >CDATA</reg></choice>CDATA</persName>	0.0179501	structure-15
+2	<persName >CDATA<persName >CDATA<placeName >CDATA</placeName></persName></persName>	0.0359002	structure-16
+25	<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</persName>	0.4487525	structure-17
+1	<persName >CDATACOMMENTCDATA</persName>	0.0179501	structure-18
+1	<persName ><choice ><reg >CDATA</reg><reg >CDATA</reg></choice>CDATA<persName >CDATA</persName></persName>	0.0179501	structure-19
+1	<persName >CDATA<placeName >CDATACOMMENT</placeName></persName>	0.0179501	structure-20
+1	<persName ref='VALUE'>CDATACOMMENT</persName>	0.0179501	structure-21
+1	<persName >CDATA<persName >CDATA</persName>CDATA</persName>	0.0179501	structure-22
+20	<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign></persName>	0.359002	structure-23
+2	<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</persName>	0.0359002	structure-24
+3	<persName >CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA</persName>	0.0538503	structure-25
+3	<persName ref='VALUE'>CDATA<persName >CDATA</persName></persName>	0.0538503	structure-26
+4	<persName ref='VALUE'>CDATA<placeName >CDATA</placeName>CDATA</persName>	0.0718004	structure-27
+9	<persName >CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName></persName>	0.1615509	structure-28
+92	<persName xml:lang='VALUE' type='VALUE'>CDATA</persName>	1.651409	structure-29
+1	<persName ref='VALUE' xml:lang='VALUE'>CDATA</persName>	0.0179501	structure-30
+1	<persName >CDATA<placeName xml:lang='VALUE'>CDATA</placeName>CDATA<placeName xml:lang='VALUE'>COMMENT</placeName>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>	0.0179501	structure-31
+1	<persName >CDATA<supplied reason='VALUE' resp='VALUE'><placeName >CDATA</placeName></supplied></persName>	0.0179501	structure-32
+1	<persName ><choice ><orig >CDATA<placeName ref='VALUE'>CDATA</placeName></orig><reg resp='VALUE'>CDATA</reg></choice></persName>	0.0179501	structure-33
+1	<persName ref='VALUE'>CDATA<foreign xml:id='VALUE'>CDATA</foreign>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>	0.0179501	structure-34
+2	<persName ref='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></persName>	0.0359002	structure-35
+6	<persName ><choice ><reg resp='VALUE'>CDATA</reg><orig xml:lang='VALUE'>CDATA</orig></choice></persName>	0.1077006	structure-36
+3	<persName ><foreign xml:lang='VALUE'>CDATA</foreign>CDATA</persName>	0.0538503	structure-37
+1	<persName >CDATA<placeName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign></placeName>CDATA</persName>	0.0179501	structure-38
+2	<persName >CDATA<placeName >CDATA<persName >CDATA<placeName >CDATA</placeName></persName></placeName></persName>	0.0359002	structure-39
+1	<persName >CDATA<placeName >CDATA<persName >CDATA<placeName ><foreign xml:lang='VALUE'>CDATA</foreign></placeName></persName></placeName></persName>	0.0179501	structure-40
+3	<persName >CDATA<placeName ><foreign xml:lang='VALUE'>CDATA</foreign></placeName></persName>	0.0538503	structure-41
+3	<persName >CDATA<placeName >CDATA<persName >CDATA</persName></placeName></persName>	0.0538503	structure-42
+2	<persName >CDATA<placeName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign></placeName></persName>	0.0359002	structure-43
+2	<persName >CDATA<placeName ><foreign xml:lang='VALUE'>CDATA</foreign>CDATA<placeName >CDATA</placeName></placeName></persName>	0.0359002	structure-44
+1	<persName >CDATA<placeName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<placeName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign></placeName></placeName></persName>	0.0179501	structure-45
+5	<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>	0.0897505	structure-46
+5	<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></placeName></persName>	0.0897505	structure-47
+1	<persName >CDATA<placeName >CDATA</placeName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</persName>	0.0179501	structure-48
+1	<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></placeName>CDATA<persName ref='VALUE'>CDATA</persName></persName>	0.0179501	structure-49
+4	<persName >CDATA<placeName >CDATA</placeName>CDATA</persName>	0.0718004	structure-50
+1	<persName ><foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName >CDATA</persName></persName>	0.0179501	structure-51
+3	<persName >CDATA<placeName >CDATA<placeName >CDATA</placeName></placeName></persName>	0.0538503	structure-52
+1	<persName >CDATA<placeName >CDATA</placeName>CDATA<persName >CDATA</persName></persName>	0.0179501	structure-53
+1	<persName ref='VALUE'>CDATA<placeName >CDATA</placeName>CDATA<persName ref='VALUE'>CDATA</persName></persName>	0.0179501	structure-54
+1	<persName ><choice ><reg >CDATA</reg><orig xml:lang='VALUE'>CDATA</orig></choice></persName>	0.0179501	structure-55
+1	<persName >CDATA<foreign >CDATA</foreign>CDATA<persName >CDATA</persName></persName>	0.0179501	structure-56
+1	<persName ><choice ><orig xml:lang='VALUE'>CDATA</orig><corr xml:lang='VALUE' resp='VALUE'>CDATA</corr></choice></persName>	0.0179501	structure-57
+6	<persName >CDATA<persName ref='VALUE'>CDATA</persName></persName>	0.1077006	structure-58
+1	<persName ><choice ><orig >CDATA</orig><reg resp='VALUE'>CDATA</reg></choice></persName>	0.0179501	structure-59
+1	<persName ><choice ><orig xml:lang='VALUE'>CDATA</orig><reg resp='VALUE'>CDATA</reg></choice></persName>	0.0179501	structure-60
+1	<persName ref='VALUE'>COMMENTCDATA<placeName ref='VALUE'>CDATA</placeName></persName>	0.0179501	structure-61
+1	<persName xml:lang='VALUE' type='VALUE'>CDATA<placeName >COMMENT<foreign >CDATA</foreign></placeName></persName>	0.0179501	structure-62
+23	<persName xml:lang='VALUE' ref='VALUE'>CDATA</persName>	0.4128523	structure-63
+3	<persName ref='VALUE' xml:lang='VALUE' type='VALUE'>CDATA</persName>	0.0538503	structure-64
+5	<persName xml:lang='VALUE' type='VALUE' ref='VALUE'>CDATA</persName>	0.0897505	structure-65
+1	<persName ref='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>	0.0179501	structure-66
+1	<persName >CDATA<placeName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></placeName></persName>	0.0179501	structure-67
+1	<persName ref='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</persName>	0.0179501	structure-68
+1	<persName >CDATA<placeName ref='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</placeName></persName>	0.0179501	structure-69
+1	<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName >CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</persName>	0.0179501	structure-70
