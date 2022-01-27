@@ -76,15 +76,15 @@ let $nodeToStructureMap :=
   
   for $node in $doc//msContents//msItem/author (: need to set this to be a varaible. Maybe use //msItem/*[name() = $nodeName]? Doesn't solve if want to switch to additions...:)
   let $xpath := functx:path-to-node-with-pos($node)
-  let $structure := local:extract-node-structure($node)
+  let $structure := local:stringify-node(local:extract-node-structure($node))
   let $msItemId := string($node/ancestor::msItem[position() = 1]/@xml:id)
-  return map {"ms-uri": $msUri, "xpath": $xpath, "msItem-id": $msItemId, "node": $node, "node-structure": $structure}
+  return map {"ms-uri": $msUri, "xpath": $xpath, "msItem-id": $msItemId, "node": local:stringify-node($node), "node-structure": $structure}
 
 let $totalInstances := count($nodeToStructureMap)
 let $uniqueStructures := 
   for $instance in $nodeToStructureMap
     return $instance("node-structure")
-let $uniqueStructures := functx:distinct-deep($uniqueStructures)
+let $uniqueStructures := distinct-values($uniqueStructures)
 
 let $structureDataMap := 
   for $structure at $i in $uniqueStructures
@@ -116,4 +116,4 @@ let $csvOfNodes :=
     return <row>{map:for-each($map, $keys-to-csv)}</row>
   }
   </csv>
-return (: csv:serialize($csvOfNodes) :) $csvOfNodes
+return csv:serialize($csvOfNodes, map{"header": "yes"})
