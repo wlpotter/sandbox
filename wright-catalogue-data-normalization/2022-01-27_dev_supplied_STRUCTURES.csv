@@ -1,0 +1,11 @@
+hits	structure	hit-percentage	structure-id
+2	<supplied xml:lang='VALUE' reason='VALUE' resp='VALUE'>CDATA</supplied>	3.3333335	structure-1
+29	<supplied reason='VALUE' resp='VALUE'>CDATA</supplied>	48.333332	structure-2
+1	<supplied reason='VALUE' resp='VALUE'><title >CDATA</title>CDATA</supplied>	1.6666667	structure-3
+1	<supplied reason='VALUE' resp='VALUE'><placeName >CDATA</placeName></supplied>	1.6666667	structure-4
+10	<supplied reason='VALUE' resp='VALUE' xml:lang='VALUE'>CDATA</supplied>	16.666668	structure-5
+1	<supplied reason='VALUE' resp='VALUE'><ref target='VALUE'>CDATA</ref></supplied>	1.6666667	structure-6
+6	<supplied reason='VALUE' resp='VALUE'><persName >CDATA</persName></supplied>	10	structure-7
+1	<supplied reason='VALUE' resp='VALUE'>CDATA<persName >CDATA</persName></supplied>	1.6666667	structure-8
+6	<supplied xml:lang='VALUE' resp='VALUE'>CDATA</supplied>	10	structure-9
+3	<supplied resp='VALUE'>CDATA</supplied>	5	structure-10
