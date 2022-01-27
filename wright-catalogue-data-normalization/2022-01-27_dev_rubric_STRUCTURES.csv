@@ -1,0 +1,99 @@
+hits	structure	hit-percentage	structure-id
+1320	<rubric xml:lang='VALUE'>CDATA<locus from='VALUE' to='VALUE'></locus></rubric>	19.247595	structure-1
+135	<rubric xml:lang='VALUE'><locus from='VALUE' to='VALUE'></locus>CDATA</rubric>	1.968504	structure-2
+4163	<rubric xml:lang='VALUE'>CDATA</rubric>	60.70283	structure-3
+71	<rubric xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</rubric>	1.0352873	structure-4
+1	<rubric xml:lang='VALUE'><locus from='VALUE'></locus>CDATA<supplied xml:lang='VALUE' reason='VALUE' resp='VALUE'>CDATA</supplied>CDATA</rubric>	0.0145815	structure-5
+7	<rubric xml:lang='VALUE'><title >CDATA</title><locus from='VALUE' to='VALUE'></locus></rubric>	0.1020706	structure-6
+1	<rubric xml:lang='VALUE'><title >CDATA</title><locus from='VALUE' to='VALUE'></locus><note >CDATA</note></rubric>	0.0145815	structure-7
+7	<rubric xml:lang='VALUE'>COMMENT<locus from='VALUE' to='VALUE'></locus></rubric>	0.1020706	structure-8
+123	<rubric xml:lang='VALUE'><locus from='VALUE' to='VALUE'></locus></rubric>	1.7935257	structure-9
+4	<rubric xml:lang='VALUE'><fw type='VALUE'>CDATA<locus from='VALUE' to='VALUE'></locus></fw></rubric>	0.058326	structure-10
+662	<rubric xml:lang='VALUE'>CDATA<locus from='VALUE'></locus></rubric>	9.65296	structure-11
+1	<rubric ><quote >CDATA<persName ref='VALUE'>CDATA</persName>CDATA</quote></rubric>	0.0145815	structure-12
+10	<rubric >CDATA<locus from='VALUE' to='VALUE'></locus></rubric>	0.1458151	structure-13
+1	<rubric xml:lang='VALUE'>CDATA<note xml:lang='VALUE'>CDATA</note></rubric>	0.0145815	structure-14
+90	<rubric xml:lang='VALUE'><locus from='VALUE'></locus>CDATA</rubric>	1.312336	structure-15
+1	<rubric xml:lang='VALUE'>CDATA<choice ><orig >CDATA</orig><reg xml:lang='VALUE'>CDATA</reg></choice>CDATA<locus from='VALUE'>CDATA</locus></rubric>	0.0145815	structure-16
+10	<rubric xml:lang='VALUE'>CDATA<locus from='VALUE'>CDATA</locus></rubric>	0.1458151	structure-17
+1	<rubric xml:lang='VALUE'>CDATA<locus from='VALUE'>CDATA</locus>COMMENT</rubric>	0.0145815	structure-18
+9	<rubric xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></rubric>	0.1312336	structure-19
+1	<rubric xml:lang='VALUE'><fw type='VALUE'><locus from='VALUE' to='VALUE'></locus>CDATA</fw></rubric>	0.0145815	structure-20
+1	<rubric xml:lang='VALUE'>CDATA<choice ><orig >CDATA</orig><reg >CDATA</reg></choice>CDATA<choice ><orig >CDATA</orig><reg >CDATA</reg></choice>CDATA<locus from='VALUE' to='VALUE'></locus></rubric>	0.0145815	structure-21
+1	<rubric ><locus from='VALUE' to='VALUE'></locus>CDATA</rubric>	0.0145815	structure-22
+1	<rubric xml:lang='VALUE'><fw type='VALUE'>CDATA<locus from='VALUE' to='VALUE'></locus><locus from='VALUE' to='VALUE'></locus></fw></rubric>	0.0145815	structure-23
+1	<rubric >CDATA<persName ref='VALUE'>CDATA</persName>CDATA<locus from='VALUE'></locus></rubric>	0.0145815	structure-24
+6	<rubric xml:lang='VALUE'><fw type='VALUE'>CDATA</fw><locus from='VALUE' to='VALUE'></locus></rubric>	0.0874891	structure-25
+10	<rubric xml:lang='VALUE'><sic >CDATA</sic><locus from='VALUE' to='VALUE'></locus></rubric>	0.1458151	structure-26
+13	<rubric xml:lang='VALUE'>CDATA<locus >CDATA</locus></rubric>	0.1895596	structure-27
+3	<rubric xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<locus from='VALUE' to='VALUE'></locus></rubric>	0.0437445	structure-28
+4	<rubric xml:lang='VALUE'><locus ></locus></rubric>	0.058326	structure-29
+5	<rubric xml:lang='VALUE'><sic >CDATA</sic><locus from='VALUE'></locus></rubric>	0.0729076	structure-30
+10	<rubric xml:lang='VALUE'>CDATA<locus ></locus></rubric>	0.1458151	structure-31
+2	<rubric >CDATA</rubric>	0.029163	structure-32
+1	<rubric xml:lang='VALUE'><fw >CDATA</fw></rubric>	0.0145815	structure-33
+2	<rubric xml:lang='VALUE'>CDATA<locus from='VALUE'></locus>COMMENT</rubric>	0.029163	structure-34
+1	<rubric xml:lang='VALUE'><fw type='VALUE'>CDATA</fw><locus from='VALUE' to='VALUE'></locus><locus from='VALUE' to='VALUE'></locus></rubric>	0.0145815	structure-35
+2	<rubric xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</rubric>	0.029163	structure-36
+6	<rubric xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</rubric>	0.0874891	structure-37
+1	<rubric xml:lang='VALUE'>CDATA<note xml:lang='VALUE'>CDATA<locus from='VALUE'>CDATA</locus>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</note></rubric>	0.0145815	structure-38
+3	<rubric xml:lang='VALUE'>CDATA<note >CDATA</note></rubric>	0.0437445	structure-39
+1	<rubric xml:lang='VALUE'><locus from='VALUE'>CDATA</locus></rubric>	0.0145815	structure-40
+2	<rubric xml:lang='VALUE'><locus from='VALUE'></locus>COMMENTCDATA</rubric>	0.029163	structure-41
+1	<rubric xml:lang='VALUE'>COMMENT<locus from='VALUE'></locus>CDATA</rubric>	0.0145815	structure-42
+1	<rubric xml:lang='VALUE'><locus from='VALUE'></locus>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</rubric>	0.0145815	structure-43
+14	<rubric xml:lang='VALUE'><fw type='VALUE'>CDATA</fw></rubric>	0.2041412	structure-44
+2	<rubric xml:lang='VALUE'>CDATA<locus from='VALUE' to='VALUE'></locus>CDATA</rubric>	0.029163	structure-45
+3	<rubric xml:lang='VALUE'>CDATA<locus to='VALUE'></locus></rubric>	0.0437445	structure-46
+1	<rubric xml:lang='VALUE'>CDATA<supplied reason='VALUE' resp='VALUE'>CDATA</supplied><locus from='VALUE'></locus></rubric>	0.0145815	structure-47
+8	<rubric xml:lang='VALUE'><fw type='VALUE'>CDATA</fw><locus from='VALUE'></locus></rubric>	0.1166521	structure-48
+2	<rubric xml:lang='VALUE'>CDATA<supplied reason='VALUE' resp='VALUE'>CDATA</supplied>CDATA<locus from='VALUE'></locus></rubric>	0.029163	structure-49
+3	<rubric xml:lang='VALUE'>CDATA<sic >CDATA</sic><locus from='VALUE'></locus></rubric>	0.0437445	structure-50
+2	<rubric xml:lang='VALUE'><locus from='VALUE'></locus></rubric>	0.029163	structure-51
+3	<rubric xml:lang='VALUE'>CDATA<sic >CDATA</sic>CDATA<locus from='VALUE'></locus></rubric>	0.0437445	structure-52
+2	<rubric xml:lang='VALUE'><supplied reason='VALUE' resp='VALUE'>CDATA</supplied><supplied reason='VALUE' resp='VALUE'>CDATA</supplied>CDATA<locus from='VALUE'></locus></rubric>	0.029163	structure-53
+1	<rubric xml:lang='VALUE'><supplied reason='VALUE' resp='VALUE'>CDATA</supplied>CDATA<supplied reason='VALUE' resp='VALUE'>CDATA</supplied>CDATA<locus from='VALUE' to='VALUE'></locus></rubric>	0.0145815	structure-54
+10	<rubric xml:lang='VALUE'>COMMENT<locus from='VALUE'></locus></rubric>	0.1458151	structure-55
+1	<rubric xml:lang='VALUE'>CDATA<note xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></note></rubric>	0.0145815	structure-56
+1	<rubric xml:lang='VALUE'>CDATA<locus from='VALUE' to='VALUE'>CDATA</locus></rubric>	0.0145815	structure-57
+1	<rubric ><locus >CDATA</locus></rubric>	0.0145815	structure-58
+13	<rubric xml:lang='VALUE'>CDATA<locus >CDATA</locus><quote >CDATA</quote></rubric>	0.1895596	structure-59
+23	<rubric ></rubric>	0.3353747	structure-60
+1	<rubric xml:lang='VALUE'>CDATA<locus from='VALUE' to='VALUE'></locus>COMMENT</rubric>	0.0145815	structure-61
+1	<rubric xml:id='VALUE'>CDATA<locus from='VALUE' to='VALUE'></locus></rubric>	0.0145815	structure-62
+17	<rubric xml:lang='VALUE'>COMMENT<locus from='VALUE' to='VALUE'></locus>COMMENT</rubric>	0.2478857	structure-63
+2	<rubric ><locus from='VALUE' to='VALUE'></locus><supplied xml:lang='VALUE' resp='VALUE'>CDATA</supplied></rubric>	0.029163	structure-64
+1	<rubric type='VALUE' xml:lang='VALUE'><locus from='VALUE' to='VALUE'></locus><supplied xml:lang='VALUE' resp='VALUE'>CDATA</supplied></rubric>	0.0145815	structure-65
+2	<rubric xml:lang='VALUE'><locus from='VALUE' to='VALUE'></locus>CDATA<supplied xml:lang='VALUE' resp='VALUE'>CDATA</supplied></rubric>	0.029163	structure-66
+1	<rubric type='VALUE' xml:lang='VALUE'><locus from='VALUE' to='VALUE'></locus>CDATA</rubric>	0.0145815	structure-67
+2	<rubric xml:lang='VALUE'><locus from='VALUE'></locus><fw type='VALUE'>CDATA</fw></rubric>	0.029163	structure-68
+2	<rubric xml:lang='VALUE'>CDATA<sic >CDATA</sic>CDATA<locus from='VALUE' to='VALUE'></locus></rubric>	0.029163	structure-69
+1	<rubric xml:lang='VALUE'><fw type='VALUE'>CDATA</fw><locus from='VALUE'></locus><locus from='VALUE'></locus></rubric>	0.0145815	structure-70
+3	<rubric xml:lang='VALUE'><locus to='VALUE' from='VALUE'></locus>CDATA</rubric>	0.0437445	structure-71
+1	<rubric xml:lang='VALUE'><choice ><orig >CDATA</orig><reg xml:lang='VALUE' resp='VALUE'>CDATA</reg></choice>CDATA<locus from='VALUE'></locus></rubric>	0.0145815	structure-72
+1	<rubric xml:lang='VALUE'><sic >CDATA</sic>CDATA<locus from='VALUE'></locus></rubric>	0.0145815	structure-73
+1	<rubric xml:lang='VALUE'>CDATA<locus to='VALUE'></locus><locus to='VALUE'></locus><locus to='VALUE'></locus><locus to='VALUE'></locus><locus to='VALUE'></locus></rubric>	0.0145815	structure-74
+1	<rubric xml:lang='VALUE'><fw type='VALUE'>CDATA</fw><locus to='VALUE'></locus></rubric>	0.0145815	structure-75
+1	<rubric xml:lang='VALUE'>COMMENT<locus from='VALUE'></locus><locus from='VALUE'></locus><locus from='VALUE'></locus></rubric>	0.0145815	structure-76
+1	<rubric xml:lang='VALUE'><fw type='VALUE'>COMMENT</fw></rubric>	0.0145815	structure-77
+2	<rubric xml:lang='VALUE'>CDATACOMMENT<locus from='VALUE' to='VALUE'></locus></rubric>	0.029163	structure-78
+1	<rubric xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></rubric>	0.0145815	structure-79
+1	<rubric xml:lang='VALUE'>CDATA<note xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></note></rubric>	0.0145815	structure-80
+3	<rubric xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</foreign></rubric>	0.0437445	structure-81
+1	<rubric xml:lang='VALUE'><fw type='VALUE'><locus from='VALUE'></locus>CDATA</fw></rubric>	0.0145815	structure-82
+2	<rubric xml:lang='VALUE'>CDATA<locus from='VALUE' to='VALUE'></locus><note >CDATA<quote xml:lang='VALUE'>CDATA</quote></note></rubric>	0.029163	structure-83
+2	<rubric xml:lang='VALUE'>CDATA<locus from='VALUE' to='VALUE'></locus><note >CDATA<quote xml:lang='VALUE'>CDATA</quote>CDATA<quote xml:lang='VALUE'>CDATA</quote>CDATA<quote xml:lang='VALUE'>CDATA</quote>CDATA<quote xml:lang='VALUE'>CDATA</quote></note></rubric>	0.029163	structure-84
+3	<rubric xml:lang='VALUE'>CDATACOMMENT</rubric>	0.0437445	structure-85
+1	<rubric xml:lang='VALUE'></rubric>	0.0145815	structure-86
+1	<rubric xml:lang='VALUE'>CDATA<note xml:lang='VALUE'><foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</note></rubric>	0.0145815	structure-87
+6	<rubric xml:lang='VALUE'>CDATA<supplied reason='VALUE' resp='VALUE' xml:lang='VALUE'>CDATA</supplied></rubric>	0.0874891	structure-88
+1	<rubric xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</rubric>	0.0145815	structure-89
+1	<rubric xml:lang='VALUE'>CDATA<choice ><orig >CDATA</orig><corr resp='VALUE'>CDATA</corr></choice>CDATA<locus from='VALUE'></locus></rubric>	0.0145815	structure-90
+1	<rubric xml:lang='VALUE'>CDATA<note >CDATA</note><locus from='VALUE' to='VALUE'></locus></rubric>	0.0145815	structure-91
+1	<rubric xml:lang='VALUE'><ref target='VALUE'>CDATA</ref><locus from='VALUE' to='VALUE'></locus></rubric>	0.0145815	structure-92
+1	<rubric xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></rubric>	0.0145815	structure-93
+1	<rubric xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA<date when='VALUE'>CDATA</date>CDATA</foreign>CDATA</rubric>	0.0145815	structure-94
+1	<rubric xml:lang='VALUE'>CDATA<locus from='VALUE' to='VALUE'></locus><locus from='VALUE' to='VALUE'></locus></rubric>	0.0145815	structure-95
+1	<rubric >COMMENT<gap reason='VALUE'></gap></rubric>	0.0145815	structure-96
+1	<rubric xml:lang='VALUE'>CDATA<note xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign >CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</note>CDATA</rubric>	0.0145815	structure-97
+1	<rubric xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</foreign>CDATA</rubric>	0.0145815	structure-98
