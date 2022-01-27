@@ -1,0 +1,42 @@
+hits	structure	hit-percentage	structure-id
+134	<finalRubric xml:lang='VALUE'>CDATA<locus from='VALUE' to='VALUE'></locus></finalRubric>	21.54341	structure-1
+1	<finalRubric type='VALUE' xml:lang='VALUE'>CDATA<locus from='VALUE'></locus></finalRubric>	0.1607717	structure-2
+1	<finalRubric type='VALUE' xml:lang='VALUE'><locus from='VALUE'></locus>CDATA</finalRubric>	0.1607717	structure-3
+131	<finalRubric xml:lang='VALUE'>CDATA<locus from='VALUE'></locus></finalRubric>	21.061092	structure-4
+42	<finalRubric xml:lang='VALUE'>CDATA</finalRubric>	6.7524114	structure-5
+3	<finalRubric xml:lang='VALUE'>CDATA<locus to='VALUE' from='VALUE'></locus></finalRubric>	0.4823151	structure-6
+1	<finalRubric xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<locus from='VALUE'></locus></finalRubric>	0.1607717	structure-7
+6	<finalRubric xml:lang='VALUE'>COMMENT<locus from='VALUE' to='VALUE'></locus></finalRubric>	0.9646302	structure-8
+102	<finalRubric xml:lang='VALUE'><locus from='VALUE' to='VALUE'></locus></finalRubric>	16.398714	structure-9
+1	<finalRubric xml:lang='VALUE'>CDATACOMMENT</finalRubric>	0.1607717	structure-10
+69	<finalRubric xml:lang='VALUE'><locus from='VALUE'></locus>CDATA</finalRubric>	11.093247	structure-11
+1	<finalRubric xml:lang='VALUE'>CDATA<sic >CDATA</sic>CDATA<locus from='VALUE'></locus></finalRubric>	0.1607717	structure-12
+4	<finalRubric xml:lang='VALUE'><locus from='VALUE'></locus>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</finalRubric>	0.6430868	structure-13
+1	<finalRubric xml:lang='VALUE'>CDATA<note xml:lang='VALUE'>CDATA</note>CDATA</finalRubric>	0.1607717	structure-14
+2	<finalRubric >CDATA<locus from='VALUE' to='VALUE'></locus></finalRubric>	0.3215434	structure-15
+1	<finalRubric xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</finalRubric>	0.1607717	structure-16
+1	<finalRubric xml:lang='VALUE'>CDATA<locus from='VALUE'>CDATA</locus></finalRubric>	0.1607717	structure-17
+14	<finalRubric xml:lang='VALUE'><locus from='VALUE' to='VALUE'></locus>CDATA</finalRubric>	2.2508037	structure-18
+2	<finalRubric type='VALUE'>CDATA<locus from='VALUE' to='VALUE'></locus></finalRubric>	0.3215434	structure-19
+1	<finalRubric type='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign><locus from='VALUE' to='VALUE'></locus></finalRubric>	0.1607717	structure-20
+2	<finalRubric xml:lang='VALUE'><locus from='VALUE' to='VALUE'></locus><sic >CDATA</sic></finalRubric>	0.3215434	structure-21
+2	<finalRubric type='VALUE'>CDATA<quote xml:lang='VALUE'>CDATA</quote><locus from='VALUE' to='VALUE'></locus></finalRubric>	0.3215434	structure-22
+5	<finalRubric xml:lang='VALUE'><sic >CDATA</sic><locus from='VALUE' to='VALUE'></locus></finalRubric>	0.8038585	structure-23
+1	<finalRubric >CDATA<locus from='VALUE' to='VALUE'></locus>COMMENT</finalRubric>	0.1607717	structure-24
+1	<finalRubric xml:lang='VALUE'><locus from='VALUE'></locus>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></finalRubric>	0.1607717	structure-25
+1	<finalRubric xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></finalRubric>	0.1607717	structure-26
+1	<finalRubric xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA</finalRubric>	0.1607717	structure-27
+1	<finalRubric ><quote >CDATA</quote><locus from='VALUE'></locus></finalRubric>	0.1607717	structure-28
+4	<finalRubric >CDATA<locus from='VALUE'></locus></finalRubric>	0.6430868	structure-29
+1	<finalRubric xml:lang='VALUE'>CDATA<supplied reason='VALUE' resp='VALUE'>CDATA</supplied>CDATA<supplied reason='VALUE' resp='VALUE'>CDATA</supplied>CDATA<locus from='VALUE'></locus></finalRubric>	0.1607717	structure-30
+56	<finalRubric ></finalRubric>	9.003215	structure-31
+17	<finalRubric xml:lang='VALUE'>COMMENT<locus from='VALUE' to='VALUE'></locus>COMMENT</finalRubric>	2.733119	structure-32
+1	<finalRubric xml:lang='VALUE'>CDATA<gap quantity='VALUE' unit='VALUE' reason='VALUE'><desc >CDATA</desc></gap>CDATA<locus from='VALUE'></locus></finalRubric>	0.1607717	structure-33
+1	<finalRubric xml:lang='VALUE'><locus from='VALUE'></locus>CDATACOMMENTCDATA</finalRubric>	0.1607717	structure-34
+1	<finalRubric xml:lang='VALUE'>CDATA<locus to='VALUE'></locus><locus to='VALUE'></locus><locus to='VALUE'></locus><locus to='VALUE'></locus><locus to='VALUE'></locus></finalRubric>	0.1607717	structure-35
+2	<finalRubric xml:lang='VALUE'>CDATACOMMENT<locus from='VALUE'></locus></finalRubric>	0.3215434	structure-36
+3	<finalRubric ><locus from='VALUE'></locus>CDATA</finalRubric>	0.4823151	structure-37
+1	<finalRubric xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</finalRubric>	0.1607717	structure-38
+1	<finalRubric xml:lang='VALUE' type='VALUE'><locus from='VALUE'></locus>CDATA</finalRubric>	0.1607717	structure-39
+1	<finalRubric xml:lang='VALUE'>CDATA<choice ><corr >CDATA</corr><sic >CDATA</sic></choice>CDATA<locus from='VALUE' to='VALUE'></locus></finalRubric>	0.1607717	structure-40
+1	<finalRubric xml:lang='VALUE'>CDATA<note >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</note><locus from='VALUE' to='VALUE'></locus></finalRubric>	0.1607717	structure-41
