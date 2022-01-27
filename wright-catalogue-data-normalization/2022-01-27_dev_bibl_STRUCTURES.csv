@@ -1,0 +1,69 @@
+hits	structure	hit-percentage	structure-id
+2548	<bibl >CDATA</bibl>	79.2535	structure-1
+60	<bibl >CDATA<ptr target='VALUE'></ptr></bibl>	1.866252	structure-2
+23	<bibl >COMMENT</bibl>	0.7153966	structure-3
+121	<bibl ></bibl>	3.7636082	structure-4
+3	<bibl ><choice ><expan >CDATA</expan><abbr >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</abbr></choice><ptr target='VALUE'></ptr></bibl>	0.0933126	structure-5
+30	<bibl >CDATA<ptr target='VALUE'></ptr>CDATA<citedRange unit='VALUE'>CDATA</citedRange></bibl>	0.933126	structure-6
+5	<bibl ><persName >CDATA</persName>CDATA</bibl>	0.155521	structure-7
+5	<bibl >CDATA<msIdentifier ><idno ref='VALUE'>CDATA</idno></msIdentifier>CDATA</bibl>	0.155521	structure-8
+10	<bibl >CDATA<msIdentifier ><idno ref='VALUE'>CDATA</idno></msIdentifier></bibl>	0.311042	structure-9
+70	<bibl ><msIdentifier ><idno ref='VALUE'>CDATA</idno></msIdentifier></bibl>	2.177294	structure-10
+5	<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier>CDATA<biblScope ><locus from='VALUE' to='VALUE'>CDATA</locus></biblScope></bibl>	0.155521	structure-11
+111	<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier></bibl>	3.4525661	structure-12
+14	<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier>CDATA<biblScope ><locus from='VALUE'>CDATA</locus></biblScope></bibl>	0.4354588	structure-13
+47	<bibl >CDATA<ptr target='VALUE'></ptr>CDATA</bibl>	1.4618974	structure-14
+7	<bibl >CDATA<persName ref='VALUE'>CDATA</persName>CDATA</bibl>	0.2177294	structure-15
+1	<bibl ><ptr target='VALUE'></ptr>CDATA<citedRange unit='VALUE' from='VALUE' to='VALUE'>CDATA</citedRange></bibl>	0.0311042	structure-16
+1	<bibl ><ptr target='VALUE'></ptr>CDATA<citedRange unit='VALUE' from='VALUE' to='VALUE'>CDATA</citedRange>CDATA<citedRange unit='VALUE' from='VALUE' to='VALUE'>CDATA</citedRange></bibl>	0.0311042	structure-17
+2	<bibl >CDATA<note >CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName>CDATA</note></bibl>	0.0622084	structure-18
+10	<bibl >CDATACOMMENTCDATA</bibl>	0.311042	structure-19
+3	<bibl ><msIdentifier ><idno >CDATA</idno></msIdentifier></bibl>	0.0933126	structure-20
+1	<bibl >CDATA<note >CDATA</note></bibl>	0.0311042	structure-21
+2	<bibl >CDATA<note >CDATA<bibl >CDATA</bibl>CDATA<bibl >CDATA</bibl>CDATA<bibl >CDATA</bibl>CDATA</note></bibl>	0.0622084	structure-22
+1	<bibl >CDATA<note >CDATA<bibl >CDATA</bibl></note></bibl>	0.0311042	structure-23
+1	<bibl >CDATA<note >CDATA<bibl >CDATA</bibl>CDATA<bibl >CDATA</bibl>CDATA</note></bibl>	0.0311042	structure-24
+1	<bibl >CDATA<note >CDATA<bibl >CDATA</bibl>CDATA<bibl >CDATA</bibl>CDATA<bibl >CDATA</bibl>CDATA<bibl >CDATA</bibl>CDATA</note></bibl>	0.0311042	structure-25
+1	<bibl >CDATA<orgName ><choice ><abbr >CDATA</abbr><expan >CDATA</expan></choice></orgName>CDATA</bibl>	0.0311042	structure-26
+1	<bibl >CDATA<orgName >CDATA</orgName>CDATA</bibl>	0.0311042	structure-27
+4	<bibl >CDATACOMMENT</bibl>	0.1244168	structure-28
+37	<bibl >CDATA<foreign xml:lang='VALUE'>CDATA</foreign></bibl>	1.1508553	structure-29
+1	<bibl >CDATA<ptr target='VALUE'></ptr><citedRange unit='VALUE'>CDATA</citedRange></bibl>	0.0311042	structure-30
+1	<bibl >CDATA<locus from='VALUE'>CDATA</locus>CDATA<msIdentifier ><idno ref='VALUE'>CDATA</idno></msIdentifier></bibl>	0.0311042	structure-31
+22	<bibl >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</bibl>	0.6842924	structure-32
+2	<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier><biblScope ><locus from='VALUE'>CDATA</locus></biblScope></bibl>	0.0622084	structure-33
+3	<bibl ><foreign xml:lang='VALUE'>CDATA</foreign>CDATA</bibl>	0.0933126	structure-34
+1	<bibl ><persName >CDATA</persName>CDATA<orgName >CDATA</orgName>CDATA</bibl>	0.0311042	structure-35
+2	<bibl >CDATA<persName >CDATA</persName>CDATA</bibl>	0.0622084	structure-36
+1	<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier>CDATA<biblScope >CDATA<locus from='VALUE' to='VALUE'>CDATA</locus></biblScope></bibl>	0.0311042	structure-37
+4	<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier>CDATA</bibl>	0.1244168	structure-38
+1	<bibl >CDATA<supplied reason='VALUE' resp='VALUE'><title >CDATA</title>CDATA</supplied></bibl>	0.0311042	structure-39
+1	<bibl >CDATA<ref target='VALUE'>CDATA</ref></bibl>	0.0311042	structure-40
+1	<bibl >CDATA<biblScope ><locus >CDATA</locus></biblScope></bibl>	0.0311042	structure-41
+1	<bibl >CDATA<ptr target='VALUE'></ptr><citedRange unot='VALUE'>CDATA</citedRange>CDATA</bibl>	0.0311042	structure-42
+1	<bibl ><title type='VALUE'>CDATA</title></bibl>	0.0311042	structure-43
+1	<bibl >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</bibl>	0.0311042	structure-44
+4	<bibl >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></bibl>	0.1244168	structure-45
+1	<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier>CDATA<biblScope ><locus >CDATA</locus></biblScope></bibl>	0.0311042	structure-46
+4	<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier>CDATA<biblScope ><locus from='VALUE'>CDATA</locus></biblScope>CDATA</bibl>	0.1244168	structure-47
+2	<bibl >CDATA<msIdentifier ><idno ref='VALUE'>CDATA</idno></msIdentifier>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</bibl>	0.0622084	structure-48
+3	<bibl ><title ref='VALUE'>CDATA</title></bibl>	0.0933126	structure-49
+2	<bibl >CDATA<note xml:lang='VALUE'>CDATA</note>CDATA<note xml:lang='VALUE'>CDATA</note><note >CDATA</note><note xml:lang='VALUE'>CDATA</note><note >CDATA</note><note xml:lang='VALUE'>CDATA</note></bibl>	0.0622084	structure-50
+1	<bibl ><note >CDATA</note></bibl>	0.0311042	structure-51
+1	<bibl ><note >CDATA<bibl >CDATA</bibl>CDATA</note></bibl>	0.0311042	structure-52
+1	<bibl ><msIdentifier ><idno ref='VALUE'>CDATA</idno></msIdentifier><citedRange >CDATA</citedRange></bibl>	0.0311042	structure-53
+1	<bibl >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</bibl>	0.0311042	structure-54
+3	<bibl ><msIdentifier ><idno ref='VALUE'>CDATA</idno></msIdentifier>CDATA<locus from='VALUE'>CDATA</locus></bibl>	0.0933126	structure-55
+1	<bibl ><title >CDATA</title></bibl>	0.0311042	structure-56
+1	<bibl ><title xml:lang='VALUE'></title></bibl>	0.0311042	structure-57
+2	<bibl ><msIdentifier ><idno ref='VALUE'>CDATA</idno></msIdentifier>CDATA</bibl>	0.0622084	structure-58
+1	<bibl ><persName ref='VALUE'>CDATA</persName>CDATA</bibl>	0.0311042	structure-59
+3	<bibl >CDATA<title xml:lang='VALUE'>CDATA</title>CDATA</bibl>	0.0933126	structure-60
+4	<bibl >CDATA<citedRange unit='VALUE'>CDATA</citedRange><ptr target='VALUE'></ptr></bibl>	0.1244168	structure-61
+1	<bibl >CDATA<title xml:lang='VALUE' type='VALUE'>CDATA</title>CDATA</bibl>	0.0311042	structure-62
+1	<bibl >CDATA<title xml:lang='VALUE' type='VALUE'>CDATA</title></bibl>	0.0311042	structure-63
+1	<bibl >CDATA<title type='VALUE'><foreign xml:lang='VALUE'>CDATA</foreign></title></bibl>	0.0311042	structure-64
+1	<bibl >CDATA<ptr target='VALUE'></ptr>CDATA<citedRange >CDATA</citedRange></bibl>	0.0311042	structure-65
+2	<bibl ><ptr target='VALUE'></ptr>CDATA</bibl>	0.0622084	structure-66
+5	<bibl ><ptr target='VALUE'></ptr><choice ><expan >CDATA</expan><abbr xml:lang='VALUE'>CDATA</abbr></choice></bibl>	0.155521	structure-67
+1	<bibl ><ref target='VALUE'>CDATA</ref><ptr target='VALUE'></ptr></bibl>	0.0311042	structure-68
