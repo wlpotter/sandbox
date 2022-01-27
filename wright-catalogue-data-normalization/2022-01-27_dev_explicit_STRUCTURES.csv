@@ -1,0 +1,13 @@
+hits	structure	hit-percentage	structure-id
+5	<explicit xml:lang='VALUE'>CDATA</explicit>	2.3923445	structure-1
+6	<explicit xml:lang='VALUE'>COMMENT<locus from='VALUE' to='VALUE'></locus></explicit>	2.8708134	structure-2
+100	<explicit xml:lang='VALUE'><locus from='VALUE' to='VALUE'></locus></explicit>	47.84689	structure-3
+10	<explicit xml:lang='VALUE'>CDATA<locus from='VALUE' to='VALUE'></locus></explicit>	4.784689	structure-4
+9	<explicit xml:lang='VALUE'>CDATA<locus from='VALUE'></locus></explicit>	4.30622	structure-5
+1	<explicit xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA</explicit>	0.4784689	structure-6
+56	<explicit ></explicit>	26.794258	structure-7
+17	<explicit xml:lang='VALUE'>COMMENT<locus from='VALUE' to='VALUE'></locus>COMMENT</explicit>	8.133971	structure-8
+1	<explicit xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</explicit>	0.4784689	structure-9
+1	<explicit xml:lang='VALUE'>CDATA<note >CDATA</note></explicit>	0.4784689	structure-10
+2	<explicit xml:lang='VALUE'><locus from='VALUE'></locus>CDATA</explicit>	0.9569378	structure-11
+1	<explicit xml:lang='VALUE'><locus to='VALUE'></locus>CDATA</explicit>	0.4784689	structure-12
