@@ -1,0 +1,15 @@
+hits	structure	hit-percentage	structure-id
+52	<date >CDATA</date>	42.975204	structure-1
+3	<date notBefore='VALUE' notAfter='VALUE' calendar='VALUE'>CDATA</date>	2.479339	structure-2
+19	<date when='VALUE' calendar='VALUE'>CDATA</date>	15.70248	structure-3
+6	<date from='VALUE' to='VALUE' calendar='VALUE'>CDATA</date>	4.958678	structure-4
+1	<date calendar='VALUE' from='VALUE' to='VALUE'>CDATA</date>	0.8264462	structure-5
+9	<date datingMethod='VALUE' when-custom='VALUE'>CDATA</date>	7.438017	structure-6
+1	<date calender='VALUE' when='VALUE'>CDATA</date>	0.8264462	structure-7
+6	<date when-custom='VALUE' datingMethod='VALUE'>CDATA</date>	4.958678	structure-8
+5	<date calendar='VALUE' notBefore='VALUE' notAfter='VALUE'>CDATA</date>	4.132231	structure-9
+2	<date notBefore='VALUE' notAfter='VALUE'>CDATA</date>	1.6528925	structure-10
+13	<date calendar='VALUE' when='VALUE'>CDATA</date>	10.743801	structure-11
+2	<date calendar='VALUE'>CDATA</date>	1.6528925	structure-12
+1	<date when='VALUE' calendar='VALUE'>CDATA<persName >CDATA</persName></date>	0.8264462	structure-13
+1	<date when='VALUE'>CDATA</date>	0.8264462	structure-14
