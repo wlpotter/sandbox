@@ -116,4 +116,11 @@ let $csvOfNodes :=
     return <row>{map:for-each($map, $keys-to-csv)}</row>
   }
   </csv>
-return csv:serialize($csvOfNodes, map{"header": "yes"})
+let $csvOfStructures := 
+  <csv>
+  {
+    for $map in $structureDataMap
+    return <row>{map:for-each($map, $keys-to-csv)}</row>
+  }
+  </csv>
+return csv:serialize($csvOfStructures, map{"header": "yes"})
