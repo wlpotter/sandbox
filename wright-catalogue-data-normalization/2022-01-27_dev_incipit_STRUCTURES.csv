@@ -1,0 +1,30 @@
+hits	structure	hit-percentage	structure-id
+359	<incipit xml:lang='VALUE'>CDATA<locus from='VALUE' to='VALUE'></locus></incipit>	24.84429	structure-1
+195	<incipit xml:lang='VALUE'>CDATA<locus from='VALUE'></locus></incipit>	13.494809	structure-2
+643	<incipit xml:lang='VALUE'>CDATA</incipit>	44.498272	structure-3
+6	<incipit xml:lang='VALUE'>COMMENT<locus from='VALUE' to='VALUE'></locus></incipit>	0.4152249	structure-4
+103	<incipit xml:lang='VALUE'><locus from='VALUE' to='VALUE'></locus></incipit>	7.128028	structure-5
+3	<incipit >CDATA<locus from='VALUE' to='VALUE'></locus></incipit>	0.2076125	structure-6
+15	<incipit xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</incipit>	1.0380623	structure-7
+27	<incipit xml:lang='VALUE'><locus from='VALUE'></locus>CDATA</incipit>	1.8685122	structure-8
+1	<incipit xml:lang='VALUE'>CDATA<note >CDATA<foreign xml:lang='VALUE'>CDATACOMMENT</foreign></note></incipit>	0.0692042	structure-9
+2	<incipit xml:lang='VALUE'>CDATA<locus to='VALUE'></locus></incipit>	0.1384083	structure-10
+1	<incipit ><quote >CDATA</quote><locus from='VALUE'></locus></incipit>	0.0692042	structure-11
+1	<incipit xml:lang='VALUE'>CDATA<sic >CDATA</sic>CDATA</incipit>	0.0692042	structure-12
+1	<incipit xml:lang='VALUE'><supplied reason='VALUE' resp='VALUE'>CDATA</supplied>CDATA<supplied reason='VALUE' resp='VALUE'>CDATA</supplied><supplied reason='VALUE' resp='VALUE'>CDATA</supplied>CDATA<locus from='VALUE'></locus></incipit>	0.0692042	structure-13
+1	<incipit ><quote xml:lang='VALUE'>CDATA</quote><locus from='VALUE'></locus></incipit>	0.0692042	structure-14
+1	<incipit xml:lang='VALUE'>CDATA<locus from='VALUE'></locus><quote >CDATA</quote></incipit>	0.0692042	structure-15
+47	<incipit ></incipit>	3.2525952	structure-16
+17	<incipit xml:lang='VALUE'>COMMENT<locus from='VALUE' to='VALUE'></locus>COMMENT</incipit>	1.1764706	structure-17
+2	<incipit >CDATA</incipit>	0.1384083	structure-18
+1	<incipit xml:lang='VALUE'>CDATA<note >CDATA</note></incipit>	0.0692042	structure-19
+1	<incipit xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</foreign>CDATA</incipit>	0.0692042	structure-20
+1	<incipit xml:lang='VALUE'>CDATA<supplied reason='VALUE' resp='VALUE' xml:lang='VALUE'>CDATA</supplied></incipit>	0.0692042	structure-21
+1	<incipit >CDATA<sic >CDATA</sic>CDATA<choice ><sic >CDATA</sic><corr resp='VALUE'>CDATA</corr></choice>CDATA<locus from='VALUE' to='VALUE'></locus></incipit>	0.0692042	structure-22
+8	<incipit xml:lang='VALUE'><locus from='VALUE' to='VALUE'></locus>CDATA</incipit>	0.5536332	structure-23
+1	<incipit xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</foreign>CDATA</incipit>	0.0692042	structure-24
+3	<incipit xml:lang='VALUE'><sic >CDATA</sic><locus from='VALUE' to='VALUE'></locus></incipit>	0.2076125	structure-25
+1	<incipit xml:lang='VALUE'>CDATA<choice ><sic >CDATA</sic><corr resp='VALUE'>CDATA</corr></choice>CDATA<locus from='VALUE'></locus></incipit>	0.0692042	structure-26
+1	<incipit xml:lang='VALUE'>CDATA<choice ><orig >CDATA</orig><corr >CDATA</corr></choice>CDATA</incipit>	0.0692042	structure-27
+1	<incipit xml:lang='VALUE'><locus from='VALUE' to='VALUE'></locus>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA<locus from='VALUE'>CDATA</locus>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</incipit>	0.0692042	structure-28
+1	<incipit xml:lang='VALUE'>CDATA<quote xml:lang='VALUE'>CDATA</quote>CDATA<locus from='VALUE' to='VALUE'></locus></incipit>	0.0692042	structure-29
