@@ -1,0 +1,7 @@
+hits	structure	hit-percentage	structure-id
+8	<person ><persName ><foreign xml:lang='VALUE'>CDATA</foreign></persName><persName >CDATA</persName><note ><locus from='VALUE'>CDATA</locus></note></person>	53.333336	structure-1
+1	<person ref='VALUE'><persName >CDATA</persName>CDATA<persName xml:lang='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName xml:lang='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName xml:lang='VALUE'>CDATA</persName></person>	6.666667	structure-2
+2	<person ><persName >CDATA<placeName >CDATA</placeName></persName>CDATA<persName ><foreign xml:lang='VALUE'>CDATA</foreign></persName></person>	13.333334	structure-3
+1	<person ><persName >CDATA</persName>CDATA<persName ><foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName >CDATA</persName></persName></person>	6.666667	structure-4
+2	<person ><persName >CDATA</persName><persName xml:lang='VALUE'>CDATA</persName></person>	13.333334	structure-5
+1	<person ><persName >CDATA</persName>CDATA<persName >CDATA</persName></person>	6.666667	structure-6

@@ -1,0 +1,2 @@
+node	ms-uri	node-structure	msItem-id	structure-id	xpath
+<listPlace ><place ><placeName >Arzūn of the Persians</placeName><placeName > Needs Persian/Arabic name </placeName><placeName >Erzerūm</placeName></place></listPlace>	http://syriaca.org/manuscript/323	<listPlace ><place ><placeName >CDATA</placeName><placeName >COMMENT</placeName><placeName >CDATA</placeName></place></listPlace>	c6	structure-1	TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents/msItem[1]/msItem/msItem[6]/title/listPlace

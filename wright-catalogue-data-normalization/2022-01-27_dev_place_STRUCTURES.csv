@@ -1,0 +1,2 @@
+hits	structure	hit-percentage	structure-id	structure-id	xpath
+1	<place ><placeName >CDATA</placeName><placeName >COMMENT</placeName><placeName >CDATA</placeName></place>	100	structure-1	structure-1	TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents/msItem[1]/msItem/msItem[6]/title/listPlace/place
