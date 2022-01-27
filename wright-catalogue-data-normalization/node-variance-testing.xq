@@ -3,7 +3,8 @@ xquery version "3.1";
 import module namespace functx="http://www.functx.com";
 
 declare default element namespace "http://www.tei-c.org/ns/1.0";
-
+declare namespace output = 'http://www.w3.org/2010/xslt-xquery-serialization';
+(: declare option output:method 'csv'; :)
 declare variable $local:input-collection-paths :=
   (: edit, remove, or add paths as needed. These will be collated to create a single sequence of documents :)
   ("C:\Users\anoni\Documents\GitHub\srophe\srophe-app-data\data\manuscripts\tei\");
@@ -46,33 +47,73 @@ declare function local:extract-node-structure($node as node())
       case "comment" return comment {"COMMENT"}
       default return "unknown"
   }
-  (:
-  for descendant of $node, if it's cdata, return "CDATA", if it's an attribute return attribute {name()} {""}, and if it's an element, run this script on that element
-  :)
+};
+
+declare function local:stringify-node($node as node())
+as xs:string
+{
+  let $nodeName := name($node)
+  let $attrString := if($node/@*) then 
+    for $attr in $node/@*
+    return name($attr)||"='"||string($attr)||"'"
+  let $attrString := " "||string-join($attrString, " ")
+  let $descendantString := 
+    for $child in $node/child::node() (: just text or :)
+    return switch(functx:node-kind($child))
+      case "text" return $child
+      case "element" return local:stringify-node($child)
+      case "comment" return $child
+      default return ""
+  let $descendantString := string-join($descendantString)
+  return "&lt;"||$nodeName||$attrString||"&gt;"||$descendantString||"&lt;/"||$nodeName||"&gt;"
 };
 
 (: let $inColl := collection("C:\Users\anoni\Documents\GitHub\srophe\srophe-app-data\data\manuscripts\tei\") :)
 
-let $allInstances := 
+let $nodeToStructureMap := 
   for $doc in $local:input-collections
-  return $doc//msContents/msItem//author
-let $allStructures := 
-  for $instance in $allInstances
-  return local:extract-node-structure($instance)
-return functx:distinct-deep($allStructures)
+  let $msUri := $doc//msDesc/msIdentifier/idno[@type="URI"]/text()
+  
+  for $node in $doc//msContents//msItem/author (: need to set this to be a varaible. Maybe use //msItem/*[name() = $nodeName]? Doesn't solve if want to switch to additions...:)
+  let $xpath := functx:path-to-node-with-pos($node)
+  let $structure := local:extract-node-structure($node)
+  let $msItemId := string($node/ancestor::msItem[position() = 1]/@xml:id)
+  return map {"ms-uri": $msUri, "xpath": $xpath, "msItem-id": $msItemId, "node": $node, "node-structure": $structure}
 
-(:
-next layer of development:
+let $totalInstances := count($nodeToStructureMap)
+let $uniqueStructures := 
+  for $instance in $nodeToStructureMap
+    return $instance("node-structure")
+let $uniqueStructures := functx:distinct-deep($uniqueStructures)
 
-- enumerate these structures
-- check against the full list to see how many times they occur (and maybe calculate the percentage?)
-- generated a list of URIs and xml:id context (or an absolute xpath?) for a given structure that can be dumped out as a list
-:)
+let $structureDataMap := 
+  for $structure at $i in $uniqueStructures
+  let $structId := "structure-"||$i
+  let $hits := 
+    for $node in $nodeToStructureMap
+    where deep-equal($structure, $node("node-structure"))
+    return <hit/>
+  let $numberOfHits := count($hits)
+  let $hitPercent := string(100 * (xs:float($numberOfHits) div xs:float($totalInstances)))
+  return map {"structure-id": $structId, "structure": $structure, "hits": $numberOfHits, "hit-percentage": $hitPercent}
 
-(: for testing :)
-(: let $in := 
-<el>
-<!-- hello -->
-<ell attr="d">hey</ell>
-</el>
-return local:extract-node-structure($in) :)
+let $nodeToStructureMap :=
+  for $instance in $nodeToStructureMap
+  let $matchedStructureId :=
+    for $struct in $structureDataMap
+    where deep-equal($struct("structure"), $instance("node-structure"))
+    return $struct("structure-id")
+  return map:put($instance, "structure-id", $matchedStructureId)
+
+let $keys-to-csv := function($k, $v)
+{
+  element {$k} {$v}
+}
+let $csvOfNodes := 
+  <csv>
+  {
+    for $map in $nodeToStructureMap
+    return <row>{map:for-each($map, $keys-to-csv)}</row>
+  }
+  </csv>
+return (: csv:serialize($csvOfNodes) :) $csvOfNodes
