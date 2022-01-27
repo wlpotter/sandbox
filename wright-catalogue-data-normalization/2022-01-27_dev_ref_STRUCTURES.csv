@@ -1,0 +1,31 @@
+hits	structure	hit-percentage	structure-id
+255	<ref target='VALUE'>CDATA</ref>	35.26971	structure-1
+24	<ref target='VALUE'>CDATACOMMENT</ref>	3.3195024	structure-2
+118	<ref target='VALUE'></ref>	16.320887	structure-3
+266	<ref >CDATA</ref>	36.79115	structure-4
+23	<ref >CDATA<persName >CDATA</persName></ref>	3.1811898	structure-5
+4	<ref ></ref>	0.5532504	structure-6
+5	<ref >CDATA<persName >CDATA</persName>CDATA</ref>	0.691563	structure-7
+1	<ref target='VALUE'><quote ><foreign xml:lang='VALUE'>CDATA</foreign></quote>CDATA</ref>	0.1383126	structure-8
+1	<ref >CDATA<persName >CDATA<placeName >CDATA</placeName></persName>CDATA<ref >CDATA</ref></ref>	0.1383126	structure-9
+3	<ref >CDATA<ref >CDATA</ref></ref>	0.4149378	structure-10
+1	<ref target='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></ref>	0.1383126	structure-11
+1	<ref ><persName >CDATA</persName></ref>	0.1383126	structure-12
+1	<ref >CDATA<persName ref='VALUE'>CDATA</persName>CDATA</ref>	0.1383126	structure-13
+1	<ref >CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName></ref>	0.1383126	structure-14
+1	<ref >CDATA<foreign xml:lang='VALUE'>CDATA</foreign></ref>	0.1383126	structure-15
+1	<ref >CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></ref>	0.1383126	structure-16
+2	<ref ><foreign xml:lang='VALUE'>CDATA</foreign></ref>	0.2766252	structure-17
+1	<ref >CDATA<placeName >CDATA</placeName></ref>	0.1383126	structure-18
+1	<ref >CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName></ref>	0.1383126	structure-19
+1	<ref >CDATA<persName >CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</ref>	0.1383126	structure-20
+1	<ref ><persName >CDATA</persName>CDATA<persName >CDATA</persName></ref>	0.1383126	structure-21
+1	<ref >CDATA<persName >CDATA</persName>CDATA<ref >CDATA</ref></ref>	0.1383126	structure-22
+1	<ref >CDATA<placeName ref='VALUE'>CDATA</placeName></ref>	0.1383126	structure-23
+1	<ref target='VALUE'>CDATA<locus from='VALUE'>CDATA</locus></ref>	0.1383126	structure-24
+1	<ref ><persName >CDATA</persName>CDATA</ref>	0.1383126	structure-25
+3	<ref ><persName ref='VALUE'>CDATA</persName>CDATA</ref>	0.4149378	structure-26
+1	<ref >CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></ref>	0.1383126	structure-27
+1	<ref >CDATA<persName >CDATA<placeName >CDATA</placeName></persName></ref>	0.1383126	structure-28
+1	<ref >CDATA<persName ref='VALUE'>CDATA</persName></ref>	0.1383126	structure-29
+1	<ref >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</ref>	0.1383126	structure-30
