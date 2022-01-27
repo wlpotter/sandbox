@@ -1,0 +1,29 @@
+hits	structure	hit-percentage	structure-id
+525	<placeName ref='VALUE'>CDATA</placeName>	42.372883	structure-1
+642	<placeName >CDATA</placeName>	51.81598	structure-2
+8	<placeName >CDATA<placeName >CDATA</placeName></placeName>	0.645682	structure-3
+2	<placeName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</placeName>	0.1614205	structure-4
+1	<placeName >CDATACOMMENT</placeName>	0.0807102	structure-5
+1	<placeName xml:lang='VALUE'><sic >CDATA</sic></placeName>	0.0807102	structure-6
+12	<placeName xml:lang='VALUE'>CDATA</placeName>	0.968523	structure-7
+1	<placeName xml:lang='VALUE'>COMMENT</placeName>	0.0807102	structure-8
+1	<placeName ><choice ><orig xml:lang='VALUE'>CDATA</orig><corr >CDATA</corr></choice></placeName>	0.0807102	structure-9
+1	<placeName >COMMENT</placeName>	0.0807102	structure-10
+1	<placeName ref='VALUE'>CDATACOMMENTCDATA</placeName>	0.0807102	structure-11
+1	<placeName >CDATA<persName >CDATA<placeName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign></placeName>CDATA</persName></placeName>	0.0807102	structure-12
+7	<placeName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign></placeName>	0.5649717	structure-13
+2	<placeName >CDATA<persName >CDATA<placeName >CDATA</placeName></persName></placeName>	0.1614205	structure-14
+1	<placeName >CDATA<persName >CDATA<placeName ><foreign xml:lang='VALUE'>CDATA</foreign></placeName></persName></placeName>	0.0807102	structure-15
+4	<placeName ><foreign xml:lang='VALUE'>CDATA</foreign></placeName>	0.322841	structure-16
+6	<placeName >CDATA<persName >CDATA</persName></placeName>	0.4842615	structure-17
+2	<placeName ><foreign xml:lang='VALUE'>CDATA</foreign>CDATA<placeName >CDATA</placeName></placeName>	0.1614205	structure-18
+1	<placeName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<placeName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign></placeName></placeName>	0.0807102	structure-19
+2	<placeName >CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName></placeName>	0.1614205	structure-20
+3	<placeName >CDATA<placeName ref='VALUE'>CDATA</placeName></placeName>	0.2421308	structure-21
+8	<placeName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></placeName>	0.645682	structure-22
+1	<placeName ><choice ><reg resp='VALUE'>CDATA</reg><orig xml:lang='VALUE'>CDATA</orig><orig xml:lang='VALUE'>CDATA</orig></choice></placeName>	0.0807102	structure-23
+1	<placeName ref='VALUE'>COMMENTCDATA<placeName ref='VALUE'>CDATA</placeName></placeName>	0.0807102	structure-24
+2	<placeName >COMMENT<foreign >CDATA</foreign></placeName>	0.1614205	structure-25
+1	<placeName ref='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName></placeName>	0.0807102	structure-26
+1	<placeName >CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></placeName>	0.0807102	structure-27
+1	<placeName ref='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</placeName>	0.0807102	structure-28
