@@ -1,0 +1,40 @@
+hits	structure	hit-percentage	structure-id
+1	<quote xml:lang='VALUE'>COMMENTCDATACOMMENT</quote>	0.2202643	structure-1
+120	<quote xml:lang='VALUE'>CDATA</quote>	26.431719	structure-2
+1	<quote xml:lang='VALUE'>CDATACOMMENTCDATA</quote>	0.2202643	structure-3
+6	<quote xml:lang='VALUE'>COMMENT<locus from='VALUE' to='VALUE'></locus></quote>	1.3215859	structure-4
+100	<quote xml:lang='VALUE'><locus from='VALUE' to='VALUE'></locus></quote>	22.026432	structure-5
+64	<quote xml:lang='VALUE'>CDATA<locus from='VALUE' to='VALUE'></locus></quote>	14.096916	structure-6
+41	<quote xml:lang='VALUE'>CDATA<locus from='VALUE'></locus></quote>	9.030837	structure-7
+2	<quote xml:lang='VALUE'>CDATA<locus ></locus></quote>	0.4405286	structure-8
+3	<quote >CDATA<locus from='VALUE' to='VALUE'></locus></quote>	0.6607929	structure-9
+3	<quote xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</quote>	0.6607929	structure-10
+1	<quote xml:lang='VALUE'>CDATA<locus from='VALUE'></locus><locus from='VALUE'></locus></quote>	0.2202643	structure-11
+2	<quote xml:lang='VALUE'><sic >CDATA</sic></quote>	0.4405286	structure-12
+7	<quote xml:lang='VALUE'><locus from='VALUE'></locus>CDATA</quote>	1.5418502	structure-13
+1	<quote xml:lang='VALUE'><sic >CDATA</sic><locus from='VALUE' to='VALUE'></locus></quote>	0.2202643	structure-14
+1	<quote xml:lang='VALUE'>CDATA<locus from='VALUE' to='VALUE'></locus><note >CDATA<quote >CDATA</quote>CDATA</note></quote>	0.2202643	structure-15
+1	<quote xml:lang='VALUE'>CDATA<sic >CDATA</sic>CDATA<locus from='VALUE'></locus></quote>	0.2202643	structure-16
+1	<quote xml:lang='VALUE'>CDATA<locus from='VALUE'></locus><p >CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName></p></quote>	0.2202643	structure-17
+55	<quote ></quote>	12.114537	structure-18
+7	<quote >CDATA</quote>	1.5418502	structure-19
+17	<quote xml:lang='VALUE'>COMMENT<locus from='VALUE' to='VALUE'></locus>COMMENT</quote>	3.7444935	structure-20
+1	<quote ><supplied xml:lang='VALUE' resp='VALUE'>CDATA</supplied></quote>	0.2202643	structure-21
+1	<quote xml:lang='VALUE'><locus from='VALUE' to='VALUE'></locus>CDATA</quote>	0.2202643	structure-22
+2	<quote >CDATA<supplied resp='VALUE'>CDATA</supplied>CDATA</quote>	0.4405286	structure-23
+1	<quote >CDATA<supplied resp='VALUE'>CDATA</supplied></quote>	0.2202643	structure-24
+1	<quote xml:lang='VALUE'><locus from='VALUE'></locus>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<note xml:lang='VALUE'>CDATA</note></quote>	0.2202643	structure-25
+1	<quote xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<lb ></lb>CDATA<lb ></lb>CDATA<lb ></lb>CDATA<lb ></lb>CDATA<lb ></lb>CDATA<lb ></lb>CDATA<lb ></lb>CDATA<lb ></lb>CDATA<lb ></lb>CDATA<foreign xml:lang='VALUE'>CDATA</foreign><lb ></lb>CDATA<lb ></lb>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></quote>	0.2202643	structure-26
+1	<quote xml:lang='VALUE'><locus from='VALUE'></locus>CDATA<note ><bibl >CDATA</bibl></note></quote>	0.2202643	structure-27
+1	<quote xml:lang='VALUE'><locus from='VALUE'></locus>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<note >CDATA</note></quote>	0.2202643	structure-28
+1	<quote xml:lang='VALUE'><note xml:lang='VALUE'>CDATA</note>CDATA<note xml:lang='VALUE'>CDATA<ref >CDATA</ref>CDATA</note>CDATA<note xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</note>CDATA<note xml:lang='VALUE'>CDATA</note>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<note xml:lang='VALUE'>CDATA</note>CDATA<note xml:lang='VALUE'>CDATA</note>CDATA</quote>	0.2202643	structure-29
+1	<quote xml:lang='VALUE'>COMMENTCDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</quote>	0.2202643	structure-30
+1	<quote xml:lang='VALUE'><locus from='VALUE'></locus>CDATA<foreign xml:lang='VALUE'><locus from='VALUE'>CDATA</locus></foreign>CDATA</quote>	0.2202643	structure-31
+1	<quote xml:lang='VALUE'><locus from='VALUE'></locus>CDATA<foreign xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</foreign>CDATA</quote>	0.2202643	structure-32
+1	<quote xml:lang='VALUE'>CDATA<gap ></gap>CDATA<locus from='VALUE' to='VALUE'></locus>COMMENT</quote>	0.2202643	structure-33
+1	<quote xml:lang='VALUE'>CDATA<locus from='VALUE' to='VALUE'></locus>COMMENT</quote>	0.2202643	structure-34
+1	<quote xml:lang='VALUE'><table ><row ><cell >CDATA</cell></row><row ><cell >CDATA</cell></row><row ><cell >CDATA</cell></row><row ><cell >CDATA</cell></row></table><locus from='VALUE' to='VALUE'></locus></quote>	0.2202643	structure-35
+1	<quote xml:lang='VALUE'><p >CDATA</p><p >CDATA</p><p ><supplied reason='VALUE' resp='VALUE'>CDATA</supplied>CDATA</p></quote>	0.2202643	structure-36
+1	<quote xml:lang='VALUE'><p >CDATA</p><p >CDATA</p><p >CDATA<supplied reason='VALUE' resp='VALUE'>CDATA</supplied></p></quote>	0.2202643	structure-37
+1	<quote xml:lang='VALUE'><locus from='VALUE'>CDATA</locus>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</quote>	0.2202643	structure-38
+1	<quote xml:lang='VALUE'><locus from='VALUE' to='VALUE'></locus>CDATA<foreign xml:lang='VALUE'>CDATA<locus from='VALUE'>CDATA</locus>CDATA</foreign>CDATA<foreign >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA<locus from='VALUE'>CDATA</locus>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA<locus from='VALUE'>CDATA</locus>CDATA</foreign>CDATA</quote>	0.2202643	structure-39
