@@ -22,6 +22,7 @@ let $updatedNotes :=
   return element {node-name($note)} {$note/@*,
     for $subject in $relatedSubjects
     where normalize-space($subject) != ""
+    order by $subject
     return element {QName("http://www.tei-c.org/ns/1.0", "p")} {normalize-space($subject)}
   }
 return 
