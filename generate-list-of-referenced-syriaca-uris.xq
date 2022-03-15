@@ -8,12 +8,12 @@ import module namespace functx="http://www.functx.com";
 declare default element namespace "http://www.tei-c.org/ns/1.0";
 
 
-declare variable $local:current-branch := "new-places-from-Syriac-World";
+declare variable $local:current-branch := "beth-qatraye-places";
 
 (: declare variable $local:bibl-records := collection("C:\Users\anoni\Documents\GitHub\srophe\srophe-app-data\data\bibl\tei\"); :)
 declare variable $local:deprecated-records := collection("C:\Users\anoni\Documents\GitHub\srophe\srophe-app-data\data\deprecated\");
 declare variable $local:persons-records := collection("C:\Users\anoni\Documents\GitHub\srophe\srophe-app-data\data\persons\tei\");
-declare variable $local:places-records := collection("C:\Users\anoni\Documents\GitHub\srophe\srophe-app-data\data\places\tei\");
+declare variable $local:places-records := collection("C:\Users\anoni\Documents\GitHub\srophe\bethqatraye-data\data\places\tei");
 declare variable $local:spear-records := collection("C:\Users\anoni\Documents\GitHub\srophe\srophe-app-data\data\spear\tei\");
 declare variable $local:subjects-records := collection("C:\Users\anoni\Documents\GitHub\srophe\srophe-app-data\data\subjects\tei\");
 declare variable $local:works-records := collection("C:\Users\anoni\Documents\GitHub\srophe\srophe-app-data\data\works\tei\");
@@ -45,7 +45,7 @@ as xs:string+
   return $referencedUrisOfSelectedEntityType
 };
 (: for now just looking at persons, places, and works. Maybe will need to look at spear and subjects? :)
-let $records := ($local:persons-records, $local:places-records, $local:works-records, (: $local:bibl-records, :) $local:spear-records, $local:subjects-records, $local:works-records)
+let $records := ($local:places-records)
 
 let $referencedEntityUris := local:create-referenced-uri-list($records, $local:entities-to-select)
 let $referencedEntityUris := distinct-values($referencedEntityUris)
