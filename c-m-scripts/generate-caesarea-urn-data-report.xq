@@ -29,6 +29,7 @@ let $records :=
   
   let $title := $doc//titleStmt/title[@level="a"]//text()
   let $title := string-join($title, " ")
+  let $title := normalize-space($title)
   let $title := <recordTitle>{$title}</recordTitle>
   
   let $editionUrnAndRefData := local:get-urn-and-ref-data($doc//body/ab[@type="edition"], "edition")
