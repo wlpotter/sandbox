@@ -42,7 +42,7 @@ declare function mset:generate-tagged-entity-report($manuscripts as node()+, $en
     let $wrightCatalogueInfo := mset:get-wright-catalogue-info($msItem/ancestor::msContents/parent::*)(: shelfmark + fol., vol:p for the catalogue entry :)
     
     for $entity in $msItem/*[name() = $entity-target]
-    (: maybe filter for non-empty entity elements? :)
+    where $entity/node()
     let $entityData := mset:get-entity-data($entity)
     return
     <entity>
