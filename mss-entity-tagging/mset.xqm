@@ -63,6 +63,14 @@ declare function mset:get-entity-data($entity as node())
   
   let $entityUriCurrent := $entity/@ref/string() (: works for all but tei:ref (for nested titles) and tei:bibl (which are a mess...) :)
   
+  (: for titles include the @type attribute and a potential column to change it. If author include the @role :)
+  let $entityTypeOrRole :=
+    if (name($entity) = "author") then
+      (element {"author_role_current"} {$entity/@role/string()}, 
+       element {"author_role_corrected"} {})
+    else if (name($entity) = "title") then
+      (element {"title_type_current"} {$entity/@type/string()},
+       element {"title_type_corrected"} {})
   return (
       element {"unique_xpath"} {$uniqueXpath},
       element {name($entity)||"_position_in_sequence"} {$entityPositionInSequence},
@@ -70,7 +78,8 @@ declare function mset:get-entity-data($entity as node())
       element {name($entity)||"_uri_current"} {$entityUriCurrent},
       element {name($entity)||"_uri_possibility1"} {},
       element {name($entity)||"_uri_possibility2"} {},
-      element {name($entity)||"_uri_corrected"} {}
+      element {name($entity)||"_uri_corrected"} {},
+      $entityTypeOrRole
     )
 };
 
