@@ -38,8 +38,8 @@ declare function mset:generate-tagged-entity-report($manuscripts as node()+, $en
     for $msItem in $ms//msDesc//msItem (: currently just implementing for author and title, need a flag to control if we include checking within children :)
     (: xml:id, lookarounds, msPart/msDesc shelfmark and vol:p, and the msItem info like rubric, etc. :)
     let $msItemData := mset:get-msItem-data($msItem, $entity-target) (:xml:id author, title, rubric, etc.:)
-    let $relatedMsItemData := "" (:data for parent, child, siblings as needed :)
-    let $wrightCatalogueInfo := "" (: shelfmark + fol., vol:p for the catalogue entry :)
+    let $relatedMsItemData := mset:get-related-msItem-data($msItem, $msItem/parent::msItem) (:data for parent, child, siblings as needed :)
+    let $wrightCatalogueInfo := mset:get-wright-catalogue-info($msItem/ancestor::msContents/parent::*)(: shelfmark + fol., vol:p for the catalogue entry :)
     
     for $entity in $msItem/*[name() = $entity-target]
     (: maybe filter for non-empty entity elements? :)
@@ -47,7 +47,7 @@ declare function mset:generate-tagged-entity-report($manuscripts as node()+, $en
     return
     <entity>
       {
-        $recordFileLocation, $msUri, $entityData, $msItemData, $adminMetadata
+        $recordFileLocation, $msUri, $entityData, $msItemData, $adminMetadata, $wrightCatalogueInfo, $relatedMsItemData
       }
     </entity>
 };
@@ -77,6 +77,7 @@ declare function mset:get-entity-data($entity as node())
 declare function mset:get-msItem-data($msItem as node(), $entity-target as xs:string)
 {
   let $msItemId := element {"msItem_xml-id"} {$msItem/@xml:id/string()}
+  let $startingLocus := element {"locus_start"} {$msItem/locus/@from/string()}
   let $authorTextNode := for $author in $msItem/author return normalize-space(string-join($author//text(), " "))
   let $authorTextNode := string-join($authorTextNode, "|") 
   let $authorTextNode := if($entity-target != "author") then element {"author_text_node"} {$authorTextNode}
@@ -90,8 +91,65 @@ declare function mset:get-msItem-data($msItem as node(), $entity-target as xs:st
   let $explicit := element {"explicit"} {normalize-space(string-join($msItem/explicit/text(), " "))}
   let $finalRubric := element {"finalRubric"} {normalize-space(string-join($msItem/finalRubric/text(), " "))}
   
-  return ($msItemId, $authorTextNode, $titleTextNode, $rubric, $incipit, $explicit, $finalRubric)
+  return ($msItemId, $startingLocus, $authorTextNode, $titleTextNode, $rubric, $incipit, $explicit, $finalRubric)
   (:include notes??:)
+};
+
+declare function mset:get-wright-catalogue-info($codicologicalUnit as node())
+{
+  let $wrightCatLocation := $codicologicalUnit/additional/listBibl/bibl/citedRange[@unit="pp"]/text()
+  let $wrightCatLocation := element {"wright_catalogue_location"} {$wrightCatLocation}
+
+  let $wrightEntry := $codicologicalUnit/additional/listBibl/bibl/citedRange[@unit="entry"]/text()
+  let $wrightEntry := element {"wright_entry_roman_numeral"} {$wrightEntry}
+  
+  let $shelfmark := element{"shelf_mark"} {$codicologicalUnit/msIdentifier/altIdentifier/idno[@type="BL-Shelfmark"]/text()}
+  
+  return($wrightCatLocation, $wrightEntry, $shelfmark)
+};
+
+declare function mset:get-related-msItem-data($msItem, $parent) {
+  let $parentData := mset:create-item-string($parent)
+  let $parentData := element {"parent_item"} {$parentData}
+  
+  let $msItemIndex := functx:path-to-node-with-pos($msItem)
+  let $msItemIndex := if(ends-with($msItemIndex, "]")) then xs:integer(substring-before(functx:substring-after-last($msItemIndex, "["), "]")) else 1
+  let $siblingData := 
+    for $sibling at $i in $parent/msItem
+    return 
+      if($i = ($msItemIndex - 1)) then element {"preceding_sibling_item"} {mset:create-item-string($sibling)}
+      else if($i = ($msItemIndex +1)) then element {"following_sibling_item"} {mset:create-item-string($sibling)}
+      else ()
+  (: the following two lines ensure that empty columns are created if there are no matching sibling elements, so the csv works properly :)
+  let $precedingSiblingData := if ($siblingData/preceding_sibling_item) then $siblingData/preceding_sibling_item else element {"preceding_sibling_item"}  {}
+  let $followingSiblingData := if ($siblingData/following_sibling_item) then $siblingData/following_sibling_item else element {"following_sibling_item"}  {}
+
+  let $firstChildData := mset:create-item-string($msItem/msItem[1])
+  let $firstChildData := element {"first_child_item"} {$firstChildData}
+  return ($parentData, $siblingData, $firstChildData)
+};
+
+declare function mset:create-item-string($msItem as node()?)
+as xs:string?
+{
+  if (not(empty($msItem))) then
+  let $authorString := 
+    for $author in $msItem/author
+    return normalize-space(string-join($author//text(), " "))
+  let $authorString := if($authorString != "") then string-join($authorString, ", ") else ()
+  
+  let $englishTitle := normalize-space(string-join($msItem/title[1]//text(), " "))
+  let $otherTitles := 
+    for $title in $msItem/title[position() > 1]
+    return normalize-space(string-join($title//text(), " "))
+  let $otherTitles := if ($otherTitles != "") then " ("||string-join($otherTitles, "; ")||")" else ()
+  let $titleString := '"'||$englishTitle||'"'||$otherTitles
+  
+  let $folioString := "Foll. "||string-join($msItem/locus/@from/string(), ", ")||"-"||string-join($msItem/locus/@to/string(), ", ")
+  
+  return string-join(($authorString, $titleString, $folioString), ". ")
+  
+  (: return of the form `Author, Author. "First English Title" (Other titles in any language; other titles). Foll. xb-ya`:)
 };
 (:
 - get the identifier data of an entity tag (ms uri, msPart uri, msItem xml:id, unique xpath, item location in an xpath sequence)
