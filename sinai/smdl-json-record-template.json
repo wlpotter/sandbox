@@ -1,0 +1,111 @@
+{
+  "id": "$ARK",
+  "type": "Manuscript Object",
+  "label": "$shelfmark$",
+  "form": "$CV",
+  "binding": [{"type": "$CV", "material": "$text", "note": "$$"}],
+  "condition_note": "$text",
+  "references": [
+      {
+        "citation": "$Zotero URI or short string",
+        "cited_range": [{"unit": "$CV", "range": "$str or int"}]
+      }],
+  "bibliography": ["$Zotero URIs"],
+  "language": ["$CV -- compiled from units"],
+  "hand_description": [
+    {
+      "writing_system": {***in data exchange this will need to be computed, right?***},
+      "script": {***in data exchange this will need to be computed, right?***},
+      "ink_color": "$CV",
+      "scope": "$CV (major, minor, etc. This is used in the BL mss and could be useful, though less meaningful at the ms obj level)",
+      "note": ["$string, a note about the hand, ink, etc."],
+      "is_garshuni": false
+    }
+  ],
+  "extent": "$string? rolled up?",
+  "weight": "$string? rolled up?",
+  "dimensions": [
+    {
+      "type": "$CV, e.g. 'object', etc.",
+      "value": "$string? rolled up? more fields?"
+    }
+  ],
+  "iiif": {
+    "iiif_manifest": "$URL",
+    "text_direction": "$CV",
+    "viewing_hint": "$CV",
+    "range": "$string"
+  },
+  "collection": "$CV (OC, NF)",
+  "repository": "$place names and/or IDs?",
+  "provenance": ["$strings"],
+  "viscodex": "$URL",
+  "contributor": ["$person IDs"],
+  "codicological_units":
+    [{
+      "id": "$ARK",
+      "type": "Codicological Unit (maybe more specific? Maybe some kind of JSON-LD system would be better)",
+      "label": "$shelfmark + folios",
+      "origin_date": "$date -- for now just iso-date, perhaps a rolled up field with other dating systems",
+      "associated_persons":
+        [{
+          "preferred_name": "$string",
+          "authority_file": "$URL",
+          "name_NS": "$string, as the ms records it, in the native script",
+          "name": "$string, as the ms records it, transliterated",
+          "role": "$CV"
+        }],
+      "associated_places":
+      [{
+        "preferred_name": "$string (from authority file)",
+        "authority_file": "$URL",
+        "name_NS": "$string, as the ms records it, in the native script",
+        "name": "$string, as the ms records it, transliterated",
+        "role": "$CV -- role isn't the right term, but the CV would have values like 'origin_place', 'circulation_place', etc."
+        }],
+        "language": ["$CV -- compiled from units"],
+        "hand_description": [
+          {
+            "writing_system": {***in data exchange this will need to be computed, right?***},
+            "script": {***in data exchange this will need to be computed, right?***},
+            "ink_color": "$CV",
+            "scope": "$CV (major, minor, etc. This is used in the BL mss and could be useful, though less meaningful at the ms obj level)",
+            "note": ["$string, a note about the hand, ink, etc."],
+            "is_garshuni": false
+          }
+        ],
+      "condition_note": "$string",
+      "features": ["$list of features, perhaps roled up with folio locations?"],
+      "references": [
+          {
+            "citation": "$Zotero URI or short string",
+            "cited_range": [{"unit": "$CV", "range": "$str or int"}]
+          }],
+      "bibliography": ["$Zotero URIs"],
+      "extent": "$string, maybe rolled up?",
+      "dimensions": [
+        {
+          "type": "$CV, e.g. 'object', 'average folio', 'typical folio', etc.",
+          "value": "$string? rolled up? more fields?"
+        }
+      ],
+      "collation": "$string (or rolled up?)",
+      "decorations": ["$string for note or rolled up eventually allowing CV and IIIF info?"],
+      "page_layout": [{"columns": 1, "notes": ["$strings"]}],
+      "colophon": {"location": "$string of folio and v/r", "transcription": "$string", "translation": "$string"},
+      "provenance": ["$strings"],
+      "viscodex": "$URL",
+      "iiif": {
+        "iiif_manifest": "$URL",
+        "text_direction": "$CV",
+        "viewing_hint": "$CV",
+        "range": "$string"
+      },
+      "contributor": ["$person IDs"],
+      "parent_objects": ["$ARKs"],
+      "textual_artifacts":
+        [{
+          STOPPED HERE, ADD TA info including what will need to be ingested from work records
+        }]
+    }]
+}
