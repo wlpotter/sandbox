@@ -63,7 +63,7 @@
         "name": "$string, as the ms records it, transliterated",
         "role": "$CV -- role isn't the right term, but the CV would have values like 'origin_place', 'circulation_place', etc."
         }],
-        "language": ["$CV -- compiled from units"],
+        "language": ["$CV"],
         "hand_description": [
           {
             "writing_system": {***in data exchange this will need to be computed, right?***},
@@ -105,7 +105,62 @@
       "parent_objects": ["$ARKs"],
       "textual_artifacts":
         [{
-          STOPPED HERE, ADD TA info including what will need to be ingested from work records
+          "id": "$ARK",
+          "label": "$shelfmark + location + ms title or preferred title?",
+          "work":
+            {
+              "id": "$URI",
+              "preferred_title": "$string, pulled in from work record",
+              "original_lange": "$CV, pulled in from work record",
+              "creation_date": "$string, pulled in from work record",
+              "genre": "$CV, pulled in from work record",
+              ""
+            },
+          "author": [
+            {"author_id": "$URI, pulled in from work record",
+             "preferred_author_name": "$string, pulled in from work record"
+           }],
+          "attributed_author": [{"author_name_ns": "$string in native script", "author_name": "$string in transliterated/translated"}],
+          "rubric": {"transcription": "$string", "translation": "$string", "location": "$string of the ms location"},
+          "incipit": {"transcription": "$string", "translation": "$string", "location": "$string of the ms location"},
+          "quotes": [{"transcription": "$string", "translation": "$string", "location": "$string of the ms location"}],
+          "explicit": {"transcription": "$string", "translation": "$string", "location": "$string of the ms location"},
+          "final_rubric": {"transcription": "$string", "translation": "$string", "location": "$string of the ms location"},
+          "associated_persons": [
+            {
+              "preferred_name": "$string",
+              "authority_file": "$URL",
+              "name_NS": "$string, as the ms records it, in the native script",
+              "name": "$string, as the ms records it, transliterated",
+              "role": "$CV"
+              }],
+          "language": "$CV",
+          "hand_description": [
+            {
+              "writing_system": {***in data exchange this will need to be computed, right?***},
+              "script": {***in data exchange this will need to be computed, right?***},
+              "ink_color": "$CV",
+              "scope": "$CV (major, minor, etc. This is used in the BL mss and could be useful, though less meaningful at the ms obj level)",
+              "note": ["$string, a note about the hand, ink, etc."],
+              "is_garshuni": false
+            }
+          ],
+          "foliation": "$string",
+          "collation": "$string",
+          "references": [
+              {
+                "citation": "$Zotero URI or short string",
+                "cited_range": [{"unit": "$CV", "range": "$str or int"}]
+              }],
+          "bibliography": ["$Zotero URIs"],
+          "iiif": {
+            "iiif_manifest": "$URL",
+            "text_direction": "$CV",
+            "viewing_hint": "$CV",
+            "range": "$string"
+          },
+          "contributor": ["$person IDs"],
+          "parent_objects": [$"ARKs"]
         }]
     }]
 }
