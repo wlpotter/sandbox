@@ -3,8 +3,7 @@
   "type": "Manuscript Object",
   "label": "Sinai Syriac 2A",
   "form": "Codex",
-  "binding": [{"type": "fair", "material": "leather-on-wood", "note": "Relatively recent; leather on wood showing signs of repair; metal studs (some missing) on front and back and along edges; remnants of clasps (four total, two for edge and one each at top and bottom)
-"}],
+  "binding": [{"type": "fair", "material": "leather-on-wood", "note": "Relatively recent; leather on wood showing signs of repair; metal studs (some missing) on front and back and along edges; remnants of clasps (four total, two for edge and one each at top and bottom)"}],
   "condition_note": "",
   "references":
     [
@@ -55,15 +54,22 @@
     [{
       "id": "ark:/21198/a310jfBd",
       "type": "Codicological Unit",
-      "label": "Sinai Syriac 2A, ff. 1-180",
+      "label": "Sinai Syriac 2A, ff. 1-152",
       "origin_date": "6th c. CE",
       "associated_persons":
         [{
-          "preferred_name": "John bar Me'sam",
+          "preferred_name": "Jacob bar Basil",
           "authority_file": "https://sinaimanuscripts/library.ucla.edu/person/1",
-          "name_NS": "ܕܝܪܝܐ ܝܘܚܢܢ ܒܪ ܡܥܨܡ",
-          "name": "Dayro Yohanan bar Me'sam",
-          "role": "scribe"
+          "name_NS": "ܝܥܩܘܒ ܒܪܐ ܕܒܣܝܠ",
+          "name": "Ya'qub bar d-Basil",
+          "role": "unknown"
+        },
+        {
+          "preferred_name": "Bar-Shabbon bar Basil",
+          "authority_file": "https://sinaimanuscripts/library.ucla.edu/person/1",
+          "name_NS": "ܒܪ ܫܒܘܢ ܒܪܐ ܕܒܣܝܠ",
+          "name": "Bar-Shabon bar d-Basil",
+          "role": "unknown"
         }],
       "associated_places":
       [{
@@ -72,7 +78,15 @@
         "name_NS": "ܛܘܪ ܣܝܢܝ",
         "name": "Mount Sinai",
         "role": "origin-place"
-        }],
+        },
+        {
+          "preferred_name": "Yw (village)",
+          "authority_file": "https://sinaimanuscripts/library.ucla.edu/place/2",
+          "name_NS": "ܐܝܘ ܩܪܝܬܐ",
+          "name": "The Village Yw",
+          "role": "",
+          "note": "Provided in connection with Jacob and Bar-Shabbon in the doxology on f. 114v"
+          }],
         "language": ["Syriac"],
         "hand_description": [
           {
@@ -82,7 +96,7 @@
             "note": ["Taw, Alaph, and Dalath/Resh all exhibit features of Serto."],
             "is_garshuni": false
           }],
-      "condition_note": "Quire signatures at beginning and end of most quires. Quires 20, 23, and 24 are paper. ",
+      "condition_note": "Quire signatures at beginning and end of most quires. Quire 20 is paper.",
       "features": ["Rubrication", "Decoration, Geometric", "Marginalia", "Headpiece(s)"],
       "references":
         [
@@ -99,18 +113,18 @@
             "cited_range": [{"unit": "p", "range": "28-30"}]
           }
         ],
-      "bibliography":,
-      "extent": "180ff",
+      "bibliography": [],
+      "extent": "152ff",
       "dimensions": [
         {
           "type": "average-folio",
           "value": "320 x 250 x 92 mm"
         }
       ],
-      "collation": "Quire structure: Pastedown+flyleaf, Quire 1: 1x10 (10), Quire 2: 1x6 (16), Quire 3: 1x8 (24), Quire 4: 1+1x8 (33), Quires 5-12: 8x8 (97), Quire 13: 1x8+1 (106), Quire 14: 1x6+1+1 (114), Quire 15: 1x8 (122), Quire 16: 6x1 (128), Quire 17: 1x6+1 (135), Quire 18: 1x6+1 (142), Quire 19: 1x6 (148), Quire 20 (paper): 1x4 (152), Quire 21: 8x1 (160), Quire 22: 6x1 (166), Quire 23 (paper): 1x8, Quire 24 (paper): 1x6 (180), flyleaf+pastedown.",
-      "decorations": ["Geometric decorations surround the rubrics on f. 179."],
+      "collation": "Quire structure: Pastedown+flyleaf, Quire 1: 1x10 (10), Quire 2: 1x6 (16), Quire 3: 1x8 (24), Quire 4: 1+1x8 (33), Quires 5-12: 8x8 (97), Quire 13: 1x8+1 (106), Quire 14: 1x6+1+1 (114), Quire 15: 1x8 (122), Quire 16: 6x1 (128), Quire 17: 1x6+1 (135), Quire 18: 1x6+1 (142), Quire 19: 1x6 (148), Quire 20 (paper): 1x4 (152).",
+      "decorations": ["Geometric decorations surround the rubrics (e.g., f. 114r)."],
       "page_layout": [{"columns": 1, "notes": ["$strings"]}],
-      "colophon": {"location": "179r", "transcription": "ܐܫܛܠܡ ܒܥܘܕܪܢ ܡܪܝܐ ܣܘܢܟܣܪܝܢ ܝܘܡ…", "translation": "With the Lord's aid is completed the Synaxarion for..."},
+      "colophon": {},
       "provenance": ["Created at Sinai, and remained there."],
       "viscodex": "",
       "iiif": {
@@ -127,20 +141,19 @@
           "label": "Sinai Syriac 2A, ff. 1-152v, Gospels",
           "work":
             {
-              "id": "https://sinaimanuscripts/library.ucla.edu/place/1",
+              "id": "https://sinaimanuscripts/library.ucla.edu/work/1",
               "preferred_title": "The Gospels, according to the Peshitta Version",
               "original_lange": "Syriac",
               "creation_date": "3rd c. CE",
               "genre": "Bibl, NT"
             },
           "author": [],
-          "attributed_author": [{{"author_name_ns": "ܕܩܕܝܫܐ ܡܪܝ ܝܘܚܢܢ", "author_name": "Qadisho Mar Yuhanon"}}],
+          "attributed_author": [{"author_name_ns": "ܕܩܕܝܫܐ ܡܪܝ ܝܘܚܢܢ", "author_name": "Qadisho Mar Yuhanon"}],
           "rubric": {},
           "incipit": {},
           "quotes": [],
           "explicit": {"transcription": "ܐܝܬ ܕܝܢ ܐܦ ܐܚܪ̈ܢܝܬܐ ܣܓ̈ܝܬܐ ܕܥܒܕ ܝܫܘܥ ܐܝܠܝܢ ܕܐܠܘ ܚܕܐ ܚܕܐ ܡܬܟܬܒܢ ܗܘ̈ܝ. ܐܦ ܠܐ  ܗܘ ܥܠܡܐ ܐܝܟ ܕܣܒܪ ܐܢܐ. ܣܦܩ ܗܘܐ ܠܟܬܒ̈ܐ ܕܡܬܟܬ̈ܒܝܢ ", "translation": "There were also many other things which Jesus did that, were each one written, I believe, not even the world would be sufficient for the books which would be written.", "location": "f. 152v"},
-          "final_rubric": {"transcription": "
-ܫܠܡ ܐܘܢܓܠܝܘܢ ܕܩܕܝܫܐ ܡܪܝ ܝܘܚܢܢ ܕܡܠܠ ܝܘܢܐܝܬ ܒܐܦܣܘܣ", "translation": "Finished is the Gospel of Saint John which he spoke in Greek in Ephesus.", "location": "f. 152v"},
+          "final_rubric": {"transcription": "ܫܠܡ ܐܘܢܓܠܝܘܢ ܕܩܕܝܫܐ ܡܪܝ ܝܘܚܢܢ ܕܡܠܠ ܝܘܢܐܝܬ ܒܐܦܣܘܣ", "translation": "Finished is the Gospel of Saint John which he spoke in Greek in Ephesus.", "location": "f. 152v"},
           "associated_persons": [],
           "defective": true,
           "condition_note": "Incomplete at the beginning. Syriac 2A originally belonged together with ms. Chabot 12 (Milan, Biblioteca Ambrosiana).",
@@ -168,7 +181,7 @@
                 "cited_range": [{"unit": "p", "range": "28-30"}]
               }
             ],
-          "bibliography": [],
+          "bibliography": ["Kamil"],
           "iiif": {
             "iiif_manifest": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fz1x07bdf/manifest",
             "text_direction": "right-to-left",
@@ -177,9 +190,242 @@
           },
           "contributor": ["gkessel"],
           "parent_objects": ["ark:/21198/a310jfBd"]
-        },
-      {
-        //FOR THE LITURGICAL TEXT(S)
         }]
+    },
+    {
+      "id": "ark:/21198/t493kf6d",
+      "type": "Codicological Unit",
+      "label": "Sinai Syriac 2A, ff. 153-179",
+      "origin_date": "6th c. CE",
+      "associated_persons":
+        [{
+          "preferred_name": "John bar Me'sam",
+          "authority_file": "https://sinaimanuscripts/library.ucla.edu/person/1",
+          "name_NS": "ܕܝܪܝܐ ܝܘܚܢܢ ܒܪ ܡܥܨܡ",
+          "name": "Dayro Yohanan bar Me'sam",
+          "role": "scribe"
+        }],
+      "associated_places":
+      [{
+        "preferred_name": "Saint Catherine (Monastery : Mount Sinai)",
+        "authority_file": "https://sinaimanuscripts/library.ucla.edu/place/1",
+        "name_NS": "ܛܘܪ ܣܝܢܝ",
+        "name": "Mount Sinai",
+        "role": "origin-place"
+        }],
+        "language": ["Syriac"],
+        "hand_description": [
+          {
+            "writing_system": ["Syriac"],
+            "script": ["Estrangela"],
+            "ink_color": "black",
+            "note": ["Slightly more cursive than the preceding unit"],
+            "is_garshuni": false
+          }],
+      "condition_note": "Quire signatures at beginning and end of most quires.",
+      "features": ["Rubrication", "Decoration, Geometric", "Marginalia", "Headpiece(s)"],
+      "references":
+        [
+          {
+            "citation": "Lewis",
+            "cited_range": [{"unit": "p", "range": "1-2"}]
+          },
+          {
+            "citation": "Kamil",
+            "cited_range": [{"unit": "p", "range": "152"}, {"unit": "number", "range": "38"}]
+          },
+          {
+            "citation": "Géhin",
+            "cited_range": [{"unit": "p", "range": "28-30"}]
+          }
+        ],
+      "bibliography": [],
+      "extent": "180ff",
+      "dimensions": [
+        {
+          "type": "average-folio",
+          "value": "320 x 250 x 92 mm"
+        }
+      ],
+      "collation": "Quire structure: Quire 21: 8x1 (160), Quire 22: 6x1 (166), Quire 23 (paper): 1x8, Quire 24 (paper): 1x6 (180), flyleaf+pastedown.",
+      "decorations": ["Geometric decorations surround the rubrics on f. 179."],
+      "page_layout": [{"columns": 2, "notes": []}],
+      "colophon": {"location": "179r", "transcription": "ܐܫܛܠܡ ܒܥܘܕܪܢ ܡܪܝܐ ܣܘܢܟܣܪܝܢ ܝܘܡ…", "translation": "With the Lord's aid is completed the Synaxarion for..."},
+      "provenance": ["Created at Sinai, and remained there."],
+      "viscodex": "",
+      "iiif": {
+        "iiif_manifest": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fz1x07bdf/manifest",
+        "text_direction": "right-to-left",
+        "viewing_hint": "paged",
+        "range": ""
+      },
+      "contributor": ["gkessel"],
+      "parent_objects": ["ark:/21198/z1x07bdf"],
+      "textual_artifacts":
+      [{
+        "id": "ark:/21198/bef15e4p",
+        "label": "Sinai Syriac 2A, ff. 153r-165v, Lectionary Table",
+        "work":
+          {
+            "id": "https://sinaimanuscripts/library.ucla.edu/work/2",
+            "preferred_title": "Lectionary Table",
+            "original_lange": "Syriac",
+            "creation_date": "",
+            "genre": "Lectionaries"
+          },
+        "author": [],
+        "attributed_author": [],
+        "rubric": {"transcription": "ܒܫܡܐ ܕܬܠܝܬܝܘܬܐ ܩܕܝܫܬܐ ܟܬܒܝܢܢ ܡܬܝܕܥܢܬܐ ܡܐ ܕܐܝܬ ܒܟܬܒܐ ܗܢܐ ܩܕܝܫܐ. ܡܫܬܡܠ ܥܠ ܟܠܗ̇ ܫܢܬܐ", "translation": "In the name of the Holy Trinity we have written knowingly what is in this holy book. Services for the whole year", "location": "f. 153r"},
+        "incipit": {},
+        "quotes": [],
+        "explicit": {},
+        "final_rubric": {},
+        "associated_persons": [],
+        "defective": false,
+        "condition_note": "",
+        "language": "Syriac",
+        "hand_description": [
+          {
+            "writing_system": ["Syriac"],
+            "script": ["Estrangela"],
+            "ink_color": "black",
+            "note": ["Slightly more cursive than the preceding unit"],
+            "is_garshuni": false
+          }],
+        "references":
+          [
+            {
+              "citation": "Lewis",
+              "cited_range": [{"unit": "p", "range": "1-2"}]
+            },
+            {
+              "citation": "Kamil",
+              "cited_range": [{"unit": "p", "range": "152"}, {"unit": "number", "range": "38"}]
+            },
+            {
+              "citation": "Géhin",
+              "cited_range": [{"unit": "p", "range": "28-30"}]
+            }
+          ],
+        "bibliography": ["Kamil"],
+        "iiif": {
+          "iiif_manifest": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fz1x07bdf/manifest",
+          "text_direction": "right-to-left",
+          "viewing_hint": "paged",
+          "range": ""
+        },
+        "contributor": ["gkessel"],
+        "parent_objects": ["ark:/21198/t493kf6d"]
+      },
+      {
+        "id": "ark:/21198/dfat3415s",
+        "label": "Sinai Syriac 2A, ff. 166r-179r, Readings for the Fixed Feast Days from September to August",
+        "work":
+          {
+            "id": "https://sinaimanuscripts/library.ucla.edu/work/3",
+            "preferred_title": "Lectionary for the Whole Year",
+            "original_lange": "Syriac",
+            "creation_date": "",
+            "genre": "Lectionaries"
+          },
+        "author": [],
+        "attributed_author": [],
+        "rubric": {},
+        "incipit": {},
+        "quotes": [],
+        "explicit": {},
+        "final_rubric": {},
+        "associated_persons": [],
+        "defective": false,
+        "condition_note": "",
+        "language": "Syriac",
+        "hand_description": [
+          {
+            "writing_system": ["Syriac"],
+            "script": ["Estrangela"],
+            "ink_color": "black",
+            "note": ["Slightly more cursive than the preceding unit"],
+            "is_garshuni": false
+          }],
+        "references":
+          [
+            {
+              "citation": "Lewis",
+              "cited_range": [{"unit": "p", "range": "1-2"}]
+            },
+            {
+              "citation": "Kamil",
+              "cited_range": [{"unit": "p", "range": "152"}, {"unit": "number", "range": "38"}]
+            },
+            {
+              "citation": "Géhin",
+              "cited_range": [{"unit": "p", "range": "28-30"}]
+            }
+          ],
+        "bibliography": ["Kamil"],
+        "iiif": {
+          "iiif_manifest": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fz1x07bdf/manifest",
+          "text_direction": "right-to-left",
+          "viewing_hint": "paged",
+          "range": ""
+        },
+        "contributor": ["gkessel"],
+        "parent_objects": ["ark:/21198/t493kf6d"]
+        },
+        {
+          "id": "ark:/21198/dfat3415s",
+          "label": "Sinai Syriac 2A, ff. 166r-179r, Readings for the Fixed Feast Days from September to August",
+          "work":
+            {
+              "id": "https://sinaimanuscripts/library.ucla.edu/work/3",
+              "preferred_title": "Lectionary for the Whole Year",
+              "original_lange": "Syriac",
+              "creation_date": "",
+              "genre": "Lectionaries"
+            },
+          "author": [],
+          "attributed_author": [],
+          "rubric": {},
+          "incipit": {},
+          "quotes": [],
+          "explicit": {},
+          "final_rubric": {},
+          "associated_persons": [],
+          "defective": false,
+          "condition_note": "",
+          "language": "Syriac",
+          "hand_description": [
+            {
+              "writing_system": ["Syriac"],
+              "script": ["Estrangela"],
+              "ink_color": "black",
+              "note": ["Slightly more cursive than the preceding unit"],
+              "is_garshuni": false
+            }],
+          "references":
+            [
+              {
+                "citation": "Lewis",
+                "cited_range": [{"unit": "p", "range": "1-2"}]
+              },
+              {
+                "citation": "Kamil",
+                "cited_range": [{"unit": "p", "range": "152"}, {"unit": "number", "range": "38"}]
+              },
+              {
+                "citation": "Géhin",
+                "cited_range": [{"unit": "p", "range": "28-30"}]
+              }
+            ],
+          "bibliography": ["Kamil"],
+          "iiif": {
+            "iiif_manifest": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fz1x07bdf/manifest",
+            "text_direction": "right-to-left",
+            "viewing_hint": "paged",
+            "range": ""
+          },
+          "contributor": ["gkessel"],
+          "parent_objects": ["ark:/21198/t493kf6d"]
+          }]
     }]
 }
