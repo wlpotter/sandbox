@@ -25,6 +25,8 @@ import module namespace functx="http://www.functx.com";
 
 declare default element namespace "http://www.tei-c.org/ns/1.0";
 
+declare variable $mset:current-dateTime := current-dateTime();
+
 declare function mset:generate-tagged-entity-report($manuscripts as node()+, $entity-target as xs:string){
   let $adminMetadata := (
     element {"status"} {"pending"},
@@ -47,7 +49,7 @@ declare function mset:generate-tagged-entity-report($manuscripts as node()+, $en
     return
     <entity>
       {
-        $recordFileLocation, $msUri, $entityData, $msItemData, $adminMetadata, $wrightCatalogueInfo, $relatedMsItemData
+        $recordFileLocation, $msUri, $entityData, $msItemData, $adminMetadata, $wrightCatalogueInfo, $relatedMsItemData, element {"timestamp"} {$mset:current-dateTime}
       }
     </entity>
 };
