@@ -1,0 +1,76 @@
+{
+  "id": "ark:/21198/z12v40sz",
+  "type": "Manuscript Object",
+  "label": "Sinai Syriac 255",
+  "form": "Codex",
+  "binding": [{"type": "", "material": "", "note": ""}],
+  "condition_note": "",
+  "references":
+    [
+      {
+        "citation": "Lewis",
+        "cited_range": [{"unit": "p", "range": "88"}]
+      },
+      {
+        "citation": "Kamil",
+        "cited_range": [{"unit": "p", "range": "157"}, {"unit": "number", "range": "163"}]
+      }
+    ],
+    "bibliography": [],
+    "extent": "67 ff.",
+    "weight": "175.3 g",
+    "dimensions": [
+      {
+        "type": "object",
+        "value": "142 x 121 x 32.0 mm"
+      }
+    ],
+    "iiif": {
+      "iiif_manifest": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fz1x07bdf/manifest",
+      "text_direction": "right-to-left",
+      "viewing_hint": "paged",
+      "range": ""
+    },
+    "collection": "Old Collection",
+    "repository": "Saint Catherine (Monastery : Mount Sinai)",
+    "provenance": [],
+    "viscodex": "",
+    "contributor": ["wpotter"],
+    "codicological_units": {}
+}
+
+// Codicological unit 1
+{
+  "language": ["Syriac"],
+  "hand_description": [
+    {
+      "writing_system": ["Syriac"],
+      "script": ["Estrangela"],
+      "ink_color": "black",
+      "note": ["Taw, Alaph, and Dalath/Resh all exhibit features of Serto.", "The rubricated titles have faded more quickly than the black ink."],
+      "is_garshuni": false
+    }
+  ]
+}
+// codicological codicological_units
+- the above
+- the tiny insert
+- the change in hand which contains a service as well as the names of the deceased monks
+- perhaps the arabic note?
+- the Arabic on the pastedowns?
+
+// textual artifacts
+
+- the Services
+  - list out the various hymns, prayers, etc. as a TOC?
+- the other Service according to the Syriac
+- in another codicological unit you have the nbames of the deceased at the monastery
+  - same unit you have another service for the deceased
+- returnign to the same hand (so original unit?) you have another Service
+- the colophon (not an item, but note it on f. 62v)
+- an arabic note that is maybe just a colophon?
+- another hymn for the deceased
+- another service follows (maybe a post-burial? 65v)
+  - this goes onto 66v and that's the end.
+
+- calligraphic practice maybe on the fly-leaves in Arabic, but need to look more closely
