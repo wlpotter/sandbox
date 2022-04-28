@@ -3,7 +3,8 @@
   "type": "Manuscript Object",
   "label": "Sinai Syriac 2A",
   "form": "Codex",
-  "binding": [{"type": "fair", "material": "leather-on-wood", "note": "Relatively recent; leather on wood showing signs of repair; metal studs (some missing) on front and back and along edges; remnants of clasps (four total, two for edge and one each at top and bottom)"}],
+  "has_binding": true,
+  "binding_note": ["Relatively recent; leather on wood showing signs of repair; metal studs (some missing) on front and back and along edges; remnants of clasps (four total, two for edge and one each at top and bottom)"],
   "condition_note": "",
   "references":
     [
@@ -20,7 +21,7 @@
         "cited_range": [{"unit": "p", "range": "28-30"}]
       }
     ],
-  "bibliography": [],
+  "bibliography": ["Brock"],
   "language": ["Syriac"],
   "hand_description": [
     {
@@ -28,6 +29,13 @@
       "script": ["Estrangela"],
       "ink_color": "black",
       "note": ["Taw, Alaph, and Dalath/Resh all exhibit features of Serto."],
+      "is_garshuni": false
+    },
+    {
+      "writing_system": ["Syriac"],
+      "script": ["Estrangela"],
+      "ink_color": "black",
+      "note": ["Slightly more cursive than the preceding unit"],
       "is_garshuni": false
     }
   ],
@@ -84,7 +92,7 @@
           "authority_file": "https://sinaimanuscripts/library.ucla.edu/place/2",
           "name_NS": "ܐܝܘ ܩܪܝܬܐ",
           "name": "The Village Yw",
-          "role": "",
+          "role": "unknown",
           "note": "Provided in connection with Jacob and Bar-Shabbon in the doxology on f. 114v"
           }],
         "language": ["Syriac"],
@@ -121,9 +129,10 @@
           "value": "320 x 250 x 92 mm"
         }
       ],
-      "collation": "Quire structure: Pastedown+flyleaf, Quire 1: 1x10 (10), Quire 2: 1x6 (16), Quire 3: 1x8 (24), Quire 4: 1+1x8 (33), Quires 5-12: 8x8 (97), Quire 13: 1x8+1 (106), Quire 14: 1x6+1+1 (114), Quire 15: 1x8 (122), Quire 16: 6x1 (128), Quire 17: 1x6+1 (135), Quire 18: 1x6+1 (142), Quire 19: 1x6 (148), Quire 20 (paper): 1x4 (152).",
+      "collation_formula": "Pastedown+flyleaf, Quire 1: 1x10 (10), Quire 2: 1x6 (16), Quire 3: 1x8 (24), Quire 4: 1+1x8 (33), Quires 5-12: 8x8 (97), Quire 13: 1x8+1 (106), Quire 14: 1x6+1+1 (114), Quire 15: 1x8 (122), Quire 16: 6x1 (128), Quire 17: 1x6+1 (135), Quire 18: 1x6+1 (142), Quire 19: 1x6 (148), Quire 20 (paper): 1x4 (152).",
+      "collation_note": [""],
       "decorations": ["Geometric decorations surround the rubrics (e.g., f. 114r)."],
-      "page_layout": [{"columns": 1, "notes": ["$strings"]}],
+      "page_layout": [{"columns": 1, "notes": [""]}],
       "colophon": {},
       "provenance": ["Created at Sinai, and remained there."],
       "viscodex": "",
@@ -166,6 +175,9 @@
               "note": ["Taw, Alaph, and Dalath/Resh all exhibit features of Serto."],
               "is_garshuni": false
             }],
+          "toc": ["Matthew, f. 1r-32v (incomplete at the beginning)", "Mark, f. 32v-70r", "Luke, f. 70r-105v", "John, f. 106r-152v"],
+          //note: one thought I had was to list the textual artifacts we identify as linear children of the codicological unit. We could then use the toc key:value pair to either identify sub-texts with simple string arrays or have the array be URIs/ARK IDs for the nested child textual artificats
+          // further, if we wanted to avoid overwhelming the SMDL user, we could convert the nested IDs into simple title, author, f. range strings that are indented as an outline and only show the top-most textual artifacts. We should discuss this.
           "references":
             [
               {
@@ -247,7 +259,8 @@
           "value": "320 x 250 x 92 mm"
         }
       ],
-      "collation": "Quire structure: Quire 21: 8x1 (160), Quire 22: 6x1 (166), Quire 23 (paper): 1x8, Quire 24 (paper): 1x6 (180), flyleaf+pastedown.",
+      "collation_formula": "Quire 21: 8x1 (160), Quire 22: 6x1 (166), Quire 23 (paper): 1x8, Quire 24 (paper): 1x6 (180), flyleaf+pastedown.",
+      "collation_note": [""],
       "decorations": ["Geometric decorations surround the rubrics on f. 179."],
       "page_layout": [{"columns": 2, "notes": []}],
       "colophon": {"location": "179r", "transcription": "ܐܫܛܠܡ ܒܥܘܕܪܢ ܡܪܝܐ ܣܘܢܟܣܪܝܢ ܝܘܡ…", "translation": "With the Lord's aid is completed the Synaxarion for..."},
@@ -292,6 +305,7 @@
             "note": ["Slightly more cursive than the preceding unit"],
             "is_garshuni": false
           }],
+        "toc": [],
         "references":
           [
             {
@@ -307,7 +321,7 @@
               "cited_range": [{"unit": "p", "range": "28-30"}]
             }
           ],
-        "bibliography": ["Kamil"],
+        "bibliography": ["Kamil"],//for textual artifacts on the SMDL, we should probably import bibliography regarding the work which the ta is a witness for?
         "iiif": {
           "iiif_manifest": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fz1x07bdf/manifest",
           "text_direction": "right-to-left",
@@ -347,6 +361,7 @@
             "note": ["Slightly more cursive than the preceding unit"],
             "is_garshuni": false
           }],
+          "toc": ["September, f. 166r", "October, f. 166v", "November, 167r", "December, 167r"],
         "references":
           [
             {
@@ -402,6 +417,7 @@
               "note": ["Slightly more cursive than the preceding unit"],
               "is_garshuni": false
             }],
+            "toc": ["First sunday of the nativity, f. 166r"],
           "references":
             [
               {
