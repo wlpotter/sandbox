@@ -6,7 +6,7 @@
   "has_binding": true,
   "binding_note": ["Relatively recent; leather on wood showing signs of repair; metal studs (some missing) on front and back and along edges; remnants of clasps (four total, two for edge and one each at top and bottom)"],
   "condition_note": "",
-  "references":
+  "references"://could give these types as well (e.g., 'catalogue entry', 'facsimile', 'intro to an edition', etc.)
     [
       {
         "citation": "Lewis",
@@ -21,9 +21,9 @@
         "cited_range": [{"unit": "p", "range": "28-30"}]
       }
     ],
-  "bibliography": ["Brock"],
+  "bibliography": ["Brock"],//may need to make these sub-objects rather than just a list of abbreviations/Zotero IDs
   "language": ["Syriac"],
-  "hand_description": [
+  "hand_description": [//should these refer in some way to the corresponding codicological units or at least the folios of those units to give a sense of the extent of each hand?
     {
       "writing_system": ["Syriac"],
       "script": ["Estrangela"],
@@ -54,7 +54,7 @@
     "range": ""
   },
   "collection": "Old Collection",
-  "repository": "Saint Catherine (Monastery : Mount Sinai)",
+  "repository": "Saint Catherine (Monastery : Mount Sinai)",//should this be a place record instead?
   "provenance": ["Created and remained in Saint Catherine's Monastery"],
   "viscodex": "",
   "contributor": ["gkessel"],
@@ -64,7 +64,7 @@
       "type": "Codicological Unit",
       "label": "Sinai Syriac 2A, ff. 1-152",
       "origin_date": "6th c. CE",
-      "associated_persons":
+      "associated_persons"://how do we link these persons with the evidence for them (e.g., in the doxology or colophon)
         [{
           "preferred_name": "Jacob bar Basil",
           "authority_file": "https://sinaimanuscripts/library.ucla.edu/person/1",
@@ -74,7 +74,7 @@
         },
         {
           "preferred_name": "Bar-Shabbon bar Basil",
-          "authority_file": "https://sinaimanuscripts/library.ucla.edu/person/1",
+          "authority_file": "https://sinaimanuscripts/library.ucla.edu/person/2",
           "name_NS": "ܒܪ ܫܒܘܢ ܒܪܐ ܕܒܣܝܠ",
           "name": "Bar-Shabon bar d-Basil",
           "role": "unknown"
@@ -96,7 +96,7 @@
           "note": "Provided in connection with Jacob and Bar-Shabbon in the doxology on f. 114v"
           }],
         "language": ["Syriac"],
-        "hand_description": [
+        "hand_description": [//can a single codicological unit have multiple hands? If two scribes were commissioned to work on the same manuscript, does that constitute a single unit or two units?
           {
             "writing_system": ["Syriac"],
             "script": ["Estrangela"],
@@ -157,8 +157,8 @@
               "genre": "Bibl, NT"
             },
           "author": [],
-          "attributed_author": [{"author_name_ns": "ܕܩܕܝܫܐ ܡܪܝ ܝܘܚܢܢ", "author_name": "Qadisho Mar Yuhanon"}],
-          "rubric": {},
+          "attributed_author": [{"author_name_ns": "ܕܩܕܝܫܐ ܡܪܝ ܝܘܚܢܢ", "author_name": "Qadisho Mar Yuhanon"}],// maybe this person should be listed as an associated person with a role of attributed_author?
+          "rubric": {}, //rubrics, incipits, quotes, explicits, and final rubrics are in many ways all types of excerpts from the artifact, so we could treat these similarly to how we do associated persons (with a type rather than a role and shared properties like transcription, translation, location, and note)
           "incipit": {},
           "quotes": [],
           "explicit": {"transcription": "ܐܝܬ ܕܝܢ ܐܦ ܐܚܪ̈ܢܝܬܐ ܣܓ̈ܝܬܐ ܕܥܒܕ ܝܫܘܥ ܐܝܠܝܢ ܕܐܠܘ ܚܕܐ ܚܕܐ ܡܬܟܬܒܢ ܗܘ̈ܝ. ܐܦ ܠܐ  ܗܘ ܥܠܡܐ ܐܝܟ ܕܣܒܪ ܐܢܐ. ܣܦܩ ܗܘܐ ܠܟܬܒ̈ܐ ܕܡܬܟܬ̈ܒܝܢ ", "translation": "There were also many other things which Jesus did that, were each one written, I believe, not even the world would be sufficient for the books which would be written.", "location": "f. 152v"},
@@ -167,7 +167,7 @@
           "defective": true,
           "condition_note": "Incomplete at the beginning. Syriac 2A originally belonged together with ms. Chabot 12 (Milan, Biblioteca Ambrosiana).",
           "language": "Syriac",
-          "hand_description": [
+          "hand_description": [//do textual artifacts need hand descriptions? I suppose if a codicological unit can have multiple hands, then we'd maybe want to distinguish at the artifact level as well
             {
               "writing_system": ["Syriac"],
               "script": ["Estrangela"],
@@ -212,7 +212,7 @@
       "associated_persons":
         [{
           "preferred_name": "John bar Me'sam",
-          "authority_file": "https://sinaimanuscripts/library.ucla.edu/person/1",
+          "authority_file": "https://sinaimanuscripts/library.ucla.edu/person/3",
           "name_NS": "ܕܝܪܝܐ ܝܘܚܢܢ ܒܪ ܡܥܨܡ",
           "name": "Dayro Yohanan bar Me'sam",
           "role": "scribe"
@@ -321,7 +321,7 @@
               "cited_range": [{"unit": "p", "range": "28-30"}]
             }
           ],
-        "bibliography": ["Kamil"],//for textual artifacts on the SMDL, we should probably import bibliography regarding the work which the ta is a witness for?
+        "bibliography": ["Kamil"],//for textual artifacts on the SMDL, we should probably import bibliography regarding the work which the ta is a witness for? (i.e., we'll likely have bibliography listed under the work record that we'll want to display to the user on SMDL when they're looking at the textual artifact)
         "iiif": {
           "iiif_manifest": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fz1x07bdf/manifest",
           "text_direction": "right-to-left",

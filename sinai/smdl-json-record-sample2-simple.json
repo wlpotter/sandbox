@@ -120,15 +120,15 @@
              "preferred_author_name": "Basil, Saint, Bishop of Caesarea, approximately 329-379"
            }
             ],
-          "attributed_author": [{"author_name_ns": "ܡܪܝ ܒܣܝܠܝܣ ܐܦܣܩܦܐ", "author_name": "Mar Basil the Bishop"}],
-          "rubric": {"transcription": "ܡܐܡܪܐ ܕܡܪܝ ܒܣܝܠܝܣ ܐܦܣܩܦܐ ܥܠ ܐܫ̈ܬܬܝܘܡܐ ܕܡܠܠܗ ܒܫܒܬܐ ܪܒܬܐ ܕܦܛܝܪ̈ܐ", "translation": "Mimra of Mar Basil the Bishop on the Hexaemeron which he gave on the Great Sunday of Easter", "location": "running"},
+          "attributed_author": [{"author_name_ns": "ܡܪܝ ܒܣܝܠܝܣ ܐܦܣܩܦܐ", "author_name": "Mar Basil the Bishop"}],//needs some way of indicating that this is correctly attributed?
+          "rubric": {"transcription": "ܡܐܡܪܐ ܕܡܪܝ ܒܣܝܠܝܣ ܐܦܣܩܦܐ ܥܠ ܐܫ̈ܬܬܝܘܡܐ ܕܡܠܠܗ ܒܫܒܬܐ ܪܒܬܐ ܕܦܛܝܪ̈ܐ", "translation": "Mimra of Mar Basil the Bishop on the Hexaemeron which he gave on the Great Sunday of Easter", "location": "running"},//how do we handle running titles?
           "incipit": {"transcription": "ܫܡܥܢܢ ܡܢ ܟܬܒܐ ܕܐܡܪ ܕܒܪܫܝܬ ܠܡ", "translation": "Let us listen to the reading from Genesis:", "location": "f. 2"},
           "quotes": [],
           "explicit": {},
           "final_rubric": {},
           "associated_persons": [],
           "defective": true,
-          "condition_note": "Incomplete at the end. The fragments London BL Or. 8608/I + Birmhingham Mingana sry. 652 + Milan BA Chabot 37 originally belong with this manuscript.",
+          "condition_note": "Incomplete at the end. The fragments London BL Or. 8608/I + Birmhingham Mingana sry. 652 + Milan BA Chabot 37 originally belong with this manuscript.",//I think one way to deal with the fragments is to say that the codicological unit is the composite of the various fragments (so we can label it Sinai Syraic 9 + London Bl Or. 8608/I...etc. for the unit level), and it has 5 different parent objects (where each fragment is its own parent object). And then maybe we'd have a hypothetical reconstruction of the rebound fragments as a separate parent object. We would need some way to indicate the proper sequence of the parent objects I think, or maybe that is taken care of in the hypothetical reconstruction?
           "language": "Syriac",
           "hand_description": [
             {
