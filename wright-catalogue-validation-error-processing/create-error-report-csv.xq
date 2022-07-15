@@ -4,7 +4,7 @@ declare default element namespace "http://www.oxygenxml.com/ns/report";
 
 import module namespace functx="http://www.functx.com";
 
-let $doc := doc("C:\Users\anoni\Desktop\2022-02-03_mss-validation-errors-syriaca-main.xml")
+let $doc := doc("C:\Users\anoni\Documents\GitHub\sandbox\wright-catalogue-validation-error-processing\2022-07-15_validation-errors_bl-data_main_syriaca-rnc.xml")
 
 let $descriptions := $doc/report/incident/description
 let $uniqueDescriptions := functx:distinct-deep($descriptions)
