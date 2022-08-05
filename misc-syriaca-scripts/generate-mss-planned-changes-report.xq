@@ -5,7 +5,7 @@ import module namespace functx="http://www.functx.com";
 declare namespace srophe="https://srophe.app";
 declare default element namespace "http://www.tei-c.org/ns/1.0";
 
-let $inColl := collection("C:\Users\anoni\Documents\GitHub\srophe\srophe-app-data\data\manuscripts\tei")
+let $inColl := collection("C:\Users\anoni\Documents\GitHub\srophe\britishLibrary-data\data\tei")
 
 let $plannedChangesByRecord :=
   for $doc in $inColl
