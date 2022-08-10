@@ -139,6 +139,7 @@ as node()
     $wholeToPartListRelation,
     $partToWholeListRelation,
     if(mshead:needs-manuscript-division-note($msDesc)) then mshead:create-manuscript-division-note(())
+    else()
   }
 };
 
@@ -176,13 +177,13 @@ as node()
 declare function mshead:generate-contents-summary($topLevelContents as node()*, $isContentsAbbreviated as xs:boolean)
 as xs:string
 {
-  let $endTag := if($isContentsAbbreviated) then " ; ..."
+  let $endTag := if($isContentsAbbreviated) then " ; ..." else()
   let $contents :=
     for $item in $topLevelContents
     (: later enhancement -- use a lookup of the work record if URI given :)
     let $author := 
       for $author in $item/author
-      return if($author/text() != "") then normalize-space(string-join($author//text(), " "))
+      return if($author/text() != "") then normalize-space(string-join($author//text(), " ")) else()
     let $author := string-join($author, ", ")
     let $author := normalize-space($author)
     let $title := $item/title[1]//text()
@@ -217,9 +218,9 @@ as xs:string*
     else
       let $partId := "#"||$msDesc/@xml:id/string()
       for $item in $wrightTaxonomyItems
-      let $matchesPart := for $ref in $item/ref return if(functx:contains-word($ref/@target, $partId)) then true()
+      let $matchesPart := for $ref in $item/ref return if(functx:contains-word($ref/@target, $partId)) then true() else false()
       where $matchesPart
-      let $value := for $ref in $item/ref return if(not(functx:contains-word($ref/@target, $partId))) then $ref/@target/string()
+      let $value := for $ref in $item/ref return if(not(functx:contains-word($ref/@target, $partId))) then $ref/@target/string() else()
       let $value := tokenize($value, " ")
       let $value := for $val in $value return functx:substring-after-if-contains($val, "#")
       return $value
@@ -323,7 +324,7 @@ as xs:boolean
   let $childMatches :=
     for $part in $msDesc//msPart
     let $partWrightEntry := $part/msIdentifier/altIdentifier/idno[@type="Wright-BL-Roman"]/text()
-    return if($currentWrightEntry = $partWrightEntry) then $partWrightEntry
+    return if($currentWrightEntry = $partWrightEntry) then $partWrightEntry else()
   return ($currentWrightEntry = $msDesc/parent::*/msIdentifier/altIdentifier/idno[@type="Wright-BL-Roman"]/text() or count($childMatches) > 0)
 };
 
