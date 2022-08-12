@@ -1,6 +1,6 @@
 declare default element namespace "http://www.tei-c.org/ns/1.0";
 
-let $inColl := collection("C:\Users\anoni\Documents\GitHub\srophe\britishLibrary-data\data\tei\")
+let $inColl := collection("/home/arren/Documents/GitHub/britishLibrary-data/data/tei/")
 let $adminMetadata := (
     element {"status"} {"pending"},
     element {"asignee"} {},
