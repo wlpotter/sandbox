@@ -7,7 +7,7 @@ declare namespace output = 'http://www.w3.org/2010/xslt-xquery-serialization';
 (: declare option output:method 'csv'; :)
 declare variable $local:input-collection-paths :=
   (: edit, remove, or add paths as needed. These will be collated to create a single sequence of documents :)
-  ("C:\Users\anoni\Documents\GitHub\srophe\srophe-app-data\data\manuscripts\tei\");
+  ("/home/arren/Documents/GitHub/britishLibrary-data/data/tei/");
   
 declare variable $local:input-collections :=
   for $path in $local:input-collection-paths
