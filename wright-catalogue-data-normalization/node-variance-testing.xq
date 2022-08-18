@@ -56,6 +56,7 @@ as xs:string
   let $attrString := if($node/@*) then 
     for $attr in $node/@*
     return name($attr)||"='"||string($attr)||"'"
+    else ""
   let $attrString := " "||string-join($attrString, " ")
   let $descendantString := 
     for $child in $node/child::node() (: just text or :)
