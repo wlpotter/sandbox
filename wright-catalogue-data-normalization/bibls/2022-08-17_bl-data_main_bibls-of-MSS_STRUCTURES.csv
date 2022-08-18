@@ -1,0 +1,42 @@
+hits,structure,hit-percentage,structure-id
+279,<bibl >CDATA</bibl>,23.308271,structure-1
+1,<bibl ><ptr target='VALUE'></ptr>CDATA<citedRange unit='VALUE' from='VALUE' to='VALUE'>CDATA</citedRange></bibl>,0.0835422,structure-2
+362,<bibl >CDATA<ptr target='VALUE'></ptr></bibl>,30.242273,structure-3
+68,<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier></bibl>,5.6808686,structure-4
+4,<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier>CDATA<biblScope ><locus from='VALUE'>CDATA</locus></biblScope>CDATA</bibl>,0.3341688,structure-5
+77,<bibl ><msIdentifier ><idno ref='VALUE'>CDATA</idno></msIdentifier></bibl>,6.432749,structure-6
+1,<bibl ><msIdentifier ><idno ref='VALUE'>CDATA</idno></msIdentifier><citedRange >CDATA</citedRange></bibl>,0.0835422,structure-7
+1,<bibl >CDATA<choice ><sic >CDATA</sic><corr resp='VALUE'>CDATA</corr></choice><ptr target='VALUE'></ptr>CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA<citedRange unit='VALUE'>CDATA</citedRange></bibl>,0.0835422,structure-8
+5,<bibl >CDATA<msIdentifier ><idno ref='VALUE'>CDATA</idno></msIdentifier>CDATA</bibl>,0.4177109,structure-9
+10,<bibl >CDATA<msIdentifier ><idno ref='VALUE'>CDATA</idno></msIdentifier></bibl>,0.8354219,structure-10
+10,<bibl >CDATA<ptr target='VALUE'></ptr>CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA</bibl>,0.8354219,structure-11
+239,<bibl >CDATA<ptr target='VALUE'></ptr>CDATA<citedRange unit='VALUE'>CDATA</citedRange></bibl>,19.966583,structure-12
+48,<bibl >CDATA<ptr target='VALUE'></ptr>CDATA</bibl>,4.010025,structure-13
+3,<bibl >CDATA<ptr target='VALUE'></ptr>CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA<citedRange unit='VALUE'>CDATA</citedRange></bibl>,0.2506266,structure-14
+21,<bibl >CDATA<ptr target='VALUE'></ptr>CDATA<citedRange >CDATA</citedRange></bibl>,1.754386,structure-15
+5,<bibl >CDATA<ptr target='VALUE'></ptr><citedRange unit='VALUE'>CDATA</citedRange></bibl>,0.4177109,structure-16
+13,<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier>CDATA<biblScope ><locus from='VALUE'>CDATA</locus></biblScope></bibl>,1.0860484,structure-17
+3,<bibl >CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA<ptr target='VALUE'></ptr></bibl>,0.2506266,structure-18
+2,<bibl >CDATA<ptr target='VALUE'></ptr>CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA</bibl>,0.1670844,structure-19
+1,<bibl >CDATA<ptr target='VALUE'></ptr>CDATA<citedRange >CDATA</citedRange>CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA</bibl>,0.0835422,structure-20
+6,<bibl >CDATA<citedRange unit='VALUE'>CDATA</citedRange><ptr target='VALUE'></ptr></bibl>,0.5012531,structure-21
+1,<bibl >CDATA<ptr ></ptr></bibl>,0.0835422,structure-22
+1,<bibl ><idno ref='VALUE'>CDATA</idno></bibl>,0.0835422,structure-23
+6,<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier>CDATA<biblScope ><locus from='VALUE' to='VALUE'>CDATA</locus></biblScope></bibl>,0.5012531,structure-24
+1,<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier>CDATA<biblScope >CDATA<locus from='VALUE' to='VALUE'>CDATA</locus></biblScope></bibl>,0.0835422,structure-25
+4,<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier>CDATA</bibl>,0.3341688,structure-26
+2,<bibl >CDATA<msIdentifier ><idno ref='VALUE'>CDATA</idno></msIdentifier>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</bibl>,0.1670844,structure-27
+4,<bibl ><ptr target='VALUE'></ptr>CDATA</bibl>,0.3341688,structure-28
+1,<bibl >CDATA<locus from='VALUE'>CDATA</locus>CDATA<msIdentifier ><idno ref='VALUE'>CDATA</idno></msIdentifier></bibl>,0.0835422,structure-29
+2,<bibl ><msIdentifier ><idno ref='VALUE'>CDATA</idno></msIdentifier>CDATA</bibl>,0.1670844,structure-30
+2,<bibl >CDATA<ptr target='VALUE'></ptr>CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA<citedRange unit='VALUE'><foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></citedRange>CDATA</bibl>,0.1670844,structure-31
+2,<bibl >CDATA<ptr target='VALUE'></ptr>CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA<citedRange unit='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></citedRange>CDATA</bibl>,0.1670844,structure-32
+1,<bibl ><note >CDATA<bibl >CDATA</bibl>CDATA</note></bibl>,0.0835422,structure-33
+1,<bibl >CDATA<pter target='VALUE'></pter></bibl>,0.0835422,structure-34
+1,<bibl >CDATA<ptr target='VALUE'></ptr>CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA<citedRange unit='VALUE'>CDATA</citedRange></bibl>,0.0835422,structure-35
+1,<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier><biblScope ><locus from='VALUE' to='VALUE'>CDATA</locus></biblScope></bibl>,0.0835422,structure-36
+1,<bibl >CDATA<ptr target='VALUE'></ptr><citedRange unot='VALUE'>CDATA</citedRange>CDATA</bibl>,0.0835422,structure-37
+1,<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier>CDATA<biblScope ><locus >CDATA</locus></biblScope></bibl>,0.0835422,structure-38
+1,<bibl >CDATA<biblScope ><locus >CDATA</locus></biblScope></bibl>,0.0835422,structure-39
+2,<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier><biblScope ><locus from='VALUE'>CDATA</locus></biblScope></bibl>,0.1670844,structure-40
+3,<bibl ><msIdentifier ><idno ref='VALUE'>CDATA</idno></msIdentifier>CDATA<locus from='VALUE'>CDATA</locus></bibl>,0.2506266,structure-41
