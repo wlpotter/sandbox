@@ -75,7 +75,9 @@ let $nodeToStructureMap :=
   for $doc in $local:input-collections
   let $msUri := $doc//msDesc/msIdentifier/idno[@type="URI"]/text()
   
-  for $node in $doc//msContents//msItem//place (: need to set this to be a varaible. Maybe use //msItem/*[name() = $nodeName]? Doesn't solve if want to switch to additions...:)
+  for $node in $doc//bibl (: need to set this to be a varaible. Maybe use //msItem/*[name() = $nodeName]? Doesn't solve if want to switch to additions...:)
+  let $allNodeText := normalize-space(string-join($node//text(), " "))
+  where contains($allNodeText, "Add") (: TEMPORARY used to only look for structures of bibls with ms references :)
   let $xpath := functx:path-to-node-with-pos($node)
   let $structure := local:stringify-node(local:extract-node-structure($node))
   let $msItemId := string($node/ancestor::msItem[position() = 1]/@xml:id)
@@ -124,5 +126,5 @@ let $csvOfStructures :=
     return <row>{map:for-each($map, $keys-to-csv)}</row>
   }
   </csv>
-(: return csv:serialize($csvOfNodes, map{"header": "yes"}) :)
-return csv:serialize($csvOfStructures, map{"header": "yes"})
+return csv:serialize($csvOfNodes, map{"header": "yes"})
+(: return csv:serialize($csvOfStructures, map{"header": "yes"}) :)
