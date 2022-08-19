@@ -1,42 +1,42 @@
-hits,structure,hit-percentage,structure-id
-279,<bibl >CDATA</bibl>,23.308271,structure-1
-1,<bibl ><ptr target='VALUE'></ptr>CDATA<citedRange unit='VALUE' from='VALUE' to='VALUE'>CDATA</citedRange></bibl>,0.0835422,structure-2
-362,<bibl >CDATA<ptr target='VALUE'></ptr></bibl>,30.242273,structure-3
-68,<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier></bibl>,5.6808686,structure-4
-4,<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier>CDATA<biblScope ><locus from='VALUE'>CDATA</locus></biblScope>CDATA</bibl>,0.3341688,structure-5
-77,<bibl ><msIdentifier ><idno ref='VALUE'>CDATA</idno></msIdentifier></bibl>,6.432749,structure-6
-1,<bibl ><msIdentifier ><idno ref='VALUE'>CDATA</idno></msIdentifier><citedRange >CDATA</citedRange></bibl>,0.0835422,structure-7
-1,<bibl >CDATA<choice ><sic >CDATA</sic><corr resp='VALUE'>CDATA</corr></choice><ptr target='VALUE'></ptr>CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA<citedRange unit='VALUE'>CDATA</citedRange></bibl>,0.0835422,structure-8
-5,<bibl >CDATA<msIdentifier ><idno ref='VALUE'>CDATA</idno></msIdentifier>CDATA</bibl>,0.4177109,structure-9
-10,<bibl >CDATA<msIdentifier ><idno ref='VALUE'>CDATA</idno></msIdentifier></bibl>,0.8354219,structure-10
-10,<bibl >CDATA<ptr target='VALUE'></ptr>CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA</bibl>,0.8354219,structure-11
-239,<bibl >CDATA<ptr target='VALUE'></ptr>CDATA<citedRange unit='VALUE'>CDATA</citedRange></bibl>,19.966583,structure-12
-48,<bibl >CDATA<ptr target='VALUE'></ptr>CDATA</bibl>,4.010025,structure-13
-3,<bibl >CDATA<ptr target='VALUE'></ptr>CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA<citedRange unit='VALUE'>CDATA</citedRange></bibl>,0.2506266,structure-14
-21,<bibl >CDATA<ptr target='VALUE'></ptr>CDATA<citedRange >CDATA</citedRange></bibl>,1.754386,structure-15
-5,<bibl >CDATA<ptr target='VALUE'></ptr><citedRange unit='VALUE'>CDATA</citedRange></bibl>,0.4177109,structure-16
-13,<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier>CDATA<biblScope ><locus from='VALUE'>CDATA</locus></biblScope></bibl>,1.0860484,structure-17
-3,<bibl >CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA<ptr target='VALUE'></ptr></bibl>,0.2506266,structure-18
-2,<bibl >CDATA<ptr target='VALUE'></ptr>CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA</bibl>,0.1670844,structure-19
-1,<bibl >CDATA<ptr target='VALUE'></ptr>CDATA<citedRange >CDATA</citedRange>CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA</bibl>,0.0835422,structure-20
-6,<bibl >CDATA<citedRange unit='VALUE'>CDATA</citedRange><ptr target='VALUE'></ptr></bibl>,0.5012531,structure-21
-1,<bibl >CDATA<ptr ></ptr></bibl>,0.0835422,structure-22
-1,<bibl ><idno ref='VALUE'>CDATA</idno></bibl>,0.0835422,structure-23
-6,<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier>CDATA<biblScope ><locus from='VALUE' to='VALUE'>CDATA</locus></biblScope></bibl>,0.5012531,structure-24
-1,<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier>CDATA<biblScope >CDATA<locus from='VALUE' to='VALUE'>CDATA</locus></biblScope></bibl>,0.0835422,structure-25
-4,<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier>CDATA</bibl>,0.3341688,structure-26
-2,<bibl >CDATA<msIdentifier ><idno ref='VALUE'>CDATA</idno></msIdentifier>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</bibl>,0.1670844,structure-27
-4,<bibl ><ptr target='VALUE'></ptr>CDATA</bibl>,0.3341688,structure-28
-1,<bibl >CDATA<locus from='VALUE'>CDATA</locus>CDATA<msIdentifier ><idno ref='VALUE'>CDATA</idno></msIdentifier></bibl>,0.0835422,structure-29
-2,<bibl ><msIdentifier ><idno ref='VALUE'>CDATA</idno></msIdentifier>CDATA</bibl>,0.1670844,structure-30
-2,<bibl >CDATA<ptr target='VALUE'></ptr>CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA<citedRange unit='VALUE'><foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></citedRange>CDATA</bibl>,0.1670844,structure-31
-2,<bibl >CDATA<ptr target='VALUE'></ptr>CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA<citedRange unit='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></citedRange>CDATA</bibl>,0.1670844,structure-32
-1,<bibl ><note >CDATA<bibl >CDATA</bibl>CDATA</note></bibl>,0.0835422,structure-33
-1,<bibl >CDATA<pter target='VALUE'></pter></bibl>,0.0835422,structure-34
-1,<bibl >CDATA<ptr target='VALUE'></ptr>CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA<citedRange unit='VALUE'>CDATA</citedRange></bibl>,0.0835422,structure-35
-1,<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier><biblScope ><locus from='VALUE' to='VALUE'>CDATA</locus></biblScope></bibl>,0.0835422,structure-36
-1,<bibl >CDATA<ptr target='VALUE'></ptr><citedRange unot='VALUE'>CDATA</citedRange>CDATA</bibl>,0.0835422,structure-37
-1,<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier>CDATA<biblScope ><locus >CDATA</locus></biblScope></bibl>,0.0835422,structure-38
-1,<bibl >CDATA<biblScope ><locus >CDATA</locus></biblScope></bibl>,0.0835422,structure-39
-2,<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier><biblScope ><locus from='VALUE'>CDATA</locus></biblScope></bibl>,0.1670844,structure-40
-3,<bibl ><msIdentifier ><idno ref='VALUE'>CDATA</idno></msIdentifier>CDATA<locus from='VALUE'>CDATA</locus></bibl>,0.2506266,structure-41
+hits,structure,hit-percentage,structure-id,notes
+279,<bibl >CDATA</bibl>,23.308271,structure-1,"This may be easy to fix by pulling out the specific examples, matching the shelfmark to the URI and then inserting a ptr with target attribute"
+10,<bibl >CDATA<msIdentifier ><idno ref='VALUE'>CDATA</idno></msIdentifier></bibl>,0.8354219,structure-10,like structure-6 but with a preamble. Can also just turn the idno/@ref into a ptr/@target. May need a second layer to try and see which don’t have citedRange elements and tag them but that’s not immediately necessary.
+10,<bibl >CDATA<ptr target='VALUE'></ptr>CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA</bibl>,0.8354219,structure-11,these are all fine.
+239,<bibl >CDATA<ptr target='VALUE'></ptr>CDATA<citedRange unit='VALUE'>CDATA</citedRange></bibl>,19.966583,structure-12,this is fine when there is a specifically cited folio. The intervening CDATA is usually ‘fol.’ which isn’t ideal but workable (ideally it would be in the citedRange element)
+48,<bibl >CDATA<ptr target='VALUE'></ptr>CDATA</bibl>,4.010025,structure-13,"these are fine. They are all referencing specific items, which we aren’t implementing yet. I’ve noted the one that can be tagged for a locus to change manually"
+3,<bibl >CDATA<ptr target='VALUE'></ptr>CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA<citedRange unit='VALUE'>CDATA</citedRange></bibl>,0.2506266,structure-14,"extra cited ranges elements, fix by hand"
+21,<bibl >CDATA<ptr target='VALUE'></ptr>CDATA<citedRange >CDATA</citedRange></bibl>,1.754386,structure-15,I think this is the same as structure-12 minus the citedRange/@unit
+5,<bibl >CDATA<ptr target='VALUE'></ptr><citedRange unit='VALUE'>CDATA</citedRange></bibl>,0.4177109,structure-16,"this seems the most, most preferred. Here the ‘fol. Is included in the citedRange"
+13,<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier>CDATA<biblScope ><locus from='VALUE'>CDATA</locus></biblScope></bibl>,1.0860484,structure-17,this is similar to structure-6 and structure-4 but with the locus data labelled. Can likel y use this to get the citedRange
+3,<bibl >CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA<ptr target='VALUE'></ptr></bibl>,0.2506266,structure-18,"might need to update the prose of these, but overall they’re fine"
+2,<bibl >CDATA<ptr target='VALUE'></ptr>CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA</bibl>,0.1670844,structure-19,do by hand
+1,<bibl ><ptr target='VALUE'></ptr>CDATA<citedRange unit='VALUE' from='VALUE' to='VALUE'>CDATA</citedRange></bibl>,0.0835422,structure-2,fix by hand
+1,<bibl >CDATA<ptr target='VALUE'></ptr>CDATA<citedRange >CDATA</citedRange>CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA</bibl>,0.0835422,structure-20,fix by hand
+6,<bibl >CDATA<citedRange unit='VALUE'>CDATA</citedRange><ptr target='VALUE'></ptr></bibl>,0.5012531,structure-21,just need to reorder the elements. There are few enough that this can be done by hand
+1,<bibl >CDATA<ptr ></ptr></bibl>,0.0835422,structure-22,fix by hand
+1,<bibl ><idno ref='VALUE'>CDATA</idno></bibl>,0.0835422,structure-23,fix by hand
+6,<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier>CDATA<biblScope ><locus from='VALUE' to='VALUE'>CDATA</locus></biblScope></bibl>,0.5012531,structure-24,just a variant of structure-17 with some extra CDATA. Small enough a group to do by hand
+1,<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier>CDATA<biblScope >CDATA<locus from='VALUE' to='VALUE'>CDATA</locus></biblScope></bibl>,0.0835422,structure-25,"similar to other structures, but can just fix by hand"
+4,<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier>CDATA</bibl>,0.3341688,structure-26,similar to other structures and should be hit by them
+2,<bibl >CDATA<msIdentifier ><idno ref='VALUE'>CDATA</idno></msIdentifier>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</bibl>,0.1670844,structure-27,fix by hand
+4,<bibl ><ptr target='VALUE'></ptr>CDATA</bibl>,0.3341688,structure-28,fix by hand
+1,<bibl >CDATA<locus from='VALUE'>CDATA</locus>CDATA<msIdentifier ><idno ref='VALUE'>CDATA</idno></msIdentifier></bibl>,0.0835422,structure-29,fix by hand
+362,<bibl >CDATA<ptr target='VALUE'></ptr></bibl>,30.242273,structure-3,this is the one we want.
+2,<bibl ><msIdentifier ><idno ref='VALUE'>CDATA</idno></msIdentifier>CDATA</bibl>,0.1670844,structure-30,fix by hand
+2,<bibl >CDATA<ptr target='VALUE'></ptr>CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA<citedRange unit='VALUE'><foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></citedRange>CDATA</bibl>,0.1670844,structure-31,fix by hand
+2,<bibl >CDATA<ptr target='VALUE'></ptr>CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA<citedRange unit='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></citedRange>CDATA</bibl>,0.1670844,structure-32,fix by hand
+1,<bibl ><note >CDATA<bibl >CDATA</bibl>CDATA</note></bibl>,0.0835422,structure-33,fix by hand
+1,<bibl >CDATA<pter target='VALUE'></pter></bibl>,0.0835422,structure-34,fix by hand
+1,<bibl >CDATA<ptr target='VALUE'></ptr>CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA<citedRange unit='VALUE'>CDATA</citedRange></bibl>,0.0835422,structure-35,fix by hand
+1,<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier><biblScope ><locus from='VALUE' to='VALUE'>CDATA</locus></biblScope></bibl>,0.0835422,structure-36,fix by hand
+1,<bibl >CDATA<ptr target='VALUE'></ptr><citedRange unot='VALUE'>CDATA</citedRange>CDATA</bibl>,0.0835422,structure-37,fix by hand
+1,<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier>CDATA<biblScope ><locus >CDATA</locus></biblScope></bibl>,0.0835422,structure-38,fix by hand
+1,<bibl >CDATA<biblScope ><locus >CDATA</locus></biblScope></bibl>,0.0835422,structure-39,fix by hand
+68,<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier></bibl>,5.6808686,structure-4,these are all parse-able. 
+2,<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier><biblScope ><locus from='VALUE'>CDATA</locus></biblScope></bibl>,0.1670844,structure-40,fix by hand
+3,<bibl ><msIdentifier ><idno ref='VALUE'>CDATA</idno></msIdentifier>CDATA<locus from='VALUE'>CDATA</locus></bibl>,0.2506266,structure-41,fix by hand
+4,<bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier>CDATA<biblScope ><locus from='VALUE'>CDATA</locus></biblScope>CDATA</bibl>,0.3341688,structure-5,fix by hand
+77,<bibl ><msIdentifier ><idno ref='VALUE'>CDATA</idno></msIdentifier></bibl>,6.432749,structure-6,this is useable. We can update so that the idno/@ref becomes instead a ptr/@target. The CDATA can become a child of the bibl
+1,<bibl ><msIdentifier ><idno ref='VALUE'>CDATA</idno></msIdentifier><citedRange >CDATA</citedRange></bibl>,0.0835422,structure-7,fix by hand
+1,<bibl >CDATA<choice ><sic >CDATA</sic><corr resp='VALUE'>CDATA</corr></choice><ptr target='VALUE'></ptr>CDATA<citedRange unit='VALUE'>CDATA</citedRange>CDATA<citedRange unit='VALUE'>CDATA</citedRange></bibl>,0.0835422,structure-8,fix by hand
+5,<bibl >CDATA<msIdentifier ><idno ref='VALUE'>CDATA</idno></msIdentifier>CDATA</bibl>,0.4177109,structure-9,fix by hand
