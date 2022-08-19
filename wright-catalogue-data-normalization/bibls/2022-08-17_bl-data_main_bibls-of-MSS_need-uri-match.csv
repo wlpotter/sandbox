@@ -1,8 +1,4 @@
 node,shelfmark,Uri-lookup,Node-size,ms-uri,node-structure,msItem-id,status,structure-id,xpath,notes
-"<bibl >Add. 12, 181, fol.
-                      102 a</bibl>","Add. 12,181",80,60,http://syriaca.org/manuscript/872,<bibl >CDATA</bibl>,,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msPart[1]/physDesc/additions/list/item[3]/p[3]/note/bibl,
-"<bibl >Add. 12,103, foll:
-                           240 b</bibl>","Add. 12,103",not in Wright,65,http://syriaca.org/manuscript/832,<bibl >CDATA</bibl>,a4,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents/msItem[4]/note/bibl[2],
 "<bibl >See Add. 12,142, fol. 74.</bibl>","Add. 12,142",16,39,http://syriaca.org/manuscript/70,<bibl >CDATA</bibl>,b19,by hand,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents/msItem/msItem[17]/msItem[2]/listBibl/bibl,
 "<bibl >Add, 12,146</bibl>","Add. 12,146",21,25,http://syriaca.org/manuscript/22,<bibl >CDATA</bibl>,,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/physDesc/handDesc/handNote[1]/desc/bibl,
 "<bibl >Add. 12,146</bibl>","Add. 12,146",21,25,http://syriaca.org/manuscript/22,<bibl >CDATA</bibl>,,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/physDesc/handDesc/handNote[3]/desc/bibl,
@@ -17,11 +13,11 @@ node,shelfmark,Uri-lookup,Node-size,ms-uri,node-structure,msItem-id,status,struc
 "<bibl >Add. 12,167, no. vii</bibl>","Add. 12,167",49,34,http://syriaca.org/manuscript/415,<bibl >CDATA</bibl>,p2b1,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msPart[2]/msContents/msItem/msItem[1]/note/bibl[2],
 "<bibl >Add. 12,167, fol. 203a</bibl>","Add. 12,167",49,36,http://syriaca.org/manuscript/40,<bibl >CDATA</bibl>,p4b5,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msPart[4]/msContents/msItem/msItem[5]/listBibl/bibl,
 "<bibl >Add. 12,167, no. vii., 2</bibl>","Add. 12,167",49,38,http://syriaca.org/manuscript/415,<bibl >CDATA</bibl>,p2b2,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msPart[2]/msContents/msItem/msItem[2]/note/bibl[2],
-"<bibl >Add. 12,172, fol. 32 b</bibl>","Add. 12,172",64,36,http://syriaca.org/manuscript/415,<bibl >CDATA</bibl>,p1a14,by hand,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msPart[1]/msContents/msItem[14]/note/bibl,
-"<bibl >Add. 12,172, fol. 35 b</bibl>","Add. 12,172",64,36,http://syriaca.org/manuscript/415,<bibl >CDATA</bibl>,p1a15,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msPart[1]/msContents/msItem[15]/note/bibl,
 "<bibl >Add. 12,172, fol. 13 a</bibl>","Add. 12,172",63,36,http://syriaca.org/manuscript/639,<bibl >CDATA</bibl>,p1b19,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msPart[1]/msContents/msItem[2]/msItem[19]/note/bibl,
 "<bibl >Add. 12,172, fol. 17 a</bibl>","Add. 12,172",63,36,http://syriaca.org/manuscript/639,<bibl >CDATA</bibl>,p1b20,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msPart[1]/msContents/msItem[2]/msItem[20]/note[1]/bibl,
 "<bibl >Add. 12,172, fol. 21 b</bibl>","Add. 12,172",63,36,http://syriaca.org/manuscript/639,<bibl >CDATA</bibl>,p1b21,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msPart[1]/msContents/msItem[2]/msItem[21]/note[1]/bibl,
+"<bibl >Add. 12,172, fol. 32 b</bibl>","Add. 12,172",64,36,http://syriaca.org/manuscript/415,<bibl >CDATA</bibl>,p1a14,by hand,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msPart[1]/msContents/msItem[14]/note/bibl,
+"<bibl >Add. 12,172, fol. 35 b</bibl>","Add. 12,172",64,36,http://syriaca.org/manuscript/415,<bibl >CDATA</bibl>,p1a15,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msPart[1]/msContents/msItem[15]/note/bibl,
 "<bibl >See Add. 12,172, fol. 48 b.</bibl>","Add. 12,172",64,41,http://syriaca.org/manuscript/70,<bibl >CDATA</bibl>,b20,by hand,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents/msItem/msItem[17]/msItem[3]/listBibl/bibl,
 "<bibl >Add. 12,173, no. 2</bibl>","Add. 12,173",69,32,http://syriaca.org/manuscript/825,<bibl >CDATA</bibl>,a3,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents/msItem[3]/note/bibl,
 "<bibl >Add. 12,173, no 1, b</bibl>","Add. 12,173",69,34,http://syriaca.org/manuscript/418,<bibl >CDATA</bibl>,a4,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents/msItem[4]/note[1]/bibl,
@@ -51,15 +47,17 @@ node,shelfmark,Uri-lookup,Node-size,ms-uri,node-structure,msItem-id,status,struc
 "<bibl >Add. 12,174, no. 71</bibl>","Add. 12,174",70,33,http://syriaca.org/manuscript/639,<bibl >CDATA</bibl>,p1b23,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msPart[1]/msContents/msItem[2]/msItem[23]/note/bibl,
 "<bibl >See Add. 12,174, no. 76</bibl>","Add. 12,174",70,37,http://syriaca.org/manuscript/405,<bibl >CDATA</bibl>,b1,by hand,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents/msItem[4]/msItem[1]/listBibl/bibl,
 "<bibl >Add. 12,175, fol. 2 b</bibl>","Add. 12,175",72,35,http://syriaca.org/manuscript/639,<bibl >CDATA</bibl>,p1b22,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msPart[1]/msContents/msItem[2]/msItem[22]/note[2]/bibl,
-"<bibl >Add. 12,175, fol. 122 b</bibl>","Add. 12,175",74,37,http://syriaca.org/manuscript/317,<bibl >CDATA</bibl>,b5,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents/msItem/msItem[5]/note/bibl[2],
 "<bibl >Add. 12,175, foll. 2 b—37 a</bibl>","Add. 12,175",72,41,http://syriaca.org/manuscript/825,<bibl >CDATA</bibl>,a6,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents/msItem[6]/note/bibl,
-"<bibl >Add. 14, 489</bibl>","Add. 14,489",179,26,http://syriaca.org/manuscript/178,<bibl >CDATA</bibl>,,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/physDesc/additions/list/item[5]/p[2]/quote/note[1]/bibl,
+"<bibl >Add. 12,175, fol. 122 b</bibl>","Add. 12,175",74,37,http://syriaca.org/manuscript/317,<bibl >CDATA</bibl>,b5,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents/msItem/msItem[5]/note/bibl[2],
+"<bibl >Add. 12, 181, fol.
+                      102 a</bibl>","Add. 12,181",80,60,http://syriaca.org/manuscript/872,<bibl >CDATA</bibl>,,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msPart[1]/physDesc/additions/list/item[3]/p[3]/note/bibl,
 "<bibl >Add. 14,436</bibl>","Add. 14,436",94,25,http://syriaca.org/manuscript/738,<bibl >CDATA</bibl>,a1,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents/msItem[1]/note[1]/bibl[2],
 "<bibl >Add. 14,447, above, no. CLVI</bibl>","Add. 14,447",119,42,http://syriaca.org/manuscript/420,<bibl >CDATA</bibl>,a1,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents/msItem[1]/note/bibl,
 "<bibl >Add. 14,484</bibl>","Add. 14,484",169,25,http://syriaca.org/manuscript/70,<bibl >CDATA</bibl>,b2,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents/msItem/msItem[2]/note[3]/bibl,
 "<bibl >Add. 14,484, fol. 18 b</bibl>","Add. 14,484",172,36,http://syriaca.org/manuscript/639,<bibl >CDATA</bibl>,p1b1,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msPart[1]/msContents/msItem[2]/msItem[1]/note[1]/bibl,
-"<bibl >Add. 14,484, fol. 115 b</bibl>","Add. 14,484",173,37,http://syriaca.org/manuscript/639,<bibl >CDATA</bibl>,p1b16,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msPart[1]/msContents/msItem[2]/msItem[16]/note/bibl,
 "<bibl >no. CLVII., Add. 14,484, fol. 18 b</bibl>","Add. 14,484",172,48,http://syriaca.org/manuscript/635,<bibl >CDATA</bibl>,p1a6,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msPart[1]/msContents/msItem[6]/note/bibl,
+"<bibl >Add. 14,484, fol. 115 b</bibl>","Add. 14,484",173,37,http://syriaca.org/manuscript/639,<bibl >CDATA</bibl>,p1b16,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msPart[1]/msContents/msItem[2]/msItem[16]/note/bibl,
+"<bibl >Add. 14, 489</bibl>","Add. 14,489",179,26,http://syriaca.org/manuscript/178,<bibl >CDATA</bibl>,,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/physDesc/additions/list/item[5]/p[2]/quote/note[1]/bibl,
 "<bibl >Add. 14,502</bibl>","Add. 14,502",192,25,http://syriaca.org/manuscript/760,<bibl >CDATA</bibl>,,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/physDesc/handDesc/handNote[1]/desc/bibl,
 "<bibl >Add. 14,502, fol 19 b</bibl>","Add. 14,502",192,35,http://syriaca.org/manuscript/760,<bibl >CDATA</bibl>,c3,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents/msItem/msItem[2]/msItem[1]/note/bibl,
 "<bibl >Add. 14,502, fol. 45 b</bibl>","Add. 14,502",192,36,http://syriaca.org/manuscript/760,<bibl >CDATA</bibl>,c1,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents/msItem/msItem[1]/msItem[1]/note/bibl,
@@ -271,6 +269,10 @@ node,shelfmark,Uri-lookup,Node-size,ms-uri,node-structure,msItem-id,status,struc
 "<bibl >Add. 17,229, fol. 16 b</bibl>","Add. 17,229",1009,36,http://syriaca.org/manuscript/552,<bibl >CDATA</bibl>,p2b2,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msPart[2]/msContents/msItem[2]/msItem[2]/note[2]/bibl,
 "<bibl >Add. 17,235</bibl>","Add. 17,235",1020,25,http://syriaca.org/manuscript/573,<bibl >CDATA</bibl>,a1,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents/msItem/bibl/note/bibl,
 "<bibl >Add. 17,264 and 17,263</bibl>","Add. 17,264",1080,36,http://syriaca.org/manuscript/827,<bibl >CDATA</bibl>,a1,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents/msItem/note[1]/bibl,
+"<bibl >Land, Ancedota Syriaca, t. ii., p. 11 of the Addenda et
+                    Emendanda</bibl>",none,not a ms,99,http://syriaca.org/manuscript/849,<bibl >CDATA</bibl>,b40,by hand,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents/msItem/msItem[40]/note/bibl,
+"<bibl >Add. 12,103, foll:
+                           240 b</bibl>","Add. 12,103",not in Wright,65,http://syriaca.org/manuscript/832,<bibl >CDATA</bibl>,a4,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents/msItem[4]/note/bibl[2],
 "<bibl >Add. 7156, Forshall and Rosen’s Catalogue, p.11</bibl>",Add. 7156,not in Wright,61,http://syriaca.org/manuscript/529,<bibl >CDATA</bibl>,b6,by hand,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents/msItem[2]/msItem[6]/listBibl/bibl,
 "<bibl >Add. 7156
                 (Forshall and Rosen’s Catalogue, p. 12)</bibl>",Add. 7156,not in Wright,79,http://syriaca.org/manuscript/980,<bibl >CDATA</bibl>,a3,by hand,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents/msItem[3]/note/bibl[2],
@@ -285,5 +287,3 @@ node,shelfmark,Uri-lookup,Node-size,ms-uri,node-structure,msItem-id,status,struc
                     319 a</bibl>",Add. 7190,not in Wright,55,http://syriaca.org/manuscript/864,<bibl >CDATA</bibl>,d6,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents/msItem/msItem[1]/msItem[1]/msItem[7]/note[1]/bibl,
 "<bibl >Add. 7202, fol. 1 a; the Journal of Sacred Literature, vol. vi (new series), January 1865, p. 465</bibl>",Add. 7202,not in Wright,111,http://syriaca.org/manuscript/87,<bibl >CDATA</bibl>,,by hand,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/physDesc/additions/list/item[2]/p[1]/bibl[1],
 <bibl >Add. 7203</bibl>,Add. 7203,not in Wright,23,http://syriaca.org/manuscript/1147,<bibl >CDATA</bibl>,p1b4,batch1,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msPart[1]/msContents/msItem/msItem[4]/note/bibl,
-"<bibl >Land, Ancedota Syriaca, t. ii., p. 11 of the Addenda et
-                    Emendanda</bibl>",none,not a ms,99,http://syriaca.org/manuscript/849,<bibl >CDATA</bibl>,b40,by hand,structure-1,TEI/teiHeader/fileDesc/sourceDesc/msDesc/msContents/msItem/msItem[40]/note/bibl,
