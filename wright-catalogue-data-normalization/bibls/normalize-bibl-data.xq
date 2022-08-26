@@ -30,6 +30,64 @@ as node()
   }
 };
 
+declare function local:bibl-from-batch3($oldBibl as node())
+as node()
+{
+  let $preamble := normalize-space(string-join($oldBibl//idno[@type="shelfmark"]//text(), " "))
+  let $interim := 
+    if($oldBibl/biblScope) then 
+      let $biblScopePos := functx:index-of-deep-equal-node($oldBibl/child::node(), $oldBibl/biblScope)
+      for $node at $i in $oldBibl/child::node()
+      where ($node instance of text()) and $i < $biblScopePos
+      return $node
+    else ()
+  let $interim := normalize-space(string-join($interim, " "))
+  let $ptr := element Q{http://www.tei-c.org/ns/1.0}ptr {attribute {"target"} {$oldBibl//idno[@type="URL"]/text()}}
+  let $citedRange := 
+    if($oldBibl/biblScope) then
+      let $locus := $oldBibl/biblScope/locus
+      let $text := $locus/text()
+      let $from := $locus/@from
+      let $to := $locus/@to
+      return element Q{http://www.tei-c.org/ns/1.0}citedRange {attribute {"unit"} {"fol"}, $from, $to, $text}
+    else ()
+  let $outro := 
+      if($oldBibl/biblScope) then 
+        let $biblScopePos := functx:index-of-deep-equal-node($oldBibl/child::node(), $oldBibl/biblScope)
+        for $node at $i in $oldBibl/child::node()
+        where ($node instance of text()) and $i > $biblScopePos
+        return $node
+    else normalize-space(string-join($oldBibl/text(), " "))
+  return local:create-updated-bibl-record($preamble, $ptr, $interim, $citedRange, $outro)
+  
+      
+};
+
+(:
+: Extends functx:dynamic-path to allow parsing of simple positional predicates
+:)
+declare function local:dynamic-path
+  ( $parent as node() ,
+    $path as xs:string )  as item()* {
+
+  let $nextStep := functx:substring-before-if-contains($path,'/')
+  let $predicate := substring-after($nextStep, '[')
+  let $predicate := substring-before($predicate, ']')
+  let $nextStep := functx:substring-before-if-contains($nextStep, '[')
+  
+  let $restOfSteps := substring-after($path,'/')
+  for $child in
+    ($parent/*[functx:name-test(name(),$nextStep)],
+     $parent/@*[functx:name-test(name(),
+                              substring-after($nextStep,'@'))])
+  let $isMatch := ($predicate = "" or xs:integer($predicate) = functx:index-of-deep-equal-node($parent/*[functx:name-test(name(),$nextStep)], $child))
+  
+  return if ($isMatch) then 
+           if ($restOfSteps)
+           then local:dynamic-path($child, $restOfSteps)
+           else $child
+         else ()
+ } ;
 (: File Ingest and Setup :)
 
 (: read in batch 1 data :)
@@ -52,10 +110,26 @@ for $doc in $local:collection
 let $msUri := $doc//msDesc/msIdentifier/idno/text()
 for $rec in $recordsToProcess
 where $msUri = $rec/*:ms-uri/text()
-return $rec/*:xpath/text()
-(:
-- if batch 1, preamble is what's in the matching bibl's text node. ptr is gotten from the Uri-lookup field plus the URI base. no interim, citedRange, or outro.
-- if batch 2, preamble is the combined, space normalized children. ptr is gotten from idno/@ref. no interim, citedRange, or outro
-- if batch 3, preamble is what's in the shelfmark (idno[@type="shelfmark"]). ptr is gotten from the idno[@type="URL"]. if there's a biblScope, then interim is any text directly in the bibl (or maybe anything before the biblScope and directly under the bibl, if we can do that concisely). citedRange can be gotten from the biblScope/locus, with the script-supplied unit="fol". outro is either anything after the biblScope or any text outside of the idnos if there is no biblScope.
-:)
+let $batch := $rec/*:status/text()
+where $batch = "batch3"
+let $matchingBibl := local:dynamic-path($doc, $rec/*:xpath/text())
 
+(:local:create-updated-bibl-record($preamble as xs:string, $ptr as node(), $interim as xs:string?, $citedRange as node()?, $outro as xs:string?):)
+return switch ($batch)
+  case "batch1" return 
+    (replace node $matchingBibl with
+    local:create-updated-bibl-record(normalize-space(string-join($matchingBibl//text(), " ")), element Q{http://www.tei-c.org/ns/1.0}ptr {attribute {"target"} {$local:ms-uri-base||$rec/*:Uri-lookup/text()}}, "", (), ""),
+    update:output(<success><msUri>{$msUri}</msUri><replacedNode>{functx:path-to-node-with-pos($matchingBibl)}</replacedNode></success>))
+  case "batch2" return 
+    (replace node $matchingBibl with
+    local:create-updated-bibl-record(normalize-space(string-join($matchingBibl//text(), " ")), element Q{http://www.tei-c.org/ns/1.0}ptr {attribute {"target"} {$matchingBibl//idno/@ref/string()}}, "", (), ""), update:output(<success><msUri>{$msUri}</msUri><replacedNode>{functx:path-to-node-with-pos($matchingBibl)}</replacedNode></success>))
+  case "batch3" return if($matchingBibl) then 
+    (replace node $matchingBibl with local:bibl-from-batch3($matchingBibl),
+    update:output(<success><msUri>{$msUri}</msUri><replacedNode>{functx:path-to-node-with-pos($matchingBibl)}</replacedNode></success>))
+    else update:output(
+      <error>
+      <message>The following bibl was not updated because it could not be found:</message>
+      <uri>{$msUri}</uri>
+      <xpath>{$rec/*:xpath/text()}</xpath>
+    </error>)
+  default return ()
