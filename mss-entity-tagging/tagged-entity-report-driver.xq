@@ -4,7 +4,9 @@ import module namespace functx="http://www.functx.com";
 
 declare default element namespace "http://www.tei-c.org/ns/1.0";
 
-let $inColl := collection("C:\Users\anoni\Documents\GitHub\srophe\britishLibrary-data\data\tei\")
-let $report := <report>{mset:generate-tagged-entity-report($inColl, "author")}</report>
+declare variable $local:path-to-repo := "/home/arren/Documents/GitHub/britishLibrary-data/";
+declare variable $local:input-collection := collection($local:path-to-repo||"data/tei/");
+
+let $report := <report>{mset:generate-tagged-entity-report($local:input-collection, "title")}</report>
 (: return $report :)
 return csv:serialize($report, map {"header": "true"})
