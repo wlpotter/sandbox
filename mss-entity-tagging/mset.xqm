@@ -72,7 +72,7 @@ declare function mset:get-entity-data($entity as node())
        element {"author_role_corrected"} {})
     else if (name($entity) = "title") then
       (element {"title_type_current"} {$entity/@type/string()},
-       element {"title_type_corrected"} {})
+       element {"title_type_corrected"} {}) else()
   return (
       element {"unique_xpath"} {$uniqueXpath},
       element {name($entity)||"_position_in_sequence"} {$entityPositionInSequence},
@@ -91,11 +91,11 @@ declare function mset:get-msItem-data($msItem as node(), $entity-target as xs:st
   let $startingLocus := element {"locus_start"} {$msItem/locus/@from/string()}
   let $authorTextNode := for $author in $msItem/author return normalize-space(string-join($author//text(), " "))
   let $authorTextNode := string-join($authorTextNode, "|") 
-  let $authorTextNode := if($entity-target != "author") then element {"author_text_node"} {$authorTextNode}
+  let $authorTextNode := if($entity-target != "author") then element {"author_text_node"} {$authorTextNode} else()
   
   let $titleTextNode := for $title in $msItem/title return normalize-space(string-join($title//text(), " "))
   let $titleTextNode := string-join($titleTextNode, "|") 
-  let $titleTextNode := if($entity-target != "title") then element {"title_text_node"} {$titleTextNode}
+  let $titleTextNode := if($entity-target != "title") then element {"title_text_node"} {$titleTextNode} else()
   
   let $rubric := element {"rubric"} {normalize-space(string-join($msItem/rubric/text(), " "))}
   let $incipit := element {"incipit"} {normalize-space(string-join($msItem/incipit/text(), " "))}
@@ -160,6 +160,7 @@ as xs:string?
   
   return string-join(($authorString, $titleString, $folioString), ". ")
   
+ else()
   (: return of the form `Author, Author. "First English Title" (Other titles in any language; other titles). Foll. xb-ya`:)
 };
 (:
