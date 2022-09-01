@@ -123,7 +123,7 @@ declare variable $mshead:wright-taxonomy-node :=
         </taxonomy>;
         
 declare variable $mshead:manuscript-division-standard-note := 
-  "The division of the manuscript into codicological units, catalogued as &lt;msPart/&gt; elements, has been adapted from Wright.";
+  "The division of this manuscript into codicological units differs from that of Wright's catalogue. Some parts of this manuscript may not have been differentiated by Wright.";
         
 declare function mshead:compose-head-element($msDesc as node())
 as node()
@@ -161,7 +161,7 @@ as node()
   return if($totalItemCount = 0) then
     element{QName("http://www.tei-c.org/ns/1.0", "note")} 
     {attribute {"type"} {"contents-note"},
-    "This manuscript record does not have associated contents as it is likely a composite manuscript. See the corresonding parts for a listing of its contents."}
+    "This manuscript record does not have a summary list of contents. For composite manuscripts, the list of contents can be found under each individual part."}
   else
     let $firstFiveTopLevelMsItems := $msSection/msContents/msItem[position() <= 5]
     let $hasMoreThanFiveTopLevelItems := boolean(count($msSection/msContents/msItem) > 5)
