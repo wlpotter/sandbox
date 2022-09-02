@@ -217,3 +217,75 @@ authors and titles
   - asignee (default is empty)
   - Syriaca_notes (default is empty)
 :)
+
+(:
+: INGEST URI DATA FROM CSV
+:)
+
+(: the following functions ingest data from a spreadsheet created by the above functions whose URIs have been filled in :)
+
+declare function mset:parse-csv($csvUri as xs:string)
+as node()
+{
+    let $f := file:read-text($csvUri)
+  return csv:parse($f, map{"header": "yes"})
+};
+
+(:
+given a document, find all the relevant data rows from the csv data
+:)
+declare function mset:get-entity-rows-by-manuscript-uri($msUri as xs:string, $data as node())
+as node()*
+{
+  for $row in $data/*:csv/*:record
+  where $row/*:ms_level_uri/text() = $msUri
+  return $row
+};
+
+(:
+given a row of data, update the entity with the matched URI
+:)
+declare %updating function mset:update-entity-uri($doc as node(), $row as node())
+{
+  let $target := mset:dynamic-path($doc, $row/*:unique_xpath/text())
+  (: let $target := $target[$row/*:author_position_in_sequence/text()] :)
+  let $target := if($row/*:author_position_in_sequence/text() = 1) then $target[1] else $target
+  let $uri := $row/*:author_uri_possibility1/text()
+  return 
+    if($uri != "") then 
+      if($target/@ref) then 
+        replace value of node $target/@ref with $uri
+      else
+        insert node attribute {"ref"} {$uri} into $target
+  else delete node $target/@ref
+};
+
+declare function mset:dynamic-path
+  ( $parent as node() ,
+    $path as xs:string )  as item()* {
+
+  let $nextStep := functx:substring-before-if-contains($path,'/')
+  let $predicate := substring-after($nextStep, '[')
+  let $predicate := substring-before($predicate, ']')
+  let $nextStep := functx:substring-before-if-contains($nextStep, '[')
+  
+  let $restOfSteps := substring-after($path,'/')
+  for $child in
+    ($parent/*[functx:name-test(name(),$nextStep)],
+     $parent/@*[functx:name-test(name(),
+                              substring-after($nextStep,'@'))])
+  let $isMatch := ($predicate = "" or xs:integer($predicate) = functx:index-of-deep-equal-node($parent/*[functx:name-test(name(),$nextStep)], $child))
+  
+  return if ($isMatch) then 
+           if ($restOfSteps)
+           then mset:dynamic-path($child, $restOfSteps)
+           else $child
+         else ()
+ } ;
+(:
+- get relevant data based on ms uri
+- get entity sequence by xpath (use a local copy of the parse dynamic xpaths function) column
+- get the entity based on position in sequence column
+- replace/create author URI with the value from ____ column
+- replace node with the updated node
+:)
