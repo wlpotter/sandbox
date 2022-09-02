@@ -218,7 +218,7 @@ as xs:string*
     else
       let $partId := "#"||$msDesc/@xml:id/string()
       for $item in $wrightTaxonomyItems
-      let $matchesPart := for $ref in $item/ref return if(functx:contains-word($ref/@target, $partId)) then true() else false()
+      let $matchesPart := functx:contains-word(string-join($item/ref/@target/string(), " "), $partId)
       where $matchesPart
       let $value := for $ref in $item/ref return if(not(functx:contains-word($ref/@target, $partId))) then $ref/@target/string() else()
       let $value := tokenize($value, " ")
