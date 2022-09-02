@@ -81,7 +81,7 @@ let $nodeToStructureMap :=
   let $xpath := functx:path-to-node-with-pos($node)
   let $structure := local:stringify-node(local:extract-node-structure($node))
   let $msItemId := string($node/ancestor::msItem[position() = 1]/@xml:id)
-  return map {"ms-uri": $msUri, "xpath": $xpath, "msItem-id": $msItemId, "node": local:stringify-node($node), "node-structure": $structure}
+  return map {"ms-uri": $msUri, "xpath": $xpath, "msItem-id": $msItemId, "node": local:stringify-node($node), "node-length": string-length(local:stringify-node($node)), "node-structure": $structure}
 
 let $totalInstances := count($nodeToStructureMap)
 let $uniqueStructures := 
@@ -98,7 +98,7 @@ let $structureDataMap :=
     return <hit/>
   let $numberOfHits := count($hits)
   let $hitPercent := string(100 * (xs:float($numberOfHits) div xs:float($totalInstances)))
-  return map {"structure-id": $structId, "structure": $structure, "hits": $numberOfHits, "hit-percentage": $hitPercent}
+  return map {"structure-id": $structId, "structure": $structure, "node-length": string-length($structure), "hits": $numberOfHits, "hit-percentage": $hitPercent}
 
 let $nodeToStructureMap :=
   for $instance in $nodeToStructureMap
