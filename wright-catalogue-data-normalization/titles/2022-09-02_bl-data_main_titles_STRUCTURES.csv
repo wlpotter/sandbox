@@ -1,131 +1,367 @@
 hits,structure,Node-length,hit-percentage,structure-id
 5695,<title xml:lang='VALUE'>CDATA</title>,37,36.462,structure-1
-129,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,96,0.8259172,structure-2
-2,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName></persName>CDATA<ref >CDATA<persName >CDATA</persName>CDATA</ref></title>,147,0.0128049,structure-3
-18,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName></title>,98,0.1152443,structure-4
-683,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName></title>,64,4.372879,structure-5
-53,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName></persName></title>,93,0.3393303,structure-6
-11,<title xml:lang='VALUE'>CDATA<persName >CDATA<persName >CDATA</persName></persName></title>,91,0.070427,structure-7
-1,<title xml:lang='VALUE'>CDATA<placeName >CDATA<placeName >CDATA</placeName></placeName></title>,95,0.0064025,structure-8
-31,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,128,0.1984762,structure-9
-7,<title xml:lang='VALUE'>CDATA<ref >CDATA<persName >CDATA</persName></ref></title>,81,0.0448172,structure-10
-6,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName></persName>CDATA<persName >CDATA</persName></title>,125,0.0384148,structure-11
-425,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,80,2.7210448,structure-12
-33,<title xml:lang='VALUE'><persName >CDATA</persName>CDATA</title>,64,0.2112812,structure-13
-64,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,123,0.4097573,structure-14
-1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<ref >CDATA</ref>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,169,0.0064025,structure-15
-67,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,115,0.4289647,structure-16
-600,<title ref='VALUE' type='VALUE'>CDATA</title>,45,3.841475,structure-17
-14,<title xml:lang='VALUE'>CDATA<placeName >CDATA</placeName>CDATA</title>,71,0.0896344,structure-18
-627,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName></title>,75,4.0143414,structure-19
-16,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,107,0.1024393,structure-20
-28,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName></title>,104,0.1792688,structure-21
-2,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<ref >CDATA<persName >CDATA</persName></ref></title>,113,0.0128049,structure-22
-6,<title xml:lang='VALUE'>CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName></title>,100,0.0384148,structure-23
 2568,<title type='VALUE'>CDATA</title>,33,16.441513,structure-24
+683,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName></title>,64,4.372879,structure-5
+627,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName></title>,75,4.0143414,structure-19
+600,<title ref='VALUE' type='VALUE'>CDATA</title>,45,3.841475,structure-17
+425,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,80,2.7210448,structure-12
+347,<title type='VALUE' resp='VALUE'>CDATA</title>,46,2.221653,structure-55
+206,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA</title>,69,1.3189064,structure-46
 177,<title type='VALUE'>CDATA<persName >CDATA</persName></title>,60,1.1332352,structure-25
+158,<title type='VALUE' ref='VALUE'>CDATA</title>,45,1.0115885,structure-39
+134,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></title>,78,0.8579294,structure-79
+133,<title xml:lang='VALUE' type='VALUE'>CDATA</title>,50,0.851527,structure-36
+129,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,96,0.8259172,structure-2
+113,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName></title>,71,0.7234778,structure-124
+111,<title xml:lang='VALUE'>CDATA<ref target='VALUE'>CDATA</ref></title>,68,0.7106729,structure-127
+104,<title xml:lang='VALUE' ref='VALUE'>CDATA</title>,49,0.6658557,structure-104
+97,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,118,0.6210385,structure-59
+94,<title type='VALUE' xml:lang='VALUE'>CDATA</title>,50,0.6018311,structure-282
+91,<title >CDATA</title>,21,0.5826237,structure-33
+89,<title xml:lang='VALUE'><persName >CDATA</persName></title>,59,0.5698188,structure-169
+67,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,115,0.4289647,structure-16
+67,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName></title>,107,0.4289647,structure-44
+64,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,123,0.4097573,structure-14
+64,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,83,0.4097573,structure-143
+59,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA</title>,65,0.3777451,structure-111
+57,<title ref='VALUE' xml:lang='VALUE'>CDATA</title>,49,0.3649401,structure-106
+56,<title xml:lang='VALUE'>CDATA<ref >CDATA</ref></title>,54,0.3585377,structure-88
+53,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName></persName></title>,93,0.3393303,structure-6
+50,<title ref='VALUE'>CDATA</title>,32,0.3201229,structure-31
+48,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA</title>,120,0.307318,structure-107
+39,<title xml:lang='VALUE'>CDATA<placeName >CDATA</placeName></title>,66,0.2496959,structure-145
+38,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,76,0.2432934,structure-94
+38,<title type='VALUE' resp='VALUE'>CDATA<placeName >CDATA</placeName></title>,75,0.2432934,structure-708
 37,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,92,0.236891,structure-26
+37,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,101,0.236891,structure-118
+36,<title xml:lang='VALUE'><persName ref='VALUE'>CDATA</persName>CDATA</title>,75,0.2304885,structure-162
+33,<title xml:lang='VALUE'><persName >CDATA</persName>CDATA</title>,64,0.2112812,structure-13
+31,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,128,0.1984762,structure-9
+30,<title xml:lang='VALUE' type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName></title>,88,0.1920738,structure-42
+30,<title xml:lang='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,77,0.1920738,structure-60
+30,<title xml:lang='VALUE'>CDATA<ref target='VALUE'>CDATA</ref>CDATA</title>,73,0.1920738,structure-90
+30,<title type='VALUE' resp='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,89,0.1920738,structure-395
+28,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName></title>,104,0.1792688,structure-21
+25,<title xml:lang='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA</title>,82,0.1600615,structure-80
+23,<title xml:lang='VALUE'><foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,78,0.1472566,structure-141
+20,<title type='VALUE'></title>,28,0.1280492,structure-197
+18,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName></title>,98,0.1152443,structure-4
+18,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,112,0.1152443,structure-71
+18,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA</title>,109,0.1152443,structure-114
+18,<title xml:lang='VALUE' type='VALUE' ref='VALUE'>CDATA</title>,62,0.1152443,structure-291
+17,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,129,0.1088418,structure-47
+17,<title type='VALUE'>CDATA<choice ><abbr >CDATA</abbr><expan >CDATA</expan></choice>CDATA</title>,96,0.1088418,structure-52
+16,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,107,0.1024393,structure-20
+16,<title type='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,79,0.1024393,structure-54
+16,<title xml:lang='VALUE'>CDATA<title >CDATA</title></title>,58,0.1024393,structure-120
+16,<title type='VALUE'><persName >CDATA</persName></title>,55,0.1024393,structure-255
+15,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,120,0.0960369,structure-61
+14,<title xml:lang='VALUE'>CDATA<placeName >CDATA</placeName>CDATA</title>,71,0.0896344,structure-18
+13,<title xml:lang='VALUE' type='VALUE' resp='VALUE'>CDATA</title>,63,0.083232,structure-32
+13,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,112,0.083232,structure-69
+13,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></title>,124,0.083232,structure-110
+13,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName></persName>CDATA</title>,98,0.083232,structure-116
+13,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<ref >CDATA</ref></title>,86,0.083232,structure-274
+13,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName>CDATA</title>,109,0.083232,structure-441
+12,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<ref target='VALUE'>CDATA</ref></title>,111,0.0768295,structure-217
+12,<title xml:lang='VALUE'><ref >CDATA</ref></title>,49,0.0768295,structure-271
+12,<title type='VALUE' resp='VALUE'>CDATA<orgName >CDATA</orgName></title>,71,0.0768295,structure-486
+11,<title xml:lang='VALUE'>CDATA<persName >CDATA<persName >CDATA</persName></persName></title>,91,0.070427,structure-7
+11,<title xml:lang='VALUE'>CDATA<title xml:lang='VALUE'>CDATA</title>CDATA</title>,79,0.070427,structure-70
+11,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,114,0.070427,structure-195
+11,<title xml:lang='VALUE' type='VALUE'>CDATA<persName >CDATA</persName></title>,77,0.070427,structure-725
+10,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,104,0.0640246,structure-177
+10,<title type='VALUE'>CDATA<placeName >CDATA</placeName></title>,62,0.0640246,structure-265
+10,<title xml:lang='VALUE'>CDATA<ref target='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName></ref></title>,106,0.0640246,structure-337
+10,<title type='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,73,0.0640246,structure-420
+9,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,97,0.0576221,structure-34
+9,<title >CDATA<persName >CDATA</persName></title>,48,0.0576221,structure-173
+9,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,133,0.0576221,structure-276
+9,<title xml:lang='VALUE' ref='VALUE'><persName >CDATA</persName></title>,71,0.0576221,structure-360
+9,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName></title>,103,0.0576221,structure-388
+8,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,103,0.0512197,structure-123
+8,<title ref='VALUE' xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,92,0.0512197,structure-165
+8,<title xml:lang='VALUE'><persName ref='VALUE'>CDATA</persName></title>,70,0.0512197,structure-175
+8,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,124,0.0512197,structure-201
+8,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA</title>,116,0.0512197,structure-262
+8,<title xml:lang='VALUE' ref='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName></title>,87,0.0512197,structure-292
+8,<title type='VALUE' xml:lang='VALUE'>CDATA<supplied reason='VALUE' resp='VALUE'>CDATA</supplied></title>,104,0.0512197,structure-413
+8,<title xml:lang='VALUE'>CDATA<ref >CDATA</ref>CDATA</title>,59,0.0512197,structure-444
+8,<title xml:lang='VALUE'>CDATA<title ><persName ref='VALUE'>CDATA</persName>CDATA</title>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,144,0.0512197,structure-650
+8,<title ref='VALUE' type='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName></title>,112,0.0512197,structure-664
+7,<title xml:lang='VALUE'>CDATA<ref >CDATA<persName >CDATA</persName></ref></title>,81,0.0448172,structure-10
+7,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<title xml:lang='VALUE'>CDATA</title>CDATA</title>,122,0.0448172,structure-74
+7,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<ref target='VALUE'>CDATA</ref></title>,100,0.0448172,structure-218
+7,<title type='VALUE' xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName></title>,88,0.0448172,structure-283
+7,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<ref target='VALUE'>CDATA</ref>CDATA</title>,116,0.0448172,structure-293
+7,<title type='VALUE'>CDATA<persName xml:lang='VALUE' ref='VALUE'>CDATA</persName>CDATA<persName xml:lang='VALUE' ref='VALUE'>CDATA</persName></title>,148,0.0448172,structure-317
+7,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,161,0.0448172,structure-334
+7,<title xml:lang='VALUE'>CDATA<ref target='VALUE'>CDATA</ref>CDATA<ref target='VALUE'>CDATA</ref></title>,104,0.0448172,structure-341
+7,<title type='VALUE' xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA</title>,82,0.0448172,structure-408
+7,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,126,0.0448172,structure-416
+7,<title type='VALUE'>CDATA<placeName >CDATA</placeName>CDATA</title>,67,0.0448172,structure-425
+7,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<date >CDATA</date></title>,88,0.0448172,structure-743
+6,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName></persName>CDATA<persName >CDATA</persName></title>,125,0.0384148,structure-11
+6,<title xml:lang='VALUE'>CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName></title>,100,0.0384148,structure-23
+6,<title type='VALUE' resp='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName></persName></title>,102,0.0384148,structure-41
+6,<title type='VALUE'>CDATA<ref target='VALUE'>CDATA</ref></title>,64,0.0384148,structure-95
+6,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA</title>,125,0.0384148,structure-109
+6,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName></title>,94,0.0384148,structure-190
+6,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,111,0.0384148,structure-196
+6,<title xml:lang='VALUE'>CDATA<placeName >CDATA</placeName>CDATA<persName >CDATA</persName></title>,98,0.0384148,structure-401
+6,<title type='VALUE' xml:lang='VALUE'>CDATA<name >CDATA</name>CDATA</title>,74,0.0384148,structure-414
+6,<title xml:lang='VALUE'>CDATA<bibl >CDATA</bibl>CDATA</title>,61,0.0384148,structure-431
+6,<title type='VALUE' resp='VALUE'>CDATA<title >CDATA</title></title>,67,0.0384148,structure-746
+5,<title type='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName></persName></title>,89,0.0320123,structure-40
+5,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<ref >CDATA</ref></title>,97,0.0320123,structure-89
+5,<title type='VALUE'><foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,74,0.0320123,structure-97
+5,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName >CDATA</placeName></title>,109,0.0320123,structure-221
+5,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<title >CDATA</title>CDATA</title>,106,0.0320123,structure-246
+5,<title type='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></title>,74,0.0320123,structure-315
+5,<title xml:lang='VALUE' ref='VALUE'>CDATA<persName >CDATA</persName></title>,76,0.0320123,structure-361
+5,<title type='VALUE'>CDATA<quote xml:lang='VALUE'>CDATA</quote></title>,70,0.0320123,structure-437
+5,<title >CDATA<persName >CDATA<placeName >CDATA</placeName></persName></title>,77,0.0320123,structure-489
+5,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName>CDATA<persName >CDATA</persName></title>,136,0.0320123,structure-490
+5,<title type='VALUE'>COMMENT</title>,35,0.0320123,structure-519
+5,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName>CDATA<persName >CDATA</persName></title>,130,0.0320123,structure-564
+5,<title xml:lang='VALUE'>CDATA<title >CDATA<persName ref='VALUE'>CDATA</persName></title>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA</title>,184,0.0320123,structure-655
+5,<title type='VALUE'><persName ref='VALUE'>CDATA</persName></title>,66,0.0320123,structure-672
+5,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,160,0.0320123,structure-783
+5,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName></persName>CDATA<persName >CDATA<placeName >CDATA</placeName></persName></title>,154,0.0320123,structure-784
+5,<title xml:lang='VALUE'>CDATA<persName ref='VALUE' xml:lang='VALUE'>CDATA</persName>CDATA</title>,97,0.0320123,structure-904
+5,<title xml:lang='VALUE'>CDATA<persName xml:lang='VALUE'>CDATA</persName>CDATA</title>,85,0.0320123,structure-906
+4,<title type='VALUE'><choice ><abbr >CDATA</abbr><expan >CDATA</expan></choice>CDATA</title>,91,0.0256098,structure-53
+4,<title xml:lang='VALUE'>CDATA<title xml:lang='VALUE'>CDATA</title></title>,74,0.0256098,structure-75
+4,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,116,0.0256098,structure-105
+4,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,126,0.0256098,structure-108
+4,<title xml:lang='VALUE'><foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,121,0.0256098,structure-138
+4,<title type='VALUE'>CDATA<persName xml:lang='VALUE' type='VALUE'>CDATA</persName>CDATA</title>,94,0.0256098,structure-154
+4,<title >CDATA<persName ref='VALUE'>CDATA</persName></title>,59,0.0256098,structure-172
+4,<title xml:lang='VALUE'>CDATA<ref >CDATA<persName >CDATA</persName></ref>CDATA</title>,86,0.0256098,structure-223
+4,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,147,0.0256098,structure-239
+4,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,115,0.0256098,structure-270
+4,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName></persName>CDATA</title>,118,0.0256098,structure-275
+4,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<ref >CDATA</ref>CDATA</title>,91,0.0256098,structure-281
+4,<title xml:lang='VALUE'>CDATA<title xml:lang='VALUE'>CDATA</title>CDATA<persName ref='VALUE'>CDATA</persName></title>,117,0.0256098,structure-287
+4,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,139,0.0256098,structure-307
+4,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName></title>,150,0.0256098,structure-309
+4,<title type='VALUE'>CDATA<persName xml:lang='VALUE' ref='VALUE'>CDATA</persName>CDATA</title>,93,0.0256098,structure-320
+4,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName >CDATA</persName></title>,110,0.0256098,structure-324
+4,<title type='VALUE'><quote >CDATA</quote>CDATA</title>,54,0.0256098,structure-357
+4,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,108,0.0256098,structure-375
+4,<title type='VALUE' xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,93,0.0256098,structure-378
+4,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA<placeName >CDATA</placeName></persName></title>,125,0.0256098,structure-382
+4,<title type='VALUE' resp='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,132,0.0256098,structure-393
+4,<title type='VALUE' xml:lang='VALUE'>CDATA<placeName >CDATA</placeName>CDATA</title>,84,0.0256098,structure-410
+4,<title type='VALUE' xml:lang='VALUE'>CDATA<persName >CDATA</persName></title>,77,0.0256098,structure-411
+4,<title type='VALUE'>CDATA<persName >CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,100,0.0256098,structure-417
+4,<title xml:lang='VALUE'>CDATA<persName >CDATA<persName >CDATA</persName></persName>CDATA</title>,96,0.0256098,structure-426
+4,<title xml:lang='VALUE'>CDATA<title ref='VALUE'>CDATA</title></title>,69,0.0256098,structure-442
+4,<title type='VALUE'><persName >CDATA</persName>CDATA</title>,60,0.0256098,structure-497
+4,<title type='VALUE'>CDATA<persName >CDATA</persName><supplied reason='VALUE' resp='VALUE'><persName >CDATA</persName></supplied></title>,136,0.0256098,structure-498
+4,<title type='VALUE'>CDATA<quote >CDATA</quote></title>,54,0.0256098,structure-517
+4,<title ref='VALUE' xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName></title>,87,0.0256098,structure-526
+4,<title xml:lang='VALUE'><persName >CDATA<placeName >CDATA</placeName></persName></title>,88,0.0256098,structure-565
+4,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,152,0.0256098,structure-567
+4,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></placeName></persName>CDATA</title>,160,0.0256098,structure-573
+4,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,139,0.0256098,structure-619
+4,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName></title>,130,0.0256098,structure-636
+4,<title type='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA</title>,78,0.0256098,structure-667
+4,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName></title>,147,0.0256098,structure-736
+4,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<ref target='VALUE'>CDATA</ref>CDATA</title>,105,0.0256098,structure-756
+4,<title xml:lang='VALUE'>CDATA<persName ref='VALUE' xml:lang='VALUE'>CDATA</persName></title>,92,0.0256098,structure-905
+4,<title xml:lang='VALUE'><date >CDATA</date>CDATA<date >CDATA</date>CDATA</title>,80,0.0256098,structure-1007
+3,<title xml:lang='VALUE' type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName></title>,120,0.0192074,structure-37
+3,<title type='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,125,0.0192074,structure-45
+3,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,175,0.0192074,structure-64
+3,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,144,0.0192074,structure-84
+3,<title xml:lang='VALUE'>CDATA<bibl >CDATA<persName ref='VALUE'>CDATA</persName>CDATA</bibl></title>,99,0.0192074,structure-103
+3,<title type='VALUE' resp='VALUE'>CDATA<persName >CDATA</persName></title>,73,0.0192074,structure-155
+3,<title xml:lang='VALUE'><persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,118,0.0192074,structure-161
+3,<title xml:id='VALUE'>CDATA<persName >CDATA</persName></title>,62,0.0192074,structure-170
+3,<title type='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName></persName></title>,123,0.0192074,structure-179
+3,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,171,0.0192074,structure-235
+3,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA</persName></title>,120,0.0192074,structure-241
+3,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,158,0.0192074,structure-243
+3,<title xml:lang='VALUE'>CDATA<title >CDATA</title>CDATA</title>,63,0.0192074,structure-247
+3,<title xml:lang='VALUE' type='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></title>,137,0.0192074,structure-250
+3,<title type='VALUE'>CDATA<bibl ><title ref='VALUE'>CDATA</title></bibl></title>,79,0.0192074,structure-266
+3,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,166,0.0192074,structure-279
+3,<title xml:lang='VALUE'>CDATA<ref >CDATA</ref>CDATA<ref >CDATA</ref></title>,76,0.0192074,structure-284
+3,<title type='VALUE'>CDATA<persName xml:lang='VALUE' ref='VALUE'>CDATA</persName></title>,88,0.0192074,structure-318
+3,<title xml:lang='VALUE'>CDATA<ref target='VALUE'><persName ref='VALUE'>CDATA</persName>CDATA</ref></title>,106,0.0192074,structure-343
+3,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName></persName></title>,138,0.0192074,structure-465
+3,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,160,0.0192074,structure-471
+3,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,147,0.0192074,structure-476
+3,<title type='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName></persName>CDATA</title>,128,0.0192074,structure-518
+3,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<persName >CDATA</persName>CDATA</title>,152,0.0192074,structure-528
+3,<title >CDATA<title ref='VALUE'>CDATA</title>CDATA<title ref='VALUE'>CDATA</title>CDATA</title>,95,0.0192074,structure-533
+3,<title xml:lang='VALUE'>CDATA<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</persName>CDATA</title>,115,0.0192074,structure-544
+3,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,129,0.0192074,structure-555
+3,<title xml:lang='VALUE'><persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,91,0.0192074,structure-592
+3,<title xml:lang='VALUE'>CDATA<ref ><persName ref='VALUE'>CDATA</persName>CDATA</ref></title>,92,0.0192074,structure-616
+3,<title xml:lang='VALUE'>CDATA<persName >CDATA<persName ref='VALUE'>CDATA</persName></persName></title>,102,0.0192074,structure-618
+3,<title ref='VALUE' xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,135,0.0192074,structure-647
+3,<title xml:lang='VALUE'>CDATA<title >CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,149,0.0192074,structure-652
+3,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName></persName>CDATA<persName >CDATA</persName>CDATA</title>,130,0.0192074,structure-679
+3,<title xml:lang='VALUE'><foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName >CDATA</persName></title>,105,0.0192074,structure-695
+3,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<title xml:lang='VALUE'>CDATA</title>CDATA</title>,111,0.0192074,structure-801
+3,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,109,0.0192074,structure-809
+3,<title xml:lang='VALUE'>CDATA<ref target='VALUE'><persName >CDATA</persName>CDATA</ref>CDATA</title>,100,0.0192074,structure-831
+3,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,111,0.0192074,structure-872
+3,<title xml:lang='VALUE'><persName ref='VALUE'>CDATA</persName>CDATA<title ref='VALUE'>CDATA</title></title>,107,0.0192074,structure-903
+3,<title type='VALUE' ref='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName></title>,112,0.0192074,structure-923
+3,<title xml:lang='VALUE'>CDATA<date >CDATA</date>CDATA<date >CDATA</date>CDATA</title>,85,0.0192074,structure-1006
+2,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName></persName>CDATA<ref >CDATA<persName >CDATA</persName>CDATA</ref></title>,147,0.0128049,structure-3
+2,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<ref >CDATA<persName >CDATA</persName></ref></title>,113,0.0128049,structure-22
+2,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,224,0.0128049,structure-83
+2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName >CDATA</placeName>CDATA</title>,114,0.0128049,structure-86
+2,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,108,0.0128049,structure-93
+2,<title xml:lang='VALUE'><ref target='VALUE'>CDATA</ref>CDATA</title>,68,0.0128049,structure-125
+2,<title xml:lang='VALUE'><foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName>CDATA</title>,150,0.0128049,structure-140
+2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,169,0.0128049,structure-144
+2,<title type='VALUE'>CDATA<persName xml:lang='VALUE' type='VALUE'>CDATA</persName>CDATA<persName xml:lang='VALUE' type='VALUE'>CDATA</persName></title>,150,0.0128049,structure-151
+2,<title xml:lang='VALUE'>CDATA<quote xml:lang='VALUE'>CDATA</quote></title>,74,0.0128049,structure-158
+2,<title xml:lang='VALUE'>CDATA<bibl >CDATA<ptr target='VALUE'></ptr></bibl>CDATA</title>,87,0.0128049,structure-159
+2,<title xml:lang='VALUE'><persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,96,0.0128049,structure-166
+2,<title type='VALUE'>CDATA<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign></persName></title>,101,0.0128049,structure-180
+2,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,156,0.0128049,structure-181
+2,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA</title>,152,0.0128049,structure-216
+2,<title xml:lang='VALUE'>CDATA<foreign >CDATA</foreign>CDATA</title>,67,0.0128049,structure-222
+2,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></title>,170,0.0128049,structure-238
+2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<persName >CDATA</persName></title>,147,0.0128049,structure-244
+2,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName ref='VALUE'>CDATA</persName></title>,121,0.0128049,structure-249
+2,<title xml:lang='VALUE' type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,93,0.0128049,structure-251
+2,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,148,0.0128049,structure-267
+2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<ref target='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName></ref></title>,149,0.0128049,structure-295
+2,<title xml:lang='VALUE'>CDATA<date datingMethod='VALUE' when-custom='VALUE'>CDATA</date>CDATA<date calendar='VALUE' when='VALUE'>CDATA</date></title>,149,0.0128049,structure-312
+2,<title >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName >CDATA</persName></title>,94,0.0128049,structure-326
+2,<title >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,67,0.0128049,structure-327
+2,<title xml:lang='VALUE'>CDATA<ref target='VALUE'>CDATA</ref>CDATA<persName >CDATA</persName></title>,100,0.0128049,structure-328
+2,<title xml:lang='VALUE'>CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName>CDATA</title>,105,0.0128049,structure-329
+2,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<ref target='VALUE'>CDATA</ref></title>,140,0.0128049,structure-346
+2,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<ref >CDATA</ref></title>,126,0.0128049,structure-347
+2,<title xml:lang='VALUE'>CDATA<ref target='VALUE'>CDATA</ref>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,116,0.0128049,structure-350
+2,<title type='VALUE' xml:lang='VALUE'>CDATA<persName xml:lang='VALUE'>CDATA</persName>CDATA</title>,98,0.0128049,structure-364
+2,<title xml:lang='VALUE'>CDATA<ref >CDATA</ref>CDATA<ref >CDATA</ref>CDATA</title>,81,0.0128049,structure-371
+2,<title type='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,122,0.0128049,structure-377
+2,<title >CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,80,0.0128049,structure-379
+2,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName >CDATA<placeName >CDATA</placeName></placeName></persName></title>,122,0.0128049,structure-385
+2,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,165,0.0128049,structure-387
+2,<title type='VALUE' resp='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName></title>,84,0.0128049,structure-397
+2,<title type='VALUE' xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,125,0.0128049,structure-409
+2,<title type='VALUE' xml:lang='VALUE'>CDATA<name >CDATA</name><supplied reason='VALUE' resp='VALUE'>CDATA</supplied></title>,123,0.0128049,structure-412
+2,<title type='VALUE' xml:lang='VALUE'>CDATA<choice ><abbr >CDATA</abbr><expan >CDATA</expan></choice>CDATA<persName >CDATA</persName></title>,140,0.0128049,structure-415
+2,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA</title>,121,0.0128049,structure-422
+2,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<date >CDATA</date>CDATA</title>,93,0.0128049,structure-430
+2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,208,0.0128049,structure-433
+2,<title ></title>,16,0.0128049,structure-456
+2,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<bibl >CDATA</bibl>CDATA</title>,93,0.0128049,structure-463
+2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,249,0.0128049,structure-467
+2,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName>CDATA<persName ref='VALUE'>CDATA</persName></title>,141,0.0128049,structure-469
+2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,247,0.0128049,structure-477
+2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName ref='VALUE'>CDATA</persName></title>,163,0.0128049,structure-484
+2,<title type='VALUE'>CDATA<orgName >CDATA</orgName></title>,58,0.0128049,structure-485
+2,<title xml:lang='VALUE'></title>,32,0.0128049,structure-491
+2,<title xml:lang='VALUE' type='VALUE' resp='VALUE'>CDATA<persName >CDATA</persName>CDATA</title>,95,0.0128049,structure-492
+2,<title type='VALUE' resp='VALUE'>CDATA<persName >CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,170,0.0128049,structure-495
+2,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA</title>,167,0.0128049,structure-506
+2,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,221,0.0128049,structure-515
+2,<title ref='VALUE' xml:lang='VALUE'>CDATA<persName >CDATA</persName></title>,76,0.0128049,structure-525
+2,<title xml:lang='VALUE'>CDATA<origDate notBefore='VALUE' notAfter='VALUE'>CDATA</origDate></title>,98,0.0128049,structure-530
+2,<title xml:lang='VALUE'>CDATA<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</persName></title>,110,0.0128049,structure-541
+2,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,173,0.0128049,structure-548
+2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<persName >CDATA</persName></persName></title>,102,0.0128049,structure-557
+2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<ref >CDATA</ref></title>,129,0.0128049,structure-558
+2,<title xml:lang='VALUE'>CDATA<title ref='VALUE'>CDATA</title>CDATA<title ref='VALUE'>CDATA</title>CDATA</title>,111,0.0128049,structure-561
+2,<title xml:lang='VALUE'>CDATA<bibl >CDATA<persName ref='VALUE'>CDATA</persName>CDATA</bibl>CDATA</title>,104,0.0128049,structure-562
+2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,163,0.0128049,structure-570
+2,<title xml:lang='VALUE'>CDATA<placeName >CDATA<persName >CDATA</persName></placeName>CDATA</title>,98,0.0128049,structure-579
+2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,198,0.0128049,structure-598
+2,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,164,0.0128049,structure-604
+2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName >CDATA</persName></title>,152,0.0128049,structure-608
+2,<title xml:lang='VALUE'>CDATA<ref >CDATA<persName >CDATA</persName>CDATA</ref></title>,86,0.0128049,structure-617
+2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,147,0.0128049,structure-625
+2,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName></title>,194,0.0128049,structure-634
+2,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA</title>,148,0.0128049,structure-641
+2,<title xml:lang='VALUE'>CDATA<title >CDATA</title>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,106,0.0128049,structure-651
+2,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,144,0.0128049,structure-656
+2,<title type='VALUE'><persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,87,0.0128049,structure-668
+2,<title type='VALUE'><persName ref='VALUE'>CDATA</persName>CDATA</title>,71,0.0128049,structure-671
+2,<title type='VALUE'><persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,109,0.0128049,structure-673
+2,<title type='VALUE'><persName ref='VALUE'>CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,111,0.0128049,structure-674
+2,<title xml:lang='VALUE'>CDATA<persName xml:lang='VALUE'>CDATA</persName></title>,80,0.0128049,structure-677
+2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,158,0.0128049,structure-678
+2,<title type='VALUE'>CDATA<title >CDATA</title></title>,54,0.0128049,structure-745
+2,<title ref='VALUE' xml:lang='VALUE'>CDATA<ref target='VALUE'>CDATA</ref></title>,80,0.0128049,structure-755
+2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,150,0.0128049,structure-758
+2,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA<placeName >CDATA</placeName></placeName></title>,127,0.0128049,structure-767
+2,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName></title>,162,0.0128049,structure-770
+2,<title xml:lang='VALUE'>CDATA<locus from='VALUE' to='VALUE'></locus></title>,76,0.0128049,structure-774
+2,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName>CDATA</title>,103,0.0128049,structure-775
+2,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,143,0.0128049,structure-792
+2,<title xml:lang='VALUE'><persName ><choice ><reg >CDATA</reg><orig xml:lang='VALUE'>CDATA</orig></choice>CDATA</persName></title>,129,0.0128049,structure-806
+2,<title type='VALUE'>CDATA<ref target='VALUE'>CDATA</ref>CDATA</title>,69,0.0128049,structure-836
+2,<title xml:lang='VALUE' type='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,128,0.0128049,structure-849
+2,<title xml:lang='VALUE' type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,109,0.0128049,structure-852
+2,<title xml:lang='VALUE' type='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName></title>,117,0.0128049,structure-858
+2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName>CDATA</persName></title>,109,0.0128049,structure-881
+2,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<ref >CDATA</ref>CDATA</title>,123,0.0128049,structure-885
+2,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<ref >CDATA</ref>CDATA</title>,155,0.0128049,structure-886
+2,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<ref >CDATA</ref></title>,118,0.0128049,structure-889
+2,<title type='VALUE'>CDATA<placeName >CDATA</placeName>CDATA<persName >CDATA</persName></title>,94,0.0128049,structure-896
+2,<title xml:lang='VALUE' ref='VALUE'><persName ref='VALUE'>CDATA</persName>CDATA</title>,87,0.0128049,structure-926
+2,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<date when='VALUE' calendar='VALUE'>CDATA</date>CDATA</title>,172,0.0128049,structure-927
+2,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,105,0.0128049,structure-938
+2,<title xml:lang='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName >CDATA</persName></title>,109,0.0128049,structure-973
+2,<title xml:lang='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<date >CDATA</date>CDATA<date >CDATA</date>CDATA</title>,130,0.0128049,structure-1009
+1,<title xml:lang='VALUE'>CDATA<placeName >CDATA<placeName >CDATA</placeName></placeName></title>,95,0.0064025,structure-8
+1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<ref >CDATA</ref>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,169,0.0064025,structure-15
 1,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,161,0.0064025,structure-27
 1,<title type='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName>CDATA<origDate calendar='VALUE' when='VALUE'>CDATA</origDate>CDATA<origDate calendar='VALUE' when='VALUE'>CDATA</origDate>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA</title>,552,0.0064025,structure-28
 1,<title type='VALUE'>CDATA<listBibl ><bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier></bibl></listBibl></title>,193,0.0064025,structure-29
 1,<title type='VALUE'>CDATA<listBibl ><bibl ><msIdentifier ><idno type='VALUE'>CDATA</idno><altIdentifier ><idno type='VALUE'>CDATA</idno></altIdentifier></msIdentifier></bibl></listBibl>CDATA</title>,198,0.0064025,structure-30
-50,<title ref='VALUE'>CDATA</title>,32,0.3201229,structure-31
-13,<title xml:lang='VALUE' type='VALUE' resp='VALUE'>CDATA</title>,63,0.083232,structure-32
-91,<title >CDATA</title>,21,0.5826237,structure-33
-9,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,97,0.0576221,structure-34
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<note >CDATA<title xml:lang='VALUE' type='VALUE'>CDATA</title>CDATA<title xml:lang='VALUE' type='VALUE'>CDATA</title>CDATA</note></title>,209,0.0064025,structure-35
-133,<title xml:lang='VALUE' type='VALUE'>CDATA</title>,50,0.851527,structure-36
-3,<title xml:lang='VALUE' type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName></title>,120,0.0192074,structure-37
 1,<title xml:lang='VALUE'>CDATA<note >CDATA<persName >CDATA</persName>CDATA<bibl >CDATA</bibl>CDATA</note></title>,112,0.0064025,structure-38
-158,<title type='VALUE' ref='VALUE'>CDATA</title>,45,1.0115885,structure-39
-5,<title type='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName></persName></title>,89,0.0320123,structure-40
-6,<title type='VALUE' resp='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName></persName></title>,102,0.0384148,structure-41
-30,<title xml:lang='VALUE' type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName></title>,88,0.1920738,structure-42
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<quote xml:lang='VALUE'>CDATA</quote></title>,138,0.0064025,structure-43
-67,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName></title>,107,0.4289647,structure-44
-3,<title type='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,125,0.0192074,structure-45
-206,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA</title>,69,1.3189064,structure-46
-17,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,129,0.1088418,structure-47
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<quote xml:lang='VALUE'>CDATA</quote>CDATA</title>,111,0.0064025,structure-48
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<quote xml:lang='VALUE'><persName >CDATA</persName><supplied xml:lang='VALUE' reason='VALUE' resp='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</supplied></quote>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,393,0.0064025,structure-49
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName xml:lang='VALUE'>CDATA</placeName></persName></title>,120,0.0064025,structure-50
 1,<title xml:lang='VALUE' type='VALUE'>CDATA<ref target='VALUE'>CDATA</ref></title>,81,0.0064025,structure-51
-17,<title type='VALUE'>CDATA<choice ><abbr >CDATA</abbr><expan >CDATA</expan></choice>CDATA</title>,96,0.1088418,structure-52
-4,<title type='VALUE'><choice ><abbr >CDATA</abbr><expan >CDATA</expan></choice>CDATA</title>,91,0.0256098,structure-53
-16,<title type='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,79,0.1024393,structure-54
-347,<title type='VALUE' resp='VALUE'>CDATA</title>,46,2.221653,structure-55
 1,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName ><choice ><reg >CDATA</reg><reg >CDATA</reg></choice></persName></title>,139,0.0064025,structure-56
 1,<title type='VALUE'>CDATA<persName ><choice ><reg >CDATA</reg><reg >CDATA</reg></choice>CDATA</persName>CDATA<orgName >CDATA</orgName>CDATA<persName >CDATA</persName>CDATA</title>,179,0.0064025,structure-57
 1,<title xml:lang='VALUE'>CDATA<title xml:lang='VALUE'>CDATA</title>CDATA<persName >CDATA</persName><note type='VALUE'>CDATA<bibl >CDATA</bibl></note>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,220,0.0064025,structure-58
-97,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,118,0.6210385,structure-59
-30,<title xml:lang='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,77,0.1920738,structure-60
-15,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,120,0.0960369,structure-61
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName><note type='VALUE'>CDATA<bibl >CDATA</bibl>CDATA</note>CDATA<persName >CDATA<placeName >CDATA</placeName></persName></title>,191,0.0064025,structure-62
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<note type='VALUE'>CDATA<bibl >CDATA</bibl>CDATA</note></title>,156,0.0064025,structure-63
-3,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,175,0.0192074,structure-64
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<note type='VALUE'>CDATA<bibl >CDATA</bibl>CDATA</note>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,220,0.0064025,structure-65
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<quote xml:lang='VALUE'>CDATA</quote>CDATA<quote xml:lang='VALUE'>CDATA</quote>CDATA<quote xml:lang='VALUE'>CDATA</quote>CDATA<quote xml:lang='VALUE'>CDATA</quote></title>,286,0.0064025,structure-66
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<quote xml:lang='VALUE'>CDATA</quote></title>,117,0.0064025,structure-67
 1,<title xml:lang='VALUE'>CDATA<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>CDATA<persName ref='VALUE'>CDATA</persName></title>,198,0.0064025,structure-68
-13,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,112,0.083232,structure-69
-11,<title xml:lang='VALUE'>CDATA<title xml:lang='VALUE'>CDATA</title>CDATA</title>,79,0.070427,structure-70
-18,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,112,0.1152443,structure-71
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName><note type='VALUE'>CDATA<bibl >CDATA</bibl>CDATA</note>CDATA<date datingMethod='VALUE' when-custom='VALUE'>CDATA</date>CDATA<date calendar='VALUE' when='VALUE'>CDATA</date></title>,247,0.0064025,structure-72
 1,<title xml:lang='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<placeName ><choice ><reg >CDATA</reg><orig xml:lang='VALUE'>CDATA</orig><reg xml:lang='VALUE'>CDATA</reg></choice></placeName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName><note type='VALUE'>CDATA<bibl >CDATA</bibl>CDATA</note></title>,405,0.0064025,structure-73
-7,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<title xml:lang='VALUE'>CDATA</title>CDATA</title>,122,0.0448172,structure-74
-4,<title xml:lang='VALUE'>CDATA<title xml:lang='VALUE'>CDATA</title></title>,74,0.0256098,structure-75
 1,<title xml:lang='VALUE'>CDATA<note type='VALUE'>CDATA<bibl >CDATA</bibl>CDATA</note></title>,92,0.0064025,structure-76
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'><choice ><reg >CDATA</reg><orig xml:lang='VALUE'>CDATA</orig></choice></persName>CDATA</title>,145,0.0064025,structure-77
 1,<title xml:lang='VALUE'>CDATA<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName></title></title>,112,0.0064025,structure-78
-134,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></title>,78,0.8579294,structure-79
-25,<title xml:lang='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA</title>,82,0.1600615,structure-80
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,328,0.0064025,structure-81
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<placeName xml:lang='VALUE'>CDATA</placeName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA</title>,196,0.0064025,structure-82
-2,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,224,0.0128049,structure-83
-3,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,144,0.0192074,structure-84
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,184,0.0064025,structure-85
-2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName >CDATA</placeName>CDATA</title>,114,0.0128049,structure-86
 1,<title xml:lang='VALUE'>CDATA<title xml:lang='VALUE'><choice ><reg >CDATA</reg><orig xml:lang='VALUE'>CDATA</orig></choice>CDATA<persName ref='VALUE'>CDATA</persName></title></title>,182,0.0064025,structure-87
-56,<title xml:lang='VALUE'>CDATA<ref >CDATA</ref></title>,54,0.3585377,structure-88
-5,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<ref >CDATA</ref></title>,97,0.0320123,structure-89
-30,<title xml:lang='VALUE'>CDATA<ref target='VALUE'>CDATA</ref>CDATA</title>,73,0.1920738,structure-90
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA<placeName ref='VALUE'><choice ><reg >CDATA</reg><orig xml:lang='VALUE'>CDATA</orig></choice></placeName></placeName>CDATA<date when-custom='VALUE' datingMethod='VALUE'>CDATA</date>CDATA<date calendar='VALUE' when='VALUE'>CDATA</date>CDATA<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign></persName>CDATA<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign></persName>CDATA<persName >CDATA</persName>CDATA</title>,503,0.0064025,structure-91
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</persName></title>,153,0.0064025,structure-92
-2,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,108,0.0128049,structure-93
-38,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,76,0.2432934,structure-94
-6,<title type='VALUE'>CDATA<ref target='VALUE'>CDATA</ref></title>,64,0.0384148,structure-95
 1,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,140,0.0064025,structure-96
-5,<title type='VALUE'><foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,74,0.0320123,structure-97
 1,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,139,0.0064025,structure-98
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'><choice ><reg >CDATA</reg><orig xml:lang='VALUE'>CDATA</orig></choice></persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,191,0.0064025,structure-99
 1,<title ref='VALUE' xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,130,0.0064025,structure-100
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<note type='VALUE'>CDATA<persName >CDATA</persName>CDATA<bibl >CDATA</bibl>CDATA</note></title>,167,0.0064025,structure-101
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'><choice ><reg >CDATA</reg><reg xml:lang='VALUE'>CDATA</reg></choice>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,263,0.0064025,structure-102
-3,<title xml:lang='VALUE'>CDATA<bibl >CDATA<persName ref='VALUE'>CDATA</persName>CDATA</bibl></title>,99,0.0192074,structure-103
-104,<title xml:lang='VALUE' ref='VALUE'>CDATA</title>,49,0.6658557,structure-104
-4,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,116,0.0256098,structure-105
-57,<title ref='VALUE' xml:lang='VALUE'>CDATA</title>,49,0.3649401,structure-106
-48,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA</title>,120,0.307318,structure-107
-4,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,126,0.0256098,structure-108
-6,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA</title>,125,0.0384148,structure-109
-13,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></title>,124,0.083232,structure-110
-59,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA</title>,65,0.3777451,structure-111
 1,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<date calendar='VALUE' when='VALUE'>CDATA</date>CDATA</title>,118,0.0064025,structure-112
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,241,0.0064025,structure-113
-18,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA</title>,109,0.1152443,structure-114
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA<placeName >CDATA</placeName></persName>CDATA</title>,130,0.0064025,structure-115
-13,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName></persName>CDATA</title>,98,0.083232,structure-116
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA</persName></title>,206,0.0064025,structure-117
-37,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,101,0.236891,structure-118
 1,<title type='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,138,0.0064025,structure-119
-16,<title xml:lang='VALUE'>CDATA<title >CDATA</title></title>,58,0.1024393,structure-120
 1,<title type='VALUE'>CDATA<placeName >CDATA</placeName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,131,0.0064025,structure-121
 1,<title type='VALUE'>CDATA<persName xml:lang='VALUE' type='VALUE'>CDATA</persName>CDATA<persName ref='VALUE' xml:lang='VALUE' type='VALUE'>CDATA</persName>CDATA</title>,167,0.0064025,structure-122
-8,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,103,0.0512197,structure-123
-113,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName></title>,71,0.7234778,structure-124
-2,<title xml:lang='VALUE'><ref target='VALUE'>CDATA</ref>CDATA</title>,68,0.0128049,structure-125
 1,<title xml:lang='VALUE'>CDATA<placeName ><reg >CDATA</reg><orig xml:lang='VALUE'>CDATA</orig></placeName>CDATA</title>,118,0.0064025,structure-126
-111,<title xml:lang='VALUE'>CDATA<ref target='VALUE'>CDATA</ref></title>,68,0.7106729,structure-127
 1,<title xml:lang='VALUE' ref='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,130,0.0064025,structure-128
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName>CDATA<persName >CDATA</persName>CDATA</title>,141,0.0064025,structure-129
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName></persName>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName></title>,165,0.0064025,structure-130
@@ -136,50 +372,26 @@ hits,structure,Node-length,hit-percentage,structure-id
 1,<title xml:lang='VALUE'><persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<date >CDATA</date>CDATA<date >CDATA</date></title>,139,0.0064025,structure-135
 1,<title xml:lang='VALUE'>CDATA<placeName >CDATA<persName >CDATA</persName></placeName></title>,93,0.0064025,structure-136
 1,<title xml:lang='VALUE'>CDATA<ref target='VALUE'>CDATA<persName >CDATA</persName></ref>CDATA</title>,100,0.0064025,structure-137
-4,<title xml:lang='VALUE'><foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,121,0.0256098,structure-138
 1,<title xml:lang='VALUE'><foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName >CDATA<placeName >CDATA</placeName></persName>CDATA</title>,139,0.0064025,structure-139
-2,<title xml:lang='VALUE'><foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName>CDATA</title>,150,0.0128049,structure-140
-23,<title xml:lang='VALUE'><foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,78,0.1472566,structure-141
 1,<title xml:lang='VALUE'><foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,164,0.0064025,structure-142
-64,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,83,0.4097573,structure-143
-2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,169,0.0128049,structure-144
-39,<title xml:lang='VALUE'>CDATA<placeName >CDATA</placeName></title>,66,0.2496959,structure-145
 1,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,172,0.0064025,structure-146
 1,<title type='VALUE'>CDATA<placeName >COMMENT<foreign >CDATA</foreign></placeName>CDATA<origDate datingMethod='VALUE' when-custom='VALUE'>CDATA</origDate><origDate calendar='VALUE' when='VALUE'>CDATA</origDate></title>,217,0.0064025,structure-147
 1,<title type='VALUE'>CDATA<persName ><choice ><reg resp='VALUE'>CDATA</reg><orig xml:lang='VALUE'>CDATA</orig></choice></persName>CDATA</title>,142,0.0064025,structure-148
 1,<title type='VALUE'>CDATA<persName xml:lang='VALUE'>CDATA</persName>CDATA</title>,81,0.0064025,structure-149
 1,<title type='VALUE'>CDATA<persName xml:lang='VALUE'>CDATA</persName></title>,76,0.0064025,structure-150
-2,<title type='VALUE'>CDATA<persName xml:lang='VALUE' type='VALUE'>CDATA</persName>CDATA<persName xml:lang='VALUE' type='VALUE'>CDATA</persName></title>,150,0.0128049,structure-151
 1,<title type='VALUE'>CDATA<persName xml:lang='VALUE' type='VALUE'>CDATA</persName>CDATA<persName xml:lang='VALUE' type='VALUE'>CDATA</persName>CDATA<persName xml:lang='VALUE' type='VALUE'>CDATA</persName></title>,211,0.0064025,structure-152
 1,<title type='VALUE'>CDATA<persName xml:lang='VALUE' type='VALUE'>CDATA</persName></title>,89,0.0064025,structure-153
-4,<title type='VALUE'>CDATA<persName xml:lang='VALUE' type='VALUE'>CDATA</persName>CDATA</title>,94,0.0256098,structure-154
-3,<title type='VALUE' resp='VALUE'>CDATA<persName >CDATA</persName></title>,73,0.0192074,structure-155
 1,<title type='VALUE'>CDATA<persName xml:lang='VALUE' type='VALUE'>CDATA</persName>CDATA<persName xml:lang='VALUE' type='VALUE'>CDATA</persName>CDATA</title>,155,0.0064025,structure-156
 1,<title xml:lang='VALUE'>CDATA<title ref='VALUE'>CDATA</title>CDATA<title ref='VALUE'>CDATA</title></title>,106,0.0064025,structure-157
-2,<title xml:lang='VALUE'>CDATA<quote xml:lang='VALUE'>CDATA</quote></title>,74,0.0128049,structure-158
-2,<title xml:lang='VALUE'>CDATA<bibl >CDATA<ptr target='VALUE'></ptr></bibl>CDATA</title>,87,0.0128049,structure-159
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<placeName xml:lang='VALUE' ref='VALUE'>CDATA</placeName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName >CDATA</persName></title>,248,0.0064025,structure-160
-3,<title xml:lang='VALUE'><persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,118,0.0192074,structure-161
-36,<title xml:lang='VALUE'><persName ref='VALUE'>CDATA</persName>CDATA</title>,75,0.2304885,structure-162
 1,<title xml:lang='VALUE'><persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA</title>,115,0.0064025,structure-163
 1,<title xml:lang='VALUE'><persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,107,0.0064025,structure-164
-8,<title ref='VALUE' xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,92,0.0512197,structure-165
-2,<title xml:lang='VALUE'><persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,96,0.0128049,structure-166
 1,<title xml:lang='VALUE'><persName >CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA</title>,104,0.0064025,structure-167
 1,<title xml:lang='VALUE'><persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,128,0.0064025,structure-168
-89,<title xml:lang='VALUE'><persName >CDATA</persName></title>,59,0.5698188,structure-169
-3,<title xml:id='VALUE'>CDATA<persName >CDATA</persName></title>,62,0.0192074,structure-170
 1,<title >CDATA<persName >CDATA<persName >CDATA</persName></persName></title>,75,0.0064025,structure-171
-4,<title >CDATA<persName ref='VALUE'>CDATA</persName></title>,59,0.0256098,structure-172
-9,<title >CDATA<persName >CDATA</persName></title>,48,0.0576221,structure-173
 1,<title ><persName >CDATA</persName></title>,43,0.0064025,structure-174
-8,<title xml:lang='VALUE'><persName ref='VALUE'>CDATA</persName></title>,70,0.0512197,structure-175
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName>CDATA</persName>CDATA</title>,157,0.0064025,structure-176
-10,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,104,0.0640246,structure-177
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,147,0.0064025,structure-178
-3,<title type='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName></persName></title>,123,0.0192074,structure-179
-2,<title type='VALUE'>CDATA<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign></persName></title>,101,0.0128049,structure-180
-2,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,156,0.0128049,structure-181
 1,<title type='VALUE'>CDATA<persName >CDATA<foreign >CDATA</foreign>CDATA<persName >CDATA</persName></persName></title>,117,0.0064025,structure-182
 1,<title type='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName></persName>CDATA<persName >CDATA</persName></title>,121,0.0064025,structure-183
 1,<title type='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName></persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,153,0.0064025,structure-184
@@ -188,18 +400,13 @@ hits,structure,Node-length,hit-percentage,structure-id
 1,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName >CDATA</persName></title>,148,0.0064025,structure-187
 1,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,214,0.0064025,structure-188
 1,<title type='VALUE'>CDATA<placeName >CDATA</placeName>CDATA<placeName xml:lang='VALUE'>CDATA</placeName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA</title>,207,0.0064025,structure-189
-6,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName></title>,94,0.0384148,structure-190
 1,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,135,0.0064025,structure-191
 1,<title type='VALUE'>CDATA<sic ><persName xml:lang='VALUE'>CDATA</persName></sic>CDATA<sic ><persName xml:lang='VALUE'>CDATA</persName></sic>CDATA<sic xml:lang='VALUE'>CDATA</sic>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA</title>,236,0.0064025,structure-192
 1,<title type='VALUE'>CDATA<date when-custom='VALUE' datingMethod='VALUE'>CDATA</date>CDATA<date calendar='VALUE' when='VALUE'>CDATA</date></title>,145,0.0064025,structure-193
 1,<title type='VALUE'>CDATA<placeName >CDATA</placeName><placeName xml:lang='VALUE'>CDATA</placeName>CDATA<persName ref='VALUE'>CDATA</persName></title>,150,0.0064025,structure-194
-11,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,114,0.070427,structure-195
-6,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,111,0.0384148,structure-196
-20,<title type='VALUE'></title>,28,0.1280492,structure-197
 1,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<orgName >CDATA</orgName>CDATA</title>,151,0.0064025,structure-198
 1,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName >CDATA</placeName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<placeName >CDATA</placeName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<date when-custom='VALUE' datingMethod='VALUE'>CDATA</date>CDATA<date when='VALUE' calendar='VALUE'>CDATA</date></title>,437,0.0064025,structure-199
 1,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,169,0.0064025,structure-200
-8,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,124,0.0512197,structure-201
 1,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<date when='VALUE' calendar='VALUE'>CDATA<persName >CDATA</persName></date></title>,140,0.0064025,structure-202
 1,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<orgName >CDATA</orgName>CDATA<persName >CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<date notBefore='VALUE' notAfter='VALUE' calendar='VALUE'>CDATA</date></title>,237,0.0064025,structure-203
 1,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName >CDATA</persName></title>,201,0.0064025,structure-204
@@ -214,14 +421,8 @@ hits,structure,Node-length,hit-percentage,structure-id
 1,<title type='VALUE'>CDATA<persName >CDATA</persName><quote xml:lang='VALUE'>CDATA</quote>CDATA<quote xml:lang='VALUE'><placeName >CDATA</placeName></quote>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName >CDATA</persName>CDATA<quote xml:lang='VALUE'><persName >CDATA</persName></quote>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,369,0.0064025,structure-213
 1,<title ref='VALUE' type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,184,0.0064025,structure-214
 1,<title type='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<quote xml:lang='VALUE'>CDATA</quote>CDATA<quote xml:lang='VALUE'>CDATA</quote>CDATA<persName >CDATA</persName>CDATA</title>,194,0.0064025,structure-215
-2,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA</title>,152,0.0128049,structure-216
-12,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<ref target='VALUE'>CDATA</ref></title>,111,0.0768295,structure-217
-7,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<ref target='VALUE'>CDATA</ref></title>,100,0.0448172,structure-218
 1,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></title>,722,0.0064025,structure-219
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<placeName >CDATA</placeName>CDATA</title>,238,0.0064025,structure-220
-5,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName >CDATA</placeName></title>,109,0.0320123,structure-221
-2,<title xml:lang='VALUE'>CDATA<foreign >CDATA</foreign>CDATA</title>,67,0.0128049,structure-222
-4,<title xml:lang='VALUE'>CDATA<ref >CDATA<persName >CDATA</persName></ref>CDATA</title>,86,0.0256098,structure-223
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA<placeName >CDATA</placeName></persName>CDATA<placeName >CDATA</placeName></title>,159,0.0064025,structure-224
 1,<title xml:lang='VALUE'>CDATA<placeName >CDATA</placeName>CDATA<ref >CDATA</ref></title>,88,0.0064025,structure-225
 1,<title xml:lang='VALUE'>CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName></title>,134,0.0064025,structure-226
@@ -233,67 +434,36 @@ hits,structure,Node-length,hit-percentage,structure-id
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName></persName>CDATA<persName >CDATA</persName>CDATA</title>,150,0.0064025,structure-232
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName>CDATA<persName ref='VALUE'>CDATA</persName></persName>CDATA<persName >CDATA</persName>COMMENTCDATA<persName >CDATA</persName>CDATA</title>,223,0.0064025,structure-233
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<persName >CDATA</persName>CDATA</title>,141,0.0064025,structure-234
-3,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,171,0.0192074,structure-235
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName>CDATA<ref >CDATA</ref></title>,126,0.0064025,structure-236
 1,<title xml:lang='VALUE'>CDATA<ref >CDATA<persName >CDATA</persName>CDATA<ref >CDATA</ref></ref></title>,103,0.0064025,structure-237
-2,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></title>,170,0.0128049,structure-238
-4,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,147,0.0256098,structure-239
 1,<title xml:lang='VALUE'><persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,102,0.0064025,structure-240
-3,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA</persName></title>,120,0.0192074,structure-241
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName ref='VALUE'>CDATA</persName></title>,204,0.0064025,structure-242
-3,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,158,0.0192074,structure-243
-2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<persName >CDATA</persName></title>,147,0.0128049,structure-244
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<persName >CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,267,0.0064025,structure-245
-5,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<title >CDATA</title>CDATA</title>,106,0.0320123,structure-246
-3,<title xml:lang='VALUE'>CDATA<title >CDATA</title>CDATA</title>,63,0.0192074,structure-247
 1,<title xml:lang='VALUE' type='VALUE'>CDATA<title ref='VALUE'>CDATA</title>CDATA</title>,87,0.0064025,structure-248
-2,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName ref='VALUE'>CDATA</persName></title>,121,0.0128049,structure-249
-3,<title xml:lang='VALUE' type='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></title>,137,0.0192074,structure-250
-2,<title xml:lang='VALUE' type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,93,0.0128049,structure-251
 1,<title xml:lang='VALUE' type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,131,0.0064025,structure-252
 1,<title type='VALUE'>CDATA<quote >CDATA</quote>CDATA<bibl >CDATA</bibl>CDATA</title>,83,0.0064025,structure-253
 1,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName><title type='VALUE'>CDATA</title></title>,104,0.0064025,structure-254
-16,<title type='VALUE'><persName >CDATA</persName></title>,55,0.1024393,structure-255
 1,<title type='VALUE'><placeName >CDATA</placeName></title>,57,0.0064025,structure-256
 1,<title xml:lang='VALUE'>CDATA<bibl >CDATA</bibl>CDATA<bibl >CDATA<persName ref='VALUE'>CDATA</persName>CDATA</bibl>CDATA</title>,128,0.0064025,structure-257
 1,<title >CDATA<foreign xml:lang='VALUE'>CDATA</foreign></title>,62,0.0064025,structure-258
 1,<title type='VALUE'>CDATA<orgName ref='VALUE'>CDATA</orgName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></title>,115,0.0064025,structure-259
 1,<title type='VALUE'>CDATA<orgName ref='VALUE'>CDATA</orgName>CDATA</title>,74,0.0064025,structure-260
 1,<title type='VALUE'>CDATA<orgName ref='VALUE'>CDATA</orgName>CDATA<persName ref='VALUE'>CDATA</persName></title>,112,0.0064025,structure-261
-8,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA</title>,116,0.0512197,structure-262
 1,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<placeName xml:lang='VALUE'><sic >CDATA</sic></placeName>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,199,0.0064025,structure-263
 1,<title type='VALUE'>CDATA<persName >CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<persName >CDATA</persName>CDATA</title>,137,0.0064025,structure-264
-10,<title type='VALUE'>CDATA<placeName >CDATA</placeName></title>,62,0.0640246,structure-265
-3,<title type='VALUE'>CDATA<bibl ><title ref='VALUE'>CDATA</title></bibl></title>,79,0.0192074,structure-266
-2,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,148,0.0128049,structure-267
 1,<title type='VALUE'>CDATA<locus from='VALUE' to='VALUE'>CDATA</locus>CDATA<locus from='VALUE' to='VALUE'>CDATA</locus>CDATA</title>,131,0.0064025,structure-268
 1,<title type='VALUE' resp='VALUE'>CDATA<locus from='VALUE' to='VALUE'>CDATA</locus>CDATA<locus from='VALUE' to='VALUE'>CDATA</locus>CDATA</title>,144,0.0064025,structure-269
-4,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,115,0.0256098,structure-270
-12,<title xml:lang='VALUE'><ref >CDATA</ref></title>,49,0.0768295,structure-271
 1,<title xml:lang='VALUE'><persName >CDATA</persName>CDATA<ref >CDATA</ref>CDATA</title>,86,0.0064025,structure-272
 1,<title xml:lang='VALUE'>CDATA<ref >CDATA<persName >CDATA</persName></ref>CDATA<ref >CDATA<persName >CDATA</persName>CDATA</ref>CDATA<ref >CDATA</ref></title>,157,0.0064025,structure-273
-13,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<ref >CDATA</ref></title>,86,0.083232,structure-274
-4,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName></persName>CDATA</title>,118,0.0256098,structure-275
-9,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,133,0.0576221,structure-276
 1,<title xml:lang='VALUE'>CDATA<title >CDATA</title>CDATA<persName >CDATA</persName>CDATA</title>,95,0.0064025,structure-277
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<title >CDATA</title>CDATA</title>,95,0.0064025,structure-278
-3,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,166,0.0192074,structure-279
 1,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,212,0.0064025,structure-280
-4,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<ref >CDATA</ref>CDATA</title>,91,0.0256098,structure-281
-94,<title type='VALUE' xml:lang='VALUE'>CDATA</title>,50,0.6018311,structure-282
-7,<title type='VALUE' xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName></title>,88,0.0448172,structure-283
-3,<title xml:lang='VALUE'>CDATA<ref >CDATA</ref>CDATA<ref >CDATA</ref></title>,76,0.0192074,structure-284
 1,<title xml:lang='VALUE'>CDATA<supplied xml:lang='VALUE' reason='VALUE' resp='VALUE'>CDATA</supplied>CDATA</title>,113,0.0064025,structure-285
 1,<title xml:lang='VALUE'>CDATA<title xml:lang='VALUE'>CDATA</title>CDATA<title xml:lang='VALUE'>CDATA</title>CDATA</title>,121,0.0064025,structure-286
-4,<title xml:lang='VALUE'>CDATA<title xml:lang='VALUE'>CDATA</title>CDATA<persName ref='VALUE'>CDATA</persName></title>,117,0.0256098,structure-287
 1,<title xml:lang='VALUE'>CDATA<ref target='VALUE'>CDATA</ref>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,207,0.0064025,structure-288
 1,<title type='VALUE'>CDATA<title >CDATA</title>CDATA</title>,59,0.0064025,structure-289
 1,<title xml:lang='VALUE' ref='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,95,0.0064025,structure-290
-18,<title xml:lang='VALUE' type='VALUE' ref='VALUE'>CDATA</title>,62,0.1152443,structure-291
-8,<title xml:lang='VALUE' ref='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName></title>,87,0.0512197,structure-292
-7,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<ref target='VALUE'>CDATA</ref>CDATA</title>,116,0.0448172,structure-293
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<ref target='VALUE'>CDATA</ref>CDATA<persName ref='VALUE'>CDATA</persName></title>,154,0.0064025,structure-294
-2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<ref target='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName></ref></title>,149,0.0128049,structure-295
 1,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName >CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,201,0.0064025,structure-296
 1,<title xml:lang='VALUE' type='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,138,0.0064025,structure-297
 1,<title xml:lang='VALUE' type='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName ref='VALUE'>CDATA</persName></title>,133,0.0064025,structure-298
@@ -305,144 +475,87 @@ hits,structure,Node-length,hit-percentage,structure-id
 1,<title xml:lang='VALUE'>CDATA<title xml:lang='VALUE'>CDATA</title>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName><title xml:lang='VALUE'>CDATA</title>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName><note type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<bibl >CDATA<ptr ></ptr></bibl>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<bibl >CDATA</bibl>CDATA</note>COMMENT</title>,539,0.0064025,structure-304
 1,<title xml:lang='VALUE'>CDATA<date notBefore='VALUE' notAfter='VALUE'>CDATA</date>CDATA</title>,95,0.0064025,structure-305
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<title xml:lang='VALUE'>CDATA</title>CDATA<ref target='VALUE'>CDATA</ref>CDATA</title>,158,0.0064025,structure-306
-4,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,139,0.0256098,structure-307
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<date datingMethod='VALUE' when-custom='VALUE'>CDATA</date>CDATA<date calendar='VALUE' when='VALUE'>CDATA</date></title>,226,0.0064025,structure-308
-4,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName></title>,150,0.0256098,structure-309
 1,<title xml:lang='VALUE'><persName ref='VALUE'>CDATA</persName>CDATA<date datingMethod='VALUE' when-custom='VALUE'>CDATA</date>CDATA<date calendar='VALUE' when='VALUE'>CDATA</date></title>,187,0.0064025,structure-310
 1,<title xml:lang='VALUE'>CDATA<persName ><choice ><reg >CDATA</reg><orig xml:lang='VALUE'>CDATA</orig></choice></persName>CDATA<persName ><choice ><reg >CDATA</reg><orig xml:lang='VALUE'>CDATA</orig></choice></persName>CDATA<placeName >CDATA</placeName>CDATA<date datingMethod='VALUE' when-custom='VALUE'>CDATA</date>CDATA<date when='VALUE' calendar='VALUE'>CDATA</date></title>,377,0.0064025,structure-311
-2,<title xml:lang='VALUE'>CDATA<date datingMethod='VALUE' when-custom='VALUE'>CDATA</date>CDATA<date calendar='VALUE' when='VALUE'>CDATA</date></title>,149,0.0128049,structure-312
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,230,0.0064025,structure-313
 1,<title type='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<locus from='VALUE'>CDATA</locus>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,249,0.0064025,structure-314
-5,<title type='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></title>,74,0.0320123,structure-315
 1,<title type='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,217,0.0064025,structure-316
-7,<title type='VALUE'>CDATA<persName xml:lang='VALUE' ref='VALUE'>CDATA</persName>CDATA<persName xml:lang='VALUE' ref='VALUE'>CDATA</persName></title>,148,0.0448172,structure-317
-3,<title type='VALUE'>CDATA<persName xml:lang='VALUE' ref='VALUE'>CDATA</persName></title>,88,0.0192074,structure-318
 1,<title ref='VALUE' type='VALUE'></title>,40,0.0064025,structure-319
-4,<title type='VALUE'>CDATA<persName xml:lang='VALUE' ref='VALUE'>CDATA</persName>CDATA</title>,93,0.0256098,structure-320
 1,<title type='VALUE'>CDATA<persName xml:lang='VALUE' ref='VALUE'>CDATA</persName>CDATA<persName xml:lang='VALUE'>CDATA</persName></title>,136,0.0064025,structure-321
 1,<title type='VALUE'>CDATA<persName xml:lang='VALUE' ref='VALUE'>CDATA</persName>CDATA<persName xml:lang='VALUE'>CDATA</persName>CDATA<placeName xml:lang='VALUE'>CDATA</placeName>CDATA</title>,191,0.0064025,structure-322
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,187,0.0064025,structure-323
-4,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName >CDATA</persName></title>,110,0.0256098,structure-324
 1,<title xml:lang='VALUE'>CDATA<ref >CDATA</ref>CDATA<ref >CDATA</ref>CDATA<ref >CDATA</ref></title>,98,0.0064025,structure-325
-2,<title >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName >CDATA</persName></title>,94,0.0128049,structure-326
-2,<title >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,67,0.0128049,structure-327
-2,<title xml:lang='VALUE'>CDATA<ref target='VALUE'>CDATA</ref>CDATA<persName >CDATA</persName></title>,100,0.0128049,structure-328
-2,<title xml:lang='VALUE'>CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName>CDATA</title>,105,0.0128049,structure-329
 1,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName >CDATA</persName>CDATA<ref target='VALUE'>CDATA</ref></title>,146,0.0064025,structure-330
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<title xml:lang='VALUE'>CDATA<persName xml:lang='VALUE' ref='VALUE'>CDATA</persName></title>CDATA</title>,177,0.0064025,structure-331
 1,<title xml:lang='VALUE'><persName ref='VALUE'>CDATA</persName>CDATA<title xml:lang='VALUE'>CDATA</title>CDATA</title>,117,0.0064025,structure-332
 1,<title xml:lang='VALUE'><persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,113,0.0064025,structure-333
-7,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,161,0.0448172,structure-334
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<ref target='VALUE'>CDATA</ref></title>,154,0.0064025,structure-335
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,258,0.0064025,structure-336
-10,<title xml:lang='VALUE'>CDATA<ref target='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName></ref></title>,106,0.0640246,structure-337
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<date calendar='VALUE' when='VALUE'>CDATA</date>CDATA</title>,154,0.0064025,structure-338
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<persName >CDATA</persName>CDATA<ref target='VALUE'>CDATA</ref>CDATA</title>,188,0.0064025,structure-339
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'><choice ><orig xml:lang='VALUE'>CDATA</orig><reg xml:lang='VALUE' resp='VALUE'>CDATA</reg><reg xml:lang='VALUE' resp='VALUE'>CDATA</reg></choice></persName></title>,258,0.0064025,structure-340
-7,<title xml:lang='VALUE'>CDATA<ref target='VALUE'>CDATA</ref>CDATA<ref target='VALUE'>CDATA</ref></title>,104,0.0448172,structure-341
 1,<title xml:lang='VALUE'>CDATA<title xml:lang='VALUE'>CDATA</title>CDATA<title xml:lang='VALUE'>CDATA</title>CDATA<ref target='VALUE'>CDATA</ref></title>,152,0.0064025,structure-342
-3,<title xml:lang='VALUE'>CDATA<ref target='VALUE'><persName ref='VALUE'>CDATA</persName>CDATA</ref></title>,106,0.0192074,structure-343
 1,<title xml:lang='VALUE'>CDATA<ref target='VALUE'>CDATA</ref>CDATA<persName >CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA</title>,145,0.0064025,structure-344
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<ref target='VALUE'>CDATA</ref></title>,143,0.0064025,structure-345
-2,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<ref target='VALUE'>CDATA</ref></title>,140,0.0128049,structure-346
-2,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<ref >CDATA</ref></title>,126,0.0128049,structure-347
 1,<title xml:lang='VALUE'>CDATA<date datingMethod='VALUE' from-custom='VALUE' to-custom='VALUE'>CDATA</date>CDATA<date calendar='VALUE' from='VALUE' to='VALUE'>CDATA</date>CDATA</title>,183,0.0064025,structure-348
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA</title>,211,0.0064025,structure-349
-2,<title xml:lang='VALUE'>CDATA<ref target='VALUE'>CDATA</ref>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,116,0.0128049,structure-350
 1,<title xml:lang='VALUE'>CDATA<ref target='VALUE'>CDATA</ref>CDATA<ref target='VALUE'>CDATA</ref>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,152,0.0064025,structure-351
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<ref target='VALUE'><persName ref='VALUE'>CDATA</persName></ref></title>,144,0.0064025,structure-352
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<ref target='VALUE'>CDATA</ref>CDATA</title>,145,0.0064025,structure-353
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<ref target='VALUE'><persName ref='VALUE'>CDATA</persName>CDATA</ref></title>,149,0.0064025,structure-354
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<persName >CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,187,0.0064025,structure-355
 1,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,543,0.0064025,structure-356
-4,<title type='VALUE'><quote >CDATA</quote>CDATA</title>,54,0.0256098,structure-357
 1,<title type='VALUE'><quote ><foreign xml:lang='VALUE'>CDATA</foreign></quote>CDATA</title>,90,0.0064025,structure-358
 1,<title xml:lang='VALUE' ref='VALUE'>CDATA<persName >CDATA</persName>CDATA</title>,81,0.0064025,structure-359
-9,<title xml:lang='VALUE' ref='VALUE'><persName >CDATA</persName></title>,71,0.0576221,structure-360
-5,<title xml:lang='VALUE' ref='VALUE'>CDATA<persName >CDATA</persName></title>,76,0.0320123,structure-361
 1,<title type='VALUE' xml:lang='VALUE'>CDATA<orgName xml:lang='VALUE'>CDATA</orgName>CDATA</title>,96,0.0064025,structure-362
 1,<title type='VALUE' xml:lang='VALUE'><choice ><orig >CDATA<orgName xml:lang='VALUE'>CDATA</orgName>CDATA</orig><reg resp='VALUE'>CDATA</reg></choice></title>,157,0.0064025,structure-363
-2,<title type='VALUE' xml:lang='VALUE'>CDATA<persName xml:lang='VALUE'>CDATA</persName>CDATA</title>,98,0.0128049,structure-364
 1,<title type='VALUE' xml:lang='VALUE'>CDATA<placeName xml:lang='VALUE'>CDATA</placeName>CDATA</title>,100,0.0064025,structure-365
 1,<title xml:lang='VALUE' type='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<title ref='VALUE' xml:lang='VALUE' type='VALUE'>CDATA</title></title>,158,0.0064025,structure-366
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<title ref='VALUE'>CDATA</title>CDATA</title>,149,0.0064025,structure-367
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA<persName >CDATA</persName>CDATA</persName></title>,96,0.0064025,structure-368
 1,<title >CDATA<ref target='VALUE'>CDATA</ref>CDATA</title>,57,0.0064025,structure-369
 1,<title xml:lang='VALUE'>CDATA<ref target='VALUE'>CDATA</ref>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,132,0.0064025,structure-370
-2,<title xml:lang='VALUE'>CDATA<ref >CDATA</ref>CDATA<ref >CDATA</ref>CDATA</title>,81,0.0128049,structure-371
 1,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<ref >CDATA<persName >CDATA</persName></ref>CDATA</title>,132,0.0064025,structure-372
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName>CDATA</persName>CDATA<persName >CDATA<placeName >CDATA</placeName></persName></title>,159,0.0064025,structure-373
 1,<title xml:lang='VALUE' type='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,142,0.0064025,structure-374
-4,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,108,0.0256098,structure-375
 1,<title type='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName ref='VALUE'>CDATA</persName></title>,163,0.0064025,structure-376
-2,<title type='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,122,0.0128049,structure-377
-4,<title type='VALUE' xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,93,0.0256098,structure-378
-2,<title >CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,80,0.0128049,structure-379
 1,<title >CDATA<persName >CDATA</persName>CDATA</title>,53,0.0064025,structure-380
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,141,0.0064025,structure-381
-4,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA<placeName >CDATA</placeName></persName></title>,125,0.0256098,structure-382
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName></persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,136,0.0064025,structure-383
 1,<title >CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,91,0.0064025,structure-384
-2,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName >CDATA<placeName >CDATA</placeName></placeName></persName></title>,122,0.0128049,structure-385
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName >CDATA<placeName >CDATA</placeName></placeName></persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,165,0.0064025,structure-386
-2,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,165,0.0128049,structure-387
-9,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName></title>,103,0.0576221,structure-388
 1,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName >CDATA</placeName></title>,137,0.0064025,structure-389
 1,<title type='VALUE'>CDATA<quote >CDATA</quote>CDATA</title>,59,0.0064025,structure-390
 1,<title type='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></title>,396,0.0064025,structure-391
 1,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,119,0.0064025,structure-392
-4,<title type='VALUE' resp='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,132,0.0256098,structure-393
 1,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,316,0.0064025,structure-394
-30,<title type='VALUE' resp='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,89,0.1920738,structure-395
 1,<title ref='VALUE' type='VALUE'>CDATA<persName ><choice ><orig xml:lang='VALUE'>CDATA</orig><reg resp='VALUE'>CDATA</reg></choice></persName>CDATA</title>,154,0.0064025,structure-396
-2,<title type='VALUE' resp='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName></title>,84,0.0128049,structure-397
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName></persName>CDATA<title >CDATA<persName ref='VALUE'>CDATA</persName></title></title>,177,0.0064025,structure-398
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></title>,121,0.0064025,structure-399
 1,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></title>,216,0.0064025,structure-400
-6,<title xml:lang='VALUE'>CDATA<placeName >CDATA</placeName>CDATA<persName >CDATA</persName></title>,98,0.0384148,structure-401
 1,<title xml:lang='VALUE'>CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA</title>,293,0.0064025,structure-402
 1,<title xml:lang='VALUE'>CDATA<ref target='VALUE'>CDATA</ref>CDATA<title xml:lang='VALUE'>CDATA</title></title>,110,0.0064025,structure-403
 1,<title xml:lang='VALUE'>CDATA<ref target='VALUE'>CDATA</ref>CDATA<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName></title></title>,148,0.0064025,structure-404
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName><title xml:lang='VALUE'>CDATA</title></title>,101,0.0064025,structure-405
 1,<title xml:lang='VALUE' ref='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,119,0.0064025,structure-406
 1,<title xml:lang='VALUE'>CDATA<title xml:lang='VALUE'>CDATA</title>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,122,0.0064025,structure-407
-7,<title type='VALUE' xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA</title>,82,0.0448172,structure-408
-2,<title type='VALUE' xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,125,0.0128049,structure-409
-4,<title type='VALUE' xml:lang='VALUE'>CDATA<placeName >CDATA</placeName>CDATA</title>,84,0.0256098,structure-410
-4,<title type='VALUE' xml:lang='VALUE'>CDATA<persName >CDATA</persName></title>,77,0.0256098,structure-411
-2,<title type='VALUE' xml:lang='VALUE'>CDATA<name >CDATA</name><supplied reason='VALUE' resp='VALUE'>CDATA</supplied></title>,123,0.0128049,structure-412
-8,<title type='VALUE' xml:lang='VALUE'>CDATA<supplied reason='VALUE' resp='VALUE'>CDATA</supplied></title>,104,0.0512197,structure-413
-6,<title type='VALUE' xml:lang='VALUE'>CDATA<name >CDATA</name>CDATA</title>,74,0.0384148,structure-414
-2,<title type='VALUE' xml:lang='VALUE'>CDATA<choice ><abbr >CDATA</abbr><expan >CDATA</expan></choice>CDATA<persName >CDATA</persName></title>,140,0.0128049,structure-415
-7,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,126,0.0448172,structure-416
-4,<title type='VALUE'>CDATA<persName >CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,100,0.0256098,structure-417
 1,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<foreign xml:id='VALUE'>CDATA</foreign>CDATA</title>,109,0.0064025,structure-418
 1,<title type='VALUE'>CDATA<listPlace ><place ><placeName >CDATA</placeName><placeName >COMMENT</placeName><placeName >CDATA</placeName></place></listPlace></title>,162,0.0064025,structure-419
-10,<title type='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,73,0.0640246,structure-420
 1,<title type='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName ref='VALUE'>CDATA</persName></title>,116,0.0064025,structure-421
-2,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA</title>,121,0.0128049,structure-422
 1,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,225,0.0064025,structure-423
 1,<title type='VALUE'>CDATA<persName ><choice ><orig >CDATA<placeName ref='VALUE'>CDATA</placeName></orig><reg resp='VALUE'>CDATA</reg></choice></persName></title>,161,0.0064025,structure-424
-7,<title type='VALUE'>CDATA<placeName >CDATA</placeName>CDATA</title>,67,0.0448172,structure-425
-4,<title xml:lang='VALUE'>CDATA<persName >CDATA<persName >CDATA</persName></persName>CDATA</title>,96,0.0256098,structure-426
 1,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName></title>,143,0.0064025,structure-427
 1,<title xml:lang='VALUE'>CDATACOMMENTCDATA</title>,49,0.0064025,structure-428
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATACOMMENTCDATA<foreign >CDATA</foreign>CDATA</title>,143,0.0064025,structure-429
-2,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<date >CDATA</date>CDATA</title>,93,0.0128049,structure-430
-6,<title xml:lang='VALUE'>CDATA<bibl >CDATA</bibl>CDATA</title>,61,0.0384148,structure-431
 1,<title xml:lang='VALUE'><persName >CDATA</persName>CDATA<bibl >CDATA</bibl>CDATA</title>,88,0.0064025,structure-432
-2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,208,0.0128049,structure-433
 1,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName >CDATA</persName></title>,137,0.0064025,structure-434
 1,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName>CDATA<persName >CDATA</persName></title>,126,0.0064025,structure-435
 1,<title xml:lang='VALUE'>CDATA<ref target='VALUE'>CDATA</ref>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<note type='VALUE'>CDATA<date datingMethod='VALUE' from-custom='VALUE' to-custom='VALUE'>CDATA</date>CDATA<bibl >CDATA</bibl>CDATA<bibl >CDATA</bibl></note>CDATA</title>,277,0.0064025,structure-436
-5,<title type='VALUE'>CDATA<quote xml:lang='VALUE'>CDATA</quote></title>,70,0.0320123,structure-437
 1,<title xml:lang='VALUE'>CDATA<title >CDATA</title>CDATA<title >CDATA</title></title>,84,0.0064025,structure-438
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'><choice ><sic >CDATA</sic><corr resp='VALUE'>CDATA</corr></choice></persName></title>,136,0.0064025,structure-439
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,203,0.0064025,structure-440
-13,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName>CDATA</title>,109,0.083232,structure-441
-4,<title xml:lang='VALUE'>CDATA<title ref='VALUE'>CDATA</title></title>,69,0.0256098,structure-442
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<title xml:lang='VALUE' type='VALUE'>CDATA</title>CDATA</title>,135,0.0064025,structure-443
-8,<title xml:lang='VALUE'>CDATA<ref >CDATA</ref>CDATA</title>,59,0.0512197,structure-444
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<title ref='VALUE'>CDATA</title></title>,112,0.0064025,structure-445
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<title ref='VALUE'>CDATA</title>CDATA</title>,181,0.0064025,structure-446
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<title ref='VALUE'>CDATA</title>CDATA</title>,106,0.0064025,structure-447
@@ -454,49 +567,31 @@ hits,structure,Node-length,hit-percentage,structure-id
 1,<title ref='VALUE' type='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,229,0.0064025,structure-453
 1,<title ref='VALUE' type='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,91,0.0064025,structure-454
 1,<title type='VALUE'>CDATA<title ref='VALUE'>CDATA</title>CDATA</title>,70,0.0064025,structure-455
-2,<title ></title>,16,0.0128049,structure-456
 1,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE' xml:lang='VALUE'>CDATA</persName>CDATA</title>,136,0.0064025,structure-457
 1,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName>CDATA</title>,99,0.0064025,structure-458
 1,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName >CDATA</placeName></title>,105,0.0064025,structure-459
 1,<title type='VALUE'>CDATA<placeName >CDATA<placeName >CDATA</placeName></placeName>CDATA<persName >CDATA</persName>CDATA</title>,128,0.0064025,structure-460
 1,<title xml:lang='VALUE'>CDATA<ref target='VALUE'>CDATA</ref>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<note type='VALUE'>CDATA<bibl >CDATA</bibl>CDATA<quote xml:lang='VALUE'><persName ref='VALUE'>CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<date calendar='VALUE' from='VALUE' to='VALUE'>CDATA</date>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA</quote>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA<placeName >CDATA</placeName></persName>CDATA<bibl >CDATA</bibl>CDATA<bibl >CDATA</bibl>CDATA</note></title>,725,0.0064025,structure-461
 1,<title xml:lang='VALUE'>CDATA<ref target='VALUE'>CDATA</ref>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA</title>,156,0.0064025,structure-462
-2,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<bibl >CDATA</bibl>CDATA</title>,93,0.0128049,structure-463
 1,<title xml:lang='VALUE'>CDATA<title >CDATA<persName >CDATA</persName>CDATA</title>CDATA<title xml:lang='VALUE'>CDATA</title></title>,132,0.0064025,structure-464
-3,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName></persName></title>,138,0.0192074,structure-465
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,240,0.0064025,structure-466
-2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,249,0.0128049,structure-467
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,143,0.0064025,structure-468
-2,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName>CDATA<persName ref='VALUE'>CDATA</persName></title>,141,0.0128049,structure-469
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,179,0.0064025,structure-470
-3,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,160,0.0192074,structure-471
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName >CDATA</placeName>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,154,0.0064025,structure-472
 1,<title xml:lang='VALUE'>CDATA<placeName >CDATA<placeName ref='VALUE'>CDATA</placeName></placeName>CDATA<date datingMethod='VALUE' when-custom='VALUE'>CDATA</date>CDATA<date calendar='VALUE' when='VALUE'>CDATA</date>CDATA</title>,228,0.0064025,structure-473
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></placeName></persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,241,0.0064025,structure-474
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,204,0.0064025,structure-475
-3,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,147,0.0192074,structure-476
-2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,247,0.0128049,structure-477
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA</persName>CDATA<persName >CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA</persName></title>,197,0.0064025,structure-478
 1,<title xml:lang='VALUE'>CDATA<placeName >CDATA<placeName ref='VALUE'>CDATA</placeName></placeName>CDATA<persName >CDATA</persName>CDATA<date datingMethod='VALUE' when-custom='VALUE'>CDATA</date>CDATA<date calendar='VALUE' when='VALUE'>CDATA</date>CDATA<date datingMethod='VALUE' when-custom='VALUE'>CDATA</date>CDATA<date calendar='VALUE' when='VALUE'>CDATA</date>CDATA</title>,377,0.0064025,structure-479
 1,<title xml:lang='VALUE'>CDATA<ref >CDATA</ref>CDATA<persName >CDATA</persName>CDATA</title>,91,0.0064025,structure-480
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<date calendar='VALUE' when='VALUE'>CDATA</date>CDATA</title>,133,0.0064025,structure-481
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,168,0.0064025,structure-482
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName></title>,136,0.0064025,structure-483
-2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName ref='VALUE'>CDATA</persName></title>,163,0.0128049,structure-484
-2,<title type='VALUE'>CDATA<orgName >CDATA</orgName></title>,58,0.0128049,structure-485
-12,<title type='VALUE' resp='VALUE'>CDATA<orgName >CDATA</orgName></title>,71,0.0768295,structure-486
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<date datingMethod='VALUE' when-custom='VALUE'>CDATA</date>CDATA<date calendar='VALUE' when='VALUE'>CDATA</date></title>,232,0.0064025,structure-487
 1,<title >CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName></title>,91,0.0064025,structure-488
-5,<title >CDATA<persName >CDATA<placeName >CDATA</placeName></persName></title>,77,0.0320123,structure-489
-5,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName>CDATA<persName >CDATA</persName></title>,136,0.0320123,structure-490
-2,<title xml:lang='VALUE'></title>,32,0.0128049,structure-491
-2,<title xml:lang='VALUE' type='VALUE' resp='VALUE'>CDATA<persName >CDATA</persName>CDATA</title>,95,0.0128049,structure-492
 1,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,157,0.0064025,structure-493
 1,<title type='VALUE' xml:lang='VALUE'><choice ><orig >CDATA</orig><corr resp='VALUE'>CDATA</corr></choice></title>,113,0.0064025,structure-494
-2,<title type='VALUE' resp='VALUE'>CDATA<persName >CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,170,0.0128049,structure-495
 1,<title type='VALUE' xml:lang='VALUE'>CDATA<supplied reason='VALUE' resp='VALUE'><ref target='VALUE'>CDATA</ref></supplied>CDATA</title>,135,0.0064025,structure-496
-4,<title type='VALUE'><persName >CDATA</persName>CDATA</title>,60,0.0256098,structure-497
-4,<title type='VALUE'>CDATA<persName >CDATA</persName><supplied reason='VALUE' resp='VALUE'><persName >CDATA</persName></supplied></title>,136,0.0256098,structure-498
 1,<title type='VALUE'>CDATA<ref target='VALUE'>CDATA</ref><supplied reason='VALUE' resp='VALUE'>CDATA<persName >CDATA</persName></supplied></title>,145,0.0064025,structure-499
 1,<title type='VALUE'>CDATA<choice ><orig ><persName >CDATA</persName></orig><corr ><persName >CDATA</persName></corr></choice><supplied reason='VALUE' resp='VALUE'><persName >CDATA</persName></supplied></title>,209,0.0064025,structure-500
 1,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName><supplied reason='VALUE' resp='VALUE'><persName >CDATA</persName></supplied></title>,147,0.0064025,structure-501
@@ -504,7 +599,6 @@ hits,structure,Node-length,hit-percentage,structure-id
 1,<title xml:lang='VALUE'>CDATA<foreign >CDATA</foreign></title>,62,0.0064025,structure-503
 1,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,157,0.0064025,structure-504
 1,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,146,0.0064025,structure-505
-2,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA</title>,167,0.0128049,structure-506
 1,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,151,0.0064025,structure-507
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<persName >CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,224,0.0064025,structure-508
 1,<title xml:lang='VALUE'><persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName>CDATA</title>,104,0.0064025,structure-509
@@ -513,25 +607,16 @@ hits,structure,Node-length,hit-percentage,structure-id
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA<placeName >CDATA</placeName>CDATA</persName></title>,130,0.0064025,structure-512
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA<placeName >CDATA</placeName></persName></title>,168,0.0064025,structure-513
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,168,0.0064025,structure-514
-2,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,221,0.0128049,structure-515
 1,<title type='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></title>,212,0.0064025,structure-516
-4,<title type='VALUE'>CDATA<quote >CDATA</quote></title>,54,0.0256098,structure-517
-3,<title type='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName></persName>CDATA</title>,128,0.0192074,structure-518
-5,<title type='VALUE'>COMMENT</title>,35,0.0320123,structure-519
 1,<title xml:lang='VALUE'>CDATA<ref >CDATA</ref>CDATA<ref >CDATA</ref>CDATA<ref >CDATA</ref>CDATA<ref >CDATA</ref></title>,120,0.0064025,structure-520
 1,<title xml:lang='VALUE'>CDATA<ref >CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName></ref>CDATA</title>,120,0.0064025,structure-521
 1,<title xml:lang='VALUE'>CDATA<ref >CDATA<persName >CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</ref></title>,132,0.0064025,structure-522
 1,<title xml:lang='VALUE'>CDATA<quote xml:lang='VALUE'>CDATA<ref target='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName></ref></quote>CDATA</title>,148,0.0064025,structure-523
 1,<title xml:lang='VALUE'><ref target='VALUE'>CDATA<persName >CDATA</persName></ref></title>,90,0.0064025,structure-524
-2,<title ref='VALUE' xml:lang='VALUE'>CDATA<persName >CDATA</persName></title>,76,0.0128049,structure-525
-4,<title ref='VALUE' xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName></title>,87,0.0256098,structure-526
 1,<title xml:lang='VALUE'>CDATA<persName ><choice ><orig >CDATA</orig><reg >CDATA</reg></choice>CDATA</persName>CDATA</title>,123,0.0064025,structure-527
-3,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<persName >CDATA</persName>CDATA</title>,152,0.0192074,structure-528
 1,<title xml:lang='VALUE'>CDATA<quote xml:lang='VALUE'>CDATA</quote>CDATA<quote xml:lang='VALUE'>CDATA</quote>CDATA</title>,121,0.0064025,structure-529
-2,<title xml:lang='VALUE'>CDATA<origDate notBefore='VALUE' notAfter='VALUE'>CDATA</origDate></title>,98,0.0128049,structure-530
 1,<title xml:lang='VALUE'>CDATA<title xml:lang='VALUE' type='VALUE' ref='VALUE'>CDATA</title></title>,99,0.0064025,structure-531
 1,<title xml:lang='VALUE'>CDATA<title xml:lang='VALUE' ref='VALUE'>CDATA</title>CDATA<title xml:lang='VALUE' ref='VALUE'>CDATA</title>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,185,0.0064025,structure-532
-3,<title >CDATA<title ref='VALUE'>CDATA</title>CDATA<title ref='VALUE'>CDATA</title>CDATA</title>,95,0.0192074,structure-533
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign></persName>CDATA<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign></persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA<placeName >CDATA</placeName></persName></title>,367,0.0064025,structure-534
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign></persName>CDATA<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign></persName>CDATA<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign></persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA<placeName >CDATA</placeName></persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,632,0.0064025,structure-535
 1,<title xml:lang='VALUE'>CDATA<placeName >CDATA</placeName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,130,0.0064025,structure-536
@@ -539,45 +624,31 @@ hits,structure,Node-length,hit-percentage,structure-id
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName></title>,208,0.0064025,structure-538
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</persName>CDATA<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName></title>,254,0.0064025,structure-539
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</persName>CDATA<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</persName>CDATA<placeName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</placeName>CDATA<placeName >CDATA</placeName></title>,302,0.0064025,structure-540
-2,<title xml:lang='VALUE'>CDATA<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</persName></title>,110,0.0128049,structure-541
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</persName>CDATA<persName >CDATA</persName></title>,252,0.0064025,structure-542
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</persName>CDATA<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</persName>CDATA</title>,225,0.0064025,structure-543
-3,<title xml:lang='VALUE'>CDATA<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</persName>CDATA</title>,115,0.0192074,structure-544
 1,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<placeName >CDATA</placeName>CDATA</title>,211,0.0064025,structure-545
 1,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<ref target='VALUE'>CDATA</ref>CDATA<persName >CDATA</persName>CDATA</title>,133,0.0064025,structure-546
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</persName>CDATA<persName >CDATA</persName></title>,174,0.0064025,structure-547
-2,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,173,0.0128049,structure-548
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<ref ><foreign xml:lang='VALUE'>CDATA</foreign></ref>CDATA<persName ref='VALUE'>CDATA</persName></title>,176,0.0064025,structure-549
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>COMMENTCDATA<ref >CDATA</ref>CDATA<persName ref='VALUE'>CDATA</persName></title>,192,0.0064025,structure-550
 1,<title >CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<ref ><foreign xml:lang='VALUE'>CDATA</foreign></ref></title>,160,0.0064025,structure-551
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,158,0.0064025,structure-552
 1,<title xml:lang='VALUE'><ref >CDATA</ref>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,137,0.0064025,structure-553
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></title>,161,0.0064025,structure-554
-3,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,129,0.0192074,structure-555
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,252,0.0064025,structure-556
-2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<persName >CDATA</persName></persName></title>,102,0.0128049,structure-557
-2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<ref >CDATA</ref></title>,129,0.0128049,structure-558
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA<placeName >CDATA</placeName></persName>CDATA<ref >CDATA</ref></title>,158,0.0064025,structure-559
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<ref >CDATA</ref>CDATA<ref >CDATA</ref></title>,119,0.0064025,structure-560
-2,<title xml:lang='VALUE'>CDATA<title ref='VALUE'>CDATA</title>CDATA<title ref='VALUE'>CDATA</title>CDATA</title>,111,0.0128049,structure-561
-2,<title xml:lang='VALUE'>CDATA<bibl >CDATA<persName ref='VALUE'>CDATA</persName>CDATA</bibl>CDATA</title>,104,0.0128049,structure-562
 1,<title >CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,64,0.0064025,structure-563
-5,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName>CDATA<persName >CDATA</persName></title>,130,0.0320123,structure-564
-4,<title xml:lang='VALUE'><persName >CDATA<placeName >CDATA</placeName></persName></title>,88,0.0256098,structure-565
 1,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName >CDATA</persName>CDATA</title>,143,0.0064025,structure-566
-4,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,152,0.0256098,structure-567
 1,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<title xml:lang='VALUE'>CDATA</title>CDATA<persName ref='VALUE'>CDATA</persName></title>,163,0.0064025,structure-568
 1,<title xml:lang='VALUE'>CDATA<placeName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></placeName>CDATA</title>,122,0.0064025,structure-569
-2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,163,0.0128049,structure-570
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,147,0.0064025,structure-571
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA</title>,203,0.0064025,structure-572
-4,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></placeName></persName>CDATA</title>,160,0.0256098,structure-573
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>COMMENTCDATA</title>,173,0.0064025,structure-574
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA</title>,166,0.0064025,structure-575
 1,<title xml:lang='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA</title>,159,0.0064025,structure-576
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></placeName></persName>CDATA</title>,149,0.0064025,structure-577
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>COMMENTCDATA<persName >CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA</title>,210,0.0064025,structure-578
-2,<title xml:lang='VALUE'>CDATA<placeName >CDATA<persName >CDATA</persName></placeName>CDATA</title>,98,0.0128049,structure-579
 1,<title xml:lang='VALUE'>CDATA<placeName ref='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName></placeName>CDATA</title>,120,0.0064025,structure-580
 1,<title xml:lang='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,223,0.0064025,structure-581
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName>CDATA</title>,186,0.0064025,structure-582
@@ -590,23 +661,19 @@ hits,structure,Node-length,hit-percentage,structure-id
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,136,0.0064025,structure-589
 1,<title xml:lang='VALUE'>CDATA<note type='VALUE'>CDATA<bibl >CDATA</bibl>CDATA</note>CDATA</title>,97,0.0064025,structure-590
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'><choice ><reg >CDATA</reg><orig xml:lang='VALUE'>CDATA</orig><reg xml:lang='VALUE'>CDATA</reg></choice></persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,216,0.0064025,structure-591
-3,<title xml:lang='VALUE'><persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,91,0.0192074,structure-592
 1,<title xml:lang='VALUE'>CDATA<ref target='VALUE'>CDATA</ref>CDATA<persName ref='VALUE'>CDATA</persName></title>,111,0.0064025,structure-593
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA</title>,412,0.0064025,structure-594
 1,<title type='VALUE'>CDATA<choice ><reg >CDATA</reg><reg >CDATA</reg></choice>CDATA</title>,90,0.0064025,structure-595
 1,<title type='VALUE' ref='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></title>,86,0.0064025,structure-596
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<ref target='VALUE'>CDATA<persName >CDATA</persName></ref>CDATA</title>,143,0.0064025,structure-597
-2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,198,0.0128049,structure-598
 1,<title xml:lang='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,165,0.0064025,structure-599
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName>CDATA<persName >CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName></persName>CDATA</title>,290,0.0064025,structure-600
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,236,0.0064025,structure-601
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA<placeName >CDATA</placeName></persName>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,211,0.0064025,structure-602
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName>CDATA<persName ref='VALUE'>CDATA</persName></title>,295,0.0064025,structure-603
-2,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,164,0.0128049,structure-604
 1,<title xml:lang='VALUE'>CDATA<persName ><choice ><orig >CDATA</orig><reg >CDATA</reg></choice></persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,156,0.0064025,structure-605
 1,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA</title>,173,0.0064025,structure-606
 1,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<placeName xml:lang='VALUE'>CDATA</placeName>CDATA</title>,280,0.0064025,structure-607
-2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName >CDATA</persName></title>,152,0.0128049,structure-608
 1,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<placeName ref='VALUE'>CDATA</placeName><date >CDATA</date>CDATA<date calendar='VALUE' when='VALUE'>CDATA</date></title>,195,0.0064025,structure-609
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,171,0.0064025,structure-610
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName></title>,190,0.0064025,structure-611
@@ -614,16 +681,11 @@ hits,structure,Node-length,hit-percentage,structure-id
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<placeName >CDATA</placeName></persName>CDATA<persName >CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA</title>,398,0.0064025,structure-613
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,192,0.0064025,structure-614
 1,<title type='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,203,0.0064025,structure-615
-3,<title xml:lang='VALUE'>CDATA<ref ><persName ref='VALUE'>CDATA</persName>CDATA</ref></title>,92,0.0192074,structure-616
-2,<title xml:lang='VALUE'>CDATA<ref >CDATA<persName >CDATA</persName>CDATA</ref></title>,86,0.0128049,structure-617
-3,<title xml:lang='VALUE'>CDATA<persName >CDATA<persName ref='VALUE'>CDATA</persName></persName></title>,102,0.0192074,structure-618
-4,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,139,0.0256098,structure-619
 1,<title xml:lang='VALUE'>CDATA<date >CDATA</date>CDATA<date >CDATA</date></title>,80,0.0064025,structure-620
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></persName>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName >CDATA</placeName></title>,268,0.0064025,structure-621
 1,<title xml:lang='VALUE'>CDATA<ref ><persName >CDATA</persName></ref></title>,76,0.0064025,structure-622
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,182,0.0064025,structure-623
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName></title>,182,0.0064025,structure-624
-2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,147,0.0128049,structure-625
 1,<title type='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,160,0.0064025,structure-626
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA</title>,154,0.0064025,structure-627
 1,<title type='VALUE' ref='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,168,0.0064025,structure-628
@@ -632,29 +694,20 @@ hits,structure,Node-length,hit-percentage,structure-id
 1,<title ref='VALUE' xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<ref >CDATA</ref></title>,98,0.0064025,structure-631
 1,<title xml:lang='VALUE'>CDATA<title >CDATA<persName ref='VALUE'>CDATA</persName></title>CDATA</title>,101,0.0064025,structure-632
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</persName>CDATA</title>,149,0.0064025,structure-633
-2,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName></title>,194,0.0128049,structure-634
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA<persName >CDATA</persName></persName></title>,123,0.0064025,structure-635
-4,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName></title>,130,0.0256098,structure-636
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,162,0.0064025,structure-637
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName>CDATA<persName >CDATA</persName></persName></title>,125,0.0064025,structure-638
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,172,0.0064025,structure-639
 1,<title xml:lang='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,174,0.0064025,structure-640
-2,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA</title>,148,0.0128049,structure-641
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<ref >CDATA<persName >CDATA</persName></ref></title>,124,0.0064025,structure-642
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<title >CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title></title>,227,0.0064025,structure-643
 1,<title ref='VALUE' xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA</title>,175,0.0064025,structure-644
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<title >CDATA<persName ref='VALUE'>CDATA</persName></title>CDATA</title>,184,0.0064025,structure-645
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATACOMMENT</title>,87,0.0064025,structure-646
-3,<title ref='VALUE' xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,135,0.0192074,structure-647
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<title >CDATA<persName ref='VALUE'>CDATA</persName></title>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,187,0.0064025,structure-648
 1,<title xml:lang='VALUE' ref='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,92,0.0064025,structure-649
-8,<title xml:lang='VALUE'>CDATA<title ><persName ref='VALUE'>CDATA</persName>CDATA</title>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,144,0.0512197,structure-650
-2,<title xml:lang='VALUE'>CDATA<title >CDATA</title>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,106,0.0128049,structure-651
-3,<title xml:lang='VALUE'>CDATA<title >CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,149,0.0192074,structure-652
 1,<title xml:lang='VALUE'>CDATA<title >CDATA<persName ref='VALUE'>CDATA</persName></title>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,144,0.0064025,structure-653
 1,<title xml:lang='VALUE'>CDATA<title >CDATA<persName >CDATA</persName></title>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA</title>,173,0.0064025,structure-654
-5,<title xml:lang='VALUE'>CDATA<title >CDATA<persName ref='VALUE'>CDATA</persName></title>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA</title>,184,0.0320123,structure-655
-2,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,144,0.0128049,structure-656
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,155,0.0064025,structure-657
 1,<title ref='VALUE' xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName></persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,168,0.0064025,structure-658
 1,<title ref='VALUE' xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA</title>,132,0.0064025,structure-659
@@ -662,22 +715,12 @@ hits,structure,Node-length,hit-percentage,structure-id
 1,<title ref='VALUE' xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,175,0.0064025,structure-661
 1,<title >CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName>CDATA</title>,130,0.0064025,structure-662
 1,<title >CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,181,0.0064025,structure-663
-8,<title ref='VALUE' type='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName></title>,112,0.0512197,structure-664
 1,<title >CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName>CDATA</title>,93,0.0064025,structure-665
 1,<title ref='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName></title>,99,0.0064025,structure-666
-4,<title type='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA</title>,78,0.0256098,structure-667
-2,<title type='VALUE'><persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,87,0.0128049,structure-668
 1,<title type='VALUE'><persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,119,0.0064025,structure-669
 1,<title type='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,137,0.0064025,structure-670
-2,<title type='VALUE'><persName ref='VALUE'>CDATA</persName>CDATA</title>,71,0.0128049,structure-671
-5,<title type='VALUE'><persName ref='VALUE'>CDATA</persName></title>,66,0.0320123,structure-672
-2,<title type='VALUE'><persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,109,0.0128049,structure-673
-2,<title type='VALUE'><persName ref='VALUE'>CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,111,0.0128049,structure-674
 1,<title type='VALUE'><persName ref='VALUE'>CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName ref='VALUE'>CDATA</persName></title>,154,0.0064025,structure-675
 1,<title type='VALUE'><persName ref='VALUE'>CDATA</persName>CDATA<placeName >CDATA</placeName></title>,100,0.0064025,structure-676
-2,<title xml:lang='VALUE'>CDATA<persName xml:lang='VALUE'>CDATA</persName></title>,80,0.0128049,structure-677
-2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,158,0.0128049,structure-678
-3,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName></persName>CDATA<persName >CDATA</persName>CDATA</title>,130,0.0192074,structure-679
 1,<title type='VALUE'>CDATA<persName >CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA</title>,105,0.0064025,structure-680
 1,<title type='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,165,0.0064025,structure-681
 1,<title type='VALUE'>CDATA<title >CDATA</title>CDATA<persName >CDATA</persName></title>,86,0.0064025,structure-682
@@ -693,7 +736,6 @@ hits,structure,Node-length,hit-percentage,structure-id
 1,<title xml:lang='VALUE' type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName xml:lang='VALUE'>CDATA</persName>CDATA<persName xml:lang='VALUE'>CDATA</persName>CDATA</title>,178,0.0064025,structure-692
 1,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,161,0.0064025,structure-693
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,149,0.0064025,structure-694
-3,<title xml:lang='VALUE'><foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName >CDATA</persName></title>,105,0.0192074,structure-695
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,198,0.0064025,structure-696
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATACOMMENT</title>,159,0.0064025,structure-697
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATACOMMENT</title>,127,0.0064025,structure-698
@@ -706,7 +748,6 @@ hits,structure,Node-length,hit-percentage,structure-id
 1,<title type='VALUE'>CDATA<persName >CDATA<supplied reason='VALUE' resp='VALUE'><placeName >CDATA</placeName></supplied></persName>CDATA<sic >CDATA</sic>CDATA</title>,165,0.0064025,structure-705
 1,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName ><choice ><orig xml:lang='VALUE'>CDATA</orig><corr >CDATA</corr></choice></placeName>CDATA<persName ref='VALUE'>CDATA</persName><title type='VALUE'><quote xml:lang='VALUE'>CDATA</quote></title></title>,269,0.0064025,structure-706
 1,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName><title type='VALUE'><quote xml:lang='VALUE'>CDATA</quote></title></title>,136,0.0064025,structure-707
-38,<title type='VALUE' resp='VALUE'>CDATA<placeName >CDATA</placeName></title>,75,0.2432934,structure-708
 1,<title type='VALUE'><ref target='VALUE'><quote ><foreign xml:lang='VALUE'>CDATA</foreign></quote>CDATA</ref></title>,116,0.0064025,structure-709
 1,<title xml:lang='VALUE'>CDATA<ref >CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></ref></title>,135,0.0064025,structure-710
 1,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,379,0.0064025,structure-711
@@ -723,7 +764,6 @@ hits,structure,Node-length,hit-percentage,structure-id
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATACOMMENT</persName></title>,82,0.0064025,structure-722
 1,<title xml:lang='VALUE'>CDATA<ref ><persName >CDATA</persName>CDATA</ref></title>,81,0.0064025,structure-723
 1,<title xml:lang='VALUE'>CDATA<quote xml:lang='VALUE'>CDATA</quote>CDATA</title>,79,0.0064025,structure-724
-11,<title xml:lang='VALUE' type='VALUE'>CDATA<persName >CDATA</persName></title>,77,0.070427,structure-725
 1,<title type='VALUE'>CDATA<note type='VALUE'>CDATA<persName >CDATA</persName>CDATA<bibl >CDATA</bibl>CDATA</note></title>,120,0.0064025,structure-726
 1,<title type='VALUE'>CDATA<supplied reason='VALUE' resp='VALUE'>CDATA</supplied>CDATA</title>,92,0.0064025,structure-727
 1,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,162,0.0064025,structure-728
@@ -734,17 +774,13 @@ hits,structure,Node-length,hit-percentage,structure-id
 1,<title xml:lang='VALUE'>CDATA<title xml:lang='VALUE' ref='VALUE'>CDATA<persName >CDATA</persName></title></title>,113,0.0064025,structure-733
 1,<title xml:lang='VALUE'>CDATA<title xml:lang='VALUE' ref='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title></title>,145,0.0064025,structure-734
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName><title xml:lang='VALUE'>CDATA</title></title>,141,0.0064025,structure-735
-4,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName></title>,147,0.0256098,structure-736
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName>CDATA<placeName xml:lang='VALUE'>CDATA</placeName></title>,154,0.0064025,structure-737
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<title xml:lang='VALUE'>CDATA</title>CDATA</title>,162,0.0064025,structure-738
 1,<title >CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,85,0.0064025,structure-739
 1,<title xml:lang='VALUE'><ref >CDATA</ref>CDATA</title>,54,0.0064025,structure-740
 1,<title >CDATA<ref >CDATA<persName >CDATA</persName></ref></title>,65,0.0064025,structure-741
 1,<title >CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,155,0.0064025,structure-742
-7,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<date >CDATA</date></title>,88,0.0448172,structure-743
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<date >CDATA</date></title>,99,0.0064025,structure-744
-2,<title type='VALUE'>CDATA<title >CDATA</title></title>,54,0.0128049,structure-745
-6,<title type='VALUE' resp='VALUE'>CDATA<title >CDATA</title></title>,67,0.0384148,structure-746
 1,<title type='VALUE'>CDATA<title type='VALUE' ref='VALUE'>CDATA</title>CDATA<title type='VALUE' ref='VALUE'>CDATA</title></title>,128,0.0064025,structure-747
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,273,0.0064025,structure-748
 1,<title xml:lang='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName >CDATA</persName>CDATA</title>,114,0.0064025,structure-749
@@ -753,10 +789,7 @@ hits,structure,Node-length,hit-percentage,structure-id
 1,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,199,0.0064025,structure-752
 1,<title xml:lang='VALUE' ref='VALUE'><persName >CDATA</persName>CDATA<note type='VALUE'>CDATA<bibl >CDATA<ptr target='VALUE'></ptr></bibl>CDATA<bibl >CDATA<ptr target='VALUE'></ptr></bibl>CDATA<bibl >CDATA<ptr target='VALUE'></ptr></bibl>CDATA</note></title>,257,0.0064025,structure-753
 1,<title xml:lang='VALUE'>CDATA<ref target='VALUE'>CDATA</ref>CDATA<ref target='VALUE'>CDATA</ref>CDATA<ref target='VALUE'>CDATA</ref></title>,140,0.0064025,structure-754
-2,<title ref='VALUE' xml:lang='VALUE'>CDATA<ref target='VALUE'>CDATA</ref></title>,80,0.0128049,structure-755
-4,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<ref target='VALUE'>CDATA</ref>CDATA</title>,105,0.0256098,structure-756
 1,<title xml:lang='VALUE'>CDATA<persName ><choice ><reg >CDATA</reg><orig xml:lang='VALUE'>CDATA</orig></choice></persName>CDATA</title>,134,0.0064025,structure-757
-2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,150,0.0128049,structure-758
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<choice ><orig xml:lang='VALUE'>CDATA</orig><reg xml:lang='VALUE'>CDATA</reg></choice>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></title>,442,0.0064025,structure-759
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,218,0.0064025,structure-760
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<note type='VALUE'>CDATA<bibl >CDATA</bibl>CDATA</note></title>,135,0.0064025,structure-761
@@ -765,15 +798,11 @@ hits,structure,Node-length,hit-percentage,structure-id
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA<choice ><reg >CDATA</reg><reg >CDATA</reg></choice></placeName></title>,150,0.0064025,structure-764
 1,<title xml:lang='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName >CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<ref target='VALUE'>CDATA</ref></title>,191,0.0064025,structure-765
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName></persName>CDATA<date >CDATA</date></title>,117,0.0064025,structure-766
-2,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA<placeName >CDATA</placeName></placeName></title>,127,0.0128049,structure-767
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA<placeName >CDATA</placeName></persName></title>,157,0.0064025,structure-768
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA</title>,197,0.0064025,structure-769
-2,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName></title>,162,0.0128049,structure-770
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName ><foreign xml:lang='VALUE'>CDATA</foreign></persName>CDATA<persName >CDATA</persName></title>,164,0.0064025,structure-771
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA<persName >CDATA<placeName >CDATA</placeName></persName></persName></title>,152,0.0064025,structure-772
 1,<title type='VALUE'>CDATA<placeName xml:lang='VALUE'>CDATA</placeName>CDATA<placeName xml:lang='VALUE'>CDATA</placeName>CDATA</title>,133,0.0064025,structure-773
-2,<title xml:lang='VALUE'>CDATA<locus from='VALUE' to='VALUE'></locus></title>,76,0.0128049,structure-774
-2,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName>CDATA</title>,103,0.0128049,structure-775
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName></placeName>CDATA</title>,198,0.0064025,structure-776
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName></title>,132,0.0064025,structure-777
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA<persName >CDATA</persName></persName>CDATA<placeName >CDATA</placeName></title>,157,0.0064025,structure-778
@@ -781,8 +810,6 @@ hits,structure,Node-length,hit-percentage,structure-id
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName></persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,191,0.0064025,structure-780
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName></persName>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName></title>,193,0.0064025,structure-781
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA<placeName >CDATA</placeName></persName>CDATA<persName >CDATA</persName></title>,157,0.0064025,structure-782
-5,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,160,0.0320123,structure-783
-5,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName></persName>CDATA<persName >CDATA<placeName >CDATA</placeName></persName></title>,154,0.0320123,structure-784
 1,<title type='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName></persName>CDATA<bibl >CDATA</bibl>CDATA</title>,118,0.0064025,structure-785
 1,<title type='VALUE' xml:lang='VALUE'>CDATA<supplied reason='VALUE' resp='VALUE' xml:lang='VALUE'>CDATA</supplied></title>,121,0.0064025,structure-786
 1,<title type='VALUE' xml:lang='VALUE'>CDATA<supplied reason='VALUE' resp='VALUE' xml:lang='VALUE'>CDATA</supplied>CDATA</title>,126,0.0064025,structure-787
@@ -790,7 +817,6 @@ hits,structure,Node-length,hit-percentage,structure-id
 1,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<ref target='VALUE'>CDATA</ref>CDATA</title>,112,0.0064025,structure-789
 1,<title xml:lang='VALUE'>CDATA<ref target='VALUE'>CDATA</ref>CDATA<ref target='VALUE'>CDATA</ref>CDATA</title>,109,0.0064025,structure-790
 1,<title >CDATA<title ref='VALUE'>CDATA</title>CDATA</title>,58,0.0064025,structure-791
-2,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,143,0.0128049,structure-792
 1,<title xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName></title>,350,0.0064025,structure-793
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName></title>,164,0.0064025,structure-794
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName></persName></title>,127,0.0064025,structure-795
@@ -799,15 +825,12 @@ hits,structure,Node-length,hit-percentage,structure-id
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,171,0.0064025,structure-798
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA<persName >CDATA</persName></placeName></title>,168,0.0064025,structure-799
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName></title>,141,0.0064025,structure-800
-3,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<title xml:lang='VALUE'>CDATA</title>CDATA</title>,111,0.0192074,structure-801
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,209,0.0064025,structure-802
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<note >CDATA<bibl >CDATA</bibl></note>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,241,0.0064025,structure-803
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName >CDATA</persName>CDATA</title>,158,0.0064025,structure-804
 1,<title >CDATA<persName >CDATA<placeName >CDATA</placeName></persName>CDATA<persName >CDATA</persName>CDATA<ref >CDATA</ref>CDATA<ref >CDATA</ref>CDATA</title>,158,0.0064025,structure-805
-2,<title xml:lang='VALUE'><persName ><choice ><reg >CDATA</reg><orig xml:lang='VALUE'>CDATA</orig></choice>CDATA</persName></title>,129,0.0128049,structure-806
 1,<title xml:lang='VALUE'><persName ref='VALUE'><choice ><reg >CDATA</reg><orig xml:lang='VALUE'>CDATA</orig></choice>CDATA</persName></title>,140,0.0064025,structure-807
 1,<title xml:lang='VALUE'><persName ><choice ><reg >CDATA</reg><orig xml:lang='VALUE'>CDATA</orig><reg xml:lang='VALUE'>CDATA</reg></choice>CDATA</persName></title>,162,0.0064025,structure-808
-3,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,109,0.0192074,structure-809
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName >CDATA</persName></title>,141,0.0064025,structure-810
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName>CDATA</title>,227,0.0064025,structure-811
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName ref='VALUE'>CDATA</persName></title>,152,0.0064025,structure-812
@@ -829,12 +852,10 @@ hits,structure,Node-length,hit-percentage,structure-id
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</persName>CDATA<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</persName>CDATA<persName >CDATA</persName></title>,252,0.0064025,structure-828
 1,<title xml:lang='VALUE'>CDATA<placeName >CDATA</placeName>CDATA<persName >CDATA</persName>CDATA</title>,103,0.0064025,structure-829
 1,<title type='VALUE' xml:lang='VALUE' ref='VALUE'>CDATA</title>,62,0.0064025,structure-830
-3,<title xml:lang='VALUE'>CDATA<ref target='VALUE'><persName >CDATA</persName>CDATA</ref>CDATA</title>,100,0.0192074,structure-831
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<ref target='VALUE'><persName >CDATA</persName>CDATA</ref></title>,138,0.0064025,structure-832
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<bibl >CDATA</bibl></title>,99,0.0064025,structure-833
 1,<title >CDATA<ref >CDATA</ref></title>,38,0.0064025,structure-834
 1,<title xml:lang='VALUE'>CDATA<title xml:lang='VALUE' type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName></title>CDATA<persName >CDATA</persName>CDATA<title >CDATA<persName ref='VALUE'>CDATA</persName></title></title>,221,0.0064025,structure-835
-2,<title type='VALUE'>CDATA<ref target='VALUE'>CDATA</ref>CDATA</title>,69,0.0128049,structure-836
 1,<title ref='VALUE' type='VALUE'>CDATA<title type='VALUE' ref='VALUE'>CDATA</title>CDATA</title>,95,0.0064025,structure-837
 1,<title type='VALUE'><quote >CDATA</quote>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,143,0.0064025,structure-838
 1,<title type='VALUE'><quote >CDATA<placeName ref='VALUE'>CDATA</placeName></quote>CDATA</title>,94,0.0064025,structure-839
@@ -847,16 +868,13 @@ hits,structure,Node-length,hit-percentage,structure-id
 1,<title ref='VALUE' xml:lang='VALUE'>CDATA<title xml:lang='VALUE'>CDATA</title>CDATA</title>,91,0.0064025,structure-846
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,192,0.0064025,structure-847
 1,<title >CDATA<placeName >CDATA</placeName></title>,50,0.0064025,structure-848
-2,<title xml:lang='VALUE' type='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,128,0.0128049,structure-849
 1,<title xml:lang='VALUE' type='VALUE'>CDATA<placeName >CDATA</placeName></title>,79,0.0064025,structure-850
 1,<title xml:lang='VALUE' type='VALUE'>CDATA<title ref='VALUE'>CDATA</title></title>,82,0.0064025,structure-851
-2,<title xml:lang='VALUE' type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,109,0.0128049,structure-852
 1,<title xml:lang='VALUE' type='VALUE'>CDATA<placeName >CDATA</placeName>CDATA<persName >CDATA</persName></title>,111,0.0064025,structure-853
 1,<title xml:lang='VALUE' type='VALUE'>CDATA<title xml:lang='VALUE' type='VALUE'>CDATA</title>CDATA</title>,105,0.0064025,structure-854
 1,<title xml:lang='VALUE' type='VALUE'>CDATA<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</persName></title>,169,0.0064025,structure-855
 1,<title xml:lang='VALUE' type='VALUE'>CDATA<persName >CDATA</persName>CDATA</title>,82,0.0064025,structure-856
 1,<title xml:lang='VALUE' type='VALUE'>CDATA<title >CDATA</title>CDATA<persName ref='VALUE'>CDATA</persName></title>,114,0.0064025,structure-857
-2,<title xml:lang='VALUE' type='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName></title>,117,0.0128049,structure-858
 1,<title xml:lang='VALUE' type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<title ref='VALUE'>CDATA<choice ><sic >CDATA</sic><corr resp='VALUE'>CDATA</corr></choice>CDATA</title></title>,196,0.0064025,structure-859
 1,<title xml:lang='VALUE' type='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName>CDATA<persName >CDATA</persName></title>,149,0.0064025,structure-860
 1,<title xml:lang='VALUE' type='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName></persName></title>,106,0.0064025,structure-861
@@ -870,7 +888,6 @@ hits,structure,Node-length,hit-percentage,structure-id
 1,<title ref='VALUE' xml:lang='VALUE'>CDATA<persName >CDATA<persName >CDATA</persName></persName></title>,103,0.0064025,structure-869
 1,<title type='VALUE'>CDATA<placeName >CDATA</placeName>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,107,0.0064025,structure-870
 1,<title type='VALUE'>CDATA<persName >CDATA<placeName >CDATA</placeName></persName>CDATA</title>,94,0.0064025,structure-871
-3,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,111,0.0192074,structure-872
 1,<title type='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></title>,166,0.0064025,structure-873
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName></title>,236,0.0064025,structure-874
 1,<title type='VALUE'>CDATA<quote xml:lang='VALUE'>CDATA</quote>CDATA</title>,75,0.0064025,structure-875
@@ -879,32 +896,23 @@ hits,structure,Node-length,hit-percentage,structure-id
 1,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<ref target='VALUE'>CDATA</ref></title>,107,0.0064025,structure-878
 1,<title type='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,239,0.0064025,structure-879
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName>CDATA<ref >CDATA<persName ref='VALUE'>CDATA</persName>CDATA</ref></title>,227,0.0064025,structure-880
-2,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName>CDATA</persName></title>,109,0.0128049,structure-881
 1,<title xml:lang='VALUE'>CDATA<persName ><foreign xml:lang='VALUE'>CDATA</foreign>CDATA</persName>CDATA<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign></persName>CDATA<persName >CDATA<foreign xml:lang='VALUE'>CDATA</foreign></persName></title>,251,0.0064025,structure-882
 1,<title xml:lang='VALUE'><foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign></title>,119,0.0064025,structure-883
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName></title>,239,0.0064025,structure-884
-2,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<ref >CDATA</ref>CDATA</title>,123,0.0128049,structure-885
-2,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<ref >CDATA</ref>CDATA</title>,155,0.0128049,structure-886
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<ref >CDATA</ref>CDATA<persName >CDATA</persName>CDATA<ref >CDATA</ref>CDATA</title>,145,0.0064025,structure-887
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA<placeName >CDATA</placeName></persName>CDATA<ref >CDATA</ref>CDATA</title>,152,0.0064025,structure-888
-2,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<ref >CDATA</ref></title>,118,0.0128049,structure-889
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName>CDATA<ref >CDATA</ref>CDATA</title>,125,0.0064025,structure-890
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,295,0.0064025,structure-891
 1,<title xml:lang='VALUE'>CDATA<ref >CDATA</ref>CDATA<persName ref='VALUE'>CDATA</persName></title>,97,0.0064025,structure-892
 1,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<date >CDATA</date>CDATA</title>,121,0.0064025,structure-893
 1,<title type='VALUE'>CDATA<placeName >CDATA</placeName>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName></title>,128,0.0064025,structure-894
 1,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName></title>,126,0.0064025,structure-895
-2,<title type='VALUE'>CDATA<placeName >CDATA</placeName>CDATA<persName >CDATA</persName></title>,94,0.0128049,structure-896
 1,<title type='VALUE'>CDATA<placeName >CDATA</placeName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,126,0.0064025,structure-897
 1,<title type='VALUE'>CDATA<placeName >CDATA</placeName>CDATA<persName >CDATA</persName>CDATA</title>,99,0.0064025,structure-898
 1,<title type='VALUE' resp='VALUE' ref='VALUE'>CDATA</title>,58,0.0064025,structure-899
 1,<title xml:lang='VALUE'>CDATA<bibl >CDATA<ptr target='VALUE'></ptr></bibl>CDATA<bibl >CDATA<ptr target='VALUE'></ptr></bibl>CDATA</title>,137,0.0064025,structure-900
 1,<title xml:lang='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<bibl >CDATA<persName ref='VALUE'>CDATA</persName>CDATA</bibl>CDATA</title>,192,0.0064025,structure-901
 1,<title type='VALUE'>CDATA<persRef >CDATA</persRef>CDATA<persRef >CDATA</persRef></title>,88,0.0064025,structure-902
-3,<title xml:lang='VALUE'><persName ref='VALUE'>CDATA</persName>CDATA<title ref='VALUE'>CDATA</title></title>,107,0.0192074,structure-903
-5,<title xml:lang='VALUE'>CDATA<persName ref='VALUE' xml:lang='VALUE'>CDATA</persName>CDATA</title>,97,0.0320123,structure-904
-4,<title xml:lang='VALUE'>CDATA<persName ref='VALUE' xml:lang='VALUE'>CDATA</persName></title>,92,0.0256098,structure-905
-5,<title xml:lang='VALUE'>CDATA<persName xml:lang='VALUE'>CDATA</persName>CDATA</title>,85,0.0320123,structure-906
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName xml:lang='VALUE'>CDATA</persName>CDATA<persName xml:lang='VALUE'>CDATA</persName>CDATA</title>,165,0.0064025,structure-907
 1,<title >CDATA<ref target='VALUE'>CDATA</ref>CDATA<persName ref='VALUE'><choice ><reg >CDATA</reg><orig xml:lang='VALUE'>CDATA</orig></choice></persName>CDATA<persName ><choice ><reg >CDATA</reg><orig xml:lang='VALUE'><sic >CDATA</sic></orig></choice></persName></title>,269,0.0064025,structure-908
 1,<title xml:lang='VALUE'><persName ref='VALUE'>CDATA</persName>CDATA<ref target='VALUE'>CDATA</ref></title>,106,0.0064025,structure-909
@@ -921,11 +929,8 @@ hits,structure,Node-length,hit-percentage,structure-id
 1,<title xml:lang='VALUE' type='VALUE'>CDATA<ref target='VALUE'>CDATA</ref>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName></title>,199,0.0064025,structure-920
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName>CDATA</title>,167,0.0064025,structure-921
 1,<title xml:lang='VALUE'>CDATA<title >CDATA<persName >CDATA</persName></title>CDATA</title>,90,0.0064025,structure-922
-3,<title type='VALUE' ref='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName >CDATA</placeName></persName></title>,112,0.0192074,structure-923
 1,<title xml:lang='VALUE'>CDATA<title xml:lang='VALUE' ref='VALUE'>CDATA</title></title>,86,0.0064025,structure-924
 1,<title xml:lang='VALUE'>CDATA<ref target='VALUE'>CDATA</ref>CDATA<ref target='VALUE'>CDATA</ref>CDATA<ref target='VALUE'>CDATA</ref>CDATA<ref target='VALUE'>CDATA</ref>CDATA<ref target='VALUE'>CDATA</ref>CDATA</title>,217,0.0064025,structure-925
-2,<title xml:lang='VALUE' ref='VALUE'><persName ref='VALUE'>CDATA</persName>CDATA</title>,87,0.0128049,structure-926
-2,<title type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<date when='VALUE' calendar='VALUE'>CDATA</date>CDATA</title>,172,0.0128049,structure-927
 1,<title xml:lang='VALUE'>CDATA<ref ><persName >CDATA</persName>CDATA<persName >CDATA</persName></ref></title>,108,0.0064025,structure-928
 1,<title xml:lang='VALUE'>CDATA<ref >CDATA</ref>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName></title>,150,0.0064025,structure-929
 1,<title type='VALUE' xml:lang='VALUE'>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA</title>,96,0.0064025,structure-930
@@ -936,7 +941,6 @@ hits,structure,Node-length,hit-percentage,structure-id
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<ref target='VALUE'>CDATA<persName >CDATA</persName></ref></title>,138,0.0064025,structure-935
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA</title>,198,0.0064025,structure-936
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<foreign xml:lang='VALUE'>CDATA</foreign>CDATA<persName ref='VALUE'>CDATA</persName></title>,153,0.0064025,structure-937
-2,<title type='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,105,0.0128049,structure-938
 1,<title ref='VALUE' xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName></title>,119,0.0064025,structure-939
 1,<title xml:lang='VALUE' type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<note >CDATA<bibl >CDATA</bibl>CDATA<bibl >CDATA</bibl></note>CDATA<persName >CDATA</persName>CDATA<persName ><foreign xml:lang='VALUE'>CDATA</foreign></persName>CDATA<persName ><foreign xml:lang='VALUE'>CDATA</foreign></persName>CDATA<locus from='VALUE' to='VALUE'>CDATA</locus>CDATA<locus from='VALUE' to='VALUE'>CDATA</locus>CDATA<placeName >CDATA</placeName>CDATA<placeName >CDATA</placeName>CDATA<persName ref='VALUE'>CDATA</persName></title>,620,0.0064025,structure-940
 1,<title xml:lang='VALUE' type='VALUE'>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,165,0.0064025,structure-941
@@ -971,7 +975,6 @@ hits,structure,Node-length,hit-percentage,structure-id
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName >CDATA<placeName >CDATA</placeName></persName></title>,170,0.0064025,structure-970
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName >CDATA</persName></title>,276,0.0064025,structure-971
 1,<title xml:lang='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,154,0.0064025,structure-972
-2,<title xml:lang='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName >CDATA</persName></title>,109,0.0128049,structure-973
 1,<title xml:lang='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName >CDATA</persName>CDATA<placeName >CDATA</placeName></title>,143,0.0064025,structure-974
 1,<title xml:lang='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<placeName >CDATA</placeName>CDATA<persName ref='VALUE'>CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,199,0.0064025,structure-975
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<persName >CDATA</persName>CDATA<persName ref='VALUE'>CDATA</persName></title>,216,0.0064025,structure-976
@@ -1004,7 +1007,4 @@ hits,structure,Node-length,hit-percentage,structure-id
 1,<title xml:lang='VALUE'>CDATA<persName ref='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName></persName>CDATA<date >CDATA</date>CDATA<date >CDATA</date>CDATA</title>,168,0.0064025,structure-1003
 1,<title xml:lang='VALUE'>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<persName >CDATA</persName>CDATA<date >CDATA</date>CDATA<date >CDATA</date>CDATA</title>,181,0.0064025,structure-1004
 1,<title xml:lang='VALUE'>CDATA<placeName >CDATA</placeName>CDATA<placeName ref='VALUE'>CDATA</placeName></title>,111,0.0064025,structure-1005
-3,<title xml:lang='VALUE'>CDATA<date >CDATA</date>CDATA<date >CDATA</date>CDATA</title>,85,0.0192074,structure-1006
-4,<title xml:lang='VALUE'><date >CDATA</date>CDATA<date >CDATA</date>CDATA</title>,80,0.0256098,structure-1007
 1,<title xml:lang='VALUE'>CDATA<placeName >CDATA</placeName>CDATA<date >CDATA</date>CDATA<date >CDATA</date>CDATA</title>,119,0.0064025,structure-1008
-2,<title xml:lang='VALUE'>CDATA<placeName ref='VALUE'>CDATA</placeName>CDATA<date >CDATA</date>CDATA<date >CDATA</date>CDATA</title>,130,0.0128049,structure-1009
