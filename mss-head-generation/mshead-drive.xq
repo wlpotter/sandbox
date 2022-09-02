@@ -33,5 +33,24 @@ catch*
   </error>
 },
   for $part in $ms//msPart
-  return mshead:compose-head-element($part)
+  return 
+    try{
+ mshead:compose-head-element($part)
+}
+catch*
+{
+  <error>
+  <recordInfo>
+    <docUri>{document-uri($doc)}</docUri>
+    <msUri>{$ms/msIdentifier/idno/text()}</msUri>
+  </recordInfo>
+  <queryInfo>
+  <code>{$err:code}</code>
+  <desc>{$err:description}</desc>
+  <module>{$err:module}</module>
+  <lineNumber>{$err:line-number}</lineNumber>
+  <columnNumber>{$err:column-number}</columnNumber>
+  </queryInfo>
+  </error>
+}
 ) :)
