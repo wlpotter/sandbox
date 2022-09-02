@@ -5,7 +5,11 @@ import module namespace functx="http://www.functx.com";
 
 declare default element namespace "http://www.tei-c.org/ns/1.0";
 
-for $doc in collection("C:\Users\anoni\Documents\GitHub\srophe\britishLibrary-data\data\tei")
+declare variable $local:path-to-repo := "/home/arren/Documents/GitHub/britishLibrary-data/";
+
+declare variable $local:input-collection := collection($local:path-to-repo||"/data/tei/");
+
+for $doc in $local:input-collection
 for $ms in $doc//*[name() = "msDesc" or name() = "msPart"]
 return insert node mshead:compose-head-element($ms) after $ms/msIdentifier
 (: return (
