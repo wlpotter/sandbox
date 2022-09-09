@@ -1,4 +1,5 @@
-<csv>
+<?xml version="1.0" encoding="UTF-8"?>
+<log>
 <success xmlns="http://www.tei-c.org/ns/1.0">
   <inputInfo>
     <fileLocation>/home/arren/Documents/GitHub/britishLibrary-data//data/tei/347.xml</fileLocation>
@@ -304,7 +305,6 @@
     <updatedUri>x</updatedUri>
     <targetedNode>
       <author>Palladius</author>
-      <author>Palladius</author>
     </targetedNode>
   </inputInfo>
 </success>
@@ -318,7 +318,6 @@
     <currentUri/>
     <updatedUri>x</updatedUri>
     <targetedNode>
-      <author>Palladius</author>
       <author>Palladius</author>
     </targetedNode>
   </inputInfo>
@@ -57457,4 +57456,4 @@
     </targetedNode>
   </inputInfo>
 </success>
-</csv>
+</log>
