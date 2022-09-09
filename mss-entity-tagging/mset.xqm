@@ -249,7 +249,12 @@ declare %updating function mset:update-entity-uri($doc as node(), $row as node()
 {
   let $target := mset:dynamic-path($doc, $row/*:unique_xpath/text())
   (: let $target := $target[$row/*:author_position_in_sequence/text()] :)
-  let $target := if($row/*:author_position_in_sequence/text() = 1) then $target[1] else $target
+  let $target := 
+    if(count($target) > 1) then 
+      for $t at $i in $target
+      where $i = xs:integer($row/*:author_position_in_sequence/text())
+      return $t
+    else $target
   let $uri := $row/*:author_uri_possibility1/text()
   return 
     if($uri != "") then 
@@ -270,11 +275,11 @@ declare function mset:dynamic-path
   let $nextStep := functx:substring-before-if-contains($nextStep, '[')
   
   let $restOfSteps := substring-after($path,'/')
-  for $child in
+  for $child at $i in
     ($parent/*[functx:name-test(name(),$nextStep)],
      $parent/@*[functx:name-test(name(),
                               substring-after($nextStep,'@'))])
-  let $isMatch := ($predicate = "" or xs:integer($predicate) = functx:index-of-deep-equal-node($parent/*[functx:name-test(name(),$nextStep)], $child))
+  let $isMatch := ($predicate = "" or xs:integer($predicate) = $i)
   
   return if ($isMatch) then 
            if ($restOfSteps)
