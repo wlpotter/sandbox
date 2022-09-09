@@ -1,5 +1,8 @@
 declare default element namespace "http://www.tei-c.org/ns/1.0";
 
+declare variable $local:path-to-repo := "/home/arren/Documents/GitHub/britishLibrary-data/";
+declare variable $local:in-collection := collection($local:path-to-repo||"/data/tei/");
+
 declare function local:get-first-locus-from-descendant($msItem as node())
 as node()*
 {
@@ -17,8 +20,7 @@ as node()*
   else local:get-first-locus-from-descendant($msItem/msItem[1])
 };
 
-let $coll := collection("C:\Users\anoni\Documents\GitHub\srophe\britishLibrary-data\data\tei")
-for $doc in $coll
+for $doc in $local:in-collection
 for $msContents in $doc//msContents
 let $idno := $msContents/../msIdentifier/idno/text()
 let $docId := document-uri($doc)
