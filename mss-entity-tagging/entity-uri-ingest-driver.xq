@@ -18,7 +18,18 @@ for $doc in $local:input-collection
 let $msUri := $doc//msDesc/msIdentifier/idno/text()
 let $rows := mset:get-entity-rows-by-manuscript-uri($msUri, $local:entity-uri-ingest-doc)
 for $row in $rows
-  return try {mset:update-entity-uri($doc, $row)}
+  let $inputInfo :=
+    <inputInfo>
+        <fileLocation>{$local:path-to-repo||$row/*:ms_record_file_location/text()}</fileLocation>
+        <msUri>{$row/*:ms_level_uri/text()}</msUri>
+        <nodePath>{$row/*:unique_xpath/text()}</nodePath>
+        <nodePosition>{$row/*[contains(name(), "position_in_sequence")]/text()}</nodePosition>
+        <entityTextNode>{$row/*[name() = $local:entity-type||"_text_node"]/text()}</entityTextNode>
+        <currentUri>{$row/*[name() = $local:entity-type||"_uri_current"]/text()}</currentUri>
+        <updatedUri>{$row/*[name() = $local:uri-field-name]/text()}</updatedUri>
+        <targetedNode>{mset:dynamic-path($doc, $row/*:unique_xpath/text())}</targetedNode>
+      </inputInfo>
+  return try {(mset:update-entity-uri($doc, $row), update:output(<success>{$inputInfo}</success>))}
   catch * {
     let $error := 
     <error>
@@ -30,16 +41,7 @@ for $row in $rows
         <location>{$err:line-number||":"||$err:column-number}</location>
         <additional>{$err:additional}</additional>
       </traceback>
-      <inputInfo>
-        <fileLocation>{$local:path-to-repo||$row/*:ms_record_file_location/text()}</fileLocation>
-        <msUri>{$row/*:ms_level_uri/text()}</msUri>
-        <nodePath>{$row/*:unique_xpath/text()}</nodePath>
-        <nodePosition>{$row/*[contains(name(), "position_in_sequence")]/text()}</nodePosition>
-        <entityTextNode>{$row/*[name() = $local:entity-type||"_text_node"]/text()}</entityTextNode>
-        <currentUri>{$row/*[name() = $local:entity-type||"_uri_current"]/text()}</currentUri>
-        <updatedUri>{$row/*[name() = $local:uri-field-name]/text()}</updatedUri>
-        <targetedNode>{mset:dynamic-path($doc, $row/*:unique_xpath/text())}</targetedNode>
-      </inputInfo>
+      {$inputInfo}
     </error>
     return update:output($error)
   }
