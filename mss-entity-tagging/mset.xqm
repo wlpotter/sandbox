@@ -255,7 +255,7 @@ declare %updating function mset:update-entity-uri($doc as node(), $row as node()
       where $i = xs:integer($row/*:author_position_in_sequence/text())
       return $t
     else $target
-  let $uri := $row/*:author_uri_possibility1/text()
+  let $uri := $row/*:author_uri_consolidated/text()
   return 
     if($uri != "") then 
       if($target/@ref) then 
