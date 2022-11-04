@@ -7,7 +7,7 @@ declare default element namespace "http://www.tei-c.org/ns/1.0";
 
 declare variable $local:path-to-repo := "/home/arren/Documents/GitHub/britishLibrary-data/";
 declare variable $local:input-collection := collection($local:path-to-repo||"data/tei/");
-declare variable $local:path-to-ingest-csv := "/home/arren/Documents/GitHub/sandbox/mss-entity-tagging/2022-10-28_author-ingest.csv";
+declare variable $local:path-to-ingest-csv := "/home/arren/Documents/GitHub/sandbox/mss-entity-tagging/2022-11-04_author-ingest_FINAL.csv";
 declare variable $local:entity-uri-ingest-doc := 
   mset:parse-csv($local:path-to-ingest-csv);
 declare variable $local:entity-type := "author";
