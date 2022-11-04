@@ -133,7 +133,7 @@ as node()
   let $taxonomyListRelation := mshead:create-wright-taxonomy-list-from-sequence($taxonomyList, $msDesc/msIdentifier/idno/text())
   let $wholeToPartListRelation := mshead:create-composite-to-part-listRelation($msDesc)
   let $partToWholeListRelation := mshead:create-part-to-composite-listRelation($msDesc)
-  return element Q{'http://www.tei-c.org/ns/1.0'}head {
+  return element Q{http://www.tei-c.org/ns/1.0}head {
     $contentsNote,
     $taxonomyListRelation,
     $wholeToPartListRelation,
@@ -263,7 +263,7 @@ as node()?
   if ($msDesc/msPart) then 
     let $numberOfParts := count($msDesc/msPart)
     let $msUri := $msDesc/msIdentifier/idno/text()
-    let $desc := element Q{'http://www.tei-c.org/ns/1.0'}desc {"This composite manuscript consists of "||$numberOfParts||" distinct parts:"}
+    let $desc := element Q{http://www.tei-c.org/ns/1.0}desc {"This composite manuscript consists of "||$numberOfParts||" distinct parts:"}
     let $msPartData := 
       for $part in $msDesc/msPart
       let $uri := $part/msIdentifier/idno/text()
@@ -271,21 +271,21 @@ as node()?
       return map {"uri": $uri, "shelfmark": $shelfmark}
     let $relations :=
       for $part in $msPartData
-      let $partDesc := element Q{'http://www.tei-c.org/ns/1.0'}desc {$part?shelfmark}
+      let $partDesc := element Q{http://www.tei-c.org/ns/1.0}desc {$part?shelfmark}
       let $relationType := 
         if(contains($part?shelfmark, "upper")) then "pUpper"
         else if (contains($part?shelfmark, "lower")) then "pLower"
         else "generic"
       let $relationRef := map:get($mshead:whole-to-part-ref, $relationType)
       let $relationName := map:get($mshead:whole-to-part-name, $relationType)
-      return element Q{'http://www.tei-c.org/ns/1.0'}relation {
+      return element Q{http://www.tei-c.org/ns/1.0}relation {
         attribute {"name"} {$relationName},
         attribute {"ref"} {"#"||$relationRef},
         attribute {"active"} {$msUri},
         attribute {"passive"} {$part?uri},
         $partDesc
       }
-    return element Q{'http://www.tei-c.org/ns/1.0'}listRelation {attribute {"type"} {"composite-to-parts"}, $desc, $relations}
+    return element Q{http://www.tei-c.org/ns/1.0}listRelation {attribute {"type"} {"composite-to-parts"}, $desc, $relations}
   else ()
 };
 
@@ -293,7 +293,7 @@ declare function mshead:create-part-to-composite-listRelation($msPart as node())
 as node()?
 {
   if($msPart/parent::msDesc or $msPart/parent::msPart) then
-    let $desc := element Q{'http://www.tei-c.org/ns/1.0'}desc {"This unit is a part of a composite manuscript:"}
+    let $desc := element Q{http://www.tei-c.org/ns/1.0}desc {"This unit is a part of a composite manuscript:"}
     let $uri := $msPart/msIdentifier/idno/text()
     let $compositeUri := $msPart/parent::*/msIdentifier/idno/text()
     let $compositeShelfmark := $msPart/parent::*/msIdentifier/altIdentifer/idno[@type="BL-Shelfmark"]/text()
@@ -302,14 +302,14 @@ as node()?
         if(contains($shelfmark, "upper")) then "pUpper"
         else if (contains($shelfmark, "lower")) then "pLower"
         else "generic"
-    let $relation := element Q{'http://www.tei-c.org/ns/1.0'}relation {
+    let $relation := element Q{http://www.tei-c.org/ns/1.0}relation {
         attribute {"name"} {map:get($mshead:part-to-whole-name, $relationType)},
         attribute {"ref"} {"#"||map:get($mshead:part-to-whole-ref, $relationType)},
         attribute {"active"} {$uri},
         attribute {"passive"} {$compositeUri},
-        element Q{'http://www.tei-c.org/ns/1.0'}relation {$compositeShelfmark}
+        element Q{http://www.tei-c.org/ns/1.0}relation {$compositeShelfmark}
       }
-    return element Q{'http://www.tei-c.org/ns/1.0'}listRelation {
+    return element Q{http://www.tei-c.org/ns/1.0}listRelation {
         attribute {"type"} {"part-to-composite"},
         $desc,
         $relation
@@ -331,7 +331,7 @@ as xs:boolean
 declare function mshead:create-manuscript-division-note($extraProse as xs:string?)
 as node()
 {
-  element Q{'http://www.tei-c.org/ns/1.0'}note {
+  element Q{http://www.tei-c.org/ns/1.0}note {
     attribute {"type"} {"manuscript-division"},
     normalize-space(string-join(($mshead:manuscript-division-standard-note, $extraProse), " "))
 }
