@@ -224,35 +224,3 @@ element {"row"} {
   element {"notes"} {},
   element {"checkedBy"} {}
 }
-
-(:
-loop through the syriaca bibls
-- [x] get the syriaca uri if it exists (and doesn't contain 'false')
-- [x] get the corresponding zotero uri for the syriaca zot library
-
-loop through the cbsc bibl list
-- [x] pull out the zotero URI (@corresp attr)
-
-feed the syriaca bibl and the cbsc bibl to the compare function
-  - [x] write functions to extrac the data
-  - implement fuzzy matching
-  
-process the results
-  - pass the syriaca, syr zot, and cbsc zot urs to this function to add to each of the results (well, the zot uri needs to be in each result)
-  
-bundle up the results and return as a csv
-
-csv fields:
-  - [x] Syriaca bibl URI
-  - [x] Syriaca Zotero URI
-  - Syriaca author, title, and year (and maybe a full citation if it's available? want to construct it if it's not? useful comparison)
-  - CBSC matched Zotero URI(s), "|" separated
-  - CBSC author, title, and year ("|" separated as needed) (maybe a full citation)
-  - match type:
-    - 1. exact title, author, year
-    - 2. fuzzy author, exact title, year
-    - 3. fuzzy author and title, exact year
-    - 4. miss
-    - 5. multiple
-
-:)
