@@ -173,7 +173,7 @@ let $syriacaZoteroUri :=
 let $syriacaZoteroUri := if($syriacaZoteroUri != "") then "https://zotero.org"||substring-after($syriacaZoteroUri, "otero.org") else ()
 
 let $matches := 
-  for $cBibl in $local:cbsc-zotero-dump[position() > 400 and position() < 500] (: delete [1], just for testing purposes to save on processing time :)
+  for $cBibl in $local:cbsc-zotero-dump(: [position() > 400 and position() < 500] :) (: delete [1], just for testing purposes to save on processing time :)
   let $cbscUri := $cBibl/@corresp/string()
   let $matchResult := 
     try {
