@@ -51,7 +51,13 @@ as node()
   let $compareTitle := local:get-bibl-title($compare)
   
   (: start with simply yes or no matching; then try to implement fuzzy matches... :)
-  let $matchResult := if(($refYear = $compareYear) and ($refAuthEd = $compareAuthEd) and ($refTitle = $compareTitle)) then "exact match"
+  let $matchResult := 
+  if($refYear = $compareYear) (: if the years are different, it isn't a match :)
+    then if($refAuthEd = $compareAuthEd and $refTitle = $compareTitle) then "1. exact match"
+    else if ($refTitle = $compareTitle and local:is-fuzzy-match($refAuthEd, $compareAuthEd)) then "2. exact title and year, fuzzy creators"
+    else if (local:is-fuzzy-match($refTitle, $compareTitle) and $refAuthEd = $compareAuthEd) then "3. exact creators and year, fuzzy title"
+    else if(local:is-fuzzy-match($refTitle, $compareTitle) and local:is-fuzzy-match($refAuthEd, $compareAuthEd)) then "4. exact year, fuzzy creators and title"
+    else "miss"
   else "miss"
   
   return
@@ -64,6 +70,12 @@ as node()
      element {$local:comparison-column-name-base||"title"} {$compareTitle},
      element {"match-type"} {$matchResult}
    }
+};
+
+declare function local:is-fuzzy-match($s1 as xs:string, $s2 as xs:string)
+as xs:boolean
+{
+  $s2 contains text {$s1} using fuzzy   
 };
 
 declare function local:get-bibl-date($bibl as node())
@@ -113,6 +125,19 @@ as xs:string?
     return $title
 };
 
+
+declare function local:process-matches($matches as node()*)
+as node()*
+{
+  if(empty($matches)) then () 
+  else
+  
+  for $match in $matches
+  return $match
+};
+
+(: MAIN SCRIPT :)
+
 let $syriacaZoteroNotOnApp :=
   for $bibl in $local:syriaca-zotero-dump
   let $zotUri := 
@@ -144,7 +169,7 @@ let $syriacaZoteroUri :=
 let $syriacaZoteroUri := if($syriacaZoteroUri != "") then "https://zotero.org"||substring-after($syriacaZoteroUri, "otero.org") else ()
 
 let $matches := 
-  for $cBibl in $local:cbsc-zotero-dump[1] (: delete [1], just for testing purposes to save on processing time :)
+  for $cBibl in $local:cbsc-zotero-dump[position() > 400 and position() < 500] (: delete [1], just for testing purposes to save on processing time :)
   let $cbscUri := $cBibl/@corresp/string()
   let $matchResult := 
     try {
@@ -154,7 +179,7 @@ let $matches :=
       let $error := 
     <error>
       <traceback>
-        <code>{$err:code}</code>
+        <code>{$err:code}</code>if($ed//surname) then $ed//surname
         <description>{$err:description}</description>
         <value>{$err:value}</value>
         <module>{$err:module}</module>
@@ -169,17 +194,21 @@ let $matches :=
     </error>
     return $error
    }
-  return $matchResult
+  return 
+    if($matchResult/match-type/text() != "miss") then 
+      element {name($matchResult)} {
+        element {"cbscZoteroUri"} {$cbscUri},
+        $matchResult/*
+      }
+    else()
   
-let $results := ()
+let $results := local:process-matches($matches)
 
 (: return the results as a csv row:)
 return
 element {"row"} {
   element {"syriacaBiblUri"} {$syriacaUri},
   element {"syriacaZoteroUri"} {$syriacaZoteroUri},
-  (: just temporary for testing:)
-  element {"cbscMatches"} {$matches},
   $results
 }
 
