@@ -1,5 +1,8 @@
 xquery version "3.1";
 
+(:
+Rather than create a CSV this should just create an xml dump. We can use oXygen forms to allow students to review them
+:)
 
 declare default element namespace "http://www.tei-c.org/ns/1.0";
 
@@ -30,6 +33,7 @@ match function
 @param ref
 @param compare
 
+- if dates do not match, return 'miss'
 - exact match title; fuzzy match if not
 - exact match author/editor string; fuzzy match if not
 - if both are exact, return 'exact'
@@ -131,9 +135,9 @@ as node()*
 {
   if(empty($matches)) then () 
   else
-  
-  for $match in $matches
-  return $match
+    for $match in $matches
+    order by $match/match-type/text()
+    return $match
 };
 
 (: MAIN SCRIPT :)
@@ -197,19 +201,28 @@ let $matches :=
   return 
     if($matchResult/match-type/text() != "miss") then 
       element {name($matchResult)} {
+        attribute {"isMatch"} {},
         element {"cbscZoteroUri"} {$cbscUri},
-        $matchResult/*
+        $matchResult/*     
       }
     else()
   
 let $results := local:process-matches($matches)
+let $hasMatch := if($results) then "true" else "false"
 
 (: return the results as a csv row:)
 return
 element {"row"} {
+  attribute {"checked"} {"false"},
+  attribute {"status"} {"not checked"},
+  attribute {"hasMatch"} {$hasMatch},
   element {"syriacaBiblUri"} {$syriacaUri},
   element {"syriacaZoteroUri"} {$syriacaZoteroUri},
-  $results
+  $results,
+  element {"correctedCBSCMatch"} {},
+  element {"correctedCBSCMatch"} {},
+  element {"notes"} {},
+  element {"checkedBy"} {}
 }
 
 (:
@@ -226,7 +239,6 @@ feed the syriaca bibl and the cbsc bibl to the compare function
   
 process the results
   - pass the syriaca, syr zot, and cbsc zot urs to this function to add to each of the results (well, the zot uri needs to be in each result)
-  - keep the returned data as-is, but combine if there are 'multiple' using " | " separator
   
 bundle up the results and return as a csv
 
