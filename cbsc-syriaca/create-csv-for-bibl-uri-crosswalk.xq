@@ -82,12 +82,14 @@ as xs:string?
   let $authorNames := 
     for $auth in $authorLevel/author
     order by $auth
-    return if($auth//surname) then $auth//surname/text() else $auth//name/text()
+    let $authName := if($auth//surname) then $auth//surname/text() else $auth//name/text()
+    return if(count($authName) > 1) then string-join($authName, "/") else $authName
   let $editorLevel :=  if($bibl/descendant-or-self::biblStruct/analytic/editor) then $bibl/descendant-or-self::biblStruct/analytic else $bibl/descendant-or-self::biblStruct/monogr
   let $editorNames := 
     for $ed in $editorLevel/editor
     order by $ed
-    return if($ed//surname) then $ed//surname/text()||" (ed.)" else $ed//name/text()||" (ed.)"
+    let $edName :=  if($ed//surname) then $ed//surname/text() else $ed//name/text()
+    return if(count($edName) > 1) then string-join($edName, "/")||" (ed.)" else $edName||" (ed.)"
     
   let $authorString := string-join($authorNames, ", ")
   let $editorString := string-join($editorNames, ", ")
@@ -97,8 +99,18 @@ as xs:string?
 declare function local:get-bibl-title($bibl as node())
 as xs:string?
 {
+    (: use the analytic level title if it exists, otherwise use the monograph level :)
     let $titleLevel := if($bibl/descendant-or-self::biblStruct/analytic) then $bibl/descendant-or-self::biblStruct/analytic else $bibl/descendant-or-self::biblStruct/monogr
-    return $titleLevel/title/text()
+    
+    (: String join multiple title elements, which is useful for cases of parallel titles in multiple languages. :)
+    let $title := 
+      for $title in $titleLevel/title/text()
+      (: string sorting, should solve multiple languages issue in case two different entries had the multiple languages in different orders :)
+      order by $title
+      return $title
+    (: pipe join any sequence of titles :)
+    let $title := string-join($title, " | ")
+    return $title
 };
 
 let $syriacaZoteroNotOnApp :=
