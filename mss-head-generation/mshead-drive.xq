@@ -11,7 +11,11 @@ declare variable $local:input-collection := collection($local:path-to-repo||"/da
 
 for $doc in $local:input-collection
 for $ms in $doc//*[name() = "msDesc" or name() = "msPart"]
-return insert node mshead:compose-head-element($ms) after $ms/msIdentifier
+return 
+  if($ms/head) then 
+    replace node $ms/head with mshead:compose-head-element($ms) 
+  else
+    insert node mshead:compose-head-element($ms) after $ms/msIdentifier
 (: return (
   try{
   mshead:compose-head-element($ms)
