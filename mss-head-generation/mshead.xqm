@@ -171,13 +171,13 @@ as node()
     let $renumberNotaBene := "N.B., items have been renumbered by the editors and may not reflect Wright's original numeration."
     return element {QName("http://www.tei-c.org/ns/1.0", "note")} 
           {attribute {"type"} {"contents-note"}, 
-           string-join(($contentsSummary, $itemCountNote, $renumberNotaBene), " ")}
+           string-join(($contentsSummary, $itemCountNote), " ")}
 };
 
 declare function mshead:generate-contents-summary($topLevelContents as node()*, $isContentsAbbreviated as xs:boolean)
 as xs:string
 {
-  let $endTag := if($isContentsAbbreviated) then " ; ..." else()
+  let $endTag := if($isContentsAbbreviated) then "; ..." else()
   let $contents :=
     for $item in $topLevelContents
     (: later enhancement -- use a lookup of the work record if URI given :)
@@ -190,7 +190,7 @@ as xs:string
     let $title := string-join($title, "")
     let $title := normalize-space($title)
     return if($author != "") then string-join(($author, $title), ". ") else $title
- let $contents := string-join($contents, " ; ")
+ let $contents := string-join($contents, "; ")
  let $endPeriod := if (ends-with($contents, ".")) then () else "."
  return "This manuscript contains: "||$contents||$endTag||$endPeriod
 };
