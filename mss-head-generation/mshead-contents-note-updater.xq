@@ -11,7 +11,7 @@ declare variable $local:input-collection := collection($local:path-to-repo||"/da
 
 for $doc in $local:input-collection
 for $ms in $doc//*[name() = "msDesc" or name() = "msPart"]
-let $shelfmark := $ms/msIdentifier/altIdentifer/idno[@type="BL-Shelfmark"]/text()
+let $shelfmark := $ms/msIdentifier/altIdentifier/idno[@type="BL-Shelfmark"]/text()
 let $uri := $ms/msIdentifier/idno/text()
 let $noHeadError := "No head element for "||$shelfmark||" ["||$uri||"]"
 return 
