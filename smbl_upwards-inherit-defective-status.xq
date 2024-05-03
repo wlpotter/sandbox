@@ -1,5 +1,16 @@
+xquery version "3.1";
+import module namespace functx="http://www.functx.com";
+
+declare default element namespace "http://www.tei-c.org/ns/1.0";
+
 declare variable $defective-attr := attribute {"defective"} {"true"};
 
+declare variable $path-to-repo := "/home/arren/Documents/GitHub/britishLibrary-data/";
+
+declare variable $in-coll := collection($path-to-repo||"data/tei/");
+
+(: 
+Sample series of msItems used in testing and development
 declare variable $msItemTest :=
 <container>
 <msItem xml:id="a1" n="1">
@@ -18,6 +29,7 @@ declare variable $msItemTest :=
   <locus to="23" from="15b">Foll. 15b-23</locus>
 </msItem>
 </container>;
+:)
 
 declare function local:upwards-inherit-defective-status($msItem as node())
 as item()*
@@ -54,6 +66,17 @@ as item()*
           "item": $updatedItem
         }
 };
-for $item in $msItemTest/msItem
-let $updatedItem := local:upwards-inherit-defective-status($item)("item")
-return $updatedItem
+
+for $doc in $in-coll
+let $docId := document-uri($doc) => substring-after($path-to-repo)
+for $msContents in $doc//msContents
+let $updatedItems :=
+  for $item in $msContents/msItem
+    return local:upwards-inherit-defective-status($item)("item")
+let $updatedContents := 
+  element {"msContents"} {
+    $msContents/*[not(name() = "msItem")],
+    $updatedItems
+  }
+(: return functx:add-attributes($updatedContents, QName("", "docId"), $docId) :)
+return replace node $msContents with $updatedContents
