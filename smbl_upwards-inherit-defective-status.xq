@@ -1,4 +1,13 @@
 xquery version "3.1";
+
+(:
+: Author: William L. Potter
+: This script takes a set of TEI XML documents with manuscript descriptions.
+: For each series of msItem elements within an msContents node the script
+: runs the local:upwards-inherit-defective-status function. This function
+: parses the msItem tree and recursively adds the @defective="true" attribute
+: for any parent that has at least one child msItem with that attribute.
+:)
 import module namespace functx="http://www.functx.com";
 
 declare default element namespace "http://www.tei-c.org/ns/1.0";
