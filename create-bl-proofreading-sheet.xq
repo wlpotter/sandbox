@@ -16,9 +16,7 @@ declare variable $local:archive-url-bases :=
  "https://archive.org/details/catalogueofsyria02brituoft/page/",
  "https://archive.org/details/catalogueofsyria03brituoft/page/");
  
-declare variable $local:ms-uri-base := "http://syriaca.org/manuscript/";
-
-declare variable $local:dev-url-base := "https://bl.vuexistapps.us/manuscript/";
+declare variable $local:ms-uri-base := "http://bl.syriac.uk/ms/";
 
 (: this is for multi-part manuscripts :)
 
@@ -30,13 +28,12 @@ let $recs :=
   
   for $part in $doc//msPart
   let $msUri := $part/msIdentifier/idno[@type="URI"]/text()
-  let $devUrl := $local:dev-url-base||substring-after($msUri, $local:ms-uri-base)
   
   let $shelfmark := $part/msIdentifier/altIdentifier/idno[@type="BL-Shelfmark"]/text()
   
   let $partNumber := $part/@xml:id/string()
   
-  let $volumeAndPage := $part/additional/listBibl/bibl/citedRange[@unit="pp"]/text()
+  let $volumeAndPage := $part/additional/listBibl/bibl/citedRange[@unit="p"]/text()
   let $volume := substring-before($volumeAndPage, ":")
   let $volume := if($volume = "I") then "1" else if ($volume = "II") then "2" else if ($volume = "III") then "3" else $volume
   let $page := substring-after($volumeAndPage, ":")
@@ -54,7 +51,6 @@ let $recs :=
     <rec>
       <fileName>{$fileUri}</fileName>
       <msUri>{$msUri}</msUri>
-      <linkToManuscript>{$devUrl}</linkToManuscript>
       <shelfmark>{$shelfmark}</shelfmark>
       <partNumber>{$partNumber}</partNumber>
       <linkToPDF>{$archiveLink}</linkToPDF>
@@ -73,11 +69,10 @@ return csv:serialize(<csv>{$recs}</csv>, map {"header": "true"})
   let $fileUri := substring-after($fileUri, $local:path-to-repo)
   
   let $msUri := $doc//msDesc/msIdentifier/idno[@type="URI"]/text()
-  let $devUrl := $local:dev-url-base||substring-after($msUri, $local:ms-uri-base)
   
   let $shelfmark := $doc//msDesc/msIdentifier/altIdentifier/idno[@type="BL-Shelfmark"]/text()
   
-  let $volumeAndPage := $doc//msDesc/additional/listBibl/bibl/citedRange[@unit="pp"]/text()
+  let $volumeAndPage := $doc//msDesc/additional/listBibl/bibl/citedRange[@unit="p"]/text()
   let $volume := substring-before($volumeAndPage, ":")
   let $volume := if($volume = "I") then "1" else if ($volume = "II") then "2" else if ($volume = "III") then "3" else $volume
   let $page := substring-after($volumeAndPage, ":")
@@ -95,8 +90,10 @@ return csv:serialize(<csv>{$recs}</csv>, map {"header": "true"})
     <rec>
       <fileName>{$fileUri}</fileName>
       <msUri>{$msUri}</msUri>
-      <linkToManuscript>{$devUrl}</linkToManuscript>
       <shelfmark>{$shelfmark}</shelfmark>
+      <partNumber/>
       <linkToPDF>{$archiveLink}</linkToPDF>
+      <volume>{$volume}</volume>
+      <startPage>{$startPage}</startPage>
     </rec>
 return csv:serialize(<csv>{$recs}</csv>, map {"header": "true"}) :)
