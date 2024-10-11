@@ -119,5 +119,7 @@ let $newTitleStmt :=
     $respStmts
   }
 
-return $newTitleStmt
-(: change this to instead replace $doc//titleStmt and insert seriesStmt into fileDesc after publicationStmt:)
+return (
+  replace node $doc//titleStmt with $newTitleStmt,
+  insert node $series-stmt after $doc//fileDesc/publicationStmt
+)
