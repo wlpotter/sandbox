@@ -68,7 +68,7 @@ element {"seriesStmt"} {
 
 declare variable $author-wright := 
   element {"author"} {
-    attribute {"ref"} {$editor-uri-base||"wwright"},
+    attribute {"ref"} {$editor-uri-base||"#"||"wwright"},
     "William Wright"
     (:<author ref="https://bl.syriac.uk/documentation/editors.xml#wwright">William Wright</author>:)
   };
@@ -100,7 +100,8 @@ let $sponsor := $titleStmt/sponsor
 let $funder := $titleStmt/funder
 let $principal := $titleStmt/principal
 
-let $creatorEditors := $titleStmt/editor[@role="creator"]
+(: get the creator editors, ignoring the one for Wright (he'll be an author instead) :)
+let $creatorEditors := $titleStmt/editor[@role="creator"][not(@ref = "https://bl.syriac.uk/documentation/editors.xml#wwright")]
 let $reviewEditors := $titleStmt/editor[@role="review-editor"]
 
 let $respStmts := $titleStmt/respStmt
