@@ -14,7 +14,7 @@ CBSS_URI_BASE = "http://syriaca.org/cbss/"
 
 CBSS_JSON_DATA = "/home/arren/cbss_data-dump_local_2025-02-05.json"
 
-OUTPUT_FILE = "out/deprecated-bibl-uri-crosswalk.csv"
+OUTPUT_FILE = "/home/arren/Documents/GitHub/sandbox/cbsc-syriaca/out/deprecated-bibl-uri-crosswalk.csv"
 CSV_HEADERS = ["Deprecated Syriaca URI", "CBSS URI"]
 
 deprecated = []
