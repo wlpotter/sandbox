@@ -10,12 +10,12 @@ declare variable $tsg := collection($path-to-repo||"data/places/tei/");
 declare variable $sbd := collection($path-to-repo||"data/persons/tei/");
 declare variable $nhsl := collection($path-to-repo||"data/works/tei/");
 
-declare variable $path-to-deprecation-table := "/home/arren/Documents/GitHub/sandbox/cbsc-syriaca/out/deprecated-bibl-uri-crosswalk.csv";
+declare variable $path-to-deprecation-table := "/home/arren/Documents/GitHub/syriaca-data/redirects.csv";
 
 declare variable $deprecation-table := csv:doc($path-to-deprecation-table, map{"header": "yes"});
 declare variable $headers-map := map {
-  "deprecated": "Deprecated_Syriaca_URI",
-  "cbss": "CBSS_URI"
+  "deprecated": "Deprecated_URI",
+  "cbss": "Redirect_URI"
 };
 
 
@@ -63,18 +63,3 @@ declare %updating function local:update-deprecated-bibls($collection as item()+)
   local:update-deprecated-bibls($sbd),
   local:update-deprecated-bibls($nhsl)
 )
-
-(:
-ERRORS to sort out:
-- are there any deprecated CBSS records that need multiple redirects?
-:)
-(:
-
-Script:
-
-Optional if we also want to include title and author info in the XML rather than the xslt doing it --> my opinion is this should be the xslt's job, not mine
-- get the item key portion of the CBSS URI
-- open the bibl as a document using the full filepath (global variable of file path + item key + '.xml')
-- based on the item type, get creator and title info, or get a formatted bibl to insert?
-
-:)
