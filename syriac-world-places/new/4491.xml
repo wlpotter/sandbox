@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/srophe/syriaca/2023_SchemaWork/documentation/schemas/out/syriacaPlaces.compiled.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/srophe/syriaca/2023_SchemaWork/documentation/schemas/out/syriacaPlaces.compiled.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/srophe/syriaca/2023_SchemaWork/documentation/schemas/uniqueLangHW.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:srophe="https://srophe.app" xmlns:syriaca="http://syriaca.org" xml:lang="en">
+<?xml-model href="https://raw.githubusercontent.com/srophe/syriaca/2023_SchemaWork/documentation/schemas/out/syriacaPlaces.compiled.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/syriaca/2023_SchemaWork/documentation/schemas/out/syriacaPlaces.compiled.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/syriaca/2023_SchemaWork/documentation/schemas/uniqueLangHW.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:srophe="https://srophe.app" xmlns:syriaca="http://syriaca.org" xml:lang="en">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -115,8 +118,12 @@
           </bibl>
           <bibl xml:id="bib4491-2">
             <title xml:lang="en" level="a">Index of Maps</title>
-            <author><persName>William L. Potter</persName></author>
-            <author><persName>David A. Michelson</persName></author>
+            <author>
+              <persName>William L. Potter</persName>
+            </author>
+            <author>
+              <persName>David A. Michelson</persName>
+            </author>
             <title xml:lang="en" level="m">The Syriac World</title>
             <editor>Daniel King</editor>
             <ptr target="http://syriaca.org/bibl/BNVESQNE"/>
@@ -124,7 +131,9 @@
           </bibl>
           <bibl xml:id="bib4491-3">
             <title xml:lang="en" level="a">Syriac Christianity in Central Asia</title>
-            <author><persName>Mark Dickens</persName></author>
+            <author>
+              <persName>Mark Dickens</persName>
+            </author>
             <title xml:lang="en" level="m">The Syriac World</title>
             <editor>Daniel King</editor>
             <ptr target="http://syriaca.org/bibl/8H7DYBU8"/>
