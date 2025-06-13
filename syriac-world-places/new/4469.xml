@@ -95,7 +95,7 @@
           <placeName xml:id="name4469-2" xml:lang="en" source="#bib4469-1 #bib4469-3">Lintao</placeName>
           <desc type="abstract" xml:id="abstract4469-1" xml:lang="en"/>
           <location type="gps" source="#bib4469-1">
-            <geo>103.8653469 35.376279</geo>
+            <geo>35.376279 103.8653469</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4469</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Lintao_County</idno>

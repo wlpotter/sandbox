@@ -98,7 +98,7 @@
           <placeName xml:id="name4160-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4160-1 #bib4160-2">Kharg Island</placeName>
           <desc type="abstract" xml:id="abstract4160-1" xml:lang="en"/>
           <location type="gps" source="#bib4160-1">
-            <geo>50.3060400000 29.2303380000</geo>
+            <geo>29.2303380000 50.3060400000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4160</idno>
           <idno type="URI">http://pleiades.stoa.org/places/912881</idno>

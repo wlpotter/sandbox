@@ -104,7 +104,7 @@
           <placeName xml:id="name4238-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4238-1 #bib4238-2">Bukhara</placeName>
           <desc type="abstract" xml:id="abstract4238-1" xml:lang="en"/>
           <location type="gps" source="#bib4238-1">
-            <geo>64.4122410000 39.7775400000</geo>
+            <geo>39.7775400000 64.4122410000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4238</idno>
           <idno type="URI">http://www.iranicaonline.org/articles/bukhara-index</idno>

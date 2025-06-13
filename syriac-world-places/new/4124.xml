@@ -94,7 +94,7 @@
           <placeName xml:id="name4124-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4124-1 #bib4124-2">Yanuḥ</placeName>
           <desc type="abstract" xml:id="abstract4124-1" xml:lang="en"/>
           <location type="gps" source="#bib4124-1">
-            <geo>35.8846307000 34.1035075000</geo>
+            <geo>34.1035075000 35.8846307000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4124</idno>
           <idno type="URI">http://pleiades.stoa.org/places/668400</idno>

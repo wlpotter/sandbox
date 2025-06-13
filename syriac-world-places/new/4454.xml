@@ -98,7 +98,7 @@
           <placeName xml:id="name4454-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4454-1 #bib4454-2">Dobe</placeName>
           <desc type="abstract" xml:id="abstract4454-1" xml:lang="en"/>
           <location type="gps" source="#bib4454-1">
-            <geo>44.0062255000 36.5988323000</geo>
+            <geo>36.5988323000 44.0062255000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4454</idno>
           <bibl xml:id="bib4454-1">

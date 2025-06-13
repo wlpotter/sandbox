@@ -95,7 +95,7 @@
           <placeName xml:id="name4094-2" xml:lang="en" source="#bib4094-1 #bib4094-2">Sulṭaniyya</placeName>
           <desc type="abstract" xml:id="abstract4094-1" xml:lang="en"/>
           <location type="gps" source="#bib4094-1">
-            <geo>48.7959266000 36.4339722000</geo>
+            <geo>36.4339722000 48.7959266000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4094</idno>
           <idno type="URI">https://gazetteer.dainst.org/place/2110900</idno>

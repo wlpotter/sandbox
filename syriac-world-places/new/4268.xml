@@ -99,7 +99,7 @@
           <placeName xml:id="name4268-2" xml:lang="en" source="#bib4268-1 #bib4268-3">Qashan</placeName>
           <desc type="abstract" xml:id="abstract4268-1" xml:lang="en"/>
           <location type="gps" source="#bib4268-1">
-            <geo>51.4405096000 33.9729758000</geo>
+            <geo>33.9729758000 51.4405096000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4268</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Kashan</idno>

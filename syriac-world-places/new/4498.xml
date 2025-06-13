@@ -94,7 +94,7 @@
           <placeName xml:id="name4498-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4498-1 #bib4498-2">Thekkumkur</placeName>
           <desc type="abstract" xml:id="abstract4498-1" xml:lang="en"/>
           <location type="gps" source="#bib4498-1">
-            <geo>76.4748436935 9.5557279732</geo>
+            <geo>9.5557279732 76.4748436935</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4498</idno>
           <bibl xml:id="bib4498-1">

@@ -96,7 +96,7 @@
           <placeName xml:id="name4139-3" xml:lang="en" source="#bib4139-1 #bib4139-3">Shechem</placeName>
           <desc type="abstract" xml:id="abstract4139-1" xml:lang="en"/>
           <location type="gps" source="#bib4139-1">
-            <geo>35.281993 32.213618</geo>
+            <geo>32.213618 35.281993</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4139</idno>
           <idno type="URI">http://pleiades.stoa.org/places/678301</idno>

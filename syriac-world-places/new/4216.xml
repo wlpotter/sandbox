@@ -94,7 +94,7 @@
           <placeName xml:id="name4216-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4216-1 #bib4216-2">Qaṣr Ibn Hubayra</placeName>
           <desc type="abstract" xml:id="abstract4216-1" xml:lang="en"/>
           <location type="gps" source="#bib4216-1">
-            <geo>44.3921578000 32.6738983000</geo>
+            <geo>32.6738983000 44.3921578000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4216</idno>
           <idno type="URI">http://www.trismegistos.org/place/48150</idno>

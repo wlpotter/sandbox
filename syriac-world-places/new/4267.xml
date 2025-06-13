@@ -94,7 +94,7 @@
           <placeName xml:id="name4267-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4267-1 #bib4267-2">Qash</placeName>
           <desc type="abstract" xml:id="abstract4267-1" xml:lang="en"/>
           <location type="gps" source="#bib4267-1">
-            <geo>65.5042407 31.4221103</geo>
+            <geo>31.4221103 65.5042407</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4267</idno>
           <bibl xml:id="bib4267-1">

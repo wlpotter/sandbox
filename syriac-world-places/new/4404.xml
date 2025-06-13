@@ -95,7 +95,7 @@
           <placeName xml:id="name4404-2" xml:lang="en" source="#bib4404-1 #bib4404-3">Suzhou</placeName>
           <desc type="abstract" xml:id="abstract4404-1" xml:lang="en"/>
           <location type="gps" source="#bib4404-1">
-            <geo>98.5097909000 39.7437418000</geo>
+            <geo>39.7437418000 98.5097909000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4404</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Jiuquan</idno>

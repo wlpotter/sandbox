@@ -99,7 +99,7 @@
           <placeName xml:id="name4317-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4317-1 #bib4317-2">Panjikent</placeName>
           <desc type="abstract" xml:id="abstract4317-1" xml:lang="en"/>
           <location type="gps" source="#bib4317-1">
-            <geo>67.6169014000 39.4886085000</geo>
+            <geo>39.4886085000 67.6169014000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4317</idno>
           <idno type="URI">http://www.iranicaonline.org/articles/panjikant</idno>

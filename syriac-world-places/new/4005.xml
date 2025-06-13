@@ -94,7 +94,7 @@
           <placeName xml:id="name4005-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4005-1 #bib4005-2">Ani</placeName>
           <desc type="abstract" xml:id="abstract4005-1" xml:lang="en"/>
           <location type="gps" source="#bib4005-1">
-            <geo>43.5710049000 40.5085461000</geo>
+            <geo>40.5085461000 43.5710049000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4005</idno>
           <idno type="URI">https://pleiades.stoa.org/places/863739</idno>

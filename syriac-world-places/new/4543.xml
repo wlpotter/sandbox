@@ -94,7 +94,7 @@
           <placeName xml:id="name4543-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4543-1 #bib4543-2">Yemen</placeName>
           <desc type="abstract" xml:id="abstract4543-1" xml:lang="en"/>
           <location type="gps" source="#bib4543-1">
-            <geo>44.5242208112 14.1704692153</geo>
+            <geo>14.1704692153 44.5242208112</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4543</idno>
           <idno type="URI">http://gazetteer.dainst.org/place/2290548</idno>

@@ -94,7 +94,7 @@
           <placeName xml:id="name4473-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4473-1 #bib4473-2">Hailun</placeName>
           <desc type="abstract" xml:id="abstract4473-1" xml:lang="en"/>
           <location type="gps" source="#bib4473-1">
-            <geo>126.9544029 47.4574603</geo>
+            <geo>47.4574603 126.9544029</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4473</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Hailun</idno>

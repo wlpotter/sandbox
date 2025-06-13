@@ -94,7 +94,7 @@
           <placeName xml:id="name4223-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4223-1 #bib4223-2">Amol</placeName>
           <desc type="abstract" xml:id="abstract4223-1" xml:lang="en"/>
           <location type="gps" source="#bib4223-1">
-            <geo>52.3528147000 36.4654201000</geo>
+            <geo>36.4654201000 52.3528147000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4223</idno>
           <idno type="URI">http://pleiades.stoa.org/places/884116</idno>

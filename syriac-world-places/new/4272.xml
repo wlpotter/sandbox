@@ -94,7 +94,7 @@
           <placeName xml:id="name4272-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4272-1 #bib4272-2">Shiraz</placeName>
           <desc type="abstract" xml:id="abstract4272-1" xml:lang="en"/>
           <location type="gps" source="#bib4272-1">
-            <geo>52.5448608000 29.6095807000</geo>
+            <geo>29.6095807000 52.5448608000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4272</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Shiraz</idno>

@@ -94,7 +94,7 @@
           <placeName xml:id="name4138-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4138-1 #bib4138-2">Memphis</placeName>
           <desc type="abstract" xml:id="abstract4138-1" xml:lang="en"/>
           <location type="gps" source="#bib4138-1">
-            <geo>31.2542582000 29.8523692000</geo>
+            <geo>29.8523692000 31.2542582000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4138</idno>
           <idno type="URI">http://pleiades.stoa.org/places/736963</idno>

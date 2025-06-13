@@ -94,7 +94,7 @@
           <placeName xml:id="name4049-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4049-1 #bib4049-2">Sebasteia</placeName>
           <desc type="abstract" xml:id="abstract4049-1" xml:lang="en"/>
           <location type="gps" source="#bib4049-1">
-            <geo>37.0149994000 39.7455401000</geo>
+            <geo>39.7455401000 37.0149994000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4049</idno>
           <idno type="URI">https://pleiades.stoa.org/places/629075</idno>

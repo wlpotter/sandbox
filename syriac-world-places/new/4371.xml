@@ -95,7 +95,7 @@
           <placeName xml:id="name4371-2" xml:lang="en" source="#bib4371-1 #bib4371-3">Kalyan</placeName>
           <desc type="abstract" xml:id="abstract4371-1" xml:lang="en"/>
           <location type="gps" source="#bib4371-1">
-            <geo>73.1249356000 19.2425206000</geo>
+            <geo>19.2425206000 73.1249356000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4371</idno>
           <idno type="URI">http://pleiades.stoa.org/places/50023</idno>

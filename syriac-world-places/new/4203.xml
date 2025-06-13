@@ -99,7 +99,7 @@
           <placeName xml:id="name4203-2" xml:lang="en" source="#bib4203-2 #bib4203-4">Prat d-Maishan</placeName>
           <desc type="abstract" xml:id="abstract4203-1" xml:lang="en"/>
           <location type="gps" source="#bib4203-1 #bib4203-2">
-            <geo>47.7011347000 30.7818659000</geo>
+            <geo>30.7818659000 47.7011347000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4203</idno>
           <idno type="URI">http://www.iranicaonline.org/articles/bahman-ardasir-or-forat-maysan-town-and-subdistrict-in-maysan-in-lower-iraq</idno>

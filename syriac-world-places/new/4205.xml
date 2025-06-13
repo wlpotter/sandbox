@@ -95,7 +95,7 @@
           <placeName xml:id="name4205-2" xml:lang="en" source="#bib4205-1 #bib4205-3">Malviran</placeName>
           <desc type="abstract" xml:id="abstract4205-1" xml:lang="en"/>
           <location type="gps" source="#bib4205-1">
-            <geo>49.8593473 32.0283799</geo>
+            <geo>32.0283799 49.8593473</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4205</idno>
           <idno type="URI">https://vici.org/vici/32031/</idno>

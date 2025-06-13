@@ -99,7 +99,7 @@
           <placeName xml:id="name4001-2" xml:lang="en" source="#bib4001-1 #bib4001-3">Dumatha</placeName>
           <desc type="abstract" xml:id="abstract4001-1" xml:lang="en"/>
           <location type="gps" source="#bib4001-1">
-            <geo>39.8837721000 29.8287032000</geo>
+            <geo>29.8287032000 39.8837721000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4001</idno>
           <idno type="URI">https://vici.org/vici/21425/</idno>

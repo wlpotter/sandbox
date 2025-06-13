@@ -94,7 +94,7 @@
           <placeName xml:id="name4511-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4511-1 #bib4511-2">Kuravilangad</placeName>
           <desc type="abstract" xml:id="abstract4511-1" xml:lang="en"/>
           <location type="gps" source="#bib4511-1">
-            <geo>76.5647185 9.7544109</geo>
+            <geo>9.7544109 76.5647185</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4511</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Kuravilangad</idno>

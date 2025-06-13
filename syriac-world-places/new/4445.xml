@@ -94,7 +94,7 @@
           <placeName xml:id="name4445-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4445-1 #bib4445-2">Thiruvalla</placeName>
           <desc type="abstract" xml:id="abstract4445-1" xml:lang="en"/>
           <location type="gps" source="#bib4445-1">
-            <geo>76.5758765000 9.3848472000</geo>
+            <geo>9.3848472000 76.5758765000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4445</idno>
           <bibl xml:id="bib4445-1">

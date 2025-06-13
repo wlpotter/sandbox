@@ -94,7 +94,7 @@
           <placeName xml:id="name4264-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4264-1 #bib4264-2">Qandahar</placeName>
           <desc type="abstract" xml:id="abstract4264-1" xml:lang="en"/>
           <location type="gps" source="#bib4264-1">
-            <geo>65.7099634 31.6131336</geo>
+            <geo>31.6131336 65.7099634</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4264</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Kandahar</idno>

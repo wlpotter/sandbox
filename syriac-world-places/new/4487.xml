@@ -94,7 +94,7 @@
           <placeName xml:id="name4487-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4487-1 #bib4487-2">Rima</placeName>
           <desc type="abstract" xml:id="abstract4487-1" xml:lang="en"/>
           <location type="gps" source="#bib4487-1">
-            <geo>47.8185081000 30.5269270000</geo>
+            <geo>30.5269270000 47.8185081000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4487</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Maishan_(East_Syrian_Ecclesiastical_Province)#The_diocese_of_Rima</idno>

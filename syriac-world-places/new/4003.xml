@@ -95,7 +95,7 @@
           <placeName xml:id="name4003-2" xml:lang="en" source="#bib4003-2 #bib4003-3">Anemurium</placeName>
           <desc type="abstract" xml:id="abstract4003-1" xml:lang="en"/>
           <location type="gps" source="#bib4003-1 #bib4003-2">
-            <geo>32.8024507 36.0223426</geo>
+            <geo>36.0223426 32.8024507</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4003</idno>
           <idno type="URI">https://pleiades.stoa.org/places/648557</idno>

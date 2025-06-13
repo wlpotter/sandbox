@@ -98,7 +98,7 @@
           <placeName xml:id="name4195-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4195-1 #bib4195-2">Sablagh</placeName>
           <desc type="abstract" xml:id="abstract4195-1" xml:lang="en"/>
           <location type="gps" source="#bib4195-1">
-            <geo>45.7208920000 36.7659623000</geo>
+            <geo>36.7659623000 45.7208920000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4195</idno>
           <bibl xml:id="bib4195-1">

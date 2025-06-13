@@ -95,7 +95,7 @@
           <placeName xml:id="name4047-2" xml:lang="en" source="#bib4047-2 #bib4047-4">Salamis</placeName>
           <desc type="abstract" xml:id="abstract4047-1" xml:lang="en"/>
           <location type="gps" source="#bib4047-1 #bib4047-2">
-            <geo>33.9006758 35.1798593</geo>
+            <geo>35.1798593 33.9006758</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4047</idno>
           <idno type="URI">https://pleiades.stoa.org/places/707617</idno>

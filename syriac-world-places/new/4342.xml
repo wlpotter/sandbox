@@ -95,7 +95,7 @@
           <placeName xml:id="name4342-2" xml:lang="en" source="#bib4342-1 #bib4342-3">Kaifeng</placeName>
           <desc type="abstract" xml:id="abstract4342-1" xml:lang="en"/>
           <location type="gps" source="#bib4342-1">
-            <geo>114.3464756000 34.8009771000</geo>
+            <geo>34.8009771000 114.3464756000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4342</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Kaifeng</idno>

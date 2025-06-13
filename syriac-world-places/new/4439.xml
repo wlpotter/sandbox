@@ -95,7 +95,7 @@
           <placeName xml:id="name4439-2" xml:lang="en" source="#bib4439-1 #bib4439-2">Mantota</placeName>
           <desc type="abstract" xml:id="abstract4439-1" xml:lang="en"/>
           <location type="gps" source="#bib4439-1">
-            <geo>79.9662423000 8.9507439000</geo>
+            <geo>8.9507439000 79.9662423000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4439</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Manthai</idno>

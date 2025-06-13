@@ -95,7 +95,7 @@
           <placeName xml:id="name4150-2" xml:lang="en" source="#bib4150-1 #bib4150-3">Tarut</placeName>
           <desc type="abstract" xml:id="abstract4150-1" xml:lang="en"/>
           <location type="gps" source="#bib4150-1">
-            <geo>50.0588608000 26.5713331000</geo>
+            <geo>26.5713331000 50.0588608000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4150</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Tarout_Island</idno>

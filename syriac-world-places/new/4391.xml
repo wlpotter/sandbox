@@ -99,7 +99,7 @@
           <placeName xml:id="name4391-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4391-1 #bib4391-2">Ordos</placeName>
           <desc type="abstract" xml:id="abstract4391-1" xml:lang="en"/>
           <location type="gps" source="#bib4391-1">
-            <geo>108.4726556458 39.4054066937</geo>
+            <geo>39.4054066937 108.4726556458</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4391</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Ordos_Loop</idno>

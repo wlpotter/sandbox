@@ -98,7 +98,7 @@
           <placeName xml:id="name4112-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4112-1 #bib4112-2">Baxʿa</placeName>
           <desc type="abstract" xml:id="abstract4112-1" xml:lang="en"/>
           <location type="gps" source="#bib4112-1">
-            <geo>36.5644000000 33.8850000000</geo>
+            <geo>33.8850000000 36.5644000000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4112</idno>
           <bibl xml:id="bib4112-1">

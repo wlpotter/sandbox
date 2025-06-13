@@ -94,7 +94,7 @@
           <placeName xml:id="name4448-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4448-1 #bib4448-2">Adhorma</placeName>
           <desc type="abstract" xml:id="abstract4448-1" xml:lang="en"/>
           <location type="gps" source="#bib4448-1">
-            <geo>41.7995882000 36.9595284000</geo>
+            <geo>36.9595284000 41.7995882000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4448</idno>
           <bibl xml:id="bib4448-1">

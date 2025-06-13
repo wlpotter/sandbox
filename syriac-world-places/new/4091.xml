@@ -94,7 +94,7 @@
           <placeName xml:id="name4091-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4091-1 #bib4091-2">Shamakhi</placeName>
           <desc type="abstract" xml:id="abstract4091-1" xml:lang="en"/>
           <location type="gps" source="#bib4091-1">
-            <geo>48.6436254000 40.6266972000</geo>
+            <geo>40.6266972000 48.6436254000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4091</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Shamakhi</idno>

@@ -95,7 +95,7 @@
           <placeName xml:id="name4446-2" xml:lang="en" source="#bib4446-1 #bib4446-2">Trivandrum</placeName>
           <desc type="abstract" xml:id="abstract4446-1" xml:lang="en"/>
           <location type="gps" source="#bib4446-1">
-            <geo>76.9435859000 8.4827823000</geo>
+            <geo>8.4827823000 76.9435859000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4446</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Thiruvananthapuram</idno>

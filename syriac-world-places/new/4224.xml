@@ -100,7 +100,7 @@
           <placeName xml:id="name4224-2" xml:lang="en" source="#bib4224-1 #bib4224-3">Oxus River</placeName>
           <desc type="abstract" xml:id="abstract4224-1" xml:lang="en"/>
           <location type="gps" source="#bib4224-1">
-            <geo>61.9869380000 40.8777750000</geo>
+            <geo>40.8777750000 61.9869380000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4224</idno>
           <idno type="URI">http://pleiades.stoa.org/places/59969</idno>

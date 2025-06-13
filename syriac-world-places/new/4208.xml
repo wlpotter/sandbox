@@ -94,7 +94,7 @@
           <placeName xml:id="name4208-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4208-1 #bib4208-2">Karun River</placeName>
           <desc type="abstract" xml:id="abstract4208-1" xml:lang="en"/>
           <location type="gps" source="#bib4208-1">
-            <geo>48.7983513 31.9317686</geo>
+            <geo>31.9317686 48.7983513</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4208</idno>
           <idno type="URI">http://pleiades.stoa.org/places/912879</idno>

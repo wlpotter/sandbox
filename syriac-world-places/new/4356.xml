@@ -105,7 +105,7 @@
           <placeName xml:id="name4356-2" xml:lang="en" source="#bib4356-1 #bib4356-3">Huhhot</placeName>
           <desc type="abstract" xml:id="abstract4356-1" xml:lang="en"/>
           <location type="gps" source="#bib4356-1">
-            <geo>111.6491228000 40.8086041000</geo>
+            <geo>40.8086041000 111.6491228000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4356</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Hohhot</idno>

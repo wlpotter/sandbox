@@ -100,7 +100,7 @@
           <placeName xml:id="name4298-2" xml:lang="en" source="#bib4298-1 #bib4298-3">Konye-Urgench</placeName>
           <desc type="abstract" xml:id="abstract4298-1" xml:lang="en"/>
           <location type="gps" source="#bib4298-1">
-            <geo>59.1445541000 42.3000715000</geo>
+            <geo>42.3000715000 59.1445541000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4298</idno>
           <idno type="URI">http://whc.unesco.org/en/list/1199</idno>

@@ -95,7 +95,7 @@
           <placeName xml:id="name4532-2" xml:lang="en" source="#bib4532-2 #bib4532-4">Verapoly</placeName>
           <desc type="abstract" xml:id="abstract4532-1" xml:lang="en"/>
           <location type="gps" source="#bib4532-1 #bib4532-2">
-            <geo>76.27644 10.0703241</geo>
+            <geo>10.0703241 76.27644</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4532</idno>
           <bibl xml:id="bib4532-1">

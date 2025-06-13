@@ -99,7 +99,7 @@
           <placeName xml:id="name4334-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4334-1 #bib4334-2">Yarkand</placeName>
           <desc type="abstract" xml:id="abstract4334-1" xml:lang="en"/>
           <location type="gps" source="#bib4334-1">
-            <geo>77.2569323000 38.4174600000</geo>
+            <geo>38.4174600000 77.2569323000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4334</idno>
           <idno type="URI">http://www.iranicaonline.org/articles/yarkand</idno>

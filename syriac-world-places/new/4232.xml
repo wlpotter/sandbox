@@ -99,7 +99,7 @@
           <placeName xml:id="name4232-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4232-1 #bib4232-2">Balkh</placeName>
           <desc type="abstract" xml:id="abstract4232-1" xml:lang="en"/>
           <location type="gps" source="#bib4232-1">
-            <geo>66.9009018000 36.7677672000</geo>
+            <geo>36.7677672000 66.9009018000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4232</idno>
           <idno type="URI">http://www.iranicaonline.org/articles/balk-town-and-province</idno>

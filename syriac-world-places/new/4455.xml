@@ -98,7 +98,7 @@
           <placeName xml:id="name4455-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4455-1 #bib4455-2">Estil</placeName>
           <desc type="abstract" xml:id="abstract4455-1" xml:lang="en"/>
           <location type="gps" source="#bib4455-1">
-            <geo>41.3345629000 37.4257253000</geo>
+            <geo>37.4257253000 41.3345629000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4455</idno>
           <bibl xml:id="bib4455-1">

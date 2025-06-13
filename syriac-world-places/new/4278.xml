@@ -94,7 +94,7 @@
           <placeName xml:id="name4278-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4278-1 #bib4278-2">Zarang</placeName>
           <desc type="abstract" xml:id="abstract4278-1" xml:lang="en"/>
           <location type="gps" source="#bib4278-1">
-            <geo>61.8495083000 31.0062307000</geo>
+            <geo>31.0062307000 61.8495083000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4278</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Zaranj</idno>

@@ -94,7 +94,7 @@
           <placeName xml:id="name4512-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4512-1 #bib4512-2">Mannanam</placeName>
           <desc type="abstract" xml:id="abstract4512-1" xml:lang="en"/>
           <location type="gps" source="#bib4512-1">
-            <geo>76.5200517 9.6461871</geo>
+            <geo>9.6461871 76.5200517</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4512</idno>
           <bibl xml:id="bib4512-1">

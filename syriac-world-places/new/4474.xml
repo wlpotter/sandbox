@@ -94,7 +94,7 @@
           <placeName xml:id="name4474-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4474-1 #bib4474-2">al-Hinna</placeName>
           <desc type="abstract" xml:id="abstract4474-1" xml:lang="en"/>
           <location type="gps" source="#bib4474-1">
-            <geo>48.7652206 26.9397849</geo>
+            <geo>26.9397849 48.7652206</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4474</idno>
           <idno type="URI">https://pleiades.stoa.org/places/932430</idno>

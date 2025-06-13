@@ -94,7 +94,7 @@
           <placeName xml:id="name4463-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4463-1 #bib4463-2">Tal ʿAfar</placeName>
           <desc type="abstract" xml:id="abstract4463-1" xml:lang="en"/>
           <location type="gps" source="#bib4463-1">
-            <geo>42.4540043000 36.3745368000</geo>
+            <geo>36.3745368000 42.4540043000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4463</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Tal_Afar</idno>

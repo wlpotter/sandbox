@@ -94,7 +94,7 @@
           <placeName xml:id="name4509-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4509-1 #bib4509-2">Kothamangalam</placeName>
           <desc type="abstract" xml:id="abstract4509-1" xml:lang="en"/>
           <location type="gps" source="#bib4509-1">
-            <geo>76.6291666 10.0623855</geo>
+            <geo>10.0623855 76.6291666</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4509</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Kothamangalam</idno>

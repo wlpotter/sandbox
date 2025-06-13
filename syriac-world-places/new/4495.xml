@@ -94,7 +94,7 @@
           <placeName xml:id="name4495-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4495-1 #bib4495-2">Thaj</placeName>
           <desc type="abstract" xml:id="abstract4495-1" xml:lang="en"/>
           <location type="gps" source="#bib4495-1">
-            <geo>48.7204814 26.8722388</geo>
+            <geo>26.8722388 48.7204814</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4495</idno>
           <idno type="URI">http://pleiades.stoa.org/places/932483</idno>

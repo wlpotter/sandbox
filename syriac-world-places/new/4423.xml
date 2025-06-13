@@ -95,7 +95,7 @@
           <placeName xml:id="name4423-2" xml:lang="en" source="#bib4423-1 #bib4423-3">Yunnanfu</placeName>
           <desc type="abstract" xml:id="abstract4423-1" xml:lang="en"/>
           <location type="gps" source="#bib4423-1">
-            <geo>102.7072334000 25.0427012000</geo>
+            <geo>25.0427012000 102.7072334000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4423</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Kunming</idno>

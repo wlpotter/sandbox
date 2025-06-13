@@ -95,7 +95,7 @@
           <placeName xml:id="name4504-2" xml:lang="en" source="#bib4504-1 #bib4504-2">Chennamangalam</placeName>
           <desc type="abstract" xml:id="abstract4504-1" xml:lang="en"/>
           <location type="gps" source="#bib4504-1">
-            <geo>76.2502563 10.1675627</geo>
+            <geo>10.1675627 76.2502563</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4504</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Chendamangalam</idno>

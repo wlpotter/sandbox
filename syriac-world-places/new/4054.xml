@@ -95,7 +95,7 @@
           <placeName xml:id="name4054-2" xml:lang="en" source="#bib4054-2 #bib4054-4">Vagharshapat</placeName>
           <desc type="abstract" xml:id="abstract4054-1" xml:lang="en"/>
           <location type="gps" source="#bib4054-1 #bib4054-2">
-            <geo>44.2909098000 40.1619194000</geo>
+            <geo>40.1619194000 44.2909098000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4054</idno>
           <idno type="URI">https://pleiades.stoa.org/places/863815</idno>

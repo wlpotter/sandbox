@@ -94,7 +94,7 @@
           <placeName xml:id="name4539-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4539-1 #bib4539-2">Nubia</placeName>
           <desc type="abstract" xml:id="abstract4539-1" xml:lang="en"/>
           <location type="gps" source="#bib4539-1">
-            <geo>31.1197319508 20.2744190074</geo>
+            <geo>20.2744190074 31.1197319508</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4539</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Nubia</idno>

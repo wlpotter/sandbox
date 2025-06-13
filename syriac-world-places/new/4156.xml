@@ -95,7 +95,7 @@
           <placeName xml:id="name4156-2" xml:lang="en" source="#bib4156-1 #bib4156-3">Ḥaṭṭa</placeName>
           <desc type="abstract" xml:id="abstract4156-1" xml:lang="en"/>
           <location type="gps" source="#bib4156-1">
-            <geo>50.0040579000 26.5581479000</geo>
+            <geo>26.5581479000 50.0040579000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4156</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Qatif</idno>

@@ -94,7 +94,7 @@
           <placeName xml:id="name4127-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4127-1 #bib4127-2">Damietta</placeName>
           <desc type="abstract" xml:id="abstract4127-1" xml:lang="en"/>
           <location type="gps" source="#bib4127-1">
-            <geo>31.8162346000 31.4218151000</geo>
+            <geo>31.4218151000 31.8162346000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4127</idno>
           <idno type="URI">http://pleiades.stoa.org/places/727235</idno>

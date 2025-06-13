@@ -104,7 +104,7 @@
           <placeName xml:id="name4353-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4353-1 #bib4353-2">Chifeng</placeName>
           <desc type="abstract" xml:id="abstract4353-1" xml:lang="en"/>
           <location type="gps" source="#bib4353-1">
-            <geo>118.9636110000 42.2683330000</geo>
+            <geo>42.2683330000 118.9636110000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4353</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Chifeng</idno>

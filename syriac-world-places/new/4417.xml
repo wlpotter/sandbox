@@ -95,7 +95,7 @@
           <placeName xml:id="name4417-2" xml:lang="en" source="#bib4417-1 #bib4417-3">Xijing</placeName>
           <desc type="abstract" xml:id="abstract4417-1" xml:lang="en"/>
           <location type="gps" source="#bib4417-1">
-            <geo>113.2949638000 40.0926497000</geo>
+            <geo>40.0926497000 113.2949638000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4417</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Datong</idno>

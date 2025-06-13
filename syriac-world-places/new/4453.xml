@@ -98,7 +98,7 @@
           <placeName xml:id="name4453-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4453-1 #bib4453-2">Challa</placeName>
           <desc type="abstract" xml:id="abstract4453-1" xml:lang="en"/>
           <location type="gps" source="#bib4453-1">
-            <geo>43.6136111111 37.2480555556</geo>
+            <geo>37.2480555556 43.6136111111</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4453</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/%C3%87ukurca</idno>

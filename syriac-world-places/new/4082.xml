@@ -94,7 +94,7 @@
           <placeName xml:id="name4082-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4082-1 #bib4082-2">Nicosia</placeName>
           <desc type="abstract" xml:id="abstract4082-1" xml:lang="en"/>
           <location type="gps" source="#bib4082-1">
-            <geo>33.3640409000 35.1757903000</geo>
+            <geo>35.1757903000 33.3640409000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4082</idno>
           <bibl xml:id="bib4082-1">

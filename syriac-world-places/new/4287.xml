@@ -95,7 +95,7 @@
           <placeName xml:id="name4287-2" xml:lang="en" source="#bib4287-1 #bib4287-3">Tangtse</placeName>
           <desc type="abstract" xml:id="abstract4287-1" xml:lang="en"/>
           <location type="gps" source="#bib4287-1">
-            <geo>78.1677675000 34.0324877000</geo>
+            <geo>34.0324877000 78.1677675000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4287</idno>
           <idno type="URI">http://wikimapia.org/1774101/Tangtse</idno>

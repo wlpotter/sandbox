@@ -95,7 +95,7 @@
           <placeName xml:id="name4171-2" xml:lang="en" source="#bib4171-1 #bib4171-3">Qanaʾ</placeName>
           <desc type="abstract" xml:id="abstract4171-1" xml:lang="en"/>
           <location type="gps" source="#bib4171-1">
-            <geo>48.3246356 14.0099403</geo>
+            <geo>14.0099403 48.3246356</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4171</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Bi%27r_%60Ali</idno>

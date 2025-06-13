@@ -98,7 +98,7 @@
           <placeName xml:id="name4009-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4009-1 #bib4009-2">Ashur</placeName>
           <desc type="abstract" xml:id="abstract4009-1" xml:lang="en"/>
           <location type="gps" source="#bib4009-1">
-            <geo>43.2611775000 35.4596912000</geo>
+            <geo>35.4596912000 43.2611775000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4009</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Assur</idno>

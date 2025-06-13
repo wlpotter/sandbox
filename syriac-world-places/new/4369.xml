@@ -95,7 +95,7 @@
           <placeName xml:id="name4369-2" xml:lang="en" source="#bib4369-1 #bib4369-3">Nanjing</placeName>
           <desc type="abstract" xml:id="abstract4369-1" xml:lang="en"/>
           <location type="gps" source="#bib4369-1">
-            <geo>118.7822914000 32.0494796000</geo>
+            <geo>32.0494796000 118.7822914000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4369</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Nanjing</idno>

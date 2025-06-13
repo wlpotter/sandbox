@@ -94,7 +94,7 @@
           <placeName xml:id="name4296-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4296-1 #bib4296-2">Khiva</placeName>
           <desc type="abstract" xml:id="abstract4296-1" xml:lang="en"/>
           <location type="gps" source="#bib4296-1">
-            <geo>60.3599167000 41.3775331000</geo>
+            <geo>41.3775331000 60.3599167000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4296</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Khiva</idno>

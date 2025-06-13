@@ -94,7 +94,7 @@
           <placeName xml:id="name4187-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4187-1 #bib4187-2">Gomel</placeName>
           <desc type="abstract" xml:id="abstract4187-1" xml:lang="en"/>
           <location type="gps" source="#bib4187-1">
-            <geo>43.4806681000 36.5924452000</geo>
+            <geo>36.5924452000 43.4806681000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4187</idno>
           <idno type="URI">http://pleiades.stoa.org/places/874478</idno>

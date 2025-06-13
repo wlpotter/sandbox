@@ -98,7 +98,7 @@
           <placeName xml:id="name4173-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4173-1 #bib4173-2">Rev Ardashir</placeName>
           <desc type="abstract" xml:id="abstract4173-1" xml:lang="en"/>
           <location type="gps" source="#bib4173-1">
-            <geo>50.8367210000 28.9119190000</geo>
+            <geo>28.9119190000 50.8367210000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4173</idno>
           <idno type="URI">https://pleiades.stoa.org/places/922711</idno>

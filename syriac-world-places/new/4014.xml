@@ -96,7 +96,7 @@
           <placeName xml:id="name4014-3" xml:lang="en" source="#bib4014-3 #bib4014-5">Kamakh</placeName>
           <desc type="abstract" xml:id="abstract4014-1" xml:lang="en"/>
           <location type="gps" source="#bib4014-1 #bib4014-2 #bib4014-3">
-            <geo>39.0401852000 39.6027537000</geo>
+            <geo>39.6027537000 39.0401852000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4014</idno>
           <idno type="URI">https://pleiades.stoa.org/places/874322</idno>

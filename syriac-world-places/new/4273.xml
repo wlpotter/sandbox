@@ -100,10 +100,10 @@
           <placeName xml:id="name4273-2" xml:lang="en" source="#bib4273-2 #bib4273-3">Transoxiana</placeName>
           <desc type="abstract" xml:id="abstract4273-1" xml:lang="en"/>
           <location type="gps" source="#bib4273-1 #bib4273-2">
-            <geo>66.1697639277 39.4057386647</geo>
+            <geo>39.4057386647 66.1697639277</geo>
           </location>
           <location type="gps" subtype="alternate" source="#bib4273-1 #bib4273-2">
-            <geo>65.6650773465 40.4818028468</geo>
+            <geo>40.4818028468 65.6650773465</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4273</idno>
           <idno type="URI">http://www.iranicaonline.org/articles/sogdiana-00-parent</idno>

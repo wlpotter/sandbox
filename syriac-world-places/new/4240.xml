@@ -94,7 +94,7 @@
           <placeName xml:id="name4240-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4240-1 #bib4240-2">Darabgird</placeName>
           <desc type="abstract" xml:id="abstract4240-1" xml:lang="en"/>
           <location type="gps" source="#bib4240-1">
-            <geo>54.4779396000 28.6908135000</geo>
+            <geo>28.6908135000 54.4779396000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4240</idno>
           <idno type="URI">http://pleiades.stoa.org/places/29542</idno>

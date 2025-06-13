@@ -94,7 +94,7 @@
           <placeName xml:id="name4136-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4136-1 #bib4136-2">Mansura</placeName>
           <desc type="abstract" xml:id="abstract4136-1" xml:lang="en"/>
           <location type="gps" source="#bib4136-1">
-            <geo>31.3788092 31.0445879</geo>
+            <geo>31.0445879 31.3788092</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4136</idno>
           <bibl xml:id="bib4136-1">

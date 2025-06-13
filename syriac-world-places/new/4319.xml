@@ -95,7 +95,7 @@
           <placeName xml:id="name4319-2" xml:lang="en" source="#bib4319-1 #bib4319-3">Qara Qocho</placeName>
           <desc type="abstract" xml:id="abstract4319-1" xml:lang="en"/>
           <location type="gps" source="#bib4319-1">
-            <geo>89.5277596000 42.8526870000</geo>
+            <geo>42.8526870000 89.5277596000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4319</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Gaochang</idno>

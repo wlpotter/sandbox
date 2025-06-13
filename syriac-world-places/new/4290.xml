@@ -94,7 +94,7 @@
           <placeName xml:id="name4290-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4290-1 #bib4290-2">Himalaya Range</placeName>
           <desc type="abstract" xml:id="abstract4290-1" xml:lang="en"/>
           <location type="gps" source="#bib4290-1">
-            <geo>86.5374263822 28.0004618364</geo>
+            <geo>28.0004618364 86.5374263822</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4290</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Himalayas</idno>

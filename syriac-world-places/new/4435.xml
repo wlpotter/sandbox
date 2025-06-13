@@ -95,7 +95,7 @@
           <placeName xml:id="name4435-2" xml:lang="en" source="#bib4435-1 #bib4435-3">Yalpanam</placeName>
           <desc type="abstract" xml:id="abstract4435-1" xml:lang="en"/>
           <location type="gps" source="#bib4435-1">
-            <geo>80.0082779 9.6623433</geo>
+            <geo>9.6623433 80.0082779</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4435</idno>
           <idno type="URI">http://pleiades.stoa.org/places/50011</idno>

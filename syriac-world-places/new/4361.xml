@@ -94,7 +94,7 @@
           <placeName xml:id="name4361-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4361-1 #bib4361-2">Godavari River</placeName>
           <desc type="abstract" xml:id="abstract4361-1" xml:lang="en"/>
           <location type="gps" source="#bib4361-1">
-            <geo>80.4541700000 18.4366670000</geo>
+            <geo>18.4366670000 80.4541700000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4361</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Godavari_River</idno>

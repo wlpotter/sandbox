@@ -94,7 +94,7 @@
           <placeName xml:id="name4174-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4174-1 #bib4174-2">Riyadh</placeName>
           <desc type="abstract" xml:id="abstract4174-1" xml:lang="en"/>
           <location type="gps" source="#bib4174-1">
-            <geo>46.7701721000 24.6501376000</geo>
+            <geo>24.6501376000 46.7701721000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4174</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Riyadh</idno>

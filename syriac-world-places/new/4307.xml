@@ -100,7 +100,7 @@
           <placeName xml:id="name4307-2" xml:lang="en" source="#bib4307-1 #bib4307-3">Luntai</placeName>
           <desc type="abstract" xml:id="abstract4307-1" xml:lang="en"/>
           <location type="gps" source="#bib4307-1">
-            <geo>84.2441700000 41.7738900000</geo>
+            <geo>41.7738900000 84.2441700000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4307</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Luntai_County</idno>

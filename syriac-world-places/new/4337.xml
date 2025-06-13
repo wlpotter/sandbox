@@ -94,7 +94,7 @@
           <placeName xml:id="name4337-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4337-1 #bib4337-2">Angkor</placeName>
           <desc type="abstract" xml:id="abstract4337-1" xml:lang="en"/>
           <location type="gps" source="#bib4337-1">
-            <geo>103.8716125000 13.4293612000</geo>
+            <geo>13.4293612000 103.8716125000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4337</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Angkor</idno>

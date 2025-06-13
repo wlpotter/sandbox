@@ -98,7 +98,7 @@
           <placeName xml:id="name4137-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4137-1 #bib4137-2">Mar Saba</placeName>
           <desc type="abstract" xml:id="abstract4137-1" xml:lang="en"/>
           <location type="gps" source="#bib4137-1">
-            <geo>35.3311300000 31.7048031000</geo>
+            <geo>31.7048031000 35.3311300000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4137</idno>
           <idno type="URI">http://pleiades.stoa.org/places/687969</idno>

@@ -95,7 +95,7 @@
           <placeName xml:id="name4116-2" xml:lang="en" source="#bib4116-1 #bib4116-3">Qozhaya</placeName>
           <desc type="abstract" xml:id="abstract4116-1" xml:lang="en"/>
           <location type="gps" source="#bib4116-1">
-            <geo>35.9465280000 34.2830947000</geo>
+            <geo>34.2830947000 35.9465280000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4116</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Monastery_of_Qozhaya</idno>

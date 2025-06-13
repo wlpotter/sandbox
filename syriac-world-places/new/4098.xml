@@ -98,7 +98,7 @@
           <placeName xml:id="name4098-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4098-1 #bib4098-2">Tikab</placeName>
           <desc type="abstract" xml:id="abstract4098-1" xml:lang="en"/>
           <location type="gps" source="#bib4098-1">
-            <geo>47.1162200000 36.4038759000</geo>
+            <geo>36.4038759000 47.1162200000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4098</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Takab</idno>

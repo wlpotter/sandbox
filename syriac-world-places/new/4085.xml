@@ -98,7 +98,7 @@
           <placeName xml:id="name4085-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4085-1 #bib4085-2">Ruwanduz</placeName>
           <desc type="abstract" xml:id="abstract4085-1" xml:lang="en"/>
           <location type="gps" source="#bib4085-1">
-            <geo>44.5273894000 36.6142359000</geo>
+            <geo>36.6142359000 44.5273894000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4085</idno>
           <idno type="URI">http://www.geographic.org/geographic_names/name.php?uni=-4394206&amp;fid=3160&amp;c=iraq</idno>

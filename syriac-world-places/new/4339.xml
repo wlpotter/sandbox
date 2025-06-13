@@ -100,7 +100,7 @@
           <placeName xml:id="name4339-2" xml:lang="en" source="#bib4339-1 #bib4339-3">Ghinghintalas</placeName>
           <desc type="abstract" xml:id="abstract4339-1" xml:lang="en"/>
           <location type="gps" source="#bib4339-1">
-            <geo>93.0086200000 43.5988100000</geo>
+            <geo>43.5988100000 93.0086200000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4339</idno>
           <idno type="URI">https://books.google.com/books?id=7f9gS40A_3IC&amp;lpg=PA25&amp;ots=d-ZUlXebLU&amp;dq=Bars-k%C3%B6l&amp;pg=PA25#v=onepage&amp;q=Bars-k%C3%B6l&amp;f=false</idno>

@@ -99,7 +99,7 @@
           <placeName xml:id="name4231-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4231-1 #bib4231-2">Badghis</placeName>
           <desc type="abstract" xml:id="abstract4231-1" xml:lang="en"/>
           <location type="gps" source="#bib4231-1">
-            <geo>62.7018870697 35.2891698291</geo>
+            <geo>35.2891698291 62.7018870697</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4231</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Badghis_Province</idno>

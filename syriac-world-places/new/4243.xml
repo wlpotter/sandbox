@@ -94,7 +94,7 @@
           <placeName xml:id="name4243-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4243-1 #bib4243-2">Daybul</placeName>
           <desc type="abstract" xml:id="abstract4243-1" xml:lang="en"/>
           <location type="gps" source="#bib4243-1">
-            <geo>67.5212860000 24.7513522000</geo>
+            <geo>24.7513522000 67.5212860000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4243</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Debal</idno>

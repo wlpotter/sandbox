@@ -94,7 +94,7 @@
           <placeName xml:id="name4072-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4072-1 #bib4072-2">Hit</placeName>
           <desc type="abstract" xml:id="abstract4072-1" xml:lang="en"/>
           <location type="gps" source="#bib4072-1">
-            <geo>42.8250504000 33.6429557000</geo>
+            <geo>33.6429557000 42.8250504000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4072</idno>
           <idno type="URI">https://pleiades.stoa.org/places/894008</idno>

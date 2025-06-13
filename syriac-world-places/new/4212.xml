@@ -94,7 +94,7 @@
           <placeName xml:id="name4212-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4212-1 #bib4212-2">Masabadan</placeName>
           <desc type="abstract" xml:id="abstract4212-1" xml:lang="en"/>
           <location type="gps" source="#bib4212-1">
-            <geo>46.8300390000 33.5567384000</geo>
+            <geo>33.5567384000 46.8300390000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4212</idno>
           <idno type="URI">https://pleiades.stoa.org/places/903079</idno>

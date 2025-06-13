@@ -95,7 +95,7 @@
           <placeName xml:id="name4101-2" xml:lang="en" source="#bib4101-2 #bib4101-3">Baniyas</placeName>
           <desc type="abstract" xml:id="abstract4101-1" xml:lang="en"/>
           <location type="gps" source="#bib4101-1 #bib4101-2">
-            <geo>35.9429955 35.1813676</geo>
+            <geo>35.1813676 35.9429955</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4101</idno>
           <idno type="URI">https://pleiades.stoa.org/places/668206</idno>

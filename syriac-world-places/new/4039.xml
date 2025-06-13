@@ -95,7 +95,7 @@
           <placeName xml:id="name4039-2" xml:lang="en" source="#bib4039-1 #bib4039-3">Uruk</placeName>
           <desc type="abstract" xml:id="abstract4039-1" xml:lang="en"/>
           <location type="gps" source="#bib4039-1">
-            <geo>45.6401038 31.3245702</geo>
+            <geo>31.3245702 45.6401038</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4039</idno>
           <idno type="URI">https://pleiades.stoa.org/places/912986</idno>

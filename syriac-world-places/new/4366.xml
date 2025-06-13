@@ -94,7 +94,7 @@
           <placeName xml:id="name4366-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4366-1 #bib4366-2">Hejian</placeName>
           <desc type="abstract" xml:id="abstract4366-1" xml:lang="en"/>
           <location type="gps" source="#bib4366-1">
-            <geo>116.0801697000 38.4357073000</geo>
+            <geo>38.4357073000 116.0801697000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4366</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Hejian</idno>

@@ -94,7 +94,7 @@
           <placeName xml:id="name4023-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4023-1 #bib4023-2">Castabala</placeName>
           <desc type="abstract" xml:id="abstract4023-1" xml:lang="en"/>
           <location type="gps" source="#bib4023-1">
-            <geo>36.190263 37.1818945</geo>
+            <geo>37.1818945 36.190263</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4023</idno>
           <bibl xml:id="bib4023-1">

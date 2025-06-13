@@ -94,7 +94,7 @@
           <placeName xml:id="name4421-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4421-1 #bib4421-2">Yellow River</placeName>
           <desc type="abstract" xml:id="abstract4421-1" xml:lang="en"/>
           <location type="gps" source="#bib4421-1">
-            <geo>106.7058370000 40.0194400000</geo>
+            <geo>40.0194400000 106.7058370000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4421</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Yellow_River</idno>

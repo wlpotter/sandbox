@@ -94,7 +94,7 @@
           <placeName xml:id="name4119-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4119-1 #bib4119-2">Mar Sharbel</placeName>
           <desc type="abstract" xml:id="abstract4119-1" xml:lang="en"/>
           <location type="gps" source="#bib4119-1">
-            <geo>35.7537067000 34.1209623000</geo>
+            <geo>34.1209623000 35.7537067000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4119</idno>
           <bibl xml:id="bib4119-1">

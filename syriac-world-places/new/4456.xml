@@ -98,7 +98,7 @@
           <placeName xml:id="name4456-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4456-1 #bib4456-2">Hertevin</placeName>
           <desc type="abstract" xml:id="abstract4456-1" xml:lang="en"/>
           <location type="gps" source="#bib4456-1">
-            <geo>42.3482770000 37.9241891000</geo>
+            <geo>37.9241891000 42.3482770000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4456</idno>
           <bibl xml:id="bib4456-1">

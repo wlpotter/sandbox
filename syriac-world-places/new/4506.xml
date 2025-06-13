@@ -94,7 +94,7 @@
           <placeName xml:id="name4506-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4506-1 #bib4506-2">Malayattur</placeName>
           <desc type="abstract" xml:id="abstract4506-1" xml:lang="en"/>
           <location type="gps" source="#bib4506-1">
-            <geo>76.506874 10.1852719</geo>
+            <geo>10.1852719 76.506874</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4506</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Malayattoor</idno>

@@ -95,7 +95,7 @@
           <placeName xml:id="name4380-2" xml:lang="en" source="#bib4380-1 #bib4380-3">Lin’an</placeName>
           <desc type="abstract" xml:id="abstract4380-1" xml:lang="en"/>
           <location type="gps" source="#bib4380-1">
-            <geo>120.1701736000 30.2517274000</geo>
+            <geo>30.2517274000 120.1701736000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4380</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Hangzhou</idno>

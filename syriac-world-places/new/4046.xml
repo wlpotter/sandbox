@@ -94,7 +94,7 @@
           <placeName xml:id="name4046-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4046-1 #bib4046-2">Raphia</placeName>
           <desc type="abstract" xml:id="abstract4046-1" xml:lang="en"/>
           <location type="gps" source="#bib4046-1">
-            <geo>34.2398787 31.2956045</geo>
+            <geo>31.2956045 34.2398787</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4046</idno>
           <idno type="URI">https://pleiades.stoa.org/places/688015</idno>

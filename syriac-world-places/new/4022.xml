@@ -103,7 +103,7 @@
           <placeName xml:id="name4022-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4022-1 #bib4022-2">Gilan</placeName>
           <desc type="abstract" xml:id="abstract4022-1" xml:lang="en"/>
           <location type="gps" source="#bib4022-1">
-            <geo>49.2086944851 37.4779878946</geo>
+            <geo>37.4779878946 49.2086944851</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4022</idno>
           <idno type="URI">http://www.iranicaonline.org/articles/gilan-index</idno>

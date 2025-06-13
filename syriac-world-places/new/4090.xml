@@ -94,7 +94,7 @@
           <placeName xml:id="name4090-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4090-1 #bib4090-2">Shaki</placeName>
           <desc type="abstract" xml:id="abstract4090-1" xml:lang="en"/>
           <location type="gps" source="#bib4090-1">
-            <geo>47.1969652 41.2040212</geo>
+            <geo>41.2040212 47.1969652</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4090</idno>
           <idno type="URI">http://geonames.nga.mil/namesgaz/detaillinksearch.asp?G_NAME=%2732FA8814FCF03774E0440003BA962ED3%27&amp;Diacritics=DC</idno>

@@ -100,7 +100,7 @@
           <placeName xml:id="name4406-2" xml:lang="en" source="#bib4406-1 #bib4406-3">Syr Darya River</placeName>
           <desc type="abstract" xml:id="abstract4406-1" xml:lang="en"/>
           <location type="gps" source="#bib4406-1">
-            <geo>65.1538870000 44.9880520000</geo>
+            <geo>44.9880520000 65.1538870000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4406</idno>
           <idno type="URI">http://pleiades.stoa.org/places/59844</idno>

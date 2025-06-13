@@ -94,7 +94,7 @@
           <placeName xml:id="name4394-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4394-1 #bib4394-2">Patna</placeName>
           <desc type="abstract" xml:id="abstract4394-1" xml:lang="en"/>
           <location type="gps" source="#bib4394-1">
-            <geo>85.1291943000 25.6179044000</geo>
+            <geo>25.6179044000 85.1291943000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4394</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Patna</idno>

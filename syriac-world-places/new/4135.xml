@@ -94,7 +94,7 @@
           <placeName xml:id="name4135-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4135-1 #bib4135-2">Leontopolis</placeName>
           <desc type="abstract" xml:id="abstract4135-1" xml:lang="en"/>
           <location type="gps" source="#bib4135-1">
-            <geo>31.3553882 30.6828942</geo>
+            <geo>30.6828942 31.3553882</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4135</idno>
           <bibl xml:id="bib4135-1">

@@ -98,7 +98,7 @@
           <placeName xml:id="name4129-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4129-1 #bib4129-2">Jordan</placeName>
           <desc type="abstract" xml:id="abstract4129-1" xml:lang="en"/>
           <location type="gps" source="#bib4129-1">
-            <geo>36.2265839517 31.5748206808</geo>
+            <geo>31.5748206808 36.2265839517</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4129</idno>
           <idno type="URI">http://gazetteer.dainst.org/place/2283141</idno>

@@ -94,7 +94,7 @@
           <placeName xml:id="name4125-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4125-1 #bib4125-2">ʿAqaba</placeName>
           <desc type="abstract" xml:id="abstract4125-1" xml:lang="en"/>
           <location type="gps" source="#bib4125-1">
-            <geo>35.0003225 29.5309589</geo>
+            <geo>29.5309589 35.0003225</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4125</idno>
           <idno type="URI">http://gazetteer.dainst.org/place/2289336</idno>

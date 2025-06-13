@@ -94,7 +94,7 @@
           <placeName xml:id="name4388-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4388-1 #bib4388-2">Narmada River</placeName>
           <desc type="abstract" xml:id="abstract4388-1" xml:lang="en"/>
           <location type="gps" source="#bib4388-1">
-            <geo>76.1213860000 22.2452740000</geo>
+            <geo>22.2452740000 76.1213860000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4388</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Narmada_River</idno>

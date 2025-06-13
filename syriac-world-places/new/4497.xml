@@ -94,7 +94,7 @@
           <placeName xml:id="name4497-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4497-1 #bib4497-2">ʿAkkaz Island</placeName>
           <desc type="abstract" xml:id="abstract4497-1" xml:lang="en"/>
           <location type="gps" source="#bib4497-1">
-            <geo>47.9120118199 29.3559509083</geo>
+            <geo>29.3559509083 47.9120118199</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4497</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Shuwaikh_Island</idno>

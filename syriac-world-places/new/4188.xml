@@ -98,7 +98,7 @@
           <placeName xml:id="name4188-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4188-1 #bib4188-2">Ḥalabja</placeName>
           <desc type="abstract" xml:id="abstract4188-1" xml:lang="en"/>
           <location type="gps" source="#bib4188-1">
-            <geo>45.9861111111 35.1777777778</geo>
+            <geo>35.1777777778 45.9861111111</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4188</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Halabja</idno>

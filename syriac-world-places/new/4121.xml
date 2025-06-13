@@ -94,7 +94,7 @@
           <placeName xml:id="name4121-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4121-1 #bib4121-2">Our Lady of Mayfuq</placeName>
           <desc type="abstract" xml:id="abstract4121-1" xml:lang="en"/>
           <location type="gps" source="#bib4121-1">
-            <geo>35.7768703000 34.1831129000</geo>
+            <geo>34.1831129000 35.7768703000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4121</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Mayfouq</idno>

@@ -94,7 +94,7 @@
           <placeName xml:id="name4525-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4525-1 #bib4525-2">Zhangye</placeName>
           <desc type="abstract" xml:id="abstract4525-1" xml:lang="en"/>
           <location type="gps" source="#bib4525-1">
-            <geo>100.4550362000 38.9363126000</geo>
+            <geo>38.9363126000 100.4550362000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4525</idno>
           <bibl xml:id="bib4525-1">

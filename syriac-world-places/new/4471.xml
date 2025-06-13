@@ -94,7 +94,7 @@
           <placeName xml:id="name4471-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4471-1 #bib4471-2">Failaka Island</placeName>
           <desc type="abstract" xml:id="abstract4471-1" xml:lang="en"/>
           <location type="gps" source="#bib4471-1">
-            <geo>48.3030065738 29.4456416692</geo>
+            <geo>29.4456416692 48.3030065738</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4471</idno>
           <idno type="URI">https://pleiades.stoa.org/places/912841</idno>

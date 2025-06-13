@@ -94,7 +94,7 @@
           <placeName xml:id="name4478-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4478-1 #bib4478-2">Maʾrib</placeName>
           <desc type="abstract" xml:id="abstract4478-1" xml:lang="en"/>
           <location type="gps" source="#bib4478-1">
-            <geo>45.3557682 15.4042446</geo>
+            <geo>15.4042446 45.3557682</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4478</idno>
           <idno type="URI">http://pleiades.stoa.org/places/39379</idno>

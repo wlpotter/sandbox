@@ -94,7 +94,7 @@
           <placeName xml:id="name4071-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4071-1 #bib4071-2">Ḥadithat al-Furat</placeName>
           <desc type="abstract" xml:id="abstract4071-1" xml:lang="en"/>
           <location type="gps" source="#bib4071-1">
-            <geo>42.3861980000 34.1320729000</geo>
+            <geo>34.1320729000 42.3861980000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4071</idno>
           <idno type="URI">http://dx.doi.org/10.1163/1573-3912_islam_SIM_2593</idno>

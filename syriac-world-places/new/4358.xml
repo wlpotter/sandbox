@@ -99,7 +99,7 @@
           <placeName xml:id="name4358-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4358-1 #bib4358-2">Ferghana</placeName>
           <desc type="abstract" xml:id="abstract4358-1" xml:lang="en"/>
           <location type="gps" source="#bib4358-1">
-            <geo>71.2018625264 40.6222461978</geo>
+            <geo>40.6222461978 71.2018625264</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4358</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Fergana</idno>

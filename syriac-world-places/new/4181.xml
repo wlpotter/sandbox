@@ -94,7 +94,7 @@
           <placeName xml:id="name4181-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4181-1 #bib4181-2">Taymaʾ</placeName>
           <desc type="abstract" xml:id="abstract4181-1" xml:lang="en"/>
           <location type="gps" source="#bib4181-1">
-            <geo>38.5519695 27.6300832</geo>
+            <geo>27.6300832 38.5519695</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4181</idno>
           <idno type="URI">http://pleiades.stoa.org/places/814739</idno>

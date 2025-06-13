@@ -95,7 +95,7 @@
           <placeName xml:id="name4233-2" xml:lang="en" source="#bib4233-1 #bib4233-3">Veh-Ardashir</placeName>
           <desc type="abstract" xml:id="abstract4233-1" xml:lang="en"/>
           <location type="gps" source="#bib4233-1">
-            <geo>57.0949602000 30.2920525000</geo>
+            <geo>30.2920525000 57.0949602000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4233</idno>
           <idno type="URI">https://pleiades.stoa.org/places/29802</idno>

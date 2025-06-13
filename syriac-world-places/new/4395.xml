@@ -94,7 +94,7 @@
           <placeName xml:id="name4395-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4395-1 #bib4395-2">Pegu</placeName>
           <desc type="abstract" xml:id="abstract4395-1" xml:lang="en"/>
           <location type="gps" source="#bib4395-1">
-            <geo>96.4932632000 17.3298282000</geo>
+            <geo>17.3298282000 96.4932632000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4395</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Bago,_Myanmar</idno>

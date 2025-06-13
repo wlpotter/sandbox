@@ -100,7 +100,7 @@
           <placeName xml:id="name4265-2" xml:lang="en" source="#bib4265-1 #bib4265-3">Qarshi</placeName>
           <desc type="abstract" xml:id="abstract4265-1" xml:lang="en"/>
           <location type="gps" source="#bib4265-1">
-            <geo>65.7817125000 38.8366657000</geo>
+            <geo>38.8366657000 65.7817125000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4265</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Qarshi</idno>

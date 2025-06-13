@@ -94,7 +94,7 @@
           <placeName xml:id="name4183-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4183-1 #bib4183-2">Balikh River</placeName>
           <desc type="abstract" xml:id="abstract4183-1" xml:lang="en"/>
           <location type="gps" source="#bib4183-1">
-            <geo>39.0747441 36.4420663</geo>
+            <geo>36.4420663 39.0747441</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4183</idno>
           <idno type="URI">http://gazetteer.dainst.org/place/2043093</idno>

@@ -95,7 +95,7 @@
           <placeName xml:id="name4499-2" xml:lang="en" source="#bib4499-1 #bib4499-3">Pattanam</placeName>
           <desc type="abstract" xml:id="abstract4499-1" xml:lang="en"/>
           <location type="gps" source="#bib4499-1">
-            <geo>76.2094975 10.1573084</geo>
+            <geo>10.1573084 76.2094975</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4499</idno>
           <bibl xml:id="bib4499-1">

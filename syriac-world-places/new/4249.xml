@@ -94,7 +94,7 @@
           <placeName xml:id="name4249-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4249-1 #bib4249-2">Indus River</placeName>
           <desc type="abstract" xml:id="abstract4249-1" xml:lang="en"/>
           <location type="gps" source="#bib4249-1">
-            <geo>69.1006000000 28.0489000000</geo>
+            <geo>28.0489000000 69.1006000000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4249</idno>
           <idno type="URI">http://pleiades.stoa.org/places/638870</idno>

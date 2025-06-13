@@ -94,7 +94,7 @@
           <placeName xml:id="name4199-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4199-1 #bib4199-2">Sura</placeName>
           <desc type="abstract" xml:id="abstract4199-1" xml:lang="en"/>
           <location type="gps" source="#bib4199-1">
-            <geo>38.7833261000 35.9013918000</geo>
+            <geo>35.9013918000 38.7833261000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4199</idno>
           <idno type="URI">http://pleiades.stoa.org/places/668376</idno>

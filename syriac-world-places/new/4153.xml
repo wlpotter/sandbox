@@ -95,10 +95,10 @@
           <placeName xml:id="name4153-2" xml:lang="en" source="#bib4153-1 #bib4153-3">Qaṣr Ibrim</placeName>
           <desc type="abstract" xml:id="abstract4153-1" xml:lang="en"/>
           <location type="gps" subtype="preferred" source="#bib4153-1">
-            <geo>31.4658737 22.2013125</geo>
+            <geo>22.2013125 31.4658737</geo>
           </location>
           <location type="gps" subtype="alternate" source="#bib4153-1">
-            <geo>31.9926059 22.6497496</geo>
+            <geo>22.6497496 31.9926059</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4153</idno>
           <idno type="URI">http://pleiades.stoa.org/places/798093</idno>

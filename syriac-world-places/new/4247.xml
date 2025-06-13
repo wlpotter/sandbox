@@ -94,7 +94,7 @@
           <placeName xml:id="name4247-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4247-1 #bib4247-2">Hari Rud</placeName>
           <desc type="abstract" xml:id="abstract4247-1" xml:lang="en"/>
           <location type="gps" source="#bib4247-1">
-            <geo>61.0672160000 34.8319370000</geo>
+            <geo>34.8319370000 61.0672160000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4247</idno>
           <idno type="URI">http://www.iranicaonline.org/articles/hari-rud</idno>

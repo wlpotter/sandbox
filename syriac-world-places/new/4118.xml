@@ -94,7 +94,7 @@
           <placeName xml:id="name4118-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4118-1 #bib4118-2">Mar Elishaʿ</placeName>
           <desc type="abstract" xml:id="abstract4118-1" xml:lang="en"/>
           <location type="gps" source="#bib4118-1">
-            <geo>36.0012156000 34.2483218000</geo>
+            <geo>34.2483218000 36.0012156000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4118</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Kadisha_Valley#The_Monastery_of_Mar_Lishaa</idno>

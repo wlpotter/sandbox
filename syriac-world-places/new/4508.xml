@@ -94,7 +94,7 @@
           <placeName xml:id="name4508-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4508-1 #bib4508-2">Pallippuram</placeName>
           <desc type="abstract" xml:id="abstract4508-1" xml:lang="en"/>
           <location type="gps" source="#bib4508-1">
-            <geo>76.1839199 10.1549323</geo>
+            <geo>10.1549323 76.1839199</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4508</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Pallippuram,_Ernakulam</idno>

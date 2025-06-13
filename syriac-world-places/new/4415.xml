@@ -100,10 +100,10 @@
           <placeName xml:id="name4415-2" xml:lang="en" source="#bib4415-1 #bib4415-3">Xiapu</placeName>
           <desc type="abstract" xml:id="abstract4415-1" xml:lang="en"/>
           <location type="gps" subtype="preferred" source="#bib4415-1">
-            <geo>119.9966025000 26.8858756000</geo>
+            <geo>26.8858756000 119.9966025000</geo>
           </location>
           <location type="gps" subtype="alternate" source="#bib4415-1">
-            <geo>119.6219301 26.9974637</geo>
+            <geo>26.9974637 119.6219301</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4415</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Xiapu_County</idno>

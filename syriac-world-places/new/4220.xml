@@ -105,7 +105,7 @@
           <placeName xml:id="name4220-2" xml:lang="en" source="#bib4220-1 #bib4220-3">Nishapur</placeName>
           <desc type="abstract" xml:id="abstract4220-1" xml:lang="en"/>
           <location type="gps" source="#bib4220-1">
-            <geo>58.8473400000 36.1709400000</geo>
+            <geo>36.1709400000 58.8473400000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4220</idno>
           <idno type="URI">http://pleiades.stoa.org/places/952092</idno>

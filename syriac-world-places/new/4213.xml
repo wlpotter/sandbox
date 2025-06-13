@@ -95,7 +95,7 @@
           <placeName xml:id="name4213-2" xml:lang="en" source="#bib4213-1 #bib4213-3">ʿAbdasi</placeName>
           <desc type="abstract" xml:id="abstract4213-1" xml:lang="en"/>
           <location type="gps" source="#bib4213-1">
-            <geo>47.4595428000 31.3000599000</geo>
+            <geo>31.3000599000 47.4595428000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4213</idno>
           <bibl xml:id="bib4213-1">

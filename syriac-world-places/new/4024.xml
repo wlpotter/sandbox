@@ -94,7 +94,7 @@
           <placeName xml:id="name4024-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4024-1 #bib4024-2">Iconium</placeName>
           <desc type="abstract" xml:id="abstract4024-1" xml:lang="en"/>
           <location type="gps" source="#bib4024-1">
-            <geo>32.4927092000 37.8732443000</geo>
+            <geo>37.8732443000 32.4927092000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4024</idno>
           <idno type="URI">http://pleiades.stoa.org/places/648647</idno>

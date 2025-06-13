@@ -100,7 +100,7 @@
           <placeName xml:id="name4325-2" xml:lang="en" source="#bib4325-1 #bib4325-2">Ṭaraz</placeName>
           <desc type="abstract" xml:id="abstract4325-1" xml:lang="en"/>
           <location type="gps" source="#bib4325-1">
-            <geo>71.3922501000 42.8983521000</geo>
+            <geo>42.8983521000 71.3922501000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4325</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Taraz</idno>

@@ -94,7 +94,7 @@
           <placeName xml:id="name4420-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4420-1 #bib4420-2">Xining</placeName>
           <desc type="abstract" xml:id="abstract4420-1" xml:lang="en"/>
           <location type="gps" source="#bib4420-1">
-            <geo>101.7772579000 36.6185244000</geo>
+            <geo>36.6185244000 101.7772579000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4420</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Xining</idno>

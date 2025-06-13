@@ -94,7 +94,7 @@
           <placeName xml:id="name4155-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4155-1 #bib4155-2">Hagar</placeName>
           <desc type="abstract" xml:id="abstract4155-1" xml:lang="en"/>
           <location type="gps" source="#bib4155-1">
-            <geo>49.6297073000 25.4328399000</geo>
+            <geo>25.4328399000 49.6297073000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4155</idno>
           <idno type="URI">http://pleiades.stoa.org/places/932483</idno>

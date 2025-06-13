@@ -98,7 +98,7 @@
           <placeName xml:id="name4083-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4083-1 #bib4083-2">Nifr</placeName>
           <desc type="abstract" xml:id="abstract4083-1" xml:lang="en"/>
           <location type="gps" source="#bib4083-1">
-            <geo>45.2329445000 32.1289600000</geo>
+            <geo>32.1289600000 45.2329445000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4083</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Province_of_the_Patriarch#The_diocese_of_Nifr.2C_Nil_and_al-Nu.CA.BFmaniya</idno>

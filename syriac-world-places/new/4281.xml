@@ -99,7 +99,7 @@
           <placeName xml:id="name4281-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4281-1 #bib4281-2">Aqsu</placeName>
           <desc type="abstract" xml:id="abstract4281-1" xml:lang="en"/>
           <location type="gps" source="#bib4281-1">
-            <geo>80.2585387000 41.1607731000</geo>
+            <geo>41.1607731000 80.2585387000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4281</idno>
           <idno type="URI">http://www.iranicaonline.org/articles/aqsu-town-in-eastern-turkestan</idno>

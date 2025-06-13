@@ -94,7 +94,7 @@
           <placeName xml:id="name4218-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4218-1 #bib4218-2">Ram-Hormizd</placeName>
           <desc type="abstract" xml:id="abstract4218-1" xml:lang="en"/>
           <location type="gps" source="#bib4218-1">
-            <geo>49.6062756000 31.2754699000</geo>
+            <geo>31.2754699000 49.6062756000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4218</idno>
           <idno type="URI">http://www.iranicaonline.org/articles/ramhormoz</idno>

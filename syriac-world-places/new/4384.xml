@@ -94,7 +94,7 @@
           <placeName xml:id="name4384-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4384-1 #bib4384-2">Mekong River</placeName>
           <desc type="abstract" xml:id="abstract4384-1" xml:lang="en"/>
           <location type="gps" source="#bib4384-1">
-            <geo>100.2111090000 23.6786140000</geo>
+            <geo>23.6786140000 100.2111090000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4384</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Mekong</idno>

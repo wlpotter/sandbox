@@ -94,7 +94,7 @@
           <placeName xml:id="name4352-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4352-1 #bib4352-2">Chengdu</placeName>
           <desc type="abstract" xml:id="abstract4352-1" xml:lang="en"/>
           <location type="gps" source="#bib4352-1">
-            <geo>104.0577793000 30.6613194000</geo>
+            <geo>30.6613194000 104.0577793000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4352</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Chengdu</idno>

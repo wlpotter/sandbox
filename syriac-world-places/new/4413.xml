@@ -94,7 +94,7 @@
           <placeName xml:id="name4413-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4413-1 #bib4413-2">Ujjain</placeName>
           <desc type="abstract" xml:id="abstract4413-1" xml:lang="en"/>
           <location type="gps" source="#bib4413-1">
-            <geo>75.7711709000 23.1880420000</geo>
+            <geo>23.1880420000 75.7711709000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4413</idno>
           <bibl xml:id="bib4413-1">

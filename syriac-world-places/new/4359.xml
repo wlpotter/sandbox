@@ -94,7 +94,7 @@
           <placeName xml:id="name4359-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4359-1 #bib4359-2">Ganzhou</placeName>
           <desc type="abstract" xml:id="abstract4359-1" xml:lang="en"/>
           <location type="gps" source="#bib4359-1">
-            <geo>100.4550362000 38.9363126000</geo>
+            <geo>38.9363126000 100.4550362000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4359</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Zhangye</idno>

@@ -94,7 +94,7 @@
           <placeName xml:id="name4411-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4411-1 #bib4411-2">Thar Desert</placeName>
           <desc type="abstract" xml:id="abstract4411-1" xml:lang="en"/>
           <location type="gps" source="#bib4411-1">
-            <geo>70.3730140659 26.8758272626</geo>
+            <geo>26.8758272626 70.3730140659</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4411</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Thar_Desert</idno>

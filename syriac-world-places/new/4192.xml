@@ -98,7 +98,7 @@
           <placeName xml:id="name4192-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4192-1 #bib4192-2">Kerend</placeName>
           <desc type="abstract" xml:id="abstract4192-1" xml:lang="en"/>
           <location type="gps" source="#bib4192-1">
-            <geo>46.2442124000 34.2833585000</geo>
+            <geo>34.2833585000 46.2442124000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4192</idno>
           <idno type="URI">http://www.geographic.org/geographic_names/name.php?uni=-4314982&amp;fid=2770&amp;c=iran</idno>

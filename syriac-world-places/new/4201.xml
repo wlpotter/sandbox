@@ -94,7 +94,7 @@
           <placeName xml:id="name4201-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4201-1 #bib4201-2">al-Nil</placeName>
           <desc type="abstract" xml:id="abstract4201-1" xml:lang="en"/>
           <location type="gps" source="#bib4201-1">
-            <geo>44.8636150000 32.4997726000</geo>
+            <geo>32.4997726000 44.8636150000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4201</idno>
           <bibl xml:id="bib4201-1">

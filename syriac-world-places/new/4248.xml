@@ -94,7 +94,7 @@
           <placeName xml:id="name4248-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4248-1 #bib4248-2">Helmand River</placeName>
           <desc type="abstract" xml:id="abstract4248-1" xml:lang="en"/>
           <location type="gps" source="#bib4248-1">
-            <geo>63.2502780000 30.3747160000</geo>
+            <geo>30.3747160000 63.2502780000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4248</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Helmand_River</idno>

@@ -104,7 +104,7 @@
           <placeName xml:id="name4329-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4329-1 #bib4329-2">Tashkent</placeName>
           <desc type="abstract" xml:id="abstract4329-1" xml:lang="en"/>
           <location type="gps" source="#bib4329-1">
-            <geo>69.2376208000 41.3236845000</geo>
+            <geo>41.3236845000 69.2376208000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4329</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Tashkent</idno>

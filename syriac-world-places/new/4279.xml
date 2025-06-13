@@ -100,7 +100,7 @@
           <placeName xml:id="name4279-2" xml:lang="en" source="#bib4279-1 #bib4279-3">Suyab</placeName>
           <desc type="abstract" xml:id="abstract4279-1" xml:lang="en"/>
           <location type="gps" source="#bib4279-1">
-            <geo>75.2415300000 42.8133700000</geo>
+            <geo>42.8133700000 75.2415300000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4279</idno>
           <idno type="URI">http://www.iranicaonline.org/articles/suyab</idno>

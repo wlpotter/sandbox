@@ -95,7 +95,7 @@
           <placeName xml:id="name4483-2" xml:lang="en" source="#bib4483-1 #bib4483-3">Pingyang</placeName>
           <desc type="abstract" xml:id="abstract4483-1" xml:lang="en"/>
           <location type="gps" source="#bib4483-1">
-            <geo>111.507057 36.0828872</geo>
+            <geo>36.0828872 111.507057</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4483</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Linfen</idno>

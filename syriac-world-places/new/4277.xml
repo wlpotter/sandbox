@@ -94,7 +94,7 @@
           <placeName xml:id="name4277-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4277-1 #bib4277-2">Yazd</placeName>
           <desc type="abstract" xml:id="abstract4277-1" xml:lang="en"/>
           <location type="gps" source="#bib4277-1">
-            <geo>54.3682480000 31.9013881000</geo>
+            <geo>31.9013881000 54.3682480000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4277</idno>
           <idno type="URI">http://pleiades.stoa.org/places/29811</idno>

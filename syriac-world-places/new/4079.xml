@@ -94,7 +94,7 @@
           <placeName xml:id="name4079-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4079-1 #bib4079-2">Kufa</placeName>
           <desc type="abstract" xml:id="abstract4079-1" xml:lang="en"/>
           <location type="gps" source="#bib4079-1">
-            <geo>44.400816 32.0276523</geo>
+            <geo>32.0276523 44.400816</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4079</idno>
           <idno type="URI">http://dx.doi.org/10.1163/1573-3912_islam_COM_0536</idno>

@@ -95,7 +95,7 @@
           <placeName xml:id="name4344-2" xml:lang="en" source="#bib4344-1 #bib4344-3">Mumbai</placeName>
           <desc type="abstract" xml:id="abstract4344-1" xml:lang="en"/>
           <location type="gps" source="#bib4344-1">
-            <geo>72.8324890000 18.9387634000</geo>
+            <geo>18.9387634000 72.8324890000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4344</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Mumbai</idno>

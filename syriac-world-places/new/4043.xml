@@ -94,7 +94,7 @@
           <placeName xml:id="name4043-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4043-1 #bib4043-2">Partaw</placeName>
           <desc type="abstract" xml:id="abstract4043-1" xml:lang="en"/>
           <location type="gps" source="#bib4043-1">
-            <geo>47.1282792000 40.3831830000</geo>
+            <geo>40.3831830000 47.1282792000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4043</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Barda,_Azerbaijan</idno>

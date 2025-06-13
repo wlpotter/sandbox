@@ -100,7 +100,7 @@
           <placeName xml:id="name4321-2" xml:lang="en" source="#bib4321-1 #bib4321-3">Yanqi</placeName>
           <desc type="abstract" xml:id="abstract4321-1" xml:lang="en"/>
           <location type="gps" source="#bib4321-1">
-            <geo>86.5068626000 41.9535222000</geo>
+            <geo>41.9535222000 86.5068626000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4321</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Karasahr</idno>

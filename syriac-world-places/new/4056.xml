@@ -98,7 +98,7 @@
           <placeName xml:id="name4056-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4056-1 #bib4056-2">ʿUkbara</placeName>
           <desc type="abstract" xml:id="abstract4056-1" xml:lang="en"/>
           <location type="gps" source="#bib4056-1">
-            <geo>44.3124962000 33.7824290000</geo>
+            <geo>33.7824290000 44.3124962000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4056</idno>
           <idno type="URI">https://pleiades.stoa.org/places/893968</idno>

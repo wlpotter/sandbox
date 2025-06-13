@@ -95,7 +95,7 @@
           <placeName xml:id="name4132-2" xml:lang="en" source="#bib4132-1 #bib4132-3">Qulzum</placeName>
           <desc type="abstract" xml:id="abstract4132-1" xml:lang="en"/>
           <location type="gps" source="#bib4132-1">
-            <geo>32.5323308 30.0114268</geo>
+            <geo>30.0114268 32.5323308</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4132</idno>
           <idno type="URI">https://pleiades.stoa.org/places/727101</idno>

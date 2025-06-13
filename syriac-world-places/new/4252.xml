@@ -94,7 +94,7 @@
           <placeName xml:id="name4252-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4252-1 #bib4252-2">Karachi</placeName>
           <desc type="abstract" xml:id="abstract4252-1" xml:lang="en"/>
           <location type="gps" source="#bib4252-1">
-            <geo>66.9986200000 24.8536100000</geo>
+            <geo>24.8536100000 66.9986200000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4252</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Karachi</idno>

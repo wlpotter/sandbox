@@ -99,7 +99,7 @@
           <placeName xml:id="name4311-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4311-1 #bib4311-2">Merki</placeName>
           <desc type="abstract" xml:id="abstract4311-1" xml:lang="en"/>
           <location type="gps" source="#bib4311-1">
-            <geo>73.1810904000 42.8718441000</geo>
+            <geo>42.8718441000 73.1810904000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4311</idno>
           <idno type="URI">http://www.geonames.org/maps/google_42.868_73.176.html</idno>

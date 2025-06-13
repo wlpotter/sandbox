@@ -99,7 +99,7 @@
           <placeName xml:id="name4333-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4333-1 #bib4333-2">Uzgand</placeName>
           <desc type="abstract" xml:id="abstract4333-1" xml:lang="en"/>
           <location type="gps" source="#bib4333-1">
-            <geo>73.2973909000 40.7713444000</geo>
+            <geo>40.7713444000 73.2973909000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4333</idno>
           <idno type="URI">http://www.geonames.org/maps/google_40.77_73.301.html</idno>

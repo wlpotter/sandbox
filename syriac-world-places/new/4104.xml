@@ -95,7 +95,7 @@
           <placeName xml:id="name4104-2" xml:lang="en" source="#bib4104-1 #bib4104-2">Kurmajit</placeName>
           <desc type="abstract" xml:id="abstract4104-1" xml:lang="en"/>
           <location type="gps" source="#bib4104-1">
-            <geo>33.0102414000 35.3437301000</geo>
+            <geo>35.3437301000 33.0102414000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4104</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Kormakitis</idno>

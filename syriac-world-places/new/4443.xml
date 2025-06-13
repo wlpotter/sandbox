@@ -95,7 +95,7 @@
           <placeName xml:id="name4443-2" xml:lang="en" source="#bib4443-1 #bib4443-2">Thanjavur</placeName>
           <desc type="abstract" xml:id="abstract4443-1" xml:lang="en"/>
           <location type="gps" source="#bib4443-1">
-            <geo>79.1346663 10.7921906</geo>
+            <geo>10.7921906 79.1346663</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4443</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Thanjavur</idno>

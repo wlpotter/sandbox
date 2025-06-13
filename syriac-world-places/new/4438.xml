@@ -94,7 +94,7 @@
           <placeName xml:id="name4438-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4438-1 #bib4438-2">Madurai</placeName>
           <desc type="abstract" xml:id="abstract4438-1" xml:lang="en"/>
           <location type="gps" source="#bib4438-1">
-            <geo>78.1192517 9.919542</geo>
+            <geo>9.919542 78.1192517</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4438</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Madurai</idno>

@@ -94,7 +94,7 @@
           <placeName xml:id="name4026-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4026-1 #bib4026-2">Ḥirta d-Ṭayyaye</placeName>
           <desc type="abstract" xml:id="abstract4026-1" xml:lang="en"/>
           <location type="gps" source="#bib4026-1">
-            <geo>35.9993649 32.9197276</geo>
+            <geo>32.9197276 35.9993649</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4026</idno>
           <bibl xml:id="bib4026-1">

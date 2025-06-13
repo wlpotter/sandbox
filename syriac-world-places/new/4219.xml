@@ -98,7 +98,7 @@
           <placeName xml:id="name4219-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4219-1 #bib4219-2">Zabe</placeName>
           <desc type="abstract" xml:id="abstract4219-1" xml:lang="en"/>
           <location type="gps" source="#bib4219-1">
-            <geo>45.4125881000 32.5560013000</geo>
+            <geo>32.5560013000 45.4125881000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4219</idno>
           <bibl xml:id="bib4219-1">

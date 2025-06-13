@@ -94,7 +94,7 @@
           <placeName xml:id="name4021-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4021-1 #bib4021-2">Gerasa</placeName>
           <desc type="abstract" xml:id="abstract4021-1" xml:lang="en"/>
           <location type="gps" source="#bib4021-1">
-            <geo>35.8908534 32.2809467</geo>
+            <geo>32.2809467 35.8908534</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4021</idno>
           <idno type="URI">http://pleiades.stoa.org/places/678158</idno>

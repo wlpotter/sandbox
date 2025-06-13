@@ -104,7 +104,7 @@
           <placeName xml:id="name4000-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4000-1 #bib4000-2">Dunhuang</placeName>
           <desc type="abstract" xml:id="abstract4000-1" xml:lang="en"/>
           <location type="gps" source="#bib4000-1">
-            <geo>94.6674728000 40.1380718000</geo>
+            <geo>40.1380718000 94.6674728000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4000</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Dunhuang</idno>

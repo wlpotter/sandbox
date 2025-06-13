@@ -94,7 +94,7 @@
           <placeName xml:id="name4053-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4053-1 #bib4053-2">Tyana</placeName>
           <desc type="abstract" xml:id="abstract4053-1" xml:lang="en"/>
           <location type="gps" source="#bib4053-1">
-            <geo>34.6117321 37.847765</geo>
+            <geo>37.847765 34.6117321</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4053</idno>
           <idno type="URI">http://pleiades.stoa.org/places/648801</idno>

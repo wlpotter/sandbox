@@ -99,7 +99,7 @@
           <placeName xml:id="name4255-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4255-1 #bib4255-2">Karakum Desert</placeName>
           <desc type="abstract" xml:id="abstract4255-1" xml:lang="en"/>
           <location type="gps" source="#bib4255-1">
-            <geo>60.2632461062 40.2965630587</geo>
+            <geo>40.2965630587 60.2632461062</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4255</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Karakum_Desert</idno>

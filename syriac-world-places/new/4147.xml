@@ -99,7 +99,7 @@
           <placeName xml:id="name4147-2" xml:lang="en" source="#bib4147-1 #bib4147-3">Madaʾin Ṣaliḥ</placeName>
           <desc type="abstract" xml:id="abstract4147-1" xml:lang="en"/>
           <location type="gps" source="#bib4147-1">
-            <geo>37.9555750000 26.7920879000</geo>
+            <geo>26.7920879000 37.9555750000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4147</idno>
           <idno type="URI">http://gazetteer.dainst.org/place/2105911</idno>

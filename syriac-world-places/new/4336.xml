@@ -94,7 +94,7 @@
           <placeName xml:id="name4336-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4336-1 #bib4336-2">Altai Range</placeName>
           <desc type="abstract" xml:id="abstract4336-1" xml:lang="en"/>
           <location type="gps" source="#bib4336-1">
-            <geo>87.0897230000 49.2336160000</geo>
+            <geo>49.2336160000 87.0897230000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4336</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Altai_Mountains</idno>

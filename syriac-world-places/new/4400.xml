@@ -95,7 +95,7 @@
           <placeName xml:id="name4400-2" xml:lang="en" source="#bib4400-1 #bib4400-3">Xanadu</placeName>
           <desc type="abstract" xml:id="abstract4400-1" xml:lang="en"/>
           <location type="gps" source="#bib4400-1">
-            <geo>116.1849689000 42.3580999000</geo>
+            <geo>42.3580999000 116.1849689000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4400</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Shangdu</idno>

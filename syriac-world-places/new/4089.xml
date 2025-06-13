@@ -94,7 +94,7 @@
           <placeName xml:id="name4089-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4089-1 #bib4089-2">Shayzar</placeName>
           <desc type="abstract" xml:id="abstract4089-1" xml:lang="en"/>
           <location type="gps" source="#bib4089-1">
-            <geo>36.5665555 35.2654475</geo>
+            <geo>35.2654475 36.5665555</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4089</idno>
           <idno type="URI">https://pleiades.stoa.org/places/668292</idno>

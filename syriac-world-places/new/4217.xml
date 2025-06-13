@@ -98,7 +98,7 @@
           <placeName xml:id="name4217-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4217-1 #bib4217-2">Qum</placeName>
           <desc type="abstract" xml:id="abstract4217-1" xml:lang="en"/>
           <location type="gps" source="#bib4217-1">
-            <geo>50.8786297000 34.6417881000</geo>
+            <geo>34.6417881000 50.8786297000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4217</idno>
           <idno type="URI">http://www.iranicaonline.org/articles/qom-i-history-safavid-period</idno>

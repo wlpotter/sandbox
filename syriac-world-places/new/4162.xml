@@ -95,7 +95,7 @@
           <placeName xml:id="name4162-2" xml:lang="en" source="#bib4162-1 #bib4162-3">Samahij</placeName>
           <desc type="abstract" xml:id="abstract4162-1" xml:lang="en"/>
           <location type="gps" source="#bib4162-1">
-            <geo>50.6342268000 26.2821027000</geo>
+            <geo>26.2821027000 50.6342268000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4162</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Samaheej</idno>

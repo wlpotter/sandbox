@@ -94,7 +94,7 @@
           <placeName xml:id="name4165-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4165-1 #bib4165-2">Mecca</placeName>
           <desc type="abstract" xml:id="abstract4165-1" xml:lang="en"/>
           <location type="gps" source="#bib4165-1">
-            <geo>39.8261851000 21.4225098000</geo>
+            <geo>21.4225098000 39.8261851000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4165</idno>
           <idno type="URI">http://pleiades.stoa.org/places/29652</idno>

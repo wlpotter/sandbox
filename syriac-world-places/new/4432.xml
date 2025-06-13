@@ -95,7 +95,7 @@
           <placeName xml:id="name4432-2" xml:lang="en" source="#bib4432-1 #bib4432-3">Udayamperur</placeName>
           <desc type="abstract" xml:id="abstract4432-1" xml:lang="en"/>
           <location type="gps" source="#bib4432-1">
-            <geo>76.3616860000 9.9184719000</geo>
+            <geo>9.9184719000 76.3616860000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4432</idno>
           <bibl xml:id="bib4432-1">

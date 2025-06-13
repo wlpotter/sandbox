@@ -95,7 +95,7 @@
           <placeName xml:id="name4258-2" xml:lang="en" source="#bib4258-1 #bib4258-3">Merv al-Rud</placeName>
           <desc type="abstract" xml:id="abstract4258-1" xml:lang="en"/>
           <location type="gps" source="#bib4258-1">
-            <geo>63.3310425000 35.5819950000</geo>
+            <geo>35.5819950000 63.3310425000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4258</idno>
           <idno type="URI">http://dx.doi.org/10.1163/1573-3912_islam_SIM_4977</idno>

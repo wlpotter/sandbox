@@ -98,7 +98,7 @@
           <placeName xml:id="name4198-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4198-1 #bib4198-2">Solduz</placeName>
           <desc type="abstract" xml:id="abstract4198-1" xml:lang="en"/>
           <location type="gps" source="#bib4198-1">
-            <geo>45.3879547000 36.9554476000</geo>
+            <geo>36.9554476000 45.3879547000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4198</idno>
           <bibl xml:id="bib4198-1">

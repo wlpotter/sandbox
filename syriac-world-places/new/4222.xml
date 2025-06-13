@@ -94,7 +94,7 @@
           <placeName xml:id="name4222-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4222-1 #bib4222-2">Abivard</placeName>
           <desc type="abstract" xml:id="abstract4222-1" xml:lang="en"/>
           <location type="gps" source="#bib4222-1">
-            <geo>59.5667124 37.3910954</geo>
+            <geo>37.3910954 59.5667124</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4222</idno>
           <idno type="URI">http://www.iranicaonline.org/articles/abivard-a-town-in-medieval-northern-khorasan</idno>

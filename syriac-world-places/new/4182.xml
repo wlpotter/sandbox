@@ -94,7 +94,7 @@
           <placeName xml:id="name4182-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4182-1 #bib4182-2">Thebes</placeName>
           <desc type="abstract" xml:id="abstract4182-1" xml:lang="en"/>
           <location type="gps" source="#bib4182-1">
-            <geo>32.6571178 25.7189179</geo>
+            <geo>25.7189179 32.6571178</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4182</idno>
           <idno type="URI">http://pleiades.stoa.org/places/786017</idno>

@@ -94,7 +94,7 @@
           <placeName xml:id="name4492-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4492-1 #bib4492-2">Tambraparani River</placeName>
           <desc type="abstract" xml:id="abstract4492-1" xml:lang="en"/>
           <location type="gps" source="#bib4492-1">
-            <geo>77.676661 8.900557</geo>
+            <geo>8.900557 77.676661</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4492</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Thamirabarani_River</idno>

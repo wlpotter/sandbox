@@ -99,7 +99,7 @@
           <placeName xml:id="name4327-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4327-1 #bib4327-2">Talgar</placeName>
           <desc type="abstract" xml:id="abstract4327-1" xml:lang="en"/>
           <location type="gps" source="#bib4327-1">
-            <geo>77.2477484000 43.3032575000</geo>
+            <geo>43.3032575000 77.2477484000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4327</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Talgar</idno>

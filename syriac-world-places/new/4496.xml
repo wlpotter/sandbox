@@ -94,7 +94,7 @@
           <placeName xml:id="name4496-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4496-1 #bib4496-2">ʾIbb</placeName>
           <desc type="abstract" xml:id="abstract4496-1" xml:lang="en"/>
           <location type="gps" source="#bib4496-1">
-            <geo>44.1876984 13.9755077</geo>
+            <geo>13.9755077 44.1876984</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4496</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Ibb</idno>

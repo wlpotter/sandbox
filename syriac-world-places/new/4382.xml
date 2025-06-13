@@ -95,7 +95,7 @@
           <placeName xml:id="name4382-2" xml:lang="en" source="#bib4382-1 #bib4382-2">Lingzhou</placeName>
           <desc type="abstract" xml:id="abstract4382-1" xml:lang="en"/>
           <location type="gps" source="#bib4382-1">
-            <geo>106.3267994000 38.0868781000</geo>
+            <geo>38.0868781000 106.3267994000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4382</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Lingwu</idno>

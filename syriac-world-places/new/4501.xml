@@ -94,7 +94,7 @@
           <placeName xml:id="name4501-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4501-1 #bib4501-2">Vadakkumkur</placeName>
           <desc type="abstract" xml:id="abstract4501-1" xml:lang="en"/>
           <location type="gps" source="#bib4501-1">
-            <geo>76.4141284023 9.794485147</geo>
+            <geo>9.794485147 76.4141284023</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4501</idno>
           <bibl xml:id="bib4501-1">

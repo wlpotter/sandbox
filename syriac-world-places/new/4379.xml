@@ -94,7 +94,7 @@
           <placeName xml:id="name4379-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4379-1 #bib4379-2">Liaoyang</placeName>
           <desc type="abstract" xml:id="abstract4379-1" xml:lang="en"/>
           <location type="gps" source="#bib4379-1">
-            <geo>123.1860924000 41.2669690000</geo>
+            <geo>41.2669690000 123.1860924000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4379</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Liaoyang</idno>

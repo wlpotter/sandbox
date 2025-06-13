@@ -95,7 +95,7 @@
           <placeName xml:id="name4514-2" xml:lang="en" source="#bib4514-1 #bib4514-2">Palur</placeName>
           <desc type="abstract" xml:id="abstract4514-1" xml:lang="en"/>
           <location type="gps" source="#bib4514-1">
-            <geo>76.0323644 10.582596</geo>
+            <geo>10.582596 76.0323644</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4514</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Palayoor</idno>

@@ -94,7 +94,7 @@
           <placeName xml:id="name4111-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4111-1 #bib4111-2">Baskinta</placeName>
           <desc type="abstract" xml:id="abstract4111-1" xml:lang="en"/>
           <location type="gps" source="#bib4111-1">
-            <geo>35.7878646000 33.9429260000</geo>
+            <geo>33.9429260000 35.7878646000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4111</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Baskinta</idno>

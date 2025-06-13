@@ -99,7 +99,7 @@
           <placeName xml:id="name4065-2" xml:lang="en" source="#bib4065-2 #bib4065-4">Muḥammara</placeName>
           <desc type="abstract" xml:id="abstract4065-1" xml:lang="en"/>
           <location type="gps" source="#bib4065-1 #bib4065-2">
-            <geo>48.1841666667 30.4405555556</geo>
+            <geo>30.4405555556 48.1841666667</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4065</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Khorramshahr</idno>

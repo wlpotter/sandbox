@@ -94,7 +94,7 @@
           <placeName xml:id="name4318-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4318-1 #bib4318-2">Peshawar</placeName>
           <desc type="abstract" xml:id="abstract4318-1" xml:lang="en"/>
           <location type="gps" source="#bib4318-1">
-            <geo>71.5697479000 34.0127558000</geo>
+            <geo>34.0127558000 71.5697479000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4318</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Peshawar</idno>

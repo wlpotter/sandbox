@@ -94,7 +94,7 @@
           <placeName xml:id="name4472-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4472-1 #bib4472-2">Ganges River</placeName>
           <desc type="abstract" xml:id="abstract4472-1" xml:lang="en"/>
           <location type="gps" source="#bib4472-1">
-            <geo>79.4933390000 27.5697260000</geo>
+            <geo>27.5697260000 79.4933390000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4472</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Ganges</idno>

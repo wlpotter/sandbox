@@ -94,7 +94,7 @@
           <placeName xml:id="name4282-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4282-1 #bib4282-2">Aral Sea</placeName>
           <desc type="abstract" xml:id="abstract4282-1" xml:lang="en"/>
           <location type="gps" source="#bib4282-1">
-            <geo>59.3908264590 44.7134365009</geo>
+            <geo>44.7134365009 59.3908264590</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4282</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Aral_Sea</idno>

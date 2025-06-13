@@ -94,7 +94,7 @@
           <placeName xml:id="name4346-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4346-1 #bib4346-2">Brahmaputra River</placeName>
           <desc type="abstract" xml:id="abstract4346-1" xml:lang="en"/>
           <location type="gps" source="#bib4346-1">
-            <geo>91.9075000000 26.2497290000</geo>
+            <geo>26.2497290000 91.9075000000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4346</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Brahmaputra_River</idno>

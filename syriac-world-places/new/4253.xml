@@ -95,7 +95,7 @@
           <placeName xml:id="name4253-2" xml:lang="en" source="#bib4253-1 #bib4253-3">Kuj</placeName>
           <desc type="abstract" xml:id="abstract4253-1" xml:lang="en"/>
           <location type="gps" source="#bib4253-1">
-            <geo>48.4084225000 34.5512105000</geo>
+            <geo>34.5512105000 48.4084225000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4253</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Karahrud</idno>

@@ -95,7 +95,7 @@
           <placeName xml:id="name4144-2" xml:lang="en" source="#bib4144-1 #bib4144-3">Zula</placeName>
           <desc type="abstract" xml:id="abstract4144-1" xml:lang="en"/>
           <location type="gps" source="#bib4144-1">
-            <geo>39.6604943 15.2636199</geo>
+            <geo>15.2636199 39.6604943</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4144</idno>
           <idno type="URI">http://vici.org/vici/21479</idno>

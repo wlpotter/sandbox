@@ -95,7 +95,7 @@
           <placeName xml:id="name4425-2" xml:lang="en" source="#bib4425-1 #bib4425-3">Kozhikode</placeName>
           <desc type="abstract" xml:id="abstract4425-1" xml:lang="en"/>
           <location type="gps" source="#bib4425-1">
-            <geo>75.7774687 11.2433251</geo>
+            <geo>11.2433251 75.7774687</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4425</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Kozhikode</idno>

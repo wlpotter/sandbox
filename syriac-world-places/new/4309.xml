@@ -95,7 +95,7 @@
           <placeName xml:id="name4309-2" xml:lang="en" source="#bib4309-1 #bib4309-3">Ürümchi</placeName>
           <desc type="abstract" xml:id="abstract4309-1" xml:lang="en"/>
           <location type="gps" source="#bib4309-1">
-            <geo>87.5870848000 43.6409513000</geo>
+            <geo>43.6409513000 87.5870848000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4309</idno>
           <idno type="URI">https://gazetteer.dainst.org/place/2290562</idno>

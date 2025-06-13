@@ -98,7 +98,7 @@
           <placeName xml:id="name4020-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4020-1 #bib4020-2">Ganzak</placeName>
           <desc type="abstract" xml:id="abstract4020-1" xml:lang="en"/>
           <location type="gps" source="#bib4020-1">
-            <geo>46.1928749000 37.0122169000</geo>
+            <geo>37.0122169000 46.1928749000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4020</idno>
           <idno type="URI">https://pleiades.stoa.org/places/884148</idno>

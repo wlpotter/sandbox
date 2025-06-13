@@ -105,7 +105,7 @@
           <placeName xml:id="name4284-2" xml:lang="en" source="#bib4284-1 #bib4284-3">Burana</placeName>
           <desc type="abstract" xml:id="abstract4284-1" xml:lang="en"/>
           <location type="gps" source="#bib4284-1">
-            <geo>75.2500927000 42.7464173000</geo>
+            <geo>42.7464173000 75.2500927000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4284</idno>
           <idno type="URI">http://www.iranicaonline.org/articles/balasagun</idno>

@@ -95,7 +95,7 @@
           <placeName xml:id="name4305-2" xml:lang="en" source="#bib4305-1 #bib4305-2">Loulan</placeName>
           <desc type="abstract" xml:id="abstract4305-1" xml:lang="en"/>
           <location type="gps" source="#bib4305-1">
-            <geo>89.9141693000 40.5156915000</geo>
+            <geo>40.5156915000 89.9141693000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4305</idno>
           <idno type="URI">https://viaf.org/viaf/259373195/</idno>

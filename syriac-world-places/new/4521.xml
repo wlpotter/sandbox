@@ -94,7 +94,7 @@
           <placeName xml:id="name4521-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4521-1 #bib4521-2">Anuradhapura</placeName>
           <desc type="abstract" xml:id="abstract4521-1" xml:lang="en"/>
           <location type="gps" source="#bib4521-1">
-            <geo>80.4008245 8.3601473</geo>
+            <geo>8.3601473 80.4008245</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4521</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Anuradhapura</idno>

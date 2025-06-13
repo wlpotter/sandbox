@@ -94,7 +94,7 @@
           <placeName xml:id="name4355-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4355-1 #bib4355-2">Abila</placeName>
           <desc type="abstract" xml:id="abstract4355-1" xml:lang="en"/>
           <location type="gps" source="#bib4355-1">
-            <geo>36.1099577 33.6248311</geo>
+            <geo>33.6248311 36.1099577</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4355</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Abila_Lysaniou</idno>

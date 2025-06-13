@@ -95,7 +95,7 @@
           <placeName xml:id="name4518-2" xml:lang="en" source="#bib4518-1 #bib4518-2">Parur</placeName>
           <desc type="abstract" xml:id="abstract4518-1" xml:lang="en"/>
           <location type="gps" source="#bib4518-1">
-            <geo>76.2228924 10.1506921</geo>
+            <geo>10.1506921 76.2228924</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4518</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/North_Paravur</idno>

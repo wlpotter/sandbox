@@ -95,7 +95,7 @@
           <placeName xml:id="name4178-2" xml:lang="en" source="#bib4178-1 #bib4178-3">Syene</placeName>
           <desc type="abstract" xml:id="abstract4178-1" xml:lang="en"/>
           <location type="gps" source="#bib4178-1">
-            <geo>32.8905129 24.0828672</geo>
+            <geo>24.0828672 32.8905129</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4178</idno>
           <idno type="URI">http://pleiades.stoa.org/places/786123</idno>

@@ -95,7 +95,7 @@
           <placeName xml:id="name4226-2" xml:lang="en" source="#bib4226-1 #bib4226-3">Farah</placeName>
           <desc type="abstract" xml:id="abstract4226-1" xml:lang="en"/>
           <location type="gps" source="#bib4226-1">
-            <geo>62.1115494000 32.3821360000</geo>
+            <geo>32.3821360000 62.1115494000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4226</idno>
           <idno type="URI">http://www.iranicaonline.org/articles/farah-</idno>

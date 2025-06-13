@@ -98,7 +98,7 @@
           <placeName xml:id="name4130-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4130-1 #bib4130-2">Judean Desert</placeName>
           <desc type="abstract" xml:id="abstract4130-1" xml:lang="en"/>
           <location type="gps" source="#bib4130-1">
-            <geo>35.3046917911 31.4596847739</geo>
+            <geo>31.4596847739 35.3046917911</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4130</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Judaean_Desert</idno>

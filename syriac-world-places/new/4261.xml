@@ -96,7 +96,7 @@
           <placeName xml:id="name4261-3" xml:lang="en" source="#bib4261-1 #bib4261-3">Pushang</placeName>
           <desc type="abstract" xml:id="abstract4261-1" xml:lang="en"/>
           <location type="gps" source="#bib4261-1">
-            <geo>61.4891052000 34.3465542000</geo>
+            <geo>34.3465542000 61.4891052000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4261</idno>
           <idno type="URI">http://www.iranicaonline.org/articles/fusanj</idno>

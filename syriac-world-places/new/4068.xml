@@ -98,7 +98,7 @@
           <placeName xml:id="name4068-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4068-1 #bib4068-2">Baʿquba</placeName>
           <desc type="abstract" xml:id="abstract4068-1" xml:lang="en"/>
           <location type="gps" source="#bib4068-1">
-            <geo>44.6414101000 33.7537907000</geo>
+            <geo>33.7537907000 44.6414101000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4068</idno>
           <idno type="URI">https://gazetteer.dainst.org/app/#!/show/2043229</idno>

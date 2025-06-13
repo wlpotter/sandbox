@@ -99,7 +99,7 @@
           <placeName xml:id="name4286-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4286-1 #bib4286-2">Chu River</placeName>
           <desc type="abstract" xml:id="abstract4286-1" xml:lang="en"/>
           <location type="gps" source="#bib4286-1">
-            <geo>74.1237259000 43.3121889000</geo>
+            <geo>43.3121889000 74.1237259000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4286</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Chu_River</idno>

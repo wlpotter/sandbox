@@ -99,7 +99,7 @@
           <placeName xml:id="name4377-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4377-1 #bib4377-2">Ladakh</placeName>
           <desc type="abstract" xml:id="abstract4377-1" xml:lang="en"/>
           <location type="gps" source="#bib4377-1">
-            <geo>77.6861070000 34.5275040000</geo>
+            <geo>34.5275040000 77.6861070000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4377</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Ladakh</idno>
