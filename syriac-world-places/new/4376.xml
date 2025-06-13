@@ -99,7 +99,7 @@
   <text>
     <body>
       <listPlace>
-        <place type="mountain (range)">
+        <place type="mountain">
           <placeName xml:id="name4376-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4376-1 #bib4376-2">Kunlun Shan</placeName>
           <desc type="abstract" xml:id="abstract4376-1" xml:lang="en"/>
           <location type="gps" source="#bib4376-1">

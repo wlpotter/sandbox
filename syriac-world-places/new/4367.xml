@@ -99,7 +99,7 @@
   <text>
     <body>
       <listPlace>
-        <place type="mountain (range)">
+        <place type="mountain">
           <placeName xml:id="name4367-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4367-1 #bib4367-2">Hindu Kush Range</placeName>
           <desc type="abstract" xml:id="abstract4367-1" xml:lang="en"/>
           <location type="gps" source="#bib4367-1">

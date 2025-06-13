@@ -103,7 +103,7 @@
   <text>
     <body>
       <listPlace>
-        <place type="diocese (diocese (archdiocese))#region#diocese (province)">
+        <place type="region">
           <placeName xml:id="name4022-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4022-1 #bib4022-2">Gilan</placeName>
           <desc type="abstract" xml:id="abstract4022-1" xml:lang="en"/>
           <location type="gps" subtype="representative" source="#bib4022-1">

@@ -98,7 +98,7 @@
   <text>
     <body>
       <listPlace>
-        <place type="diocese (diocese (archdiocese))">
+        <place type="settlement">
           <placeName xml:id="name4173-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4173-1 #bib4173-2">Rev Ardashir</placeName>
           <desc type="abstract" xml:id="abstract4173-1" xml:lang="en"/>
           <location type="gps" source="#bib4173-1">
@@ -106,7 +106,6 @@
           </location>
           <idno type="URI">http://syriaca.org/place/4173</idno>
           <idno type="URI">https://pleiades.stoa.org/places/922711</idno>
-          <idno type="URI">http://pleiades.stoa.org/places/922711</idno>
           <bibl xml:id="bib4173-1">
             <title xml:lang="en" level="a">Diachronic Maps of Syriac Cultures and Their Geographic Contexts</title>
             <editor>David A. Michelson</editor>
