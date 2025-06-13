@@ -114,8 +114,8 @@
           </bibl>
           <bibl xml:id="bib4009-2">
             <title xml:lang="en" level="a">Index of Maps</title>
-            <author>William L. Potter</author>
-            <author>David A. Michelson</author>
+            <author><persName>William L. Potter</persName></author>
+            <author><persName>David A. Michelson</persName></author>
             <title xml:lang="en" level="m">The Syriac World</title>
             <editor>Daniel King</editor>
             <ptr target="http://syriaca.org/bibl/BNVESQNE"/>
@@ -123,7 +123,7 @@
           </bibl>
           <bibl xml:id="bib4009-3">
             <title xml:lang="en" level="a">The Syriac Language in the Context of the Semitic Languages</title>
-            <author>Holger Gzella</author>
+            <author><persName>Holger Gzella</persName></author>
             <title xml:lang="en" level="m">The Syriac World</title>
             <editor>Daniel King</editor>
             <ptr target="http://syriaca.org/bibl/JBSE2HTI"/>

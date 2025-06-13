@@ -112,8 +112,8 @@
           </bibl>
           <bibl xml:id="bib4460-2">
             <title xml:lang="en" level="a">Index of Maps</title>
-            <author>William L. Potter</author>
-            <author>David A. Michelson</author>
+            <author><persName>William L. Potter</persName></author>
+            <author><persName>David A. Michelson</persName></author>
             <title xml:lang="en" level="m">The Syriac World</title>
             <editor>Daniel King</editor>
             <ptr target="http://syriaca.org/bibl/BNVESQNE"/>
@@ -121,7 +121,7 @@
           </bibl>
           <bibl xml:id="bib4460-3">
             <title xml:lang="en" level="a">The Neo-Aramaic Dialects and Their Historical Background</title>
-            <author>Geoffrey Khan</author>
+            <author><persName>Geoffrey Khan</persName></author>
             <title xml:lang="en" level="m">The Syriac World</title>
             <editor>Daniel King</editor>
             <ptr target="http://syriaca.org/bibl/GEUS5DHV"/>

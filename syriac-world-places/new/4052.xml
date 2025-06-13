@@ -113,8 +113,8 @@
           </bibl>
           <bibl xml:id="bib4052-2">
             <title xml:lang="en" level="a">Index of Maps</title>
-            <author>William L. Potter</author>
-            <author>David A. Michelson</author>
+            <author><persName>William L. Potter</persName></author>
+            <author><persName>David A. Michelson</persName></author>
             <title xml:lang="en" level="m">The Syriac World</title>
             <editor>Daniel King</editor>
             <ptr target="http://syriaca.org/bibl/BNVESQNE"/>
@@ -122,7 +122,7 @@
           </bibl>
           <bibl xml:id="bib4052-3">
             <title xml:lang="en" level="a">Syriac in a Diverse Middle East: From the Mongol Ilkhanate to Ottoman Dominance, 1286-1517</title>
-            <author>Thomas A. Carlson</author>
+            <author><persName>Thomas A. Carlson</persName></author>
             <title xml:lang="en" level="m">The Syriac World</title>
             <editor>Daniel King</editor>
             <ptr target="http://syriaca.org/bibl/ZVIWK3AZ"/>
