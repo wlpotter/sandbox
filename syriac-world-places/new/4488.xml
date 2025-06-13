@@ -99,7 +99,7 @@
           <placeName xml:id="name4488-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4488-1 #bib4488-2">Semirechye</placeName>
           <placeName xml:id="name4488-2" xml:lang="en" source="#bib4488-1 #bib4488-3">Yeti Su</placeName>
           <desc type="abstract" xml:id="abstract4488-1" xml:lang="en"/>
-          <location type="gps" subtype="representative" source="#bib4488-1">
+          <location type="gps" source="#bib4488-1">
             <geo>76.2200759792 45.2781756072</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4488</idno>

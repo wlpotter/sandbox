@@ -93,7 +93,7 @@
         <place ana="http://syriaca.org/taxonomy/regions" type="region">
           <placeName xml:id="name4487-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4487-1 #bib4487-2">Rima</placeName>
           <desc type="abstract" xml:id="abstract4487-1" xml:lang="en"/>
-          <location type="gps" subtype="representative" source="#bib4487-1">
+          <location type="gps" source="#bib4487-1">
             <geo>47.8185081000 30.5269270000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4487</idno>

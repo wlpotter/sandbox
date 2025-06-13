@@ -93,7 +93,7 @@
         <place ana="http://syriaca.org/taxonomy/regions" type="region">
           <placeName xml:id="name4385-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4385-1 #bib4385-2">Mongolia</placeName>
           <desc type="abstract" xml:id="abstract4385-1" xml:lang="en"/>
-          <location type="gps" subtype="representative" source="#bib4385-1">
+          <location type="gps" source="#bib4385-1">
             <geo>102.3338327670 45.6800633235</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4385</idno>

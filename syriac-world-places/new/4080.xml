@@ -97,7 +97,7 @@
         <place ana="http://syriaca.org/taxonomy/dioceses" type="diocese">
           <placeName xml:id="name4080-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4080-1 #bib4080-2">Muqan</placeName>
           <desc type="abstract" xml:id="abstract4080-1" xml:lang="en"/>
-          <location type="gps" subtype="representative" source="#bib4080-1">
+          <location type="gps" source="#bib4080-1">
             <geo>48.6461881592 39.9286711924</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4080</idno>

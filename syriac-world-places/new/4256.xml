@@ -93,7 +93,7 @@
         <place ana="http://syriaca.org/taxonomy/regions" type="region">
           <placeName xml:id="name4256-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4256-1 #bib4256-2">Kirman</placeName>
           <desc type="abstract" xml:id="abstract4256-1" xml:lang="en"/>
-          <location type="gps" subtype="representative" source="#bib4256-1">
+          <location type="gps" source="#bib4256-1">
             <geo>57.0949602000 30.2920525000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4256</idno>

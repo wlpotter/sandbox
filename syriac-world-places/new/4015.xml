@@ -93,7 +93,7 @@
         <place ana="http://syriaca.org/taxonomy/regions" type="region">
           <placeName xml:id="name4015-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4015-1 #bib4015-2">Commagene</placeName>
           <desc type="abstract" xml:id="abstract4015-1" xml:lang="en"/>
-          <location type="gps" subtype="representative" source="#bib4015-1">
+          <location type="gps" source="#bib4015-1">
             <geo>38.1368047166 37.6635920234</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4015</idno>

@@ -93,7 +93,7 @@
         <place ana="http://syriaca.org/taxonomy/regions" type="region">
           <placeName xml:id="name4538-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4538-1 #bib4538-2">Makuria</placeName>
           <desc type="abstract" xml:id="abstract4538-1" xml:lang="en"/>
-          <location type="gps" subtype="representative" source="#bib4538-1">
+          <location type="gps" source="#bib4538-1">
             <geo>30.8222006838 17.640633126</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4538</idno>

@@ -93,7 +93,7 @@
         <place ana="http://syriaca.org/taxonomy/regions" type="region">
           <placeName xml:id="name4159-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4159-1 #bib4159-2">Indian Ocean</placeName>
           <desc type="abstract" xml:id="abstract4159-1" xml:lang="en"/>
-          <location type="gps" subtype="representative" source="#bib4159-1">
+          <location type="gps" source="#bib4159-1">
             <geo>63.3688210556 22.2177615587</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4159</idno>

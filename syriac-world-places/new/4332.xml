@@ -103,7 +103,7 @@
         <place ana="http://syriaca.org/taxonomy/settlements" type="settlement">
           <placeName xml:id="name4332-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4332-1 #bib4332-2">Ulaan Tolgoi</placeName>
           <desc type="abstract" xml:id="abstract4332-1" xml:lang="en"/>
-          <location type="gps" subtype="representative" source="#bib4332-1">
+          <location type="gps" source="#bib4332-1">
             <geo>91.3200000000 47.0400000000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4332</idno>

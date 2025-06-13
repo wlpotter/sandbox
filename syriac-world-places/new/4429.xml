@@ -97,7 +97,7 @@
         <place ana="http://syriaca.org/taxonomy/regions" type="region">
           <placeName xml:id="name4429-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4429-1 #bib4429-2">Coromandel Coast</placeName>
           <desc type="abstract" xml:id="abstract4429-1" xml:lang="en"/>
-          <location type="gps" subtype="representative" source="#bib4429-1">
+          <location type="gps" source="#bib4429-1">
             <geo>79.2597126217 10.4172425807</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4429</idno>

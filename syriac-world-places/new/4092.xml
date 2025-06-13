@@ -101,7 +101,7 @@
         <place ana="http://syriaca.org/taxonomy/settlements" type="settlement">
           <placeName xml:id="name4092-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4092-1 #bib4092-2">Shushtar</placeName>
           <desc type="abstract" xml:id="abstract4092-1" xml:lang="en"/>
-          <location type="gps" subtype="representative" source="#bib4092-1">
+          <location type="gps" source="#bib4092-1">
             <geo>48.8518560000 32.0510756000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4092</idno>

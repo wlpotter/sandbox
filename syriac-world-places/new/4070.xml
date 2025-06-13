@@ -97,7 +97,7 @@
         <place ana="http://syriaca.org/taxonomy/dioceses" type="diocese">
           <placeName xml:id="name4070-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4070-1 #bib4070-2">Dinawar</placeName>
           <desc type="abstract" xml:id="abstract4070-1" xml:lang="en"/>
-          <location type="gps" subtype="representative" source="#bib4070-1">
+          <location type="gps" source="#bib4070-1">
             <geo>47.4606156000 34.6154622000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4070</idno>

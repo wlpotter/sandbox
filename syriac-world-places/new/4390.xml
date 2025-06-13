@@ -98,7 +98,7 @@
         <place ana="http://syriaca.org/taxonomy/settlements" type="settlement">
           <placeName xml:id="name4390-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4390-1 #bib4390-2">Olan Süme</placeName>
           <desc type="abstract" xml:id="abstract4390-1" xml:lang="en"/>
-          <location type="gps" subtype="representative" source="#bib4390-1">
+          <location type="gps" source="#bib4390-1">
             <geo>110.4854679000 41.9605751000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4390</idno>

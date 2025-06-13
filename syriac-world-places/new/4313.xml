@@ -103,7 +103,7 @@
         <place ana="http://syriaca.org/taxonomy/settlements" type="settlement">
           <placeName xml:id="name4313-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4313-1 #bib4313-2">Navekath</placeName>
           <desc type="abstract" xml:id="abstract4313-1" xml:lang="en"/>
-          <location type="gps" subtype="representative" source="#bib4313-1">
+          <location type="gps" source="#bib4313-1">
             <geo>75.0081253000 42.9170864000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4313</idno>

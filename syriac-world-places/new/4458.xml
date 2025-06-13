@@ -97,7 +97,7 @@
         <place ana="http://syriaca.org/taxonomy/dioceses" type="diocese">
           <placeName xml:id="name4458-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4458-1 #bib4458-2">Ḥrbath Glal</placeName>
           <desc type="abstract" xml:id="abstract4458-1" xml:lang="en"/>
-          <location type="gps" subtype="representative" source="#bib4458-1">
+          <location type="gps" source="#bib4458-1">
             <geo>44.3480641171 36.1895949142</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4458</idno>

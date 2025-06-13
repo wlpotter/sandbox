@@ -97,7 +97,7 @@
         <place ana="http://syriaca.org/taxonomy/dioceses" type="diocese">
           <placeName xml:id="name4013-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4013-1 #bib4013-2">Beth Daraye</placeName>
           <desc type="abstract" xml:id="abstract4013-1" xml:lang="en"/>
-          <location type="gps" subtype="representative" source="#bib4013-1">
+          <location type="gps" source="#bib4013-1">
             <geo>45.9319925000 33.1236430000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4013</idno>

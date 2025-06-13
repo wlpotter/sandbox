@@ -97,7 +97,7 @@
         <place ana="http://syriaca.org/taxonomy/dioceses" type="diocese">
           <placeName xml:id="name4036-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4036-1 #bib4036-2">Nihawand</placeName>
           <desc type="abstract" xml:id="abstract4036-1" xml:lang="en"/>
-          <location type="gps" subtype="representative" source="#bib4036-1">
+          <location type="gps" source="#bib4036-1">
             <geo>48.3722341000 34.1887930000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4036</idno>

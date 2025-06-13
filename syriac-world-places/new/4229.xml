@@ -99,7 +99,7 @@
           <placeName xml:id="name4229-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4229-1 #bib4229-2">Bactria</placeName>
           <placeName xml:id="name4229-2" xml:lang="en" source="#bib4229-1 #bib4229-3">Tokharistan</placeName>
           <desc type="abstract" xml:id="abstract4229-1" xml:lang="en"/>
-          <location type="gps" subtype="representative" source="#bib4229-1">
+          <location type="gps" source="#bib4229-1">
             <geo>66.0748300000 37.0000000000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4229</idno>

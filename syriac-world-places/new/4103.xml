@@ -97,7 +97,7 @@
         <place ana="http://syriaca.org/taxonomy/regions" type="region">
           <placeName xml:id="name4103-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4103-1 #bib4103-2">Cyrrhestica</placeName>
           <desc type="abstract" xml:id="abstract4103-1" xml:lang="en"/>
-          <location type="gps" subtype="representative" source="#bib4103-1">
+          <location type="gps" source="#bib4103-1">
             <geo>37.2911825019 36.5433191791</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4103</idno>

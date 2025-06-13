@@ -93,7 +93,7 @@
         <place ana="http://syriaca.org/taxonomy/regions" type="region">
           <placeName xml:id="name4113-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4113-1 #bib4113-2">Beqaa Valley</placeName>
           <desc type="abstract" xml:id="abstract4113-1" xml:lang="en"/>
-          <location type="gps" subtype="representative" source="#bib4113-1">
+          <location type="gps" source="#bib4113-1">
             <geo>36.3083944699 34.1082058716</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4113</idno>

@@ -98,7 +98,7 @@
         <place ana="http://syriaca.org/taxonomy/regions" type="region">
           <placeName xml:id="name4410-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4410-1 #bib4410-2">Tenduc</placeName>
           <desc type="abstract" xml:id="abstract4410-1" xml:lang="en"/>
-          <location type="gps" subtype="representative" source="#bib4410-1">
+          <location type="gps" source="#bib4410-1">
             <geo>109.2775583965 40.2803898943</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4410</idno>

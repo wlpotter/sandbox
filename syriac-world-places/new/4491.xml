@@ -98,7 +98,7 @@
         <place ana="http://syriaca.org/taxonomy/regions" type="region">
           <placeName xml:id="name4491-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4491-1 #bib4491-2">Surkhan Darya River</placeName>
           <desc type="abstract" xml:id="abstract4491-1" xml:lang="en"/>
-          <location type="gps" subtype="representative" source="#bib4491-1">
+          <location type="gps" source="#bib4491-1">
             <geo>67.5540827743 37.6522681256</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4491</idno>

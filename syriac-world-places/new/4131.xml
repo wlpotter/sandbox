@@ -97,7 +97,7 @@
         <place ana="http://syriaca.org/taxonomy/regions" type="region">
           <placeName xml:id="name4131-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4131-1 #bib4131-2">Kellia</placeName>
           <desc type="abstract" xml:id="abstract4131-1" xml:lang="en"/>
-          <location type="gps" subtype="representative" source="#bib4131-1">
+          <location type="gps" source="#bib4131-1">
             <geo>30.3154635000 30.7860874000</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4131</idno>

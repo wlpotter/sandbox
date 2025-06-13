@@ -93,7 +93,7 @@
         <place ana="http://syriaca.org/taxonomy/regions" type="region">
           <placeName xml:id="name4411-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4411-1 #bib4411-2">Thar Desert</placeName>
           <desc type="abstract" xml:id="abstract4411-1" xml:lang="en"/>
-          <location type="gps" subtype="representative" source="#bib4411-1">
+          <location type="gps" source="#bib4411-1">
             <geo>70.3730140659 26.8758272626</geo>
           </location>
           <idno type="URI">http://syriaca.org/place/4411</idno>
