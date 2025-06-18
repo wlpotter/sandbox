@@ -109,7 +109,7 @@
             <editor>Ian Mladjov</editor>
             <title xml:lang="en" level="m">The Syriac World</title>
             <editor>Daniel King</editor>
-            <ptr target="http://syriaca.org/bibl/QK9W3LED"/>
+            <ptr target="http://syriaca.org/cbss/RUENEDMU"/>
             <citedRange unit="map">1</citedRange>
           </bibl>
           <bibl xml:id="bib4014-2">
@@ -118,7 +118,7 @@
             <editor>Ian Mladjov</editor>
             <title xml:lang="en" level="m">The Syriac World</title>
             <editor>Daniel King</editor>
-            <ptr target="http://syriaca.org/bibl/QK9W3LED"/>
+            <ptr target="http://syriaca.org/cbss/RUENEDMU"/>
             <citedRange unit="map">7</citedRange>
           </bibl>
           <bibl xml:id="bib4014-3">
@@ -127,7 +127,7 @@
             <editor>Ian Mladjov</editor>
             <title xml:lang="en" level="m">The Syriac World</title>
             <editor>Daniel King</editor>
-            <ptr target="http://syriaca.org/bibl/QK9W3LED"/>
+            <ptr target="http://syriaca.org/cbss/RUENEDMU"/>
             <citedRange unit="map">2, 7</citedRange>
           </bibl>
           <bibl xml:id="bib4014-4">
@@ -140,7 +140,7 @@
             </author>
             <title xml:lang="en" level="m">The Syriac World</title>
             <editor>Daniel King</editor>
-            <ptr target="http://syriaca.org/bibl/BNVESQNE"/>
+            <ptr target="http://syriaca.org/cbss/SYM5C6P5"/>
             <citedRange unit="p">826</citedRange>
           </bibl>
           <bibl xml:id="bib4014-5">
@@ -153,7 +153,7 @@
             </author>
             <title xml:lang="en" level="m">The Syriac World</title>
             <editor>Daniel King</editor>
-            <ptr target="http://syriaca.org/bibl/BNVESQNE"/>
+            <ptr target="http://syriaca.org/cbss/SYM5C6P5"/>
             <citedRange unit="p">828</citedRange>
           </bibl>
         </place>

@@ -106,7 +106,7 @@
             <editor>Ian Mladjov</editor>
             <title xml:lang="en" level="m">The Syriac World</title>
             <editor>Daniel King</editor>
-            <ptr target="http://syriaca.org/bibl/QK9W3LED"/>
+            <ptr target="http://syriaca.org/cbss/RUENEDMU"/>
             <citedRange unit="map">11</citedRange>
           </bibl>
           <bibl xml:id="bib4413-2">
@@ -119,7 +119,7 @@
             </author>
             <title xml:lang="en" level="m">The Syriac World</title>
             <editor>Daniel King</editor>
-            <ptr target="http://syriaca.org/bibl/BNVESQNE"/>
+            <ptr target="http://syriaca.org/cbss/SYM5C6P5"/>
             <citedRange unit="p">834</citedRange>
           </bibl>
         </place>
