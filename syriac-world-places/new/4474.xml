@@ -87,6 +87,7 @@
                 </langUsage>
             </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#wpotter" when="2025-06-18-05:00">CHANGED: Aligned Syriac World records with new places data model and schema</change>
       <change who="http://syriaca.org/documentation/editors.xml#wpotter" when="2020-06-19-05:00">CREATED: place</change>
     </revisionDesc>
   </teiHeader>
