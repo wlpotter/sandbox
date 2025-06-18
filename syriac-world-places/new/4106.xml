@@ -95,7 +95,7 @@
       <listPlace>
         <place ana="http://syriaca.org/taxonomy/settlements" type="settlement">
           <placeName xml:id="name4106-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4106-1 #bib4106-2">Taurus Mountains</placeName>
-          <desc type="abstract" xml:id="abstract4106-1" xml:lang="en"/>
+          
           <idno type="URI">http://syriaca.org/place/4106</idno>
           <idno type="URI">http://pleiades.stoa.org/places/648792</idno>
           <bibl xml:id="bib4106-1">

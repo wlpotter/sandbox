@@ -95,7 +95,7 @@
       <listPlace>
         <place ana="http://syriaca.org/taxonomy/settlements" type="settlement">
           <placeName xml:id="name4042-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4042-1 #bib4042-2">Paphus</placeName>
-          <desc type="abstract" xml:id="abstract4042-1" xml:lang="en"/>
+          
           <location type="gps" source="#bib4042-1">
             <geo>34.7602479 32.4079728</geo>
           </location>

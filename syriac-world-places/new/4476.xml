@@ -95,7 +95,7 @@
       <listPlace>
         <place ana="http://syriaca.org/taxonomy/open-water" type="open-water">
           <placeName xml:id="name4476-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4476-1 #bib4476-2">Lake Issyk Kul</placeName>
-          <desc type="abstract" xml:id="abstract4476-1" xml:lang="en"/>
+          
           <idno type="URI">http://syriaca.org/place/4476</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Issyk-Ku</idno>
           <bibl xml:id="bib4476-1">

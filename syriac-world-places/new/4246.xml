@@ -99,7 +99,7 @@
       <listPlace>
         <place ana="http://syriaca.org/taxonomy/dioceses" type="diocese">
           <placeName xml:id="name4246-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4246-1 #bib4246-2">(Old) Gurgan</placeName>
-          <desc type="abstract" xml:id="abstract4246-1" xml:lang="en"/>
+          
           <location type="gps" source="#bib4246-1">
             <geo>37.2349924000 55.1316905000</geo>
           </location>

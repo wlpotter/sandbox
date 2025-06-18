@@ -95,7 +95,7 @@
       <listPlace>
         <place ana="http://syriaca.org/taxonomy/settlements" type="settlement">
           <placeName xml:id="name4051-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4051-1 #bib4051-2">Syrian Desert</placeName>
-          <desc type="abstract" xml:id="abstract4051-1" xml:lang="en"/>
+          
           <idno type="URI">http://syriaca.org/place/4051</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Syrian_Desert</idno>
           <bibl xml:id="bib4051-1">

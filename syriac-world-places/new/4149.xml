@@ -95,7 +95,7 @@
       <listPlace>
         <place ana="http://syriaca.org/taxonomy/settlements" type="settlement">
           <placeName xml:id="name4149-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4149-1 #bib4149-2">Bay of Aden</placeName>
-          <desc type="abstract" xml:id="abstract4149-1" xml:lang="en"/>
+          
           <idno type="URI">http://syriaca.org/place/4149</idno>
           <idno type="URI">https://en.wikipedia.org/wiki/Gulf_of_Aden</idno>
           <bibl xml:id="bib4149-1">

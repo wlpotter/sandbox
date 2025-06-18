@@ -99,7 +99,7 @@
       <listPlace>
         <place ana="http://syriaca.org/taxonomy/settlements" type="settlement">
           <placeName xml:id="name4449-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4449-1 #bib4449-2">Başkale</placeName>
-          <desc type="abstract" xml:id="abstract4449-1" xml:lang="en"/>
+          
           <location type="gps" source="#bib4449-1">
             <geo>38.0471617000 44.0170133000</geo>
           </location>

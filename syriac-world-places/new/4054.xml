@@ -96,7 +96,7 @@
         <place ana="http://syriaca.org/taxonomy/settlements" type="settlement">
           <placeName xml:id="name4054-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4054-1 #bib4054-3">Echmiadzin</placeName>
           <placeName xml:id="name4054-2" xml:lang="en" source="#bib4054-2 #bib4054-4">Vagharshapat</placeName>
-          <desc type="abstract" xml:id="abstract4054-1" xml:lang="en"/>
+          
           <location type="gps" source="#bib4054-1 #bib4054-2">
             <geo>40.1619194000 44.2909098000</geo>
           </location>

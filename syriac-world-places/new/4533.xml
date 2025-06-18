@@ -96,7 +96,7 @@
         <place ana="http://syriaca.org/taxonomy/rivers" type="river">
           <placeName xml:id="name4533-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4533-1 #bib4533-2">Leontes River</placeName>
           <placeName xml:id="name4533-2" xml:lang="en" source="">Litani River</placeName>
-          <desc type="abstract" xml:id="abstract4533-1" xml:lang="en"/>
+          
           <idno type="URI">http://syriaca.org/place/4533</idno>
           <idno type="URI">http://pleiades.stoa.org/places/678268</idno>
           <bibl xml:id="bib4533-1">
