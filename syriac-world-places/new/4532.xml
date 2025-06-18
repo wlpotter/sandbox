@@ -94,12 +94,13 @@
     <body>
       <listPlace>
         <place ana="http://syriaca.org/taxonomy/settlements" type="settlement">
-          <placeName xml:id="name4532-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4532-2 #bib4532-4">Varappuzha</placeName>
-          <placeName xml:id="name4532-2" xml:lang="en" source="#bib4532-2 #bib4532-4">Verapoly</placeName>
+          <placeName xml:id="name4532-1" srophe:tags="#syriaca-headword" xml:lang="en" source="#bib4532-1 #bib4532-2">Varappuzha</placeName>
+          <placeName xml:id="name4532-2" xml:lang="en" source="#bib4532-1 #bib4532-2">Verapoly</placeName>
           
-          <location type="gps" source="#bib4532-1 #bib4532-2">
+          <location type="gps" source="#bib4532-1">
             <geo>10.0703241 76.27644</geo>
           </location>
+          <note xml:lang="en" type="corrigenda" resp="http://syriaca.org">The <title level="a">Index of Maps</title> in <title level="m">The Syriac World</title> incorrectly supplies the same URI, syriaca.org/place/4532, to both <placeName ref="http://syriaca.org/place/4532">Varappuzha</placeName> and <placeName ref="http://syriaca.org/place/4533">Leontes River</placeName>, the latter of which should be syriaca.org/place/4533.</note>
           <idno type="URI">http://syriaca.org/place/4532</idno>
           <bibl xml:id="bib4532-1">
             <title xml:lang="en" level="a">Diachronic Maps of Syriac Cultures and Their Geographic Contexts</title>
@@ -108,31 +109,9 @@
             <title xml:lang="en" level="m">The Syriac World</title>
             <editor>Daniel King</editor>
             <ptr target="http://syriaca.org/cbss/RUENEDMU"/>
-            <citedRange unit="map">4</citedRange>
-          </bibl>
-          <bibl xml:id="bib4532-2">
-            <title xml:lang="en" level="a">Diachronic Maps of Syriac Cultures and Their Geographic Contexts</title>
-            <editor>David A. Michelson</editor>
-            <editor>Ian Mladjov</editor>
-            <title xml:lang="en" level="m">The Syriac World</title>
-            <editor>Daniel King</editor>
-            <ptr target="http://syriaca.org/cbss/RUENEDMU"/>
             <citedRange unit="map">13</citedRange>
           </bibl>
-          <bibl xml:id="bib4532-3">
-            <title xml:lang="en" level="a">Index of Maps</title>
-            <author>
-              <persName>William L. Potter</persName>
-            </author>
-            <author>
-              <persName>David A. Michelson</persName>
-            </author>
-            <title xml:lang="en" level="m">The Syriac World</title>
-            <editor>Daniel King</editor>
-            <ptr target="http://syriaca.org/cbss/SYM5C6P5"/>
-            <citedRange unit="p">829</citedRange>
-          </bibl>
-          <bibl xml:id="bib4532-4">
+          <bibl xml:id="bib4532-2">
             <title xml:lang="en" level="a">Index of Maps</title>
             <author>
               <persName>William L. Potter</persName>
