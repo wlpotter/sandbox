@@ -2,6 +2,7 @@ xquery version "3.1";
 import module namespace functx = "http://www.functx.com" at "https://www.datypic.com/xq/functx-1.0.1-doc.xq";
 import module namespace load="http://wlpotter.github.io/ns/syriaca-ingest/load" at "/home/arren/Documents/GitHub/sandbox/syriaca-ingest/modules/load.xqm";
 import module namespace process="http://wlpotter.github.io/ns/syriaca-ingest/process" at "/home/arren/Documents/GitHub/sandbox/syriaca-ingest/modules/process.xqm";
+import module namespace ingest="http://wlpotter.github.io/ns/syriaca-ingest/ingest" at "/home/arren/Documents/GitHub/sandbox/syriaca-ingest/modules/ingest.xqm";
 
 declare default element namespace "http://www.tei-c.org/ns/1.0";
 
@@ -25,7 +26,9 @@ declare variable $options_string external;
 
 declare variable $options := json:parse($options_string, map {"format": "xquery"});
 
-process:process-ingest-data($ingest-data, $options?process)
+let $processedData := process:process-ingest-data($ingest-data, $options?process)
+
+return ingest:update-existing-records-with-new-data($existing-data, $processedData, $entity-type)
 (: process:create-other-data($options?process?other_data)?bib_info :)
 (:
 
