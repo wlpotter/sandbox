@@ -1,0 +1,38 @@
+{
+    "working_dir": "/home/arren/Documents/GitHub/sandbox/syriaca-ingest/",
+    "output_dir": "/home/arren/Documents/GitHub/sandbox/syriaca-ingest/out/",
+    "ext_var": {
+        "ingest_data_path": {
+            "name": "$ingest-data-path",
+            "value": "/home/arren/Documents/GitHub/srophe-xQueries/Syriac-World-Maps-Util/xmlMasterTrees/oldRecordsMaster.xml",
+            "description": "The path to an XML or CSV file containing the data to be ingested"
+        },
+        "ingest_data_type": {
+            "name": "$ingest-data-type",
+            "value": "xml",
+            "description": "Should be 'xml' or 'csv'"
+        },
+        "entity_type": {
+            "name": "$entity-type",
+            "value": "place",
+            "description": "One of Syriaca's entity types: person, place, work (TBD), etc."
+        },
+        "path_to_existing_data": {
+            "name": "$path-to-existing-data",
+            "value": "/home/arren/Documents/GitHub/syriaca-data/data/places/tei/",
+            "description": "The data directory containing the TEI XML files where data will be merged"
+        }
+    },
+    "options": {
+        "process": {
+            "processor": "Syriac World",
+            "other_data": {
+                "bib_info": {
+                    "path": "/home/arren/Documents/GitHub/srophe-xQueries/Syriac-World-Maps-Util/toTeiData/SyriacWorldPlacesIndexData.csv",
+                    "separator": ",",
+                    "header": "yes"
+                }
+            }
+        }
+    }
+}
