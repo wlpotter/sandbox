@@ -11,10 +11,8 @@ declare function ingest:update-existing-records-with-new-data($existing-data as 
   let $matchedDoc := $existing-data[TEI/teiHeader/fileDesc/publicationStmt/idno[@type="URI"]/text() = $item?uri||"/tei"]
   let $docId := $item?uri => functx:substring-after-last("/")
   
-  let $biblIdOffset := max(
-      for $bibl in $matchedDoc//body//bibl
-      return $bibl/@xml:id/string() => substring-after("-") => xs:integer()
-    )
+  let $biblIdOffset := ingest:get-id-offset($matchedDoc//body//bibl)
+  
   let $ingestBibls := $item?bibls
   
   (: TBD: append to the list of existing bibls using xquery update :)
@@ -41,4 +39,71 @@ declare function ingest:create-new-bibls-with-ids($bibls, $idBase as xs:string, 
     attribute {"xml:id"} {$bibId},
     $bib/*
   }
+};
+
+(:
+Assumes you are comparing a single piece of data with a sequence of 0 or more elements
+@param $toIngest is a piece of string data that is compared with the contents of @param $toCompare, which is a series of elements of that data type
+@param $source is a string such as "#bib1234-1 #bib1234-2" used to create or update the source attribute for the data; by default it is blank
+@param $elementType is used to determine whether a simple string comparison is sufficient or if more robust comparisons are required, and to control the elements created from $toIngest
+:)
+
+declare %updating function ingest:ingest-element-data($toIngest as xs:string, $toCompare as element()*, $elementType as xs:string, $docId as xs:string, $source as xs:string := "")
+{
+   switch($elementType)
+   case "gps" return () (: compare $toCompare/geo/string() :)
+   default return 
+     let $matches :=
+       for $el in $toCompare
+       where $el//text() => string-join(" ") => normalize-space() = $toIngest
+       return {
+         "original_node": $el,
+         "updated_node": ingest:update-element-source-attribute($el, $source),
+         "abs_path": functx:path-to-node-with-pos($el)
+       }
+  
+    return 
+      if (count($matches) > 0) then 
+        for $m in $matches
+        return replace node $m?original_node with $m?updated_node
+      else 
+        let $offset := ingest:get-id-offset($toCompare)
+        let $newElement := ingest:create-new-element($toIngest, $elementType, $source, $docId, 1+$offset)
+        return insert node $newElement after $toCompare[last()]
+};
+
+declare function ingest:update-element-source-attribute($element as element(), $sourceToAppend as xs:string)
+as element()
+ {
+    if($element/@source) then 
+      functx:add-or-update-attributes($element, QName("", "source"), string-join(($element/@source, $sourceToAppend), " "))
+    else if ($element/@resp) then 
+      functx:add-attributes(functx:remove-attributes($element, "resp"), QName("", "source"), $sourceToAppend)
+    else 
+      functx:add-attributes($element, QName("", "source"), $sourceToAppend)
+};
+
+declare function ingest:get-id-offset($elements as element()*)
+as xs:integer? {
+  max(
+      for $el in $elements
+      return $el/@xml:id/string() => substring-after("-") => xs:integer()
+    )
+};
+
+(:
+TBD: xml:lang for places...default to English
+:)
+
+declare function ingest:create-new-element($contents as xs:string, $elementType as xs:string, $source as xs:string, $docId as xs:string, $idSeq as xs:int := 1) {
+  let $sourceAttr := if($source != "") then attribute {"source"} {$source} else attribute {"resp"} {"http://syriaca.org"}
+  return 
+    switch($elementType)
+    case "placeName" return element {QName("http://www.tei-c.org/ns/1.0", "placeName")} {
+      attribute {"xml:id"} {"name"||$docId||"-"||$idSeq},
+      attribute {"xml:lang"} {"en"}, (:TBD: defaults to English; should be able to override :)
+      $sourceAttr,
+      $contents
+    }
+    default return ()
 };
