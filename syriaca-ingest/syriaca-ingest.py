@@ -39,15 +39,12 @@ Set up BaseX Session and Query
 # TBD: rewrite to use the config file
 session = BaseXClient.Session('localhost', 1984, 'admin', 'admin')
 
-"""
-TBD: Set options for the query using
-session.execute(command)
-- set indentation, omit-xml-declaration, etc.
-- set writeback
-"""
-
 try:
     with open(config["working_dir"]+'main.xq', 'r') as f:
+        # execute basex commands to set options, etc. based on the config file
+        for cmd in config["commands"]:
+            session.execute(cmd)
+
         # read in the main file as a BaseX Query object
         query = session.query(f.read())
         

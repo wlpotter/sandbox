@@ -34,5 +34,10 @@
                 }
             }
         }
-    }
+    },
+    "commands": [
+        "SET SERIALIZER indent=yes,omit-xml-declaration=no",
+        "SET EXPORTER indent=yes,omit-xml-declaration=no",
+        "SET WRITEBACK false"
+    ]
 }
