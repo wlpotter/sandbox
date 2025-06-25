@@ -20,23 +20,15 @@ declare %updating function ingest:update-existing-records-with-new-data($existin
   
   (: TBD: implement a controller function or something to handle places vs persons... :)
   return (
-    ingest:ingest-series-of-elements($item?place_names, $matchedDoc//place/placeName, "place_name", $docId, $biblIdOffset),
-    ingest:ingest-series-of-elements($item?gps, $matchedDoc//place/location[@type="gps"], "gps", $docId, $biblIdOffset),
+    ingest:ingest-series-of-sourced-elements($item?place_names, $matchedDoc//place/placeName, "place_name", $docId, $biblIdOffset),
+    ingest:ingest-series-of-sourced-elements($item?gps, $matchedDoc//place/location[@type="gps"], "gps", $docId, $biblIdOffset),
     insert node $newBibls after $matchedDoc//body//bibl[last()]
   )
-  (:
-  - data needing comparison: place name, gps, URIs
-  - generic function to compare a set of data against an existing path
-    - it should take an optional list of sources, a path to the data in the existing record, and an element name (all should be updating functions)
-    - the element name should be used to determine on a switch if it's just comparing the descendant text nodes (e.g., person or place name can be treated the same) or if it needs to look more closely
-    - if it's a match, call a function to update the source attribute of the match
-    - if it's not, call a function to create a new element based on the element name and then add it to the end of the list of that element
-  :)
 
 };
 
 declare function ingest:create-new-bibls-with-ids($bibls, $idBase as xs:string, $offset as xs:integer? := 0){
-  for $k in map:keys($bibls)(:bib4219-3:)
+  for $k in map:keys($bibls)
   let $bibId := "bib"||$idBase||"-"||$k+$offset
   let $bib := map:get($bibls, $k)
   
@@ -47,87 +39,116 @@ declare function ingest:create-new-bibls-with-ids($bibls, $idBase as xs:string, 
   }
 };
 
-declare %updating function ingest:ingest-series-of-elements($series as item()*, $toCompare as item()*, $elementType as xs:string, $docId as xs:string, $biblIdOffset as xs:integer? := 0) {
-  for $item at $i in $series
-  let $sourceString := 
-    for $s in $item?sources
-    return "#bib"||$docId||"-"||xs:string($s + $biblIdOffset)
-  let $sourceString := string-join($sourceString, " ")
-  let $options := {
-    "item_index": $i,
-    "count_of_to_compare": count($toCompare)
-  }
-  return
-    ingest:ingest-element-data($item?value, $toCompare, $elementType, $docId, $sourceString, $options)
+(:
+Compares a sequence of zero or more sourced data items to a sequence of existing data nodes, updating source info for matches, or inserting new nodes for new data
+@param $items is a sequence of maps of values and their sources
+@param $toCompare is a sequence of elements from existing data records against which each item in $items will be compared to determine if updates are needed
+@param $elementType is used to determine ; values must be "place_names", "gps", etc. TBD: full enum of allowed values
+@param $docId represents the numerical portion of the URI for the record from which the $toCompare sequence derives
+@param $biblIdOffset is an integer representing the the value to add to the sequential enumeration of the sources in the $items maps, offsets the bibl id, e.g. "#bib78-5"
+:)
+declare %updating function ingest:ingest-series-of-sourced-elements($items as item()*, $toCompare as item()*, $elementType as xs:string, $docId as xs:string, $biblIdOffset as xs:integer? := 0) {
+  let $itemsLength := count($items)
+  let $initialCompareMap := 
+    for $el in $toCompare
+         return {
+           "original_node": $el,
+           "updated_node": $el,
+           "abs_path": functx:path-to-node-with-pos($el)
+         }
+  let $initialCompareMap := ($initialCompareMap, [])
+  let $updatesMap := ingest:prepare-element-data-for-ingest($items, $itemsLength, $initialCompareMap, $elementType, $docId, $biblIdOffset)
+    => ingest:post-process-data-for-ingest($elementType, $docId)
+    
+  return ingest:process-updates-from-ingest($updatesMap, $toCompare)
 };
 
 (:
-Assumes you are comparing a single piece of data with a sequence of 0 or more elements
-@param $toIngest is a piece of string data that is compared with the contents of @param $toCompare, which is a series of elements of that data type
-@param $source is a string such as "#bib1234-1 #bib1234-2" used to create or update the source attribute for the data; by default it is blank
-@param $elementType is used to determine whether a simple string comparison is sufficient or if more robust comparisons are required, and to control the elements created from $toIngest
-@param $options is a map of information used in certain cases, such as to control when to use subtype=preferred/alternate for gps locations
+A recursive function used to prepare data for being ingested, returns a map of existing nodes and their updated replacements, along with an array of the elements that should be inserted
 :)
-
-declare %updating function ingest:ingest-element-data($toIngest as xs:string, $toCompare as element()*, $elementType as xs:string, $docId as xs:string, $source as xs:string := "", $options as map(*)? := {})
+declare function ingest:prepare-element-data-for-ingest($items as item()*, $itemsLength as xs:integer, $compareMap as item()+, $elementType as xs:string, $docId as xs:string, $biblIdOffset as xs:integer? := 0) 
+as item()*
 {
-    (: TBD: when needed, implement a switch statement for cases where an element type needs a comparison different than "normalize all descendant text nodes", which works for gps and place/person names so far :)
-    switch($elementType)
-    case "gps" return ingest:ingest-gps-data($toIngest, $toCompare, $elementType, $docId, $source, $options)
-    default return
-     let $matches :=
-       for $el in $toCompare
-       where $el//text() => string-join(" ") => normalize-space() = $toIngest
-       return {
-         "original_node": $el,
-         "updated_node": ingest:update-element-source-attribute($el, $source),
-         "abs_path": functx:path-to-node-with-pos($el)
-       }
+  if($itemsLength = 0) then () (: if there are no items, skip this :)
+  else if($itemsLength = 1) then
+    ingest:ingest-single-item($items[1], $compareMap, $elementType, $docId, $biblIdOffset)
+  else
+    ingest:prepare-element-data-for-ingest($items[position() > 1], $itemsLength - 1, ingest:ingest-single-item($items[1], $compareMap, $elementType, $docId, $biblIdOffset), $elementType, $docId, $biblIdOffset)
+};
+
+declare function ingest:ingest-single-item($item as item(), $compareMap as item()*, $elementType as xs:string, $docId as xs:string, $biblIdOffset as xs:integer? := 0) {
   
-    return 
-      if (count($matches) > 0) then 
-        for $m in $matches
-        return replace node $m?original_node with $m?updated_node
-      else 
-        let $offset := ingest:get-id-offset($toCompare)
-        let $newElement := ingest:create-new-element($toIngest, $elementType, $source, $docId, 1+$offset)
-        return insert node $newElement after $toCompare[last()]
+  let $source := ingest:create-source-string($item?sources, $docId, $biblIdOffset)
+  let $updatedMap :=
+   for $m in $compareMap
+    where $m instance of map(*)
+    return if ($item?value = $m?updated_node//text() => string-join(" ") => normalize-space()) then 
+      {
+        "original_node": $m?original_node,
+        "updated_node": ingest:update-element-source-attribute($m?updated_node, $source),
+        "abs_path": $m?abs_path
+      }
+    else $m
+  
+  let $matches := 
+    for $m in $compareMap
+    where $m instance of map(*)
+    where $item?value = $m?updated_node//text() => string-join(" ") => normalize-space()
+    return 1
+  let $newItems := for $m in $compareMap where $m instance of array(*) return $m (: get the array of new elements :)
+  let $newItems := if(count($matches) < 1) then array:append($newItems, ingest:create-new-element($item?value, $elementType, $source, $docId)) else $newItems
+  (: $contents as xs:string, $elementType as xs:string, $source as xs:string, $docId as xs:string, $idSeq as xs:int := 1):)
+  return ($updatedMap, $newItems)
 };
 
-declare %updating function ingest:ingest-gps-data($toIngest as xs:string, $toCompare as element()*, $elementType as xs:string, $docId as xs:string, $source as xs:string := "", $options as map(*)? := {})
+declare function ingest:post-process-data-for-ingest($updatesMap as item()*, $elementType as xs:string, $docId as xs:string)
+as item()* {
+  switch($elementType)
+    case "place_name" return ingest:update-xml-ids($updatesMap, "name", $docId)
+    case "gps" return $updatesMap (: TBD: create function to handle subtype for preferred/alternate :)
+    default return $updatesMap
+      (:
+  TBD: switch statement for additional processing needed, e.g. xml:id sequence or subtypes for gps
+  - case: place_names needs xml:id processing based on max ID in the updatesMap
+  - case: gps needs subtypes applied based on counts of existing and new in $updatesMap
+  :)
+};
+
+declare function ingest:update-xml-ids($updatesMap as item()*, $idPrefix as xs:string, $docId as xs:string)
+as item()*
 {
-  let $existingLocs :=
-       for $el at $i in $toCompare
-       (: where $el//text() => string-join(" ") => normalize-space() = $toIngest :)
-       
-       let $elNewSource := 
-         if ($el//text() => string-join(" ") => normalize-space() = $toIngest) then
-           ingest:update-element-source-attribute($el, $source)
-         else $el
-       (:
-       {
-    "item_index": $i,
-    "count_of_to_compare": count($toCompare)
-  }
-       :)
-       let $updatedNode := ingest:update-gps-subtype($elNewSource, $i, $options?count_of_to_compare, $options?item_index)
-       return {
-         "original_node": $el,
-         "updated_node": $updatedNode,
-         "abs_path": functx:path-to-node-with-pos($el)
-       }
-    
-    return (: ADD A BOOL TO ONLY UPDATE EXISTING IF THE ITEM INDEX IN OPTIONS IS 1 SO THAT YOU ONLY UPDATE THOSE ONCE :)
-      if (count($existingLocs) > 0) then 
-        for $loc in $existingLocs
-        return replace node $loc?original_node with $loc?updated_node
-      else 
-        let $offset := ingest:get-id-offset($toCompare)
-        let $newElement := ingest:create-new-element($toIngest, $elementType, $source, $docId, 1+$offset)
-        return insert node $newElement after $toCompare[last()]
+ let $idOffset := max(
+   for $m in $updatesMap
+   where $m instance of map(*)
+   return $m?updated_node/@xml:id/string() => substring-after("-") => xs:integer()
+ )
+ for $m in $updatesMap
+ return 
+   if($m instance of map(*)) then $m
+   else [
+     for $item at $i in $m?*
+     return functx:add-or-update-attributes($item, xs:QName("xml:id"), $idPrefix||$docId||"-"||($i+$idOffset)) 
+  ]
 };
 
-(: TBD: need to handle case where the source to append is empty, will want to add or keep the resp string... :)
+declare %updating function ingest:process-updates-from-ingest($updatesMap as item()*, $compareList as item()*) {
+  for $m in $updatesMap
+  return if ($m instance of map(*)) then replace node $m?original_node with $m?updated_node (: update the existing nodes :)
+  else for $el in $m?* return insert node $el after $compareList[last()] (: insert the new ones found in the array :)
+  (:
+  TBD: handle cases where compare list is empty --> maybe a default path for where each element should go?
+  :)
+};
+
+
+declare function ingest:create-source-string($sourceSeq as xs:integer*, $docId as xs:string, $biblIdOffset as xs:integer? := 0)
+as xs:string {
+  let $sources := 
+    for $s in $sourceSeq
+    return "#bib"||$docId||"-"||($s + $biblIdOffset)
+  return string-join($sources, " ") => normalize-space()
+};
+
 declare function ingest:update-element-source-attribute($element as element(), $sourceToAppend as xs:string)
 as element()
  {
@@ -144,13 +165,6 @@ as element()
         functx:add-attributes($element, QName("", "resp"), "http://syriaca.org")
 };
 
-declare function ingest:update-gps-subtype($element as item(), $elementPosition as xs:integer, $sizeOfSequence as xs:integer, $countOfNewData as xs:integer)
-as item() {
-  
-};
-
-
-
 declare function ingest:get-id-offset($elements as element()*)
 as xs:integer? {
   max(
@@ -162,19 +176,18 @@ as xs:integer? {
 (:
 TBD: xml:lang for places...default to English
 :)
-
 declare function ingest:create-new-element($contents as xs:string, $elementType as xs:string, $source as xs:string, $docId as xs:string, $idSeq as xs:int := 1) {
   let $sourceAttr := if($source != "") then attribute {"source"} {$source} else attribute {"resp"} {"http://syriaca.org"}
   return 
     switch($elementType)
+    (: NOTE: xml:id is added as a post-processing step before applying the xquery update functions :)
     case "place_name" return element {QName("http://www.tei-c.org/ns/1.0", "placeName")} {
-      attribute {"xml:id"} {"name"||$docId||"-"||$idSeq},
       attribute {"xml:lang"} {"en"}, (:TBD: defaults to English; should be able to override :)
       $sourceAttr,
       $contents
     }
     case "gps" return element {QName("http://www.tei-c.org/ns/1.0", "location")} {
-      attribute {"type"} {"gps"}, (: TBD: add subtype handling...(maybe a passed map of options?:)
+      attribute {"type"} {"gps"}, (: NOTE: subtype attributes for preferred and alternative are added as a separate processing step before applying updates :)
       $sourceAttr,
       element {QName("http://www.tei-c.org/ns/1.0", "geo")} {$contents}
     }
