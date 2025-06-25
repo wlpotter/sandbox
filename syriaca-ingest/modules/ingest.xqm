@@ -48,13 +48,17 @@ declare function ingest:create-new-bibls-with-ids($bibls, $idBase as xs:string, 
 };
 
 declare %updating function ingest:ingest-series-of-elements($series as item()*, $toCompare as item()*, $elementType as xs:string, $docId as xs:string, $biblIdOffset as xs:integer? := 0) {
-  for $item in $series
+  for $item at $i in $series
   let $sourceString := 
     for $s in $item?sources
     return "#bib"||$docId||"-"||xs:string($s + $biblIdOffset)
   let $sourceString := string-join($sourceString, " ")
+  let $options := {
+    "item_index": $i,
+    "count_of_to_compare": count($toCompare)
+  }
   return
-    ingest:ingest-element-data($item?value, $toCompare, $elementType, $docId, $sourceString)
+    ingest:ingest-element-data($item?value, $toCompare, $elementType, $docId, $sourceString, $options)
 };
 
 (:
@@ -62,11 +66,15 @@ Assumes you are comparing a single piece of data with a sequence of 0 or more el
 @param $toIngest is a piece of string data that is compared with the contents of @param $toCompare, which is a series of elements of that data type
 @param $source is a string such as "#bib1234-1 #bib1234-2" used to create or update the source attribute for the data; by default it is blank
 @param $elementType is used to determine whether a simple string comparison is sufficient or if more robust comparisons are required, and to control the elements created from $toIngest
+@param $options is a map of information used in certain cases, such as to control when to use subtype=preferred/alternate for gps locations
 :)
 
-declare %updating function ingest:ingest-element-data($toIngest as xs:string, $toCompare as element()*, $elementType as xs:string, $docId as xs:string, $source as xs:string := "")
+declare %updating function ingest:ingest-element-data($toIngest as xs:string, $toCompare as element()*, $elementType as xs:string, $docId as xs:string, $source as xs:string := "", $options as map(*)? := {})
 {
     (: TBD: when needed, implement a switch statement for cases where an element type needs a comparison different than "normalize all descendant text nodes", which works for gps and place/person names so far :)
+    switch($elementType)
+    case "gps" return ingest:ingest-gps-data($toIngest, $toCompare, $elementType, $docId, $source, $options)
+    default return
      let $matches :=
        for $el in $toCompare
        where $el//text() => string-join(" ") => normalize-space() = $toIngest
@@ -80,6 +88,39 @@ declare %updating function ingest:ingest-element-data($toIngest as xs:string, $t
       if (count($matches) > 0) then 
         for $m in $matches
         return replace node $m?original_node with $m?updated_node
+      else 
+        let $offset := ingest:get-id-offset($toCompare)
+        let $newElement := ingest:create-new-element($toIngest, $elementType, $source, $docId, 1+$offset)
+        return insert node $newElement after $toCompare[last()]
+};
+
+declare %updating function ingest:ingest-gps-data($toIngest as xs:string, $toCompare as element()*, $elementType as xs:string, $docId as xs:string, $source as xs:string := "", $options as map(*)? := {})
+{
+  let $existingLocs :=
+       for $el at $i in $toCompare
+       (: where $el//text() => string-join(" ") => normalize-space() = $toIngest :)
+       
+       let $elNewSource := 
+         if ($el//text() => string-join(" ") => normalize-space() = $toIngest) then
+           ingest:update-element-source-attribute($el, $source)
+         else $el
+       (:
+       {
+    "item_index": $i,
+    "count_of_to_compare": count($toCompare)
+  }
+       :)
+       let $updatedNode := ingest:update-gps-subtype($elNewSource, $i, $options?count_of_to_compare, $options?item_index)
+       return {
+         "original_node": $el,
+         "updated_node": $updatedNode,
+         "abs_path": functx:path-to-node-with-pos($el)
+       }
+    
+    return (: ADD A BOOL TO ONLY UPDATE EXISTING IF THE ITEM INDEX IN OPTIONS IS 1 SO THAT YOU ONLY UPDATE THOSE ONCE :)
+      if (count($existingLocs) > 0) then 
+        for $loc in $existingLocs
+        return replace node $loc?original_node with $loc?updated_node
       else 
         let $offset := ingest:get-id-offset($toCompare)
         let $newElement := ingest:create-new-element($toIngest, $elementType, $source, $docId, 1+$offset)
@@ -102,6 +143,13 @@ as element()
       else
         functx:add-attributes($element, QName("", "resp"), "http://syriaca.org")
 };
+
+declare function ingest:update-gps-subtype($element as item(), $elementPosition as xs:integer, $sizeOfSequence as xs:integer, $countOfNewData as xs:integer)
+as item() {
+  
+};
+
+
 
 declare function ingest:get-id-offset($elements as element()*)
 as xs:integer? {
