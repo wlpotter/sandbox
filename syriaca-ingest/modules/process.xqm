@@ -47,7 +47,7 @@ as item()+ {
         where $val/*:citedRange/text() = $ranges?index_cited_range
         return $k
       return {
-        "name": $name,
+        "value": $name,
         "sources": ($maps, $index)
       }
     
