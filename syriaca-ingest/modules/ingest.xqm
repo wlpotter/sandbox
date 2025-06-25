@@ -5,7 +5,7 @@ import module namespace functx = "http://www.functx.com" at "https://www.datypic
 
 declare default element namespace "http://www.tei-c.org/ns/1.0";
 
-declare function ingest:update-existing-records-with-new-data($existing-data as item()+, $data-to-ingest as item()+, $entity-type as xs:string) {
+declare %updating function ingest:update-existing-records-with-new-data($existing-data as item()+, $data-to-ingest as item()+, $entity-type as xs:string) {
   
   for $item in $data-to-ingest?*
   let $matchedDoc := $existing-data[TEI/teiHeader/fileDesc/publicationStmt/idno[@type="URI"]/text() = $item?uri||"/tei"]
@@ -18,6 +18,12 @@ declare function ingest:update-existing-records-with-new-data($existing-data as 
   (: TBD: append to the list of existing bibls using xquery update :)
   let $newBibls := if(map:size($ingestBibls) > 0) then ingest:create-new-bibls-with-ids($ingestBibls, $docId, $biblIdOffset) else ()
   
+  (: TBD: implement a controller function or something to handle places vs persons... :)
+  return (
+    ingest:ingest-series-of-elements($item?place_names, $matchedDoc//place/placeName, "place_name", $docId, $biblIdOffset),
+    ingest:ingest-series-of-elements($item?gps, $matchedDoc//place/location[@type="gps"], "gps", $docId, $biblIdOffset),
+    insert node $newBibls after $matchedDoc//body//bibl[last()]
+  )
   (:
   - data needing comparison: place name, gps, URIs
   - generic function to compare a set of data against an existing path
@@ -26,7 +32,7 @@ declare function ingest:update-existing-records-with-new-data($existing-data as 
     - if it's a match, call a function to update the source attribute of the match
     - if it's not, call a function to create a new element based on the element name and then add it to the end of the list of that element
   :)
-  return $newBibls
+
 };
 
 declare function ingest:create-new-bibls-with-ids($bibls, $idBase as xs:string, $offset as xs:integer? := 0){
@@ -41,6 +47,16 @@ declare function ingest:create-new-bibls-with-ids($bibls, $idBase as xs:string, 
   }
 };
 
+declare %updating function ingest:ingest-series-of-elements($series as item()*, $toCompare as item()*, $elementType as xs:string, $docId as xs:string, $biblIdOffset as xs:integer? := 0) {
+  for $item in $series
+  let $sourceString := 
+    for $s in $item?sources
+    return "#bib"||$docId||"-"||xs:string($s + $biblIdOffset)
+  let $sourceString := string-join($sourceString, " ")
+  return
+    ingest:ingest-element-data($item?value, $toCompare, $elementType, $docId, $sourceString)
+};
+
 (:
 Assumes you are comparing a single piece of data with a sequence of 0 or more elements
 @param $toIngest is a piece of string data that is compared with the contents of @param $toCompare, which is a series of elements of that data type
@@ -50,9 +66,7 @@ Assumes you are comparing a single piece of data with a sequence of 0 or more el
 
 declare %updating function ingest:ingest-element-data($toIngest as xs:string, $toCompare as element()*, $elementType as xs:string, $docId as xs:string, $source as xs:string := "")
 {
-   switch($elementType)
-   case "gps" return () (: compare $toCompare/geo/string() :)
-   default return 
+    (: TBD: when needed, implement a switch statement for cases where an element type needs a comparison different than "normalize all descendant text nodes", which works for gps and place/person names so far :)
      let $matches :=
        for $el in $toCompare
        where $el//text() => string-join(" ") => normalize-space() = $toIngest
@@ -72,15 +86,21 @@ declare %updating function ingest:ingest-element-data($toIngest as xs:string, $t
         return insert node $newElement after $toCompare[last()]
 };
 
+(: TBD: need to handle case where the source to append is empty, will want to add or keep the resp string... :)
 declare function ingest:update-element-source-attribute($element as element(), $sourceToAppend as xs:string)
 as element()
  {
-    if($element/@source) then 
-      functx:add-or-update-attributes($element, QName("", "source"), string-join(($element/@source, $sourceToAppend), " "))
-    else if ($element/@resp) then 
-      functx:add-attributes(functx:remove-attributes($element, "resp"), QName("", "source"), $sourceToAppend)
-    else 
-      functx:add-attributes($element, QName("", "source"), $sourceToAppend)
+    if($element/@source) then (: add the new sources to the existing source attribute :)
+      functx:add-or-update-attributes($element, QName("", "source"), string-join(($element/@source, $sourceToAppend), " ") => normalize-space())
+    else if ($element/@resp) then (: if only a @resp, then if new sources, replace @resp with @source; otherwise keep the @resp :)
+      if ($sourceToAppend != "") then
+        functx:add-attributes(functx:remove-attributes($element, "resp"), QName("", "source"), $sourceToAppend)
+      else $element (: if there is a resp, and no new sources to add, just retain the resp as-is :)
+    else (: if there is no source or resp, then add a source if we have new ones, or a resp if we don't TBD: defaulting to syriaca.org URI for the resp (hard-coded) :)
+      if ($sourceToAppend != "") then 
+        functx:add-attributes($element, QName("", "source"), $sourceToAppend)
+      else
+        functx:add-attributes($element, QName("", "resp"), "http://syriaca.org")
 };
 
 declare function ingest:get-id-offset($elements as element()*)
@@ -99,11 +119,16 @@ declare function ingest:create-new-element($contents as xs:string, $elementType 
   let $sourceAttr := if($source != "") then attribute {"source"} {$source} else attribute {"resp"} {"http://syriaca.org"}
   return 
     switch($elementType)
-    case "placeName" return element {QName("http://www.tei-c.org/ns/1.0", "placeName")} {
+    case "place_name" return element {QName("http://www.tei-c.org/ns/1.0", "placeName")} {
       attribute {"xml:id"} {"name"||$docId||"-"||$idSeq},
       attribute {"xml:lang"} {"en"}, (:TBD: defaults to English; should be able to override :)
       $sourceAttr,
       $contents
+    }
+    case "gps" return element {QName("http://www.tei-c.org/ns/1.0", "location")} {
+      attribute {"type"} {"gps"}, (: TBD: add subtype handling...(maybe a passed map of options?:)
+      $sourceAttr,
+      element {QName("http://www.tei-c.org/ns/1.0", "geo")} {$contents}
     }
     default return ()
 };
