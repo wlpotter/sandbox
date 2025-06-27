@@ -19,6 +19,8 @@ as item()+ {
     let $otherData := process:create-other-data($options?other_data)
 
     let $bibData := $otherData?bib_info
+    let $editorData := $otherData?editor_info
+    let $chapterData := $otherData?chapter_info
 
     for $rec in $data/*:list/*:record
 
@@ -27,8 +29,9 @@ as item()+ {
     let $sources := process:collate-syriac-world-bib-info($rec/*:Syriaca_URI/*:label/text(), $bibData)
     let $mapBibls := process:create-bibl-map($sources?distinct_maps_range, "http://syriaca.org/cbss/RUENEDMU", 0, "map")
     let $indexBibls := process:create-bibl-map($sources?distinct_index_range, "http://syriaca.org/cbss/SYM5C6P5", map:size($mapBibls), "p")
+    let $chapterBibls := process:get-chapter-bibl($rec/*:RelatedChapter_from_working-data/*:label/text(), $chapterData, map:size($mapBibls) + map:size($indexBibls))
     
-    let $bibls := map:merge(($mapBibls, $indexBibls))
+    let $bibls := map:merge(($mapBibls, $indexBibls, $chapterBibls))
     
     
     let $placeNames := $rec/*:Syriaca_Headword/*:label/text() => distinct-values()
@@ -58,10 +61,16 @@ as item()+ {
         return normalize-space($other)
     let $otherUris := distinct-values($otherUris)
 
+    
     (:
     TBD: a side function that parses map appearances and index appearances, as well as 'requested by' info for the chapter bibls
     :)
-
+    (:
+    - get requested by name
+    - get related chapter by name
+    - look the name up to get creator and respStmt data
+    - look up the chapter to get its URI
+    :)
     (: TBD: It looks like related places not used for existing Syriac World data records :)
 
     (: TBD: do we bring in existence dates? :)
@@ -151,4 +160,29 @@ as item()* {
     $i+$offset: $bibl
   }
 )
+};
+
+declare function process:get-chapter-bibl($chapterLabels as xs:string*, $chapterData as item(), $offset as xs:integer? := 0)
+as item()*
+ {
+   map:merge(
+  for $ch at $i in distinct-values($chapterLabels)
+  let $matchedBibl := $chapterData/*:chapterBiblLookupTable/*:bibl[*:lookupString/text() = $ch]
+  let $biblUri := "http://syriaca.org/cbss/"||$matchedBibl/*:zoteroId/text()
+  let $range := $matchedBibl/*:pages/text()
+  let $bibl :=
+    element {QName("http://www.tei-c.org/ns/1.0", "bibl")}{
+      element {QName("http://www.tei-c.org/ns/1.0", "ptr")} {
+        attribute {"target"} {$biblUri}
+      },
+      element {QName("http://www.tei-c.org/ns/1.0", "citedRange")} {
+        attribute {"unit"} {"p"},
+        $range
+      }
+    }
+  return map {
+    $i+$offset: $bibl
+  }
+)
+  
 };
