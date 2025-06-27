@@ -29,7 +29,9 @@ as item()+ {
     let $sources := process:collate-syriac-world-bib-info($rec/*:Syriaca_URI/*:label/text(), $bibData)
     let $mapBibls := process:create-bibl-map($sources?distinct_maps_range, "http://syriaca.org/cbss/RUENEDMU", 0, "map")
     let $indexBibls := process:create-bibl-map($sources?distinct_index_range, "http://syriaca.org/cbss/SYM5C6P5", map:size($mapBibls), "p")
-    let $chapterBibls := process:get-chapter-bibl($rec/*:RelatedChapter_from_working-data/*:label/text(), $chapterData, map:size($mapBibls) + map:size($indexBibls))
+    
+    let $chapterLabels := for $label in $rec/*:RelatedChapter_from_working-data/*:label/text() return normalize-space($label)
+    let $chapterBibls := process:get-chapter-bibl($chapterLabels, $chapterData, map:size($mapBibls) + map:size($indexBibls))
     
     let $bibls := map:merge(($mapBibls, $indexBibls, $chapterBibls))
     
@@ -61,16 +63,6 @@ as item()+ {
         return normalize-space($other)
     let $otherUris := distinct-values($otherUris)
 
-    
-    (:
-    TBD: a side function that parses map appearances and index appearances, as well as 'requested by' info for the chapter bibls
-    :)
-    (:
-    - get requested by name
-    - get related chapter by name
-    - look the name up to get creator and respStmt data
-    - look up the chapter to get its URI
-    :)
     (: TBD: It looks like related places not used for existing Syriac World data records :)
 
     (: TBD: do we bring in existence dates? :)
@@ -83,13 +75,18 @@ as item()+ {
         "value": $c,
         "sources": map:keys($mapBibls)
       }
+      
+    let $requesters := for $label in $rec/*:Requested-by_from_working-data/*:label/text() return normalize-space($label)
+    let $staticRespInfo := $options?resp_info
+    let $respInfo := process:create-syriac-world-resp-info($requesters, $staticRespInfo, $editorData)
 
     return map:entry($uri, {
         "uri": $uri,
         "place_names": $placeNames,
         "other_uris": $otherUris,
         "gps": $gps,
-        "bibls": $bibls
+        "bibls": $bibls,
+        "resp_info": $respInfo
     })
     
 };
@@ -183,6 +180,34 @@ as item()*
   return map {
     $i+$offset: $bibl
   }
-)
-  
+)  
+};
+
+declare function process:create-syriac-world-resp-info($requesters as xs:string*, $staticRespInfo as item()*, $editorsLookup as item())
+as item()* {
+  (: TBD: check what happens if not supplying static resp info :)
+  let $contributors := array {
+    for $name in distinct-values($requesters)
+    let $id := $editorsLookup/*:editorsLookupTable/*:name[./text() = $name]/@id/string()
+    let $editor := {
+      "id": $id,
+      "name": $name,
+      "role": "contributor"
+    }
+    return $editor
+  }
+  let $respStmts := array {
+    for $name in distinct-values($requesters)
+    let $id := $editorsLookup/*:editorsLookupTable/*:name[./text() = $name]/@id/string()
+    let $resp := {
+      "resp": "Connection to the <title>Syriac World</title> identified by",
+      "id": $id,
+      "name": $name
+    }
+    return $resp
+}
+ return {
+   "editors": array:append($staticRespInfo?editors, $contributors),
+   "resp_stmts": array:append($staticRespInfo?resp_stmts, $respStmts)
+ }
 };
