@@ -38,6 +38,37 @@
                 "editor_info": {
                     "path": "/home/arren/Documents/GitHub/sandbox/syriaca-ingest/config/syriac-world-editor-lookup.xml"
                 }
+            },
+            "resp_info": {
+                "editors": [
+                    {
+                        "id": "dmichelson",
+                        "name": "David A. Michelson",
+                        "role": "creator"
+                    },
+                    {
+                        "id": "wpotter",
+                        "name": "William L. Potter",
+                        "role": "creator"
+                    }
+                ],
+                "resp_stmts": [
+                    {
+                        "resp": "Data merging and TEI encoded by",
+                        "id": "wpotter",
+                        "name": "William L. Potter"
+                    },
+                    {
+                        "resp": "<title>Syriac World</title> maps edited by",
+                        "id": "dmichelson",
+                        "name": "David A. Michelson"
+                    },
+                    {
+                        "resp": "<title>Syriac World</title> maps cartography by",
+                        "id": "imladjov",
+                        "name": "Ian Mladjov"
+                    }
+                ]
             }
         }
     },
