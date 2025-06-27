@@ -31,6 +31,12 @@
                     "path": "/home/arren/Documents/GitHub/srophe-xQueries/Syriac-World-Maps-Util/toTeiData/SyriacWorldPlacesIndexData.csv",
                     "separator": ",",
                     "header": "yes"
+                },
+                "chapter_info": {
+                    "path": "/home/arren/Documents/GitHub/sandbox/syriaca-ingest/config/syriac-world-chapter-bibl-lookup.xml"
+                },
+                "editor_info": {
+                    "path": "/home/arren/Documents/GitHub/sandbox/syriaca-ingest/config/syriac-world-editor-lookup.xml"
                 }
             }
         }
@@ -38,6 +44,6 @@
     "commands": [
         "SET SERIALIZER indent=yes,omit-xml-declaration=no",
         "SET EXPORTER indent=yes,omit-xml-declaration=no",
-        "SET WRITEBACK false"
+        "SET WRITEBACK true"
     ]
 }
