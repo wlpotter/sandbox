@@ -75,11 +75,11 @@
                     }
                 ]
             },
-            "change_log": {
+            "change_log": [{
                 "message": "ADDED: Data from <title>Syriac World</title> maps",
                 "id": "wpotter",
                 "name": "William L. Potter"
-            }
+            }]
         }
     },
     "commands": [

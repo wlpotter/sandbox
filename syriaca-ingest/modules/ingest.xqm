@@ -24,11 +24,9 @@ declare %updating function ingest:update-existing-records-with-new-data($existin
     ingest:ingest-series-of-sourced-elements($item?place_names, $matchedDoc//place/placeName, "place_name", $docId, $matchedDoc, $biblIdOffset),
     ingest:ingest-series-of-sourced-elements($item?gps, $matchedDoc//place/location[@type="gps"], "gps", $docId, $matchedDoc, $biblIdOffset),
     ingest:ingest-series-of-unsourced-elements($item?other_uris, $matchedDoc//place/idno, "uri"),
-    insert node $newBibls after $matchedDoc//body//bibl[last()]
-    (:
-    - add a change log
-    - update publication date
-    :)
+    insert node $newBibls after $matchedDoc//body//bibl[last()],
+    ingest:ingest-change-log-info($item?change_log, $matchedDoc),
+    replace value of node $matchedDoc//publicationStmt/date with current-date()
   )
 
 };
@@ -269,4 +267,22 @@ declare %updating function ingest:ingest-respStmt-list($respInfo as array(*), $m
  return 
    if($matchedDoc//titleStmt/respStmt) then insert node $respStmts before $matchedDoc//titleStmt/respStmt[1]
    else insert node $respStmts as last into $matchedDoc//titleStmt
+};
+
+declare %updating function ingest:ingest-change-log-info($changeLog as array(*), $matchedDoc as item()?) {
+  (:
+"change_log": [{
+      "message": "ADDED: Data from <title>Syriac World</title> maps",
+      "name": "William L. Potter",
+      "id": "wpotter"
+    }],
+:)
+  let $changes :=
+    for $change in $changeLog?*
+    return element {QName("http://www.tei-c.org/ns/1.0", "change")} {
+      attribute {"who"} {"http://syriaca.org/documentation/editors.xml#"||$change?id}, (: TBD: hard-coded editors URI:)
+      attribute {"when"} {current-date()},
+      $change?message
+    }
+  return insert node $changes as first into $matchedDoc//revisionDesc
 };

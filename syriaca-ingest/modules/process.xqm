@@ -86,7 +86,8 @@ as item()+ {
         "other_uris": $otherUris,
         "gps": $gps,
         "bibls": $bibls,
-        "resp_info": $respInfo
+        "resp_info": $respInfo,
+        "change_log": $options?change_log
     })
     
 };
