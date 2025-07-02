@@ -54,7 +54,7 @@
                 ],
                 "resp_stmts": [
                     {
-                        "resp": "Data merging and TEI encoded by",
+                        "resp": "Data merging for <title>Syriac World</title> maps data by",
                         "id": "wpotter",
                         "name": "William L. Potter"
                     },
@@ -64,11 +64,21 @@
                         "name": "David A. Michelson"
                     },
                     {
+                        "resp": "<title>Syriac World</title> maps data revised by",
+                        "id": "wpotter",
+                        "name": "William L. Potter"
+                    },
+                    {
                         "resp": "<title>Syriac World</title> maps cartography by",
                         "id": "imladjov",
                         "name": "Ian Mladjov"
                     }
                 ]
+            },
+            "change_log": {
+                "message": "ADDED: Data from <title>Syriac World</title> maps",
+                "id": "wpotter",
+                "name": "William L. Potter"
             }
         }
     },
