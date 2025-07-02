@@ -19,10 +19,16 @@ declare %updating function ingest:update-existing-records-with-new-data($existin
   
   (: TBD: implement a controller function or something to handle places vs persons... :)
   return (
+    ingest:ingest-editors-list($item?resp_info?editors, $matchedDoc),
+    ingest:ingest-respStmt-list($item?resp_info?resp_stmts, $matchedDoc),
     ingest:ingest-series-of-sourced-elements($item?place_names, $matchedDoc//place/placeName, "place_name", $docId, $matchedDoc, $biblIdOffset),
     ingest:ingest-series-of-sourced-elements($item?gps, $matchedDoc//place/location[@type="gps"], "gps", $docId, $matchedDoc, $biblIdOffset),
     ingest:ingest-series-of-unsourced-elements($item?other_uris, $matchedDoc//place/idno, "uri"),
     insert node $newBibls after $matchedDoc//body//bibl[last()]
+    (:
+    - add a change log
+    - update publication date
+    :)
   )
 
 };
@@ -232,4 +238,35 @@ declare function ingest:create-new-element($contents as xs:string, $elementType 
       $contents
     }
     default return ()
+};
+
+(: TBD: hard-coded editor uri base :)
+declare %updating function ingest:ingest-editors-list($editorsInfo as array(*), $matchedDoc as item()?) {
+  let $editors :=
+    for $editor in $editorsInfo?*
+    return element {QName("http://www.tei-c.org/ns/1.0", "editor")} {
+      attribute {"role"} {$editor?role},
+      attribute {"ref"} {"http://syriaca.org/documentation/editors.xml#"||$editor?id},
+      $editor?name
+    }
+  let $editors := functx:distinct-deep(($matchedDoc//titleStmt/editor, $editors))
+  return (
+    delete node $matchedDoc//titleStmt/editor,
+    insert node $editors after $matchedDoc//titleStmt/funder[last()]
+  )
+};
+
+declare %updating function ingest:ingest-respStmt-list($respInfo as array(*), $matchedDoc as item()?) {
+  let $respStmts :=
+    for $resp in $respInfo?*
+    return element {QName("http://www.tei-c.org/ns/1.0", "respStmt")} {
+      element {QName("http://www.tei-c.org/ns/1.0", "resp")} {$resp?resp},
+      element {QName("http://www.tei-c.org/ns/1.0", "name")} {
+        attribute {"ref"} {"http://syriaca.org/documentation/editors.xml#"||$resp?id}, (:TBD: hard-coded editors URI base :)
+        $resp?name
+      }
+    }
+ return 
+   if($matchedDoc//titleStmt/respStmt) then insert node $respStmts before $matchedDoc//titleStmt/respStmt[1]
+   else insert node $respStmts as last into $matchedDoc//titleStmt
 };

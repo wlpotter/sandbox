@@ -207,7 +207,7 @@ as item()* {
     return $resp
 }
  return {
-   "editors": array:append($staticRespInfo?editors, $contributors),
-   "resp_stmts": array:append($staticRespInfo?resp_stmts, $respStmts)
+   "editors": array:append($staticRespInfo?editors, $contributors?*),
+   "resp_stmts": array:append($staticRespInfo?resp_stmts, $respStmts?*)
  }
 };
