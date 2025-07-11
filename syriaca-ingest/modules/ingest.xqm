@@ -24,7 +24,7 @@ declare %updating function ingest:update-existing-records-with-new-data($existin
     ingest:ingest-series-of-sourced-elements($item?place_names, $matchedDoc//place/placeName, "place_name", $docId, $matchedDoc, $biblIdOffset),
     ingest:ingest-series-of-sourced-elements($item?gps, $matchedDoc//place/location[@type="gps"], "gps", $docId, $matchedDoc, $biblIdOffset),
     ingest:ingest-series-of-unsourced-elements($item?other_uris, $matchedDoc//place/idno, "uri"),
-    insert node $newBibls after $matchedDoc//body//bibl[last()],
+    if($matchedDoc//body//bibl) then insert node $newBibls after $matchedDoc//body//bibl[last()] else insert node $newBibls as last into $matchedDoc//body/*[1]/*[1], (: TBD: this should work for places and persons with no bibl, but needs testing :)
     ingest:ingest-change-log-info($item?change_log, $matchedDoc),
     replace value of node $matchedDoc//publicationStmt/date with current-date()
   )
