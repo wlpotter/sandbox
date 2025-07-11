@@ -27,16 +27,4 @@ declare variable $options_string external;
 declare variable $options := json:parse($options_string, map {"format": "xquery"});
 
 let $processedData := process:process-ingest-data($ingest-data, $options?process)
-
 return ingest:update-existing-records-with-new-data($existing-data, $processedData, $entity-type)
-(: process:create-other-data($options?process?other_data)?bib_info :)
-(:
-
-PARSE DATA
-- can utilize xquery:eval to parse based on different types of data or something? --> for now hard code for syriac world
-- handles the parsing of data to be ingested, wrangling it into a uniform format
-- outputs an array of maps that represent the data to be ingested, along with each points sourcing info.
-
-INGEST DATA
-- handles the integration of data and sourcing with existing data records
-:)
