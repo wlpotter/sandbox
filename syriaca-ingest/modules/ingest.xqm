@@ -12,6 +12,7 @@ declare %updating function ingest:update-existing-records-with-new-data($existin
   let $docId := $item?uri => functx:substring-after-last("/")
   
   let $biblIdOffset := ingest:get-id-offset($matchedDoc//body//bibl)
+  let $biblIdOffset := if($biblIdOffset instance of empty-sequence()) then 0 else $biblIdOffset (: if a rec has no bibls, the offset should be 0 :)
   
   let $ingestBibls := $item?bibls
   
