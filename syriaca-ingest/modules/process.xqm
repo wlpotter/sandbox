@@ -119,7 +119,7 @@ declare function process:create-other-data($other_data as map(*))
 
 declare function process:collate-syriac-world-bib-info($uri as xs:string, $bibData as item())
 as item()* {
-    let $matchRows := $bibData/*:csv/*:record[*:Syriaca_URI[./text() = $uri]]
+    let $matchRows := $bibData/*:csv/*:record[*:Syriaca_URI[normalize-space(./text()) = $uri]]
 
     let $citedRangeByName :=
         for $row in $matchRows
