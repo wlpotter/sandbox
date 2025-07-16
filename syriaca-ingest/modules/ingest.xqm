@@ -19,16 +19,29 @@ declare %updating function ingest:update-existing-records-with-new-data($existin
   let $newBibls := if(map:size($ingestBibls) > 0) then ingest:create-new-bibls-with-ids($ingestBibls, $docId, $biblIdOffset) else ()
   
   (: TBD: implement a controller function or something to handle places vs persons... :)
-  return (
+  return try { (
     ingest:ingest-editors-list($item?resp_info?editors, $matchedDoc),
     ingest:ingest-respStmt-list($item?resp_info?resp_stmts, $matchedDoc),
     ingest:ingest-series-of-sourced-elements($item?place_names, $matchedDoc//place/placeName, "place_name", $docId, $matchedDoc, $biblIdOffset),
     ingest:ingest-series-of-sourced-elements($item?gps, $matchedDoc//place/location[@type="gps"], "gps", $docId, $matchedDoc, $biblIdOffset),
-    ingest:ingest-series-of-unsourced-elements($item?other_uris, $matchedDoc//place/idno, "uri"),
+    ingest:ingest-series-of-unsourced-elements($item?other_uris, $matchedDoc//place/idno, "uri"), (: TBD: this only works on places...:)
     if($matchedDoc//body//bibl) then insert node $newBibls after $matchedDoc//body//bibl[last()] else insert node $newBibls as last into $matchedDoc//body/*[1]/*[1], (: TBD: this should work for places and persons with no bibl, but needs testing :)
     ingest:ingest-change-log-info($item?change_log, $matchedDoc),
     replace value of node $matchedDoc//publicationStmt/date with current-date()
-  )
+  ) }
+  catch * {
+        let $failure :=
+      element {"failure"} {
+        element {"code"} {$err:code},
+        element {"description"} {$err:description},
+        element {"value"} {$err:value},
+        element {"module"} {$err:module},
+        element {"location"} {$err:line-number||": "||$err:column-number},
+        element {"additional"} {$err:additional},
+        ingest:get-record-context($item, $matchedDoc)
+      }
+      return (update:output($failure), update:output($item))
+  }
 
 };
 
@@ -52,7 +65,7 @@ Compares a sequence of zero or more sourced data items to a sequence of existing
 @param $docId represents the numerical portion of the URI for the record from which the $toCompare sequence derives
 @param $biblIdOffset is an integer representing the the value to add to the sequential enumeration of the sources in the $items maps, offsets the bibl id, e.g. "#bib78-5"
 :)
-declare %updating function ingest:ingest-series-of-sourced-elements($items as item()*, $toCompare as item()*, $elementType as xs:string, $docId as xs:string, $matchedDoc, $biblIdOffset as xs:integer? := 0) {
+declare %updating function ingest:ingest-series-of-sourced-elements($items as item()*, $toCompare as item()*, $elementType as xs:string, $docId as xs:string, $matchedDoc as node(), $biblIdOffset as xs:integer? := 0) {
   let $itemsLength := count($items)
   let $initialCompareMap := 
     for $el in $toCompare
@@ -240,7 +253,7 @@ declare function ingest:create-new-element($contents as xs:string, $elementType 
 };
 
 (: TBD: hard-coded editor uri base :)
-declare %updating function ingest:ingest-editors-list($editorsInfo as array(*), $matchedDoc as item()?) {
+declare %updating function ingest:ingest-editors-list($editorsInfo as array(*), $matchedDoc as item()) {
   let $editors :=
     for $editor in $editorsInfo?*
     return element {QName("http://www.tei-c.org/ns/1.0", "editor")} {
@@ -255,7 +268,7 @@ declare %updating function ingest:ingest-editors-list($editorsInfo as array(*), 
   )
 };
 
-declare %updating function ingest:ingest-respStmt-list($respInfo as array(*), $matchedDoc as item()?) {
+declare %updating function ingest:ingest-respStmt-list($respInfo as array(*), $matchedDoc as item()) {
   let $respStmts :=
     for $resp in $respInfo?*
     return element {QName("http://www.tei-c.org/ns/1.0", "respStmt")} {
@@ -286,4 +299,17 @@ declare %updating function ingest:ingest-change-log-info($changeLog as array(*),
       $change?message
     }
   return insert node $changes as first into $matchedDoc//revisionDesc
+};
+
+
+
+declare function ingest:get-record-context($dataToIngest as map(*), $record as node()?)
+as item() {
+  let $fileLocation := if ($record instance of empty-sequence())
+    then "No matching record found. Please ensure the record you are merging data into existings in the `path_to_existing_data` directory specified in the configuration file."
+    else document-uri($record)
+  return element {"nodeContext"} {
+    element {"recordFileLocation"} {$fileLocation},
+    element {"ingestURI"} {$dataToIngest?uri}
+  }
 };
