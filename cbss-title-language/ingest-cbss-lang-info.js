@@ -21,11 +21,11 @@ COLUMN_LABELS (the values of each item should reflect the key labels in the file
 7. Returns a report of which rows were successful, and any errors that occured, providing the item key for the errors
 */
 
-const LANGUAGE_FILE_LOCATION = "https://gist.githubusercontent.com/wlpotter/d961288461fd1d22846bbe233303f941/raw/e21e79859f20996eddd81b265b4ba74df7d3e6b0/test-cbss-title-lang.json"; // Must be an http URL to a JSON document containing the ItemKeys mapped to the language information
+const LANGUAGE_FILE_LOCATION = "https://raw.githubusercontent.com/wlpotter/sandbox/e616eef782eb6cc88144537e02939ce4339ce3ae/cbss-title-language/cbss-updated-language-info.json"; // Must be an http URL to a JSON document containing the ItemKeys mapped to the language information
 
 const COLUMN_LABELS = {
     "ItemKey": "ItemKey",
-    "TitleLang": "TitleLanguage",
+    "TitleLang": "TitleLang",
     "PubLang": "PubLang",
     "LangNote": "LangNote"
 }
