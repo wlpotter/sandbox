@@ -9,7 +9,7 @@ declare variable $in-csv := csv:doc($path-to-csv, map{"header": true(), "format"
 (: UPDATE THIS TO MAP CSV COLUMN NAMES TO OUTPUT JSON KEYS :)
 declare variable $header-map := map {
   "ItemKey": "itemKey",
-  "TitleLang": "language_title_corrected",
+  "TitleLang": "title_language",
   "PubLang": "publication_language",
   "LangNote": "language_note"
 };
