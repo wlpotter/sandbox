@@ -2,7 +2,7 @@ xquery version "3.1";
 
 import module namespace functx="http://www.functx.com";
 
-declare variable $path-to-csv := "/home/arren/Documents/Work_Syriaca/cbss_lang-detect_PARSED.csv";
+declare variable $path-to-csv := "/home/arren/Documents/GitHub/sandbox/cbss-title-language/cbss-updated-language-info.csv";
 
 declare variable $in-csv := csv:doc($path-to-csv, map{"header": true(), "format": "direct"});
 
