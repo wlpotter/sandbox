@@ -167,32 +167,40 @@ as node()
     let $hasMoreThanFiveTopLevelItems := boolean(count($msSection/msContents/msItem) > 5)
     let $contentsSummary := mshead:generate-contents-summary($firstFiveTopLevelMsItems, $hasMoreThanFiveTopLevelItems)
     
-    let $itemCountNote := "In total, including sub-sections, this manuscript contains "||$totalItemCount|| " items."
-    let $renumberNotaBene := "N.B., items have been renumbered by the editors and may not reflect Wright's original numeration."
+    let $itemCount := 
+      element {"num"} {
+        attribute {"type"} {"item-count"},
+        attribute {"value"} {$totalItemCount}
+      }
+    (: let $renumberNotaBene := "N.B., items have been renumbered by the editors and may not reflect Wright's original numeration." :)
     return element {QName("http://www.tei-c.org/ns/1.0", "note")} 
           {attribute {"type"} {"contents-note"}, 
-           string-join(($contentsSummary, $itemCountNote), " ")}
+          $contentsSummary,
+          $itemCount
+          }
 };
 
 declare function mshead:generate-contents-summary($topLevelContents as node()*, $isContentsAbbreviated as xs:boolean)
-as xs:string
+as node()*
 {
   let $endTag := if($isContentsAbbreviated) then "; ..." else()
   let $contents :=
-    for $item in $topLevelContents
-    (: later enhancement -- use a lookup of the work record if URI given :)
+    for $item at $i in $topLevelContents
+    let $contentsDelim := if($i != count($topLevelContents)) then "; " else ()
     let $author := 
-      for $author in $item/author
-      return if($author/text() != "") then normalize-space(string-join($author//text(), " ")) else()
-    let $author := string-join($author, ", ")
-    let $author := normalize-space($author)
-    let $title := $item/title[1]//text()
-    let $title := string-join($title, "")
-    let $title := normalize-space($title)
-    return if($author != "") then string-join(($author, $title), ". ") else $title
- let $contents := string-join($contents, "; ")
- let $endPeriod := if (ends-with($contents, ".")) then () else "."
- return "This manuscript contains: "||$contents||$endTag||$endPeriod
+      for $author at $j in $item/author
+      let $delimiter := if($j != count($item/author)) then ", " else () (: add a delimiter unless it's the last author :)
+      return element {"author"} {mshead:parse-descendents-for-text($author/persName[1], ("foreign"), ("note")), $delimiter}
+      
+    let $title := $item/title[1]
+    let $title := element {"title"} {mshead:parse-descendents-for-text($title, ("foreign"), ("note")) }
+    
+    let $authorTitleDelim := if($author) then ". " else ()
+    
+    return element {"container"} {$author/node(), $authorTitleDelim, $title/node(), $contentsDelim}
+    
+ (: let $endPeriod := if (ends-with($contents, ".")) then () else "." :)
+ return $contents/node()
 };
 
 (:
@@ -335,4 +343,31 @@ as node()
     attribute {"type"} {"manuscript-division"},
     normalize-space(string-join(($mshead:manuscript-division-standard-note, $extraProse), " "))
 }
+};
+
+(:~ 
+: This function gets the descendant text of an element and returns it as a sequence, 
+: ignoring any element whose names are in $exclude-elements; and preserving as an element those in $preserve-elements
+:
+:)
+declare function mshead:parse-descendents-for-text($element as node()?, $preserve-elements as xs:string*, $exclude-elements as xs:string*) as item()* {
+  (: return any descendant text :)
+  if($element instance of text()) then
+    $element
+  (: ignore any child nodes whose names are in the 'exclude' list :)
+  else if(functx:is-value-in-sequence($element/name(), $exclude-elements)) then 
+    ()
+  (: preserve as elements (and keep their attributes) children whose name is in the 'preserve' list :)
+  else if(functx:is-value-in-sequence($element/name(), $preserve-elements)) then
+    element {$element/name()} {
+      $element/@*,
+      for $child in $element/node()
+    where not(functx:is-value-in-sequence($child/name(), $exclude-elements))
+    return mshead:parse-descendents-for-text($child, $preserve-elements, $exclude-elements)(: $child/name() :) 
+    }
+  (: otherwise, recurse and get the text from the children :)
+  else
+    for $child in $element/node()
+    where not(functx:is-value-in-sequence($child/name(), $exclude-elements))
+    return mshead:parse-descendents-for-text($child, $preserve-elements, $exclude-elements)(: $child/name() :) 
 };
