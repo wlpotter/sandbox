@@ -40,14 +40,14 @@ declare variable $entity-config := map {
   }
 };
 
-for $entity in $entity-config?person
+for $entity in $entity-config?*
 for $doc in $entity?collection
 let $labels := functx:dynamic-path($doc//body, $entity?headwordPath)
 let $headwords := $labels[contains(@srophe:tags, "syriaca-headword")]
 
 let $enHeadword := local:clean-descendant-text($headwords[@xml:lang="en"])
 let $syrHeadword := local:clean-descendant-text($headwords[@xml:lang="syr"])
-return 
+let $normalizedRecordTitle := 
     element {"title"} {
       attribute {"level"} {"a"},
       attribute {"xml:lang"} {"en"},
@@ -64,3 +64,4 @@ return
     document-uri($doc)
   }
  }
+ return replace node $doc//titleStmt/title with $normalizedRecordTitle
