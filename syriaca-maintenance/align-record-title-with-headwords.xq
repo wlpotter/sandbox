@@ -45,21 +45,28 @@ for $doc in $entity?collection
 let $labels := functx:dynamic-path($doc//body, $entity?headwordPath)
 let $headwords := $labels[contains(@srophe:tags, "syriaca-headword")]
 
-let $enHeadword := local:clean-descendant-text($headwords[@xml:lang="en"])
-let $syrHeadword := local:clean-descendant-text($headwords[@xml:lang="syr"])
+(: If the record is an anonymous record, grab only the English-language anonymous description :)
+(: Note: Some records have extraneous anonymous descriptions, so don't want to include them :)
+let $anonymousDesc := if($labels/../@ana/string() => contains("syriaca-anonymous"))
+  then " — "||$labels[contains(@srophe:tags, "anonymous-description")][starts-with(@xml:lang, "en")] => local:clean-descendant-text()
+  else ()
+
+
+let $enHeadword := local:clean-descendant-text($headwords[starts-with(@xml:lang, "en")])
+let $syrHeadword := local:clean-descendant-text($headwords[starts-with(@xml:lang, "syr")])
 let $normalizedRecordTitle := 
     element {"title"} {
       attribute {"level"} {"a"},
       attribute {"xml:lang"} {"en"},
       try {
       if($syrHeadword != "") then (
-        $enHeadword||" — ",
+        $enHeadword||$anonymousDesc||" — ",
         element {"foreign"} {
           attribute {"xml:lang"} {"syr"},
           $syrHeadword
         }
       )
-      else $enHeadword
+      else $enHeadword||$anonymousDesc
     }catch * {
     document-uri($doc)
   }
